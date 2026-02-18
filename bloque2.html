@@ -35,428 +35,1459 @@
 
         <section>
             <h2>📖 Introducción</h2>
-            <p>La seguridad informática y la ética digital son fundamentales en la sociedad actual. En este bloque aprenderemos sobre protección de datos personales, medidas de seguridad, amenazas comunes y los diferentes tipos de licencias software.</p>
+            <div class="definition-box">
+                <div class="def-title">Definición de Seguridad Informática</div>
+                <div class="def-content">
+                    La <strong>seguridad informática</strong> (también denominada ciberseguridad) constituye el ámbito multidisciplinar que engloba el conjunto de prácticas, tecnologías, políticas y procedimientos diseñados para proteger sistemas computacionales, redes de comunicación, datos e información digital contra accesos no autorizados, modificaciones indebidas, destrucción, divulgación o interrupción del servicio. Su objetivo fundamental es garantizar la tríada CIA: Confidencialidad, Integridad y Disponibilidad de los activos informáticos.
+                </div>
+            </div>
+            
+            <div class="diagram-container">
+                <div class="diagram-title">🔺 Tríada CIA: Pilares de la Seguridad</div>
+                <div class="key-points-grid">
+                    <div class="key-point-card" style="border-top-color: #3498db;">
+                        <div class="icon">🔐</div>
+                        <h4>Confidencialidad</h4>
+                        <p><strong>(Confidentiality)</strong><br>
+                           Garantía de que la información solo sea accesible por entidades autorizadas.<br>
+                           • Encriptación<br>
+                           • Control de acceso<br>
+                           • Autenticación</p>
+                    </div>
+                    <div class="key-point-card" style="border-top-color: #2ecc71;">
+                        <div class="icon">✅</div>
+                        <h4>Integridad</h4>
+                        <p><strong>(Integrity)</strong><br>
+                           Aseguramiento de que los datos no han sido alterados o modificados de forma no autorizada.<br>
+                           • Hashing (checksums)<br>
+                           • Firmas digitales<br>
+                           • Control de versiones</p>
+                    </div>
+                    <div class="key-point-card" style="border-top-color: #e74c3c;">
+                        <div class="icon">⏱️</div>
+                        <h4>Disponibilidad</h4>
+                        <p><strong>(Availability)</strong><br>
+                           Garantía de que los sistemas y datos estén accesibles cuando sean requeridos.<br>
+                           • Redundancia<br>
+                           • Backups<br>
+                           • Protección DDoS</p>
+                    </div>
+                </div>
+            </div>
             
             <div class="info-box danger">
-                <h4>⚠️ Importancia de la Seguridad</h4>
-                <p>Cada día se producen millones de ataques informáticos. Conocer las medidas de protección y los riesgos es esencial para proteger tu información personal y profesional.</p>
+                <h4>⚠️ Dimensión del Problema de Ciberseguridad</h4>
+                <p><strong>Datos y Estadísticas Globales:</strong></p>
+                <ul class="content-list">
+                    <li>📊 <strong>560.000 nuevas amenazas</strong> de malware detectadas diariamente</li>
+                    <li>👥 <strong>Ciberataques cada 39 segundos</strong> de media en todo el mundo</li>
+                    <li>💰 <strong>Coste global del cibercrimen:</strong> Supera los 6 billones USD anuales</li>
+                    <li>🔒 <strong>Ransomware:</strong> Ataque cada 11 segundos a nivel empresarial</li>
+                    <li>📧 <strong>Phishing:</strong> 90% de las brechas de seguridad comienzan con phishing</li>
+                </ul>
+                <p style="margin-top: 1rem;"><em>La protección de datos personales y medidas de seguridad no son opcionales, son imperativas para la supervivencia digital.</em></p>
             </div>
         </section>
 
         <section>
-            <h2>2.1. Ley Orgánica de Protección de Datos (LOPD)</h2>
+            <h2>2.1. Marco Legal: Protección de Datos Personales</h2>
             
-            <h3>¿Qué es la LOPD?</h3>
-            <p>La <strong>Ley Orgánica de Protección de Datos</strong> (actualmente LOPDGDD - Ley Orgánica 3/2018) y el <strong>RGPD</strong> (Reglamento General de Protección de Datos) europeo regulan el tratamiento de los datos personales.</p>
-
-            <h3>Datos de Carácter Personal</h3>
-            <p>Son cualquier información sobre una persona física identificada o identificable:</p>
-            <ul class="content-list">
-                <li>Nombre y apellidos</li>
-                <li>DNI/NIE</li>
-                <li>Dirección, teléfono, email</li>
-                <li>Datos bancarios</li>
-                <li>Imágenes, voz</li>
-                <li>Datos de salud</li>
-                <li>Dirección IP</li>
-                <li>Datos de localización</li>
-            </ul>
-
-            <h3>Principios de la Protección de Datos</h3>
-            <div class="info-box info">
-                <ul class="content-list">
-                    <li><strong>Licitud:</strong> Tratamiento legal y transparente</li>
-                    <li><strong>Finalidad:</strong> Datos recogidos con fines específicos y legítimos</li>
-                    <li><strong>Minimización:</strong> Solo datos necesarios</li>
-                    <li><strong>Exactitud:</strong> Datos correctos y actualizados</li>
-                    <li><strong>Limitación del plazo:</strong> Conservar solo el tiempo necesario</li>
-                    <li><strong>Integridad y confidencialidad:</strong> Seguridad adecuada</li>
-                </ul>
+            <div class="definition-box">
+                <div class="def-title">Definición Legal de Dato Personal</div>
+                <div class="def-content">
+                    Según el Reglamento General de Protección de Datos (RGPD/GDPR), se entiende por <strong>dato de carácter personal</strong> toda información sobre una persona física identificada o identificable ("interesado"). Será identificable toda persona cuya identidad pueda determinarse, directa o indirectamente, mediante cualquier identificador como un nombre, número de identificación, datos de localización, identificador en línea, o uno o varios factores específicos de la identidad física, fisiológica, genética, psíquica, económica, cultural o social de dicha persona.
+                </div>
             </div>
 
-            <h3>Derechos de los Ciudadanos (ARCO-POL)</h3>
-            <ul class="content-list">
-                <li><strong>Acceso:</strong> Saber qué datos tienen sobre ti</li>
-                <li><strong>Rectificación:</strong> Corregir datos inexactos</li>
-                <li><strong>Cancelación/Supresión:</strong> Eliminar datos (derecho al olvido)</li>
-                <li><strong>Oposición:</strong> Oponerse al tratamiento de tus datos</li>
-                <li><strong>Portabilidad:</strong> Llevarte tus datos a otro servicio</li>
-                <li><strong>Limitación:</strong> Restringir el tratamiento de los datos</li>
-            </ul>
+            <div class="concept-box">
+                <div class="concept-title">🇦🇺 Marco Normativo Europeo y Español</div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">1995 - Directiva 95/46/CE</div>
+                            <p>Primera directiva europea sobre protección de datos personales. Establece principios fundamentales de tratamiento y derechos de los interesados.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">1999 - LOPD (Ley 15/1999)</div>
+                            <p>Ley Orgánica de Protección de Datos española. Transpone la directiva europea al ordenamiento jurídico nacional.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2016 - RGPD (Reglamento 2016/679)</div>
+                            <p><strong>Reglamento General de Protección de Datos.</strong> Aplicación directa en toda la UE desde mayo 2018. Mayor protección ciudadana y sanciones más severas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2018 - LOPDGDD (Ley 3/2018)</div>
+                            <p>Ley Orgánica de Protección de Datos y Garantía de Derechos Digitales. Adapta RGPD al contexto español y añade derechos digitales específicos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <h3>Consentimiento</h3>
-            <ul class="content-list">
-                <li>Debe ser libre, específico, informado e inequívoco</li>
-                <li>Debe poder retirarse fácilmente</li>
-                <li>Para menores de 14 años se requiere consentimiento de los padres/tutores</li>
-            </ul>
+            <h3>🔹 Categorías de Datos Personales</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">👤</div>
+                    <h4>Datos Identificativos</h4>
+                    <p>• Nombre y apellidos<br>
+                       • DNI/NIE/Pasaporte<br>
+                       • Número Seguridad Social<br>
+                       • Firma manuscrita/digital<br>
+                       • Fotografía, vídeo, voz<br>
+                       • Fecha y lugar de nacimiento</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #2ecc71;">
+                    <div class="icon">📞</div>
+                    <h4>Datos de Contacto</h4>
+                    <p>• Dirección postal<br>
+                       • Teléfono móvil/fijo<br>
+                       • Correo electrónico<br>
+                       • Redes sociales<br>
+                       • Nombre de usuario</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <div class="icon">💻</div>
+                    <h4>Datos Electrónicos</h4>
+                    <p>• Dirección IP<br>
+                       • Cookies, tokens<br>
+                       • MAC Address<br>
+                       • Datos de geolocalización<br>
+                       • Historial de navegación<br>
+                       • Metadata de archivos</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <div class="icon">🩺</div>
+                    <h4>Datos Especialmente Protegidos</h4>
+                    <p><strong>(Categorías sensibles)</strong><br>
+                       • Datos de salud médica<br>
+                       • Datos biométricos<br>
+                       • Orientación sexual<br>
+                       • Origen racial/étnico<br>
+                       • Ideología, religión<br>
+                       • Afiliación sindical<br>
+                       <small><em>Requieren protección reforzada</em></small></p>
+                </div>
+            </div>
+
+            <h3>🎯 Derechos ARCO-POL: Derechos del Ciudadano</h3>
+            
+            <div class="diagram-container">
+                <div class="diagram-title">Derechos del Interesado sobre sus Datos Personales</div>
+                <div class="key-points-grid" style="margin-top: 1.5rem;">
+                    <div class="key-point-card" style="border-top-color: #3498db;">
+                        <h4>🔍 Acceso</h4>
+                        <p>Derecho a obtener confirmación sobre si se están tratando datos personales y, en su caso, acceder a ellos. Incluye saber para qué se usan, qué categorías, destinatarios y plazo de conservación.</p>
+                    </div>
+                    <div class="key-point-card" style="border-top-color: #2ecc71;">
+                        <h4>✏️ Rectificación</h4>
+                        <p>Derecho a que se rectifiquen sin dilación indebida los datos personales inexactos y se completen los datos incompletos mediante declaración adicional.</p>
+                    </div>
+                    <div class="key-point-card" style="border-top-color: #e74c3c;">
+                        <h4>🗑️ Supresión</h4>
+                        <p><strong>"Derecho al olvido"</strong>. Supresión de datos cuando ya no son necesarios para los fines para los que fueron recogidos o cuando el tratamiento es ilícito.</p>
+                    </div>
+                    <div class="key-point-card" style="border-top-color: #f39c12;">
+                        <h4>⛔ Oposición</h4>
+                        <p>Derecho a oponerse al tratamiento de datos por motivos relacionados con su situación particular, especialmente para marketing directo.</p>
+                    </div>
+                    <div class="key-point-card" style="border-top-color: #9b59b6;">
+                        <h4>📦 Portabilidad</h4>
+                        <p>Recibir datos personales en formato estructurado, comúnmente utilizado y lectura mecánica, y transmitirlos a otro responsable sin impedimentos.</p>
+                    </div>
+                    <div class="key-point-card" style="border-top-color: #1abc9c;">
+                        <h4>⏸️ Limitación</h4>
+                        <p>Derecho a solicitar la limitación del tratamiento mientras se verifican imprecisiones, se determina legitimidad o en caso de oposición.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-title">📜 Consentimiento: Base Legal del Tratamiento</div>
+                <p><strong>Definición RGPD:</strong> Toda manifestación de voluntad libre, específica, informada e inequívoca por la que el interesado acepta el tratamiento de datos personales que le conciernen.</p>
+                
+                <div class="info-box warning" style="margin-top: 1rem;">
+                    <h4>Requisitos del Consentimiento Válido</h4>
+                    <ul class="content-list">
+                        <li>✅ <strong>Libre:</strong> Sin coacción, presión o engaño</li>
+                        <li>✅ <strong>Específico:</strong> Para finalidades concretas y determinadas</li>
+                        <li>✅ <strong>Informado:</strong> Con información clara sobre el tratamiento</li>
+                        <li>✅ <strong>Inequívoco:</strong> Mediante acción afirmativa clara (no casillas premarcadas)</li>
+                        <li>✅ <strong>Revocable:</strong> Tan fácil de retirar como de dar</li>
+                        <li>✅ <strong>Demostrable:</strong> El responsable debe poder probar el consentimiento</li>
+                    </ul>
+                </div>
+
+                <div class="formula-box" style="margin-top: 1rem;">
+                    <strong>Edad Mínima para Consentimiento Digital:</strong><br>
+                    RGPD: 16 años (Estados miembros pueden rebajar hasta 13 años)<br>
+                    España (LOPDGDD): <strong>14 años</strong><br>
+                    <small>Menores de esta edad requieren consentimiento de padres/tutores</small>
+                </div>
+            </div>
+
+            <div class="summary-box">
+                <h4>🚨 Sanciones por Incumplimiento del RGPD</h4>
+                <div style="margin-top: 1rem;">
+                    <div style="display: flex; justify-content: space-around; flex-wrap: wrap; gap: 1rem;">
+                        <div style="background: rgba(255,255,255,0.15); padding: 1.5rem; border-radius: 8px; text-align: center; min-width: 200px;">
+                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">⚠️</div>
+                            <h4 style="color: white; margin-bottom: 0.5rem;">Infracciones Graves</h4>
+                            <p style="font-size: 1.5rem; font-weight: bold;">Hasta 10M€</p>
+                            <small>o 2% facturación anual global</small>
+                        </div>
+                        <div style="background: rgba(255,255,255,0.15); padding: 1.5rem; border-radius: 8px; text-align: center; min-width: 200px;">
+                            <div style="font-size: 2.5rem; margin-bottom: 0.5rem;">🛑</div>
+                            <h4 style="color: white; margin-bottom: 0.5rem;">Infracciones Muy Graves</h4>
+                            <p style="font-size: 1.5rem; font-weight: bold;">Hasta 20M€</p>
+                            <small>o 4% facturación anual global</small>
+                        </div>
+                    </div>
+                    <p style="margin-top: 1rem; text-align: center;"><em><small>Se aplicará la cuantía mayor de las dos opciones</small></em></p>
+                </div>
+            </div>
         </section>
 
         <section>
             <h2>2.2. Estrategias de Protección y Prevención</h2>
             
-            <h3>Copias de Seguridad (Backup)</h3>
-            <p>Una <strong>copia de seguridad</strong> es una copia de los datos almacenada en un lugar diferente al original para poder recuperarla en caso de pérdida.</p>
-
-            <h4>Tipos de Copias de Seguridad</h4>
-            <ul class="content-list">
-                <li><strong>Completa:</strong> Copia de todos los datos. Lenta pero completa</li>
-                <li><strong>Incremental:</strong> Solo copia lo que ha cambiado desde la última copia</li>
-                <li><strong>Diferencial:</strong> Copia lo que ha cambiado desde la última copia completa</li>
-            </ul>
-
-            <h4>Regla 3-2-1 para Backups</h4>
-            <div class="info-box success">
-                <ul class="content-list">
-                    <li><strong>3</strong> copias de tus datos (original + 2 copias)</li>
-                    <li><strong>2</strong> soportes diferentes (disco duro + nube, por ejemplo)</li>
-                    <li><strong>1</strong> copia fuera del sitio (offsite backup)</li>
-                </ul>
+            <div class="definition-box">
+                <div class="def-title">Definición de Copia de Seguridad (Backup)</div>
+                <div class="def-content">
+                    Una <strong>copia de seguridad o backup</strong> constituye una duplicación de datos almacenada en ubicación física o lógica diferente al repositorio primario, con el propósito de posibilitar la recuperación y restauración de información ante eventos de pérdida, corrupción, eliminación accidental, ataques maliciosos (ransomware) o desastres físicos. Representa una medida fundamental de contingencia que garantiza la continuidad operativa y la preservación de activos informacionales críticos.
+                </div>
             </div>
 
-            <h4>Restauración</h4>
-            <p>Proceso de recuperar los datos desde una copia de seguridad cuando se han perdido o dañado.</p>
-
-            <h3>Herramientas de Protección</h3>
+            <h3>🔹 Clasificación de Estrategias de Backup</h3>
             
-            <h4>Antivirus</h4>
-            <ul class="content-list">
-                <li>Detecta, previene y elimina software malicioso (malware)</li>
-                <li>Debe mantenerse actualizado constantemente</li>
-                <li>Escaneo en tiempo real y bajo demanda</li>
-                <li>Ejemplos: Windows Defender, Avast, Norton, Kaspersky</li>
-            </ul>
+            <div class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Tipo de Backup</th>
+                        <th>Descripción</th>
+                        <th>Velocidad</th>
+                        <th>Espacio</th>
+                        <th>Restauración</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Completa (Full)</strong></td>
+                        <td>Copia de todos los datos seleccionados sin excepciones</td>
+                        <td>Lenta</td>
+                        <td>Máximo</td>
+                        <td>Rápida y simple (1 archivo)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Incremental</strong></td>
+                        <td>Solo copia datos modificados desde el último backup (full o incremental)</td>
+                        <td>Rápida</td>
+                        <td>Mínimo</td>
+                        <td>Lenta (requiere full + todos los incrementales)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Diferencial</strong></td>
+                        <td>Copia datos modificados desde el último backup completo</td>
+                        <td>Media</td>
+                        <td>Medio (crece con el tiempo)</td>
+                        <td>Media (requiere full + último diferencial)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Espejo (Mirror)</strong></td>
+                        <td>Copia exacta sincronizada en tiempo real</td>
+                        <td>Inmediata</td>
+                        <td>Idéntico al origen</td>
+                        <td>Instantánea</td>
+                    </tr>
+                </tbody>
+            </div>
 
-            <h4>Cortafuegos (Firewall)</h4>
-            <ul class="content-list">
-                <li>Controla el tráfico de red entrante y saliente</li>
-                <li>Bloquea conexiones no autorizadas</li>
-                <li>Puede ser hardware (en router) o software (en ordenador)</li>
-                <li>Windows incluye firewall integrado</li>
-            </ul>
-
-            <h4>Antiespías (Anti-spyware)</h4>
-            <ul class="content-list">
-                <li>Detecta y elimina software espía (spyware)</li>
-                <li>El spyware recopila información sin consentimiento</li>
-                <li>Ejemplos: Malwarebytes, Spybot Search & Destroy</li>
-            </ul>
-
-            <h4>Antispam</h4>
-            <ul class="content-list">
-                <li>Filtra correos electrónicos no deseados</li>
-                <li>Reduce el riesgo de phishing y malware</li>
-                <li>Integrado en la mayoría de servicios de correo</li>
-            </ul>
-
-            <h3>Actualizaciones de Software</h3>
-            <ul class="content-list">
-                <li>Mantener sistema operativo y aplicaciones actualizadas</li>
-                <li>Los parches de seguridad corrigen vulnerabilidades</li>
-                <li>Configurar actualizaciones automáticas cuando sea posible</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>2.3. Seguridad en Internet</h2>
-            
-            <h3>Amenazas Comunes</h3>
-            
-            <h4>Malware (Software Malicioso)</h4>
-            <ul class="content-list">
-                <li><strong>Virus:</strong> Programa que se replica e infecta archivos
-                    <ul>
-                        <li>Se propaga al ejecutar archivos infectados</li>
-                        <li>Puede dañar o destruir datos</li>
-                    </ul>
-                </li>
-                <li><strong>Gusanos (Worms):</strong> Se propagan por la red sin intervención del usuario
-                    <ul>
-                        <li>No necesitan archivo anfitrión</li>
-                        <li>Consumen recursos de red</li>
-                    </ul>
-                </li>
-                <li><strong>Troyanos:</strong> Se camuflan como software legítimo
-                    <ul>
-                        <li>Abren puertas traseras para acceso remoto</li>
-                        <li>No se replican por sí mismos</li>
-                    </ul>
-                </li>
-                <li><strong>Ransomware:</strong> Cifra archivos y pide rescate
-                    <ul>
-                        <li>Muy peligroso para empresas</li>
-                        <li>Ejemplo: WannaCry</li>
-                    </ul>
-                </li>
-                <li><strong>Spyware:</strong> Espía y recopila información
-                    <ul>
-                        <li>Keyloggers: registran pulsaciones de teclado</li>
-                        <li>Adware: muestra publicidad no deseada</li>
-                    </ul>
-                </li>
-                <li><strong>Rootkit:</strong> Oculta la presencia de malware
-                    <ul>
-                        <li>Muy difícil de detectar</li>
-                        <li>Modifica el sistema operativo</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Técnicas de Fraude</h3>
-            
-            <h4>Phishing</h4>
-            <div class="info-box danger">
-                <p>El <strong>phishing</strong> es un intento de obtener información confidencial (contraseñas, datos bancarios) haciéndose pasar por una entidad de confianza.</p>
+            <div class="concept-box">
+                <div class="concept-title">📋 Regla 3-2-1: Estándar de Oro para Backups</div>
+                <div class="process-flow" style="margin-top: 1rem;">
+                    <div class="process-step" style="min-width: 150px;">
+                        <div class="process-step-number">3</div>
+                        <strong>COPIAS</strong><br>
+                        <small>Original + 2 copias de seguridad</small>
+                    </div>
+                    <div class="process-step" style="min-width: 150px;">
+                        <div class="process-step-number">2</div>
+                        <strong>SOPORTES</strong><br>
+                        <small>2 tipos diferentes de medios</small>
+                    </div>
+                    <div class="process-step" style="min-width: 150px;">
+                        <div class="process-step-number">1</div>
+                        <strong>OFFSITE</strong><br>
+                        <small>1 copia fuera del sitio</small>
+                    </div>
+                </div>
                 
-                <h4>Características del Phishing:</h4>
-                <ul class="content-list">
-                    <li>Correos que imitan a bancos, PayPal, Amazon, etc.</li>
-                    <li>Urgencia ("tu cuenta será bloqueada")</li>
-                    <li>Enlaces a páginas web falsas muy similares a las reales</li>
-                    <li>Solicitan datos personales o bancarios</li>
-                    <li>Errores ortográficos y gramaticales</li>
-                </ul>
-
-                <h4>Cómo Protegerse:</h4>
-                <ul class="content-list">
-                    <li>Verificar remitente del correo</li>
-                    <li>No hacer clic en enlaces sospechosos</li>
-                    <li>Comprobar URL del sitio web (https://, dominio correcto)</li>
-                    <li>Nunca proporcionar contraseñas por correo</li>
-                    <li>Contactar directamente con la empresa ante dudas</li>
-                </ul>
-            </div>
-
-            <h4>Pharming</h4>
-            <ul class="content-list">
-                <li>Redirección fraudulenta a sitios web falsos</li>
-                <li>Manipula el DNS para enviar al usuario a páginas falsas</li>
-                <li>Más sofisticado que el phishing</li>
-            </ul>
-
-            <h4>Smishing</h4>
-            <ul class="content-list">
-                <li>Phishing por SMS</li>
-                <li>Mensajes con enlaces maliciosos</li>
-                <li>Ejemplo: "Has ganado un premio, haz clic aquí"</li>
-            </ul>
-
-            <h4>Vishing</h4>
-            <ul class="content-list">
-                <li>Phishing por llamada telefónica</li>
-                <li>Se hacen pasar por soporte técnico u organizaciones</li>
-            </ul>
-
-            <h4>Ingeniería Social</h4>
-            <ul class="content-list">
-                <li>Manipulación psicológica para obtener información</li>
-                <li>Suplantación de identidad</li>
-                <li>Explotan la confianza humana</li>
-            </ul>
-
-            <h4>Ataques Man-in-the-Middle (MITM)</h4>
-            <ul class="content-list">
-                <li>Interceptación de comunicaciones entre dos partes</li>
-                <li>El atacante se sitúa entre usuario y servicio</li>
-                <li>Puede leer o modificar la información</li>
-            </ul>
-
-            <h3>Seguridad en el Correo Electrónico</h3>
-            <div class="info-box warning">
-                <h4>Buenas Prácticas:</h4>
-                <ul class="content-list">
-                    <li>No abrir archivos adjuntos de remitentes desconocidos</li>
-                    <li>Verificar extensiones de archivos (.exe, .bat son peligrosos)</li>
-                    <li>Usar filtros antispam</li>
-                    <li>No responder a correos sospechosos</li>
-                    <li>Usar contraseñas fuertes y únicas</li>
-                    <li>Activar autenticación de dos factores (2FA)</li>
-                </ul>
-            </div>
-        </section>
-
-        <section>
-            <h2>2.4. Medidas de Protección</h2>
-            
-            <h3>Encriptación/Cifrado</h3>
-            <p>La <strong>encriptación</strong> es el proceso de convertir información legible en formato codificado que solo puede leerse con la clave correcta.</p>
-
-            <h4>Tipos de Cifrado</h4>
-            <ul class="content-list">
-                <li><strong>Cifrado simétrico:</strong> La misma clave para cifrar y descifrar (AES, DES)
-                    <ul>
-                        <li>Más rápido</li>
-                        <li>Problema: compartir la clave de forma segura</li>
+                <div class="info-box success" style="margin-top: 1.5rem;">
+                    <h4>Ejemplo Práctico de Implementación 3-2-1</h4>
+                    <ul class="content-list">
+                        <li>🖥️ <strong>Copia 1 (Original):</strong> Disco duro principal del ordenador</li>
+                        <li>💾 <strong>Copia 2 (Soporte 1):</strong> Disco duro externo USB en casa</li>
+                        <li>☁️ <strong>Copia 3 (Soporte 2 + Offsite):</strong> Nube (Google Drive, Dropbox, OneDrive)</li>
                     </ul>
-                </li>
-                <li><strong>Cifrado asimétrico:</strong> Clave pública (cifrar) y privada (descifrar) (RSA)
-                    <ul>
-                        <li>Más seguro para transmisión</li>
-                        <li>Más lento</li>
-                        <li>Usado en HTTPS, email certificado</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h4>Aplicaciones del Cifrado</h4>
-            <ul class="content-list">
-                <li>HTTPS: Navegación web segura (certificado SSL/TLS)</li>
-                <li>VPN: Conexiones privadas virtuales</li>
-                <li>Cifrado de disco: BitLocker (Windows), FileVault (macOS)</li>
-                <li>WhatsApp, Signal: Mensajería cifrada end-to-end</li>
-            </ul>
-
-            <h3>Contraseñas Seguras</h3>
-            <div class="info-box success">
-                <h4>Características de una Buena Contraseña:</h4>
-                <ul class="content-list">
-                    <li><strong>Longitud:</strong> Mínimo 12-16 caracteres</li>
-                    <li><strong>Complejidad:</strong> Mayúsculas, minúsculas, números y símbolos</li>
-                    <li><strong>Impredecible:</strong> No usar palabras del diccionario ni datos personales</li>
-                    <li><strong>Única:</strong> Diferente para cada servicio</li>
-                    <li><strong>Ejemplos de MAL contraseña:</strong> 12345678, contraseña, nombre123</li>
-                    <li><strong>Ejemplo de BUENA contraseña:</strong> T7$mK9@pL3#qW2</li>
-                </ul>
+                    <p style="margin-top: 1rem;"><strong>Protección garantizada contra:</strong> Fallos hardware, ransomware, desastres físicos (incendio, robo)</p>
+                </div>
             </div>
 
-            <h4>Gestores de Contraseñas</h4>
-            <ul class="content-list">
-                <li>Almacenan todas las contraseñas de forma cifrada</li>
-                <li>Solo necesitas recordar una contraseña maestra</li>
-                <li>Generan contraseñas aleatorias fuertes</li>
-                <li>Ejemplos: LastPass, 1Password, Bitwarden, KeePass</li>
-            </ul>
-
-            <h3>Autenticación de Dos Factores (2FA)</h3>
-            <p>Añade una segunda capa de seguridad además de la contraseña:</p>
-            <ul class="content-list">
-                <li><strong>Algo que sabes:</strong> Contraseña</li>
-                <li><strong>Algo que tienes:</strong> Móvil (código SMS o app autenticadora)</li>
-                <li><strong>Algo que eres:</strong> Huella dactilar, reconocimiento facial</li>
-            </ul>
-
-            <h3>Certificados Digitales</h3>
-            <ul class="content-list">
-                <li>Documento electrónico que verifica la identidad</li>
-                <li>Usado para firmar documentos digitalmente</li>
-                <li>Ejemplos: DNI electrónico, certificados de la FNMT</li>
-            </ul>
-
-            <h3>Navegación Segura</h3>
-            <ul class="content-list">
-                <li>Verificar HTTPS (candado verde en navegador)</li>
-                <li>No conectarse a redes Wi-Fi públicas sin VPN</li>
-                <li>Borrar cookies y caché periódicamente</li>
-                <li>Usar modo de navegación privada/incógnito cuando sea necesario</li>
-                <li>Mantener navegador actualizado</li>
-                <li>Instalar extensiones de seguridad (bloqueadores de anuncios, anti-tracking)</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>2.5. Propiedad Intelectual y Tipos de Licencias</h2>
+            <h3>🛠️ Herramientas de Seguridad Perimetral</h3>
             
-            <h3>Propiedad Intelectual</h3>
-            <p>La <strong>propiedad intelectual</strong> protege las creaciones de la mente: obras literarias, artísticas, invenciones, símbolos, nombres e imágenes utilizados en el comercio.</p>
-
-            <h3>Derechos de Autor (Copyright)</h3>
-            <ul class="content-list">
-                <li>Protege automáticamente al crear una obra original</li>
-                <li>El autor tiene derechos morales (reconocimiento) y patrimoniales (explotación)</li>
-                <li>Símbolo: ©</li>
-                <li>Duración: vida del autor + 70 años (en España)</li>
-            </ul>
-
-            <h3>Tipos de Licencias de Software</h3>
-            
-            <h4>1. Software Propietario (Copyright)</h4>
-            <div class="info-box warning">
-                <ul class="content-list">
-                    <li>El código fuente no está disponible</li>
-                    <li>No se puede modificar ni redistribuir</li>
-                    <li>Requiere licencia de pago o aceptación de términos</li>
-                    <li><strong>Tipos:</strong>
-                        <ul>
-                            <li><strong>Comercial:</strong> Se paga por usarlo (Microsoft Office, Adobe Photoshop)</li>
-                            <li><strong>Freeware:</strong> Gratuito pero propietario (Skype, Adobe Reader)</li>
-                            <li><strong>Shareware:</strong> Prueba gratuita limitada, luego de pago (WinRAR)</li>
-                            <li><strong>Demo:</strong> Versión de demostración con funciones limitadas</li>
-                            <li><strong>Trial:</strong> Versión completa con tiempo de uso limitado</li>
-                        </ul>
-                    </li>
-                    <li><strong>Ejemplos:</strong> Windows, Microsoft Office, Adobe Creative Suite</li>
-                </ul>
-            </div>
-
-            <h4>2. Software Libre y Código Abierto</h4>
-            <div class="info-box success">
-                <h4>GPL (General Public License)</h4>
-                <ul class="content-list">
-                    <li>Creada por la Free Software Foundation</li>
-                    <li>4 libertades fundamentales:
-                        <ul>
-                            <li>Libertad 0: Usar el programa para cualquier propósito</li>
-                            <li>Libertad 1: Estudiar cómo funciona y modificarlo</li>
-                            <li>Libertad 2: Redistribuir copias</li>
-                            <li>Libertad 3: Distribuir versiones modificadas</li>
-                        </ul>
-                    </li>
-                    <li><strong>Copyleft:</strong> Las obras derivadas deben usar la misma licencia</li>
-                    <li><strong>Ejemplo:</strong> Linux, GNU</li>
-                </ul>
-
-                <h4>Licencias BSD, MIT, Apache</h4>
-                <ul class="content-list">
-                    <li>Más permisivas que GPL</li>
-                    <li>Permiten uso en software propietario</li>
-                    <li>No requieren copyleft</li>
-                </ul>
-
-                <h4>Open Source</h4>
-                <ul class="content-list">
-                    <li>Código fuente disponible</li>
-                    <li>Se puede modificar y redistribuir</li>
-                    <li><strong>Ejemplos:</strong> LibreOffice, GIMP, Firefox, Linux, Android</li>
-                </ul>
-            </div>
-
-            <h4>3. Creative Commons (CC)</h4>
-            <div class="info-box info">
-                <p>Licencias para obras creativas (no solo software): textos, imágenes, música, vídeos.</p>
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <div class="icon">🦠</div>
+                    <h4>Antivirus</h4>
+                    <p><strong>Definición:</strong> Software de detección, prevención y eliminación de malware mediante análisis de firmas, heurística y comportamiento.<br><br>
+                       <strong>Funciones:</strong><br>
+                       • Escaneo en tiempo real (on-access)<br>
+                       • Análisis bajo demanda (on-demand)<br>
+                       • Cuarentena de amenazas<br>
+                       • Actualizaciones de definiciones<br>
+                       • Protección web y email<br><br>
+                       <strong>Ejemplos:</strong> Windows Defender, Kaspersky, Norton, Bitdefender, ESET</p>
+                </div>
                 
-                <h4>Elementos de las Licencias CC:</h4>
-                <ul class="content-list">
-                    <li><strong>BY (Atribución):</strong> Debe reconocerse la autoría</li>
-                    <li><strong>SA (Share Alike):</strong> Compartir igual, obras derivadas con misma licencia</li>
-                    <li><strong>ND (No Derivatives):</strong> No se permiten obras derivadas</li>
-                    <li><strong>NC (Non Commercial):</strong> Solo uso no comercial</li>
-                </ul>
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">🔥</div>
+                    <h4>Firewall (Cortafuegos)</h4>
+                    <p><strong>Definición:</strong> Sistema de control de tráfico de red que monitoriza y filtra conexiones entrantes/salientes según reglas de seguridad predefinidas.<br><br>
+                       <strong>Tipos:</strong><br>
+                       • <strong>Hardware:</strong> En router/dispositivo dedicado<br>
+                       • <strong>Software:</strong> Aplicación en SO<br>
+                       • <strong>Personal:</strong> Para equipos individuales<br>
+                       • <strong>Corporativo:</strong> Perimetral empresarial<br><br>
+                       <strong>Funciones:</strong> Bloqueo de puertos, filtrado de paquetes, inspección de estado (stateful), NAT</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <div class="icon">🕵️</div>
+                    <h4>Anti-spyware</h4>
+                    <p><strong>Definición:</strong> Herramienta especializada en detectar y eliminar software espía que recopila información sin consentimiento.<br><br>
+                       <strong>Detecta:</strong><br>
+                       • Keyloggers (registro de teclas)<br>
+                       • Adware (publicidad invasiva)<br>
+                       • Tracking cookies<br>
+                       • Screen capturers<br>
+                       • Data miners<br><br>
+                       <strong>Ejemplos:</strong> Malwarebytes, Spybot S&D, SUPERAntiSpyware</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <div class="icon">📧</div>
+                    <h4>Filtros Anti-spam</h4>
+                    <p><strong>Definición:</strong> Sistemas de filtrado automático de correo no deseado mediante análisis de contenido, remitentes y patrones.<br><br>
+                       <strong>Técnicas:</strong><br>
+                       • Listas negras (blacklists)<br>
+                       • Análisis bayesiano<br>
+                       • Machine Learning<br>
+                       • SPF/DKIM/DMARC<br>
+                       • Análisis heurístico<br><br>
+                       <strong>Integración:</strong> Gmail, Outlook, ISP, servidores mail</p>
+                </div>
+            </div>
 
-                <h4>Combinaciones Comunes:</h4>
+            <div class="info-box warning">
+                <h4>⚠️ Importancia de Actualizaciones de Software</h4>
                 <ul class="content-list">
-                    <li><strong>CC BY:</strong> Se puede usar libremente con atribución</li>
-                    <li><strong>CC BY-SA:</strong> Igual que BY, obras derivadas con misma licencia</li>
-                    <li><strong>CC BY-NC:</strong> Uso no comercial con atribución</li>
-                    <li><strong>CC BY-NC-SA:</strong> No comercial, atribución, compartir igual</li>
-                    <li><strong>CC BY-ND:</strong> Atribución, sin obras derivadas</li>
-                    <li><strong>CC BY-NC-ND:</strong> No comercial, atribución, sin derivadas (más restrictiva)</li>
-                    <li><strong>CC0:</strong> Dominio público, sin restricciones</li>
+                    <li>🔄 <strong>Parches de seguridad:</strong> Corrigen vulnerabilidades críticas (CVE - Common Vulnerabilities and Exposures)</li>
+                    <li>🛡️ <strong>Zero-day exploits:</strong> Actualizaciones urgentes contra ataques activos</li>
+                    <li>📊 <strong>Estadística:</strong> 60% de brechas se deben a vulnerabilidades no parcheadas</li>
+                    <li>✅ <strong>Buena práctica:</strong> Configurar actualizaciones automáticas en SO y aplicaciones</li>
+                    <li>⏰ <strong>Frecuencia:</strong> Microsoft Patch Tuesday (2º martes del mes)</li>
                 </ul>
+            </div>
+        </section>
 
-                <h4>Ejemplos de Uso:</h4>
+        <section>
+            <h2>2.3. Amenazas, Taxonomía del Malware y Técnicas de Ataque</h2>
+            
+            <div class="definition-box">
+                <div class="def-title">Definición Formal de Malware</div>
+                <div class="def-content">
+                    <strong>Malware</strong> (contracción de Malicious Software - Software Malicioso) constituye cualquier programa, código o proceso informático diseñado deliberadamente con intencionalidad hostil para infiltrarse, dañar, comprometer o obtener acceso no autorizado a sistemas computacionales, redes o dispositivos, así como para sustraer, modificar, cifrar o destruir datos, violar privacidad, o utilizar recursos sin consentimiento del propietario legítimo. El malware explota vulnerabilidades técnicas, de configuración o humanas (ingeniería social) para perpetrar sus acciones maliciosas.
+                </div>
+            </div>
+
+            <h3>📊 Taxonomía del Malware: Clasificación Técnica</h3>
+            
+            <div class="hierarchy-diagram">
+                <div class="hierarchy-title">CATEGORÍAS PRINCIPALES DE MALWARE</div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-top: 1.5rem;">
+                    
+                    <div class="key-point-card" style="border-top-color: #e74c3c;">
+                        <div class="icon">🦠</div>
+                        <h4>VIRUS</h4>
+                        <p><strong>Definición:</strong> Código malicioso que se adjunta a archivos ejecutables legítimos y requiere acción del usuario para activarse.<br><br>
+                           <strong>Características:</strong><br>
+                           • Se replica insertándose en otros archivos<br>
+                           • Necesita archivo anfitrión (host)<br>
+                           • Activación por ejecución del usuario<br>
+                           • Puede permanecer latente (payload)<br><br>
+                           <strong>Tipos:</strong><br>
+                           ○ <em>Boot sector:</em> Infecta MBR del disco<br>
+                           ○ <em>Macrovirus:</em> En documentos Office<br>
+                           ○ <em>Polimórfico:</em> Muta su código<br>
+                           ○ <em>Metamórfico:</em> Reescribe completamente</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #8e44ad;">
+                        <div class="icon">🐛</div>
+                        <h4>GUSANO (WORM)</h4>
+                        <p><strong>Definición:</strong> Programa autónomo capaz de autorreplicarse y propagarse sin intervención humana a través de redes.<br><br>
+                           <strong>Diferencias con virus:</strong><br>
+                           • No necesita archivo anfitrión<br>
+                           • Autónomo e independiente<br>
+                           • Propagación automática por red<br>
+                           • Explotación de vulnerabilidades<br><br>
+                           <strong>Vectores de propagación:</strong><br>
+                           ○ Correo electrónico masivo<br>
+                           ○ Vulnerabilidades de SO/servicios<br>
+                           ○ Compartición de archivos (P2P)<br>
+                           ○ Mensajería instantánea<br><br>
+                           <strong>Ejemplos históricos:</strong> Morris (1988), ILOVEYOU (2000), Conficker (2008), WannaCry (2017)</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #c0392b;">
+                        <div class="icon">🎭</div>
+                        <h4>TROYANO (TROJAN)</h4>
+                        <p><strong>Definición:</strong> Software aparentemente legítimo que oculta funcionalidad maliciosa en su interior.<br><br>
+                           <strong>Analogía mitológica:</strong> Caballo de Troya - regalo que esconde soldados hostiles<br><br>
+                           <strong>Características:</strong><br>
+                           • Apariencia de programa útil/legítimo<br>
+                           • Usuario instala voluntariamente<br>
+                           • No se autoreplica (vs. virus/gusanos)<br>
+                           • Puerta trasera (backdoor)<br><br>
+                           <strong>Subtipos especializados:</strong><br>
+                           ○ <em>Backdoor:</em> Acceso remoto no autorizado<br>
+                           ○ <em>Downloader:</em> Descarga malware adicional<br>
+                           ○ <em>Banker:</em> Robo de credenciales bancarias<br>
+                           ○ <em>RAT (Remote Admin Tool):</em> Control total remoto</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #d35400;">
+                        <div class="icon">🔐</div>
+                        <h4>RANSOMWARE</h4>
+                        <p><strong>Definición:</strong> Malware que cifra archivos del sistema y exige pago (rescate) en criptomonedas para restaurar el acceso.<br><br>
+                           <strong>Mecanismo de ataque:</strong><br>
+                           1. Infiltración (email, exploit)<br>
+                           2. Cifrado AES/RSA de archivos<br>
+                           3. Nota de rescate (ransom note)<br>
+                           4. Amenaza de pérdida/publicación<br><br>
+                           <strong>Impacto económico:</strong><br>
+                           • Pérdida media: $200,000 por ataque<br>
+                           • Tiempo inactividad: 7-21 días<br>
+                           • Rescate típico: 0.5-5 BTC<br><br>
+                           <strong>Casos notables:</strong> WannaCry (2017), NotPetya (2017), Ryuk (2018-), Conti (2020-2022)</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #16a085;">
+                        <div class="icon">🕵️</div>
+                        <h4>SPYWARE</h4>
+                        <p><strong>Definición:</strong> Software de vigilancia que recopila información del usuario sin conocimiento ni consentimiento explícito.<br><br>
+                           <strong>Datos recopilados:</strong><br>
+                           • Historial de navegación<br>
+                           • Credenciales (keylogging)<br>
+                           • Capturas de pantalla<br>
+                           • Contactos y comunicaciones<br>
+                           • Información bancaria<br><br>
+                           <strong>Subcategorías:</strong><br>
+                           ○ <em>Keylogger:</em> Registra teclas pulsadas<br>
+                           ○ <em>Screen scraper:</em> Captura pantalla<br>
+                           ○ <em>Adware:</em> Muestra publicidad invasiva<br>
+                           ○ <em>Tracking cookies:</em> Rastreo web</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #2c3e50;">
+                        <div class="icon">🤖</div>
+                        <h4>ROOTKIT</h4>
+                        <p><strong>Definición:</strong> Conjunto de herramientas que obtienen privilegios de administrador (root) y ocultan su presencia en el sistema.<br><br>
+                           <strong>Niveles de infiltración:</strong><br>
+                           • <strong>User-mode:</strong> Nivel aplicación<br>
+                           • <strong>Kernel-mode:</strong> Nivel núcleo SO<br>
+                           • <strong>Bootkit:</strong> Nivel arranque (MBR)<br>
+                           • <strong>Firmware:</strong> Nivel BIOS/UEFI<br><br>
+                           <strong>Técnicas de ocultación:</strong><br>
+                           ○ Hooking de llamadas API<br>
+                           ○ Modificación de kernel<br>
+                           ○ Interceptación de procesos<br>
+                           ○ Eliminación de logs<br><br>
+                           <strong>Detección dificultosa:</strong> Requiere herramientas especializadas (Rootkit Revealer, GMER)</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #7f8c8d;">
+                        <div class="icon">💬</div>
+                        <h4>BOTNET</h4>
+                        <p><strong>Definición:</strong> Red de ordenadores infectados (zombies/bots) controlados remotamente por un atacante (botmaster) mediante C&C (Command & Control).<br><br>
+                           <strong>Arquitectura:</strong><br>
+                           • Bot: Máquina infectada<br>
+                           • Botmaster: Controlador<br>
+                           • C&C Server: Servidor de comando<br>
+                           • IRC/HTTP/P2P: Canales de control<br><br>
+                           <strong>Usos maliciosos:</strong><br>
+                           ○ Ataques DDoS (Distributed Denial of Service)<br>
+                           ○ Envío masivo de spam<br>
+                           ○ Phishing campaigns<br>
+                           ○ Criptominado (cryptojacking)<br>
+                           ○ Fraude publicitario (click fraud)<br><br>
+                           <strong>Botnets famosas:</strong> Mirai (IoT, 2016), Emotet, ZeroAccess</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="comparison-table" style="margin-top: 2rem;">
+                <caption><strong>Comparativa: Características Distintivas del Malware</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Auto-replicación</th>
+                        <th>Requiere Host</th>
+                        <th>Propagación</th>
+                        <th>Objetivo Principal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Virus</strong></td>
+                        <td>✅ Sí</td>
+                        <td>✅ Sí (archivo)</td>
+                        <td>Por ejecución usuario</td>
+                        <td>Daño, replicación</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gusano</strong></td>
+                        <td>✅ Sí</td>
+                        <td>❌ No (autónomo)</td>
+                        <td>Automática por red</td>
+                        <td>Propagación masiva</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Troyano</strong></td>
+                        <td>❌ No</td>
+                        <td>❌ No (completo)</td>
+                        <td>Instalación voluntaria</td>
+                        <td>Acceso no autorizado</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ransomware</strong></td>
+                        <td>❌ No</td>
+                        <td>❌ No</td>
+                        <td>Email, exploits</td>
+                        <td>Extorsión económica</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Spyware</strong></td>
+                        <td>❌ No</td>
+                        <td>❌ No</td>
+                        <td>Bundling software</td>
+                        <td>Robo de información</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rootkit</strong></td>
+                        <td>❌ No</td>
+                        <td>❌ No</td>
+                        <td>Exploits, troyanos</td>
+                        <td>Persistencia oculta</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <h3>🎣 Técnicas de Ingeniería Social y Fraude Digital</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <div class="icon">📧</div>
+                    <h4>Phishing</h4>
+                    <p><strong>Definición:</strong> Técnica de ingeniería social que suplanta identidad de entidades legítimas para obtener credenciales, datos bancarios o información sensible.<br><br>
+                       <strong>Características:</strong><br>
+                       • Correos fraudulentos profesionales<br>
+                       • URLs falsificadas (typosquatting)<br>
+                       • Urgencia/miedo como motivador<br>
+                       • Suplantación de marcas conocidas<br><br>
+                       <strong>Variantes especializadas:</strong><br>
+                       ○ <em>Spear phishing:</em> Dirigido (CEO, CFO)<br>
+                       ○ <em>Whaling:</em> Ejecutivos de alto nivel<br>
+                       ○ <em>Clone phishing:</em> Duplicado de email legítimo<br><br>
+                       <strong>Indicadores:</strong> Errores ortográficos, remitente sospechoso, enlaces acortados, solicitud urgente de datos</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #2980b9;">
+                    <div class="icon">📱</div>
+                    <h4>Smishing (SMS Phishing)</h4>
+                    <p><strong>Definición:</strong> Phishing realizado a través de mensajes SMS o servicios de mensajería instantánea móvil.<br><br>
+                       <strong>Vectores de ataque:</strong><br>
+                       • Mensajes con enlaces acortados<br>
+                       • Notificaciones de premios falsos<br>
+                       • Alertas bancarias/postales fraudulentas<br>
+                       • Llamadas a números de tarificación especial<br><br>
+                       <strong>Ejemplo típico:</strong> "Su paquete está retenido. Pulse aquí para gestionar la entrega"</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #8e44ad;">
+                    <div class="icon">☎️</div>
+                    <h4>Vishing (Voice Phishing)</h4>
+                    <p><strong>Definición:</strong> Phishing mediante llamadas telefónicas de voz, donde el atacante se hace pasar por entidades oficiales.<br><br>
+                       <strong>Técnicas:</strong><br>
+                       • Suplantación de soporte técnico (Microsoft, Apple)<br>
+                       • Falsos representantes bancarios<br>
+                       • Organismos gubernamentales (Hacienda, Policía)<br>
+                       • Caller ID spoofing (número falsificado)<br><br>
+                       <strong>Regla de oro:</strong> Entidades legítimas NUNCA solicitan contraseñas por teléfono</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <div class="icon">🌐</div>
+                    <h4>Pharming</h4>
+                    <p><strong>Definición:</strong> Redirección fraudulenta del tráfico web de un sitio legítimo a uno falso controlado por el atacante, mediante manipulación del sistema DNS.<br><br>
+                       <strong>Mecanismo:</strong><br>
+                       • Envenenamiento cache DNS (DNS poisoning)<br>
+                       • Modificación del archivo hosts local<br>
+                       • Compromiso del router doméstico<br>
+                       • Usuario introduce URL correcta pero llega a sitio falso<br><br>
+                       <strong>Mayor peligrosidad:</strong> Más sofisticado que phishing; no requiere clic en enlaces</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #c0392b;">
+                    <div class="icon">🎭</div>
+                    <h4>Ingeniería Social</h4>
+                    <p><strong>Definición:</strong> Manipulación psicológica que explota factores humanos (confianza, miedo, autoridad, curiosidad) para obtener información confidencial o acceso no autorizado.<br><br>
+                       <strong>Principios de Cialdini explotados:</strong><br>
+                       • Reciprocidad: "Te he ayudado, ayúdame tú"<br>
+                       • Autoridad: Suplantación de superiores<br>
+                       • Escasez: Urgencia temporal<br>
+                       • Compromiso: Pide poco, luego más<br><br>
+                       <strong>Técnicas físicas:</strong> Tailgating (seguir a alguien), pretexting (historias falsas), baiting (USB infectado dejado en lugar público)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #34495e;">
+                    <div class="icon">🔄</div>
+                    <h4>Man-in-the-Middle (MITM)</h4>
+                    <p><strong>Definición:</strong> Ataque donde el adversario intercepta y potencialmente altera las comunicaciones entre dos partes que creen comunicarse directamente.<br><br>
+                       <strong>Escenarios:</strong><br>
+                       • WiFi pública no cifrada<br>
+                       • Puntos de acceso maliciosos (Evil Twin)<br>
+                       • ARP spoofing en LAN<br>
+                       • SSL stripping (forzar HTTP vs HTTPS)<br><br>
+                       <strong>Protección:</strong> VPN, verificación certificados SSL, evitar WiFi públicas para operaciones sensibles</p>
+                </div>
+            </div>
+
+            <div class="summary-box">
+                <h4>🛡️ Defensa en Profundidad: Estrategia Multicapa</h4>
+                <div class="process-flow">
+                    <div class="process-step">
+                        <div class="process-step-number">1</div>
+                        <strong>Técnico</strong><br>
+                        <small>Antivirus, firewall, EDR, actualizaciones</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">2</div>
+                        <strong>Organizativo</strong><br>
+                        <small>Políticas, procedimientos, respuesta incidentes</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">3</div>
+                        <strong>Humano</strong><br>
+                        <small>Formación, concienciación, buenas prácticas</small>
+                    </div>
+                </div>
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(39, 174, 96, 0.1); border-radius: 8px;">
+                    <strong>Principio de seguridad:</strong> "El eslabón más débil de la cadena de seguridad es el factor humano". 90% de brechas exitosas comienzan con ingeniería social o errores humanos.
+                </div>
+            </div>
+            
+            <div class="info-box warning">
+                <h4>✅ Buenas Prácticas de Seguridad en Correo Electrónico</h4>
                 <ul class="content-list">
-                    <li>Wikipedia: CC BY-SA</li>
-                    <li>Flickr, YouTube: Varias opciones CC</li>
-                    <li>Recursos educativos abiertos (OER)</li>
+                    <li>🔍 <strong>Verificar remitente:</strong> Examinar dirección completa (no solo nombre mostrado)</li>
+                    <li>🔗 <strong>Inspeccionar enlaces:</strong> Pasar ratón sin hacer clic para ver URL real</li>
+                    <li>📎 <strong>Precaución con adjuntos:</strong> No abrir extensiones ejecutables (.exe, .bat, .vbs, .js)</li>
+                    <li>🚫 <strong>Nunca revelar:</strong> Contraseñas, PINs bancarios, números completos de tarjeta</li>
+                    <li>🔐 <strong>Verificar HTTPS:</strong> Comprobar candado verde en navegador</li>
+                    <li>📞 <strong>Ante la duda:</strong> Contactar directamente con la organización por canales oficiales</li>
+                    <li>🔄 <strong>2FA obligatorio:</strong> Activar autenticación de dos factores en todas las cuentas críticas</li>
+                    <li>⚡ <strong>Reportar:</strong> Marcar como spam o phishing para entrenar filtros</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>2.4. Criptografía y Medidas de Protección Avanzadas</h2>
+            
+            <div class="definition-box">
+                <div class="def-title">Definición de Criptografía</div>
+                <div class="def-content">
+                    La <strong>criptografía</strong> (del griego κρυπτός <em>kryptós</em> "oculto" y γράφειν <em>gráphein</em> "escribir") es la ciencia y práctica de técnicas matemáticas para proteger información mediante su transformación en formato ininteligible para entidades no autorizadas, garantizando <strong>confidencialidad</strong> (solo destinatarios legítimos acceden), <strong>integridad</strong> (detección de modificaciones), <strong>autenticidad</strong> (verificación de origen) y <strong>no repudio</strong> (imposibilidad de negar autoría). Constituye la base técnica fundamental de la seguridad en comunicaciones digitales modernas.
+                </div>
+            </div>
+
+            <h3>🔐 Sistemas Criptográficos Fundamentales</h3>
+            
+            <div class="comparison-table">
+                <caption><strong>Cifrado Simétrico vs. Asimétrico: Análisis Comparativo</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Cifrado Simétrico</th>
+                        <th>Cifrado Asimétrico</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Claves</strong></td>
+                        <td>1 clave secreta compartida</td>
+                        <td>Par de claves (pública + privada)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Velocidad</strong></td>
+                        <td>Muy rápido (órdenes de magnitud)</td>
+                        <td>Slow (100-1000x más lento)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Distribución</strong></td>
+                        <td>Problema: Intercambio seguro de clave</td>
+                        <td>Clave pública se distribuye abiertamente</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Longitud de clave</strong></td>
+                        <td>128-256 bits (AES)</td>
+                        <td>2048-4096 bits (RSA)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Uso principal</strong></td>
+                        <td>Cifrado masivo de datos</td>
+                        <td>Intercambio de claves, firmas digitales</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Escalabilidad</strong></td>
+                        <td>Requiere n(n-1)/2 claves para n usuarios</td>
+                        <td>Solo 2 claves por usuario (pública/privada)</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">🔑</div>
+                    <h4>Criptografía Simétrica</h4>
+                    <p><strong>Definición:</strong> Sistema criptográfico que utiliza la misma clave secreta para operaciones de cifrado y descifrado.<br><br>
+                       <strong>Algoritmos principales:</strong><br>
+                       • <strong>AES (Advanced Encryption Standard):</strong><br>
+                       &nbsp;&nbsp;- Estándar actual (desde 2001)<br>
+                       &nbsp;&nbsp;- Claves: 128, 192, 256 bits<br>
+                       &nbsp;&nbsp;- Cifrado por bloques (128 bits)<br>
+                       &nbsp;&nbsp;- Usado: TLS, VPN, cifrado disco<br><br>
+                       • <strong>DES/3DES:</strong> Obsoletos (56 bits inseguro)<br>
+                       • <strong>ChaCha20:</strong> Alternativa moderna a AES<br><br>
+                       <strong>Ventaja:</strong> Velocidad de procesamiento<br>
+                       <strong>Inconveniente:</strong> Distribución segura de claves</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <div class="icon">🔐</div>
+                    <h4>Criptografía Asimétrica</h4>
+                    <p><strong>Definición:</strong> Sistema que emplea par de claves matemáticamente relacionadas: pública (cifrar/verificar) y privada (descifrar/firmar).<br><br>
+                       <strong>Algoritmos principales:</strong><br>
+                       • <strong>RSA (Rivest-Shamir-Adleman):</strong><br>
+                       &nbsp;&nbsp;- Basado en factorización primos<br>
+                       &nbsp;&nbsp;- Claves: 2048-4096 bits<br>
+                       &nbsp;&nbsp;- Usado: HTTPS, SSH, email cifrado<br><br>
+                       • <strong>ECC (Elliptic Curve Cryptography):</strong><br>
+                       &nbsp;&nbsp;- Mayor seguridad con claves menores<br>
+                       &nbsp;&nbsp;- 256 bits ECC ≈ 3072 bits RSA<br>
+                       &nbsp;&nbsp;- Usado: Bitcoin, TLS moderno<br><br>
+                       <strong>Principio:</strong> Lo cifrado con clave pública solo se descifra con privada (y viceversa)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <div class="icon">✍️</div>
+                    <h4>Firma Digital</h4>
+                    <p><strong>Definición:</strong> Mecanismo criptográfico que proporciona autenticación, integridad y no repudio de documentos digitales.<br><br>
+                       <strong>Proceso de firma:</strong><br>
+                       1. Calcular hash (SHA-256) del documento<br>
+                       2. Cifrar hash con clave privada<br>
+                       3. Adjuntar firma al documento<br><br>
+                       <strong>Verificación:</strong><br>
+                       1. Descifrar firma con clave pública<br>
+                       2. Calcular hash del documento recibido<br>
+                       3. Comparar ambos hashes<br>
+                       4. Igualdad → integridad y autenticidad<br><br>
+                       <strong>Aplicaciones:</strong> DNI-e, certificados FNMT, facturas electrónicas, blockchain</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <div class="icon">🔒</div>
+                    <h4>Funciones Hash</h4>
+                    <p><strong>Definición:</strong> Algoritmo que transforma entrada de tamaño variable en salida de tamaño fijo (digest/huella), siendo computacionalmente inviable regenerar entrada o encontrar colisiones.<br><br>
+                       <strong>Propiedades requeridas:</strong><br>
+                       • Determinista (mismo input → mismo hash)<br>
+                       • Unidireccional (irreversible)<br>
+                       • Efecto avalancha (1 bit cambiado → hash totalmente distinto)<br>
+                       • Resistencia a colisiones<br><br>
+                       <strong>Algoritmos:</strong><br>
+                       • <strong>SHA-256:</strong> 256 bits, estándar actual<br>
+                       • <strong>SHA-3:</strong> Sucesor de SHA-2<br>
+                       • <strong>MD5:</strong> 128 bits, OBSOLETO (colisiones)<br><br>
+                       <strong>Usos:</strong> Integridad archivos, almacenamiento contraseñas, blockchain, firmas digitales</p>
+                </div>
+            </div>
+
+            <h3>🛡️ Aplicaciones Prácticas de Criptografía</h3>
+            
+            <div class="hierarchy-diagram">
+                <div class="hierarchy-title">TECNOLOGÍAS BASADAS EN CRIPTOGRAFÍA</div>
+                <div class="key-points-grid">
+                    <div class="key-point-card" style="border-top-color: #2ecc71;">
+                        <h4>🌐 HTTPS (SSL/TLS)</h4>
+                        <p><strong>Secure Hypertext Transfer Protocol</strong><br>
+                           • Cifrado de comunicaciones web<br>
+                           • Certificados X.509 de Autoridades (CA)<br>
+                           • Handshake: RSA/ECC para intercambio AES<br>
+                           • Verificar candado 🔒 en navegador<br>
+                           • TLS 1.3: Último estándar (2018)</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #3498db;">
+                        <h4>🔐 VPN (Virtual Private Network)</h4>
+                        <p><strong>Red Privada Virtual Cifrada</strong><br>
+                           • Túnel cifrado sobre internet<br>
+                           • Oculta IP real (anonimato)<br>
+                           • Protege en WiFi públicas<br>
+                           • Protocolos: OpenVPN, WireGuard, IPSec<br>
+                           • Uso: Teletrabajo, censura, privacidad</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #9b59b6;">
+                        <h4>💾 Cifrado de Disco</h4>
+                        <p><strong>Full Disk Encryption (FDE)</strong><br>
+                           • <strong>Windows:</strong> BitLocker (AES-256)<br>
+                           • <strong>macOS:</strong> FileVault 2<br>
+                           • <strong>Linux:</strong> LUKS (dm-crypt)<br>
+                           • Cifrado transparente (AES-XTS)<br>
+                           • Protección: Robo físico, pérdida dispositivo</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #16a085;">
+                        <h4>💬 Mensajería Cifrada</h4>
+                        <p><strong>End-to-End Encryption (E2EE)</strong><br>
+                           • Solo emisor/receptor descifran<br>
+                           • Servidor no accede al contenido<br>
+                           • <strong>Signal Protocol:</strong> WhatsApp, Signal<br>
+                           • <strong>Double Ratchet:</strong> Forward secrecy<br>
+                           • Verificación: Keys fingerprint</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #f39c12;">
+                        <h4>📧 Email Cifrado</h4>
+                        <p><strong>PGP/GPG (Pretty Good Privacy)</strong><br>
+                           • Estándar OpenPGP (RFC 4880)<br>
+                           • Cifrado asimétrico para email<br>
+                           • Web of Trust (cadena confianza)<br>
+                           • <strong>S/MIME:</strong> Alternativa corporativa<br>
+                           • Plugin: Enigmail (Thunderbird)</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #c0392b;">
+                        <h4>🔗 Blockchain</h4>
+                        <p><strong>Cadena de Bloques Criptográfica</strong><br>
+                           • Hash SHA-256 enlaza bloques<br>
+                           • Firmas ECDSA validan transacciones<br>
+                           • Inmutabilidad por diseño<br>
+                           • Proof of Work/Stake<br>
+                           • Aplicaciones: Bitcoin, Ethereum, NFT</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>🔑 Gestión de Contraseñas y Autenticación</h3>
+            
+            <div class="concept-box">
+                <div class="concept-title">📋 Anatomía de una Contraseña Robusta</div>
+                <div class="formula-box" style="margin-top: 1rem;">
+                    <strong>Ecuación de Entropía (bits):</strong><br>
+                    $E = \log_2(R^L)$ donde $R$ = tamaño repertorio, $L$ = longitud<br><br>
+                    <strong>Ejemplos de cálculo:</strong><br>
+                    • Solo minúsculas (26), 8 caracteres: $\log_2(26^8) \approx 37.6$ bits<br>
+                    • Alfanumérico mixto (62), 8 caracteres: $\log_2(62^8) \approx 47.6$ bits<br>
+                    • Completo (94), 12 caracteres: $\log_2(94^{12}) \approx 78.8$ bits<br><br>
+                    <strong>Recomendación NIST (2023):</strong> Mínimo 64 bits entropía ≈ 12 caracteres complejos
+                </div>
+                
+                <div class="info-box success" style="margin-top: 1.5rem;">
+                    <h4>✅ Requisitos de Contraseña Segura (Estándar)</h4>
+                    <ul class="content-list">
+                        <li>📏 <strong>Longitud:</strong> Mínimo 12-16 caracteres (cuanto más, mejor)</li>
+                        <li>🔤 <strong>Complejidad:</strong> Mayúsculas + minúsculas + números + símbolos (!@#$%^&*)</li>
+                        <li>🚫 <strong>Evitar:</strong> Palabras diccionario, datos personales (nombre, fecha nacimiento, mascotas)</li>
+                        <li>🔀 <strong>Aleatoriedad:</strong> Generación con gestores (RNG criptográfico)</li>
+                        <li>🎯 <strong>Unicidad:</strong> Contraseña diferente para cada servicio</li>
+                        <li>⏰ <strong>Renovación:</strong> Cambiar si hay brecha de seguridad (no periódicamente sin razón)</li>
+                    </ul>
+                    <div style="margin-top: 1rem; padding: 1rem; background: #f8d7da; border-radius: 8px;">
+                        <strong>❌ MALAS contraseñas:</strong> 123456, password, qwerty, nombre123, fechanacimiento<br>
+                        <strong>✅ BUENA contraseña:</strong> T7$mK9@pL#qW2xF! (aleatoria, 16 caracteres, 4 tipos)
+                    </div>
+                </div>
+            </div>
+
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <div class="icon">🗄️</div>
+                    <h4>Gestores de Contraseñas</h4>
+                    <p><strong>Password Managers: Bóveda Cifrada</strong><br><br>
+                       <strong>Funcionalidad:</strong><br>
+                       • Almacenamiento cifrado (AES-256)<br>
+                       • Una contraseña maestra (KDF: PBKDF2)<br>
+                       • Generador de contraseñas aleatorias<br>
+                       • Autocompletado seguro<br>
+                       • Sincronización multi-dispositivo<br>
+                       • Auditoría de contraseñas débiles<br><br>
+                       <strong>Software recomendado:</strong><br>
+                       • <strong>Bitwarden:</strong> Open source, gratuito<br>
+                       • <strong>1Password:</strong> De pago, interfaz excelente<br>
+                       • <strong>KeePass:</strong> Local, sin nube<br>
+                       • <strong>LastPass:</strong> Freemium<br>
+                       • Evitar: Navegadores sin cifrado fuerte</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <div class="icon">🔐</div>
+                    <h4>Autenticación Multifactor (MFA)</h4>
+                    <p><strong>Multi-Factor Authentication: Defensa en Capas</strong><br><br>
+                       <strong>3 Factores de autenticación:</strong><br>
+                       1. <strong>Algo que SABES:</strong> Contraseña, PIN<br>
+                       2. <strong>Algo que TIENES:</strong> Móvil, token hardware<br>
+                       3. <strong>Algo que ERES:</strong> Biometría (huella, facial)<br><br>
+                       <strong>Implementaciones 2FA/MFA:</strong><br>
+                       • <strong>TOTP</strong> (Time-based OTP): Google Authenticator, Authy<br>
+                       &nbsp;&nbsp;- Códigos 6 dígitos rotan cada 30s<br>
+                       • <strong>SMS:</strong> Menos seguro (SIM swapping)<br>
+                       • <strong>U2F/FIDO2:</strong> Llaves hardware (YubiKey)<br>
+                       • <strong>Push notifications:</strong> Microsoft Authenticator<br>
+                       • <strong>Códigos backup:</strong> Recuperación emergencia<br><br>
+                       <strong>Estadística:</strong> MFA bloquea 99.9% de ataques automatizados (Microsoft, 2023)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #34495e;">
+                    <div class="icon">📜</div>
+                    <h4>Certificados Digitales</h4>
+                    <p><strong>Identidad Digital Verificada</strong><br><br>
+                       <strong>Definición:</strong> Documento electrónico que vincula identidad a clave pública, firmado por Autoridad de Certificación (CA).<br><br>
+                       <strong>Estándar X.509:</strong><br>
+                       • Emisor (CA): Let's Encrypt, DigiCert<br>
+                       • Sujeto: Persona/dominio<br>
+                       • Clave pública<br>
+                       • Validez temporal<br>
+                       • Firma digital CA<br><br>
+                       <strong>Tipos en España:</strong><br>
+                       • <strong>DNI electrónico (DNI-e):</strong> Chip NFC<br>
+                       • <strong>FNMT:</strong> Certificados software<br>
+                       • <strong>Cl@ve:</strong> Sistema unificado AGE<br><br>
+                       <strong>Usos:</strong> Firma digital, Sede Electrónica, declaración AEAT, registro mercantil</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">🌐</div>
+                    <h4>Navegación Segura</h4>
+                    <p><strong>Mejores Prácticas Web Security</strong><br><br>
+                       <strong>Verificaciones esenciales:</strong><br>
+                       • ✅ Candado HTTPS (TLS activo)<br>
+                       • ✅ Certificado válido (click en candado)<br>
+                       • ✅ Dominio correcto (evitar typosquatting)<br>
+                       • ✅ No warnings del navegador<br><br>
+                       <strong>Configuraciones recomendadas:</strong><br>
+                       • Bloqueo cookies terceros<br>
+                       • Do Not Track (DNT) habilitado<br>
+                       • Extensiones: uBlock Origin, Privacy Badger<br>
+                       • Navegador actualizado (parches seguridad)<br>
+                       • Modo incógnito para sesiones sensibles<br><br>
+                       <strong>WiFi públicas:</strong> Siempre usar VPN (datos sin cifrar expuestos)</p>
+                </div>
+            </div>
+
+            <div class="summary-box">
+                <h4>🎯 Principios de Seguridad Criptográfica (Kerckhoffs, 1883)</h4>
+                <div style="padding: 1rem; background: rgba(52, 152, 219, 0.1); border-radius: 8px; margin-top: 1rem;">
+                    <strong>"La seguridad de un sistema criptográfico debe residir únicamente en el secreto de la clave, no en el secreto del algoritmo"</strong>
+                </div>
+                <p style="margin-top: 1rem;">Este principio fundamental establece que los algoritmos deben ser públicos y auditables (open source crypto), mientras que la seguridad se garantiza mediante claves robustas y gestión segura de las mismas. Algoritmos propietarios "por oscuridad" (security by obscurity) son considerados inseguros por la comunidad criptográfica.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>2.5. Propiedad Intelectual y Marco Jurídico de Licencias</h2>
+            
+            <div class="definition-box">
+                <div class="def-title">Definición de Propiedad Intelectual</div>
+                <div class="def-content">
+                    La <strong>Propiedad Intelectual (PI)</strong> constituye el conjunto de derechos exclusivos reconocidos por ordenamientos jurídicos nacionales e internacionales (Convenio de Berna 1886, Tratados OMPI) sobre creaciones intangibles del intelecto humano, abarcando obras literarias, artísticas, científicas, invenciones, marcas, diseños y secretos comerciales. Su función dual comprende: (1) protección de derechos morales y patrimoniales del autor/inventor, garantizando reconocimiento y retribución económica; (2) fomento de la innovación y creatividad mediante incentivos económicos temporales que buscan equilibrar intereses privados con beneficio social (difusión cultural y progreso tecnológico).
+                </div>
+            </div>
+
+            <h3>⚖️ Marco Legal de Derechos de Autor</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #2c3e50;">
+                    <div class="icon">©</div>
+                    <h4>Copyright (Derechos de Autor)</h4>
+                    <p><strong>Definición jurídica:</strong> Protección legal automática de obras originales desde su creación fijada en soporte tangible/digital, sin requerir registro formal.<br><br>
+                       <strong>Legislación española:</strong><br>
+                       • Real Decreto Legislativo 1/1996 (Ley PI)<br>
+                       • Directivas UE: 2001/29/CE, 2019/790<br>
+                       • Convenio de Berna (1886, España 1887)<br><br>
+                       <strong>Derechos conferidos:</strong><br>
+                       • <strong>Morales:</strong> Paternidad, integridad, divulgación (irrenunciables, perpetuos)<br>
+                       • <strong>Patrimoniales:</strong> Reproducción, distribución, comunicación pública, transformación<br><br>
+                       <strong>Duración protección:</strong><br>
+                       • Vida del autor + 70 años post mortem<br>
+                       • Obras colectivas: 70 años desde publicación<br>
+                       • Obras anónimas/seudónimas: 70 años desde divulgación</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #7f8c8d;">
+                    <div class="icon">🏛️</div>
+                    <h4>Excepciones y Limitaciones (UE)</h4>
+                    <p><strong>Usos legítimos sin autorización (Directiva 2001/29/CE):</strong><br><br>
+                       <strong>Copia privada (Art. 31.2 LPI):</strong><br>
+                       • Reproducción sin finalidad lucrativa<br>
+                       • Uso privado del copista<br>
+                       • Compensación equitativa (canon digital)<br><br>
+                       <strong>Cita e ilustración (Art. 32 LPI):</strong><br>
+                       • Finalidad docente/investigación<br>
+                       • Obras ya divulgadas<br>
+                       • Extensión justificada<br>
+                       • Mención de fuente y autor<br><br>
+                       <strong>Parodia (Art. 39 LPI):</strong><br>
+                       • Transformación con ánimo burlesco<br>
+                       • No confusion con obra original<br><br>
+                       <strong>Fair Use (EEUU):</strong> Doctrina más amplia, análisis caso por caso</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #16a085;">
+                    <div class="icon">🌐</div>
+                    <h4>Dominio Público</h4>
+                    <p><strong>Definición legal:</strong> Estado de obras cuyos derechos patrimoniales han expirado o sido renunciados, disponibles para uso irrestricto.<br><br>
+                       <strong>Vías de ingreso:</strong><br>
+                       • Expiración plazo protección (70 años)<br>
+                       • Renuncia expresa (CC0, licencias públicas)<br>
+                       • Obras gubernamentales (jurisdicción variable)<br>
+                       • Creaciones pre-1887 (España, Convenio Berna)<br><br>
+                       <strong>Ejemplos históricos en 2024:</strong><br>
+                       • Obras de autores fallecidos en 1953<br>
+                       • Miguel de Cervantes (Don Quijote, 1616)<br>
+                       • William Shakespeare (obras, 1616)<br>
+                       • Beethoven, Mozart (partituras)<br><br>
+                       <strong>Persistencia derechos morales:</strong> En jurisdicciones de tradición continental europea (España incluida), derechos morales perduran perpetuamente incluso tras ingreso al dominio público</p>
+                </div>
+            </div>
+
+            <h3>💻 Taxonomía de Licencias de Software</h3>
+            
+            <div class="hierarchy-diagram">
+                <div class="hierarchy-title">CLASIFICACIÓN JURÍDICO-TÉCNICA DE LICENCIAS SOFTWARE</div>
+            </div>
+
+            <h4>1️⃣ Software Propietario (Privativo)</h4>
+            <div class="comparison-table">
+                <caption><strong>Modalidades de Licenciamiento Propietario</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Modelo Económico</th>
+                        <th>Acceso Código</th>
+                        <th>Ejemplos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Comercial (De Pago)</strong></td>
+                        <td>Licencia perpetua o suscripción</td>
+                        <td>Cerrado (binario)</td>
+                        <td>Windows, Office 365, Adobe CC</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Freeware</strong></td>
+                        <td>Gratuito (monetización indirecta)</td>
+                        <td>Cerrado</td>
+                        <td>Adobe Reader, Skype (clásico)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Shareware</strong></td>
+                        <td>Freemium (trial → pago)</td>
+                        <td>Cerrado</td>
+                        <td>WinRAR, WinZip</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Trial/Demo</strong></td>
+                        <td>Temporal (30 días) o funcional limitada</td>
+                        <td>Cerrado</td>
+                        <td>Adobe trials, juegos demo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Adware</strong></td>
+                        <td>Gratuito con publicidad integrada</td>
+                        <td>Cerrado</td>
+                        <td>Apps móviles con anuncios</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <div class="concept-box" style="margin-top: 1rem;">
+                <div class="concept-title">📋 Características Jurídicas del Software Propietario</div>
+                <ul class="content-list">
+                    <li>🔒 <strong>Código fuente:</strong> No disponible (secreto comercial protegido)</li>
+                    <li>🚫 <strong>Restricciones:</strong> Prohibición modificación, ingeniería inversa, redistribución</li>
+                    <li>📄 <strong>EULA:</strong> End-User License Agreement (contrato adhesión)</li>
+                    <li>⚖️ <strong>Base legal:</strong> Copyright + protección contractual + patentes software (EEUU)</li>
+                    <li>💰 <strong>Modelo negocio:</strong> Monetización directa por derechos de uso</li>
+                    <li>👤 <strong>Propiedad IP:</strong> Empresa desarrolladora retiene todos los derechos</li>
                 </ul>
             </div>
 
-            <h4>4. Dominio Público</h4>
-            <ul class="content-list">
-                <li>No tiene derechos de autor</li>
-                <li>Puede usarse libremente</li>
-                <li>Obras muy antiguas o renunciadas expresamente</li>
-            </ul>
+            <h4>2️⃣ Software Libre y Código Abierto (FLOSS)</h4>
+            
+            <div class="definition-box" style="margin-bottom: 1.5rem;">
+                <div class="def-title">Free/Libre Open Source Software (FLOSS): Distinción Conceptual</div>
+                <div class="def-content">
+                    <strong>Software Libre (Free Software - FSF):</strong> Filosofía ética que prioriza libertades del usuario. "Free" como en freedom (libertad), no en free beer (gratis).<br><br>
+                    <strong>Open Source (OSI):</strong> Enfoque pragmático centrado en ventajas técnicas (revisión código, colaboración, calidad).<br><br>
+                    <strong>Convergencia práctica:</strong> Ambos comparten mayoría de licencias aprobadas (GPL, MIT, Apache), pero divergen en motivación: ética vs. eficiencia.
+                </div>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-title">🆓 Las 4 Libertades Esenciales (Free Software Foundation)</div>
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card" style="border-top-color: #27ae60;">
+                        <h4>Libertad 0</h4>
+                        <p><strong>Ejecutar</strong> el programa para cualquier propósito, sin restricciones de uso, campo de aplicación o usuarios.</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #2980b9;">
+                        <h4>Libertad 1</h4>
+                        <p><strong>Estudiar</strong> cómo funciona el programa y <strong>modificarlo</strong> para adaptarlo a necesidades propias. Acceso al código fuente es precondición.</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #8e44ad;">
+                        <h4>Libertad 2</h4>
+                        <p><strong>Redistribuir copias</strong> exactas del programa para ayudar a otros (gratuitamente o con precio).</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #e67e22;">
+                        <h4>Libertad 3</h4>
+                        <p><strong>Distribuir versiones modificadas</strong> a terceros, permitiendo que la comunidad se beneficie de mejoras.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h4>🔓 Familias de Licencias Open Source</h4>
+            
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Licencias FLOSS: Comparativa de Permisos y Restricciones</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Licencia</th>
+                        <th>Tipo</th>
+                        <th>Copyleft</th>
+                        <th>Uso Comercial</th>
+                        <th>Linking Propietario</th>
+                        <th>Patentes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>GPL v3</strong></td>
+                        <td>Viral (Strong Copyleft)</td>
+                        <td>✅ Obligatorio</td>
+                        <td>✅ Permitido</td>
+                        <td>❌ Prohibido</td>
+                        <td>Cláusula expresa protección</td>
+                    </tr>
+                    <tr>
+                        <td><strong>LGPL v3</strong></td>
+                        <td>Weak Copyleft</td>
+                        <td>⚠️ Solo biblioteca</td>
+                        <td>✅ Permitido</td>
+                        <td>✅ Linking dinámico OK</td>
+                        <td>Cláusula patentes</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MIT</strong></td>
+                        <td>Permisiva</td>
+                        <td>❌ No requerido</td>
+                        <td>✅ Permitido</td>
+                        <td>✅ Permitido</td>
+                        <td>Sin cláusula explícita</td>
+                    </tr>
+                    <tr>
+                        <td><strong>BSD (3-Clause)</strong></td>
+                        <td>Permisiva</td>
+                        <td>❌ No requerido</td>
+                        <td>✅ Permitido</td>
+                        <td>✅ Permitido</td>
+                        <td>Sin cláusula</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Apache 2.0</strong></td>
+                        <td>Permisiva</td>
+                        <td>❌ No requerido</td>
+                        <td>✅ Permitido</td>
+                        <td>✅ Permitido</td>
+                        <td><strong>Cláusula expresa</strong> (innovación)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MPL 2.0</strong></td>
+                        <td>Weak Copyleft</td>
+                        <td>⚠️ Solo archivos modificados</td>
+                        <td>✅ Permitido</td>
+                        <td>✅ Permitido (mixto)</td>
+                        <td>Cláusula patentes</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <div class="icon">🔄</div>
+                    <h4>GPL (General Public License)</h4>
+                    <p><strong>Autor:</strong> Richard Stallman (FSF, 1989)<br>
+                       <strong>Versión actual:</strong> GPLv3 (2007)<br><br>
+                       <strong>Copyleft fuerte:</strong> Obras derivadas deben licenciarse bajo GPL, garantizando libertad perpetua del software.<br><br>
+                       <strong>Efecto viral:</strong> Cualquier código que enlace/integre GPL debe ser GPL (con excepciones syscall).<br><br>
+                       <strong>Tivoización:</strong> GPLv3 prohíbe DRM que impida ejecutar versiones modificadas en hardware.<br><br>
+                       <strong>Software emblemático:</strong><br>
+                       • Linux kernel (GPLv2, Linus Torvalds)<br>
+                       • GNU Compiler Collection (GCC)<br>
+                       • WordPress, MySQL<br>
+                       • GIMP, Blender<br><br>
+                       <strong>Incompatibilidad:</strong> GPL no se mezcla con software propietario</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">📜</div>
+                    <h4>MIT/BSD (Licencias Permisivas)</h4>
+                    <p><strong>MIT License (Massachusetts Institute of Technology):</strong><br>
+                       • Licencia más simple y permisiva<br>
+                       • Solo requiere: mantener copyright notice<br>
+                       • Uso comercial sin restricciones<br>
+                       • Compatible con software propietario<br>
+                       • Ejemplos: jQuery, Node.js, Rails<br><br>
+                       <strong>BSD (Berkeley Software Distribution):</strong><br>
+                       • 2-Clause: Mínima (similar MIT)<br>
+                       • 3-Clause: Añade no usar nombre autor en promoción<br>
+                       • 4-Clause: Cláusula publicidad (obsoleta, incompatible GPL)<br>
+                       • Ejemplos: FreeBSD, OpenBSD, nginx<br><br>
+                       <strong>Ventaja empresarial:</strong> Permite privatización de mejoras (fork propietario legal)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <div class="icon">🚀</div>
+                    <h4>Apache License 2.0</h4>
+                    <p><strong>Organización:</strong> Apache Software Foundation<br>
+                       <strong>Año:</strong> 2004<br><br>
+                       <strong>Características destacadas:</strong><br>
+                       • Licencia permisiva con cláusula patentes<br>
+                       • <strong>Grant explícito:</strong> Otorga derechos sobre patentes de contribuidores<br>
+                       • <strong>Represalia:</strong> Si demandas por patentes, pierdes licencia<br>
+                       • Require NOTICE file con atribuciones<br>
+                       • Compatible con GPLv3 (no con GPLv2)<br><br>
+                       <strong>Importancia corporativa:</strong> Preferida por empresas tech por protección legal contra patent trolls.<br><br>
+                       <strong>Software Apache 2.0:</strong><br>
+                       • Android OS (Google)<br>
+                       • Apache HTTP Server<br>
+                       • Kubernetes, TensorFlow<br>
+                       • Swift (Apple)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <div class="icon">🔗</div>
+                    <h4>LGPL (Lesser GPL)</h4>
+                    <p><strong>Propósito:</strong> Permitir que bibliotecas libres sean usadas por software propietario mediante linking dinámico.<br><br>
+                       <strong>Copyleft débil:</strong><br>
+                       • Modificaciones a la biblioteca → LGPL<br>
+                       • Aplicaciones que solo la usen → cualquier licencia<br>
+                       • Linking estático → requiere permitir re-linking<br><br>
+                       <strong>Casos de uso:</strong><br>
+                       • Bibliotecas que compiten con propietarias<br>
+                       • Fomentar adopción amplia<br>
+                       • Qt framework (antes LGPL, ahora también comercial)<br><br>
+                       <strong>Ejemplos LGPL:</strong><br>
+                       • GNU C Library (glibc)<br>
+                       • LibreOffice (MPL/LGPLv3)<br>
+                       • FFmpeg (LGPL/GPL dual)</p>
+                </div>
+            </div>
+
+            <h4>3️⃣ Creative Commons: Licencias para Cultura y Educación</h4>
+            
+            <div class="definition-box" style="margin-bottom: 1rem;">
+                <div class="def-title">Creative Commons (CC): Sistema Modular de Licencias</div>
+                <div class="def-content">
+                    Organización sin ánimo de lucro fundada en 2001 (Lawrence Lessig, Stanford) que ofrece conjunto estandarizado de licencias públicas para obras creativas (no software), facilitando compartición legal mediante términos legibles por humanos, abogados y máquinas (RDF metadata). Busca equilibrio entre "todos los derechos reservados" (copyright tradicional) y dominio público, mediante modelo "algunos derechos reservados".
+                </div>
+            </div>
+
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <div class="icon">🧩</div>
+                    <h4>Elementos Constitutivos CC</h4>
+                    <p><strong>4 Condiciones Combinables:</strong><br><br>
+                       <strong>BY (Attribution - Atribución):</strong><br>
+                       • Reconocimiento obligatorio autoría<br>
+                       • Enlace a licencia y obra original<br>
+                       • Indicar modificaciones realizadas<br>
+                       • Presente en TODAS las licencias CC (excepto CC0)<br><br>
+                       <strong>SA (ShareAlike - CompartirIgual):</strong><br>
+                       • Obras derivadas misma licencia<br>
+                       • Copyleft al estilo GPL<br>
+                       • Compatibilidad solo con licencias equivalentes<br><br>
+                       <strong>NC (NonCommercial - NoComercial):</strong><br>
+                       • Prohibido uso comercial<br>
+                       • Definición: obtención ventaja comercial/compensación monetaria<br>
+                       • Zona gris: publicidad, sponsorización<br><br>
+                       <strong>ND (NoDerivatives - SinDerivadas):</strong><br>
+                       • Prohibido modificar/transformar obra<br>
+                       • Solo redistribución exacta<br>
+                       • Incompatible con SA (contradicción lógica)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <div class="icon">📊</div>
+                    <h4>6 Licencias CC + CC0</h4>
+                    <p><strong>Ordenadas de MÁS a MENOS permisiva:</strong><br><br>
+                       <strong>🟢 CC BY:</strong> Más permisiva<br>
+                       • Solo requiere atribución<br>
+                       • Uso comercial ✅, Derivadas ✅<br>
+                       • Ejemplo: TED Talks<br><br>
+                       <strong>🟢 CC BY-SA:</strong><br>
+                       • Atribución + CompartirIgual<br>
+                       • Uso: <strong>Wikipedia</strong>, OpenStreetMap<br><br>
+                       <strong>🟡 CC BY-NC:</strong><br>
+                       • No uso comercial<br>
+                       • Derivadas permitidas si no comerciales<br><br>
+                       <strong>🟡 CC BY-NC-SA:</strong><br>
+                       • No comercial + CompartirIgual<br>
+                       • Uso: Educación, investigación<br><br>
+                       <strong>🟠 CC BY-ND:</strong><br>
+                       • Sin derivadas, comercial OK<br>
+                       • Redistribución exacta<br><br>
+                       <strong>🔴 CC BY-NC-ND:</strong> Más restrictiva<br>
+                       • No comercial, sin derivadas<br>
+                       • Solo visualización/descarga<br><br>
+                       <strong>⚪ CC0 (Public Domain Dedication):</strong><br>
+                       • Renuncia total derechos<br>
+                       • Equivalente dominio público<br>
+                       • Uso: Datos científicos, gobierno</p>
+                </div>
+            </div>
+
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Matriz de Compatibilidad Creative Commons</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Licencia Original</th>
+                        <th>Permite Mezclar Con</th>
+                        <th>Obra Resultante</th>
+                        <th>Uso Comercial</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>CC BY</strong></td>
+                        <td>Cualquier CC, propietario</td>
+                        <td>Licencia elegida por autor derivada</td>
+                        <td>✅ Sí</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CC BY-SA</strong></td>
+                        <td>Solo BY-SA o compatible</td>
+                        <td>Obligatoriamente BY-SA</td>
+                        <td>✅ Sí</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CC BY-NC</strong></td>
+                        <td>BY-NC, BY-NC-SA</td>
+                        <td>Debe incluir NC</td>
+                        <td>❌ No</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CC BY-ND</strong></td>
+                        <td>No mezclas (solo redistribución)</td>
+                        <td>N/A (prohibido derivar)</td>
+                        <td>✅ Sí (original sin modificar)</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <div class="summary-box" style="margin-top: 1.5rem;">
+                <h4>🎯 Casos de Uso Emblemáticos CC</h4>
+                <ul class="content-list">
+                    <li>📚 <strong>Wikipedia:</strong> CC BY-SA (desde 2009, antes GFDL) - 60M+ artículos reutilizables</li>
+                    <li>🗺️ <strong>OpenStreetMap:</strong> ODbL (similar BY-SA para datos geográficos)</li>
+                    <li>🎓 <strong>MIT OpenCourseWare:</strong> CC BY-NC-SA - 2600 cursos universitarios gratuitos</li>
+                    <li>🖼️ <strong>Flickr:</strong> Más de 600M fotos con licencias CC</li>
+                    <li>🎬 <strong>YouTube:</strong> Opción CC BY para vídeos (reutilización/remix)</li>
+                    <li>🎵 <strong>Jamendo:</strong> Música CC para creadores contenido</li>
+                    <li>📰 <strong>Al Jazeera:</strong> Repositorio CC BY para periodistas</li>
+                    <li>🏛️ <strong>Europeana:</strong> 50M+ obras culturales europeas (varios CC)</li>
+                </ul>
+            </div>
+
+            <h4>📐 Decisión Strategy: Elegir Licencia Apropiada</h4>
+            
+            <div class="process-flow">
+                <div class="process-step">
+                    <div class="process-step-number">1</div>
+                    <strong>Definir Objetivo</strong><br>
+                    <small>Máxima difusión vs. Control vs. Sustentabilidad económica</small>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-number">2</div>
+                    <strong>Tipo de Obra</strong><br>
+                    <small>Software (GPL/MIT/Apache) vs. Contenido (CC) vs. Datos (ODbL/CC0)</small>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-number">3</div>
+                    <strong>Modelo Negocio</strong><br>
+                    <small>Dual licensing, support, SaaS, donaciones, sponsorización</small>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-number">4</div>
+                    <strong>Ecosistema</strong><br>
+                    <small>Compatibilidad con dependencias, comunidad, estándares industria</small>
+                </div>
+            </div>
+
+            <div class="info-box success" style="margin-top: 1.5rem;">
+                <h4>💡 Recomendaciones por Contexto</h4>
+                <ul class="content-list">
+                    <li><strong>Proyecto comunitario (evitar apropiación):</strong> GPL v3 (software), CC BY-SA (contenido)</li>
+                    <li><strong>Biblioteca/framework (máxima adopción):</strong> MIT, Apache 2.0</li>
+                    <li><strong>Startup con pivote futuro:</strong> MIT (permite cerrar código posteriormente)</li>
+                    <li><strong>Educación abierta sin comercialización:</strong> CC BY-NC-SA</li>
+                    <li><strong>Datos científicos abiertos:</strong> CC0 (elimina barreras legales)</li>
+                    <li><strong>Documentación técnica:</strong> CC BY o CC BY-SA</li>
+                    <li><strong>Arte/fotografía (proteger integridad):</strong> CC BY-ND o CC BY-NC-ND</li>
+                </ul>
+            </div>
         </section>
 
         <section>

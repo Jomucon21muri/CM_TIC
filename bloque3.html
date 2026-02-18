@@ -34,32 +34,242 @@
         </div>
 
         <section>
-            <h2>📖 Introducción</h2>
-            <p>En este bloque estudiaremos el software de aplicación más utilizado en el ámbito personal y profesional: procesadores de texto, hojas de cálculo, bases de datos, presentaciones y herramientas de edición multimedia.</p>
+            <h2>📖 Introducción: Software de Productividad y Aplicaciones</h2>
+            
+            <div class="definition-box">
+                <div class="def-title">Software de Aplicación: Conceptualización</div>
+                <div class="def-content">
+                    El <strong>software de aplicación</strong> constituye la capa superior del stack informático, diseñada para permitir al usuario final realizar tareas productivas específicas, sin requerir conocimientos técnicos profundos. A diferencia del software de sistema (que gestiona hardware y proporciona servicios fundamentales) o del software de desarrollo (orientado a programadores), las aplicaciones se especializan en dominios concretos: ofimática, diseño gráfico, gestión empresarial, comunicaciones, multimedia, o CAD/CAM. Su evolución ha transitado desde aplicaciones monolíticas de escritorio (desktop) hacia ecosistemas híbridos que combinan instalación local con servicios cloud (SaaS), movilidad multiplataforma y colaboración en tiempo real.
+                </div>
+            </div>
+
+            <div class="info-box info" style="margin-top: 1.5rem;">
+                <h4>📊 Contexto del Bloque: Herramientas de Productividad Organizacional</h4>
+                <p>Este bloque examina las <strong>suites ofimáticas</strong> y aplicaciones de productividad que constituyen el núcleo del trabajo del conocimiento en el siglo XXI: procesadores de texto, hojas de cálculo, gestores de bases de datos, software de presentaciones y herramientas multimedia. Estas tecnologías, nacidas en la década de 1980 (WordStar, VisiCalc, dBase) y evolucionadas hasta ecosistemas colaborativos cloud-native, representan competencias digitales fundamentales en contextos académicos, profesionales y administrativos.</p>
+                
+                <div style="margin-top: 1rem; padding: 1rem; background: rgba(52, 152, 219, 0.1); border-radius: 8px;">
+                    <strong>Estadística relevante (2023):</strong> Microsoft Office mantiene 48% cuota mercado corporativo, Google Workspace 47% en educación, LibreOffice 150M+ usuarios sector público/ONG. Convergencia hacia colaboración cloud: 73% empresas usan herramientas ofimáticas online (Gartner).
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>3.1. Clasificación del Software</h2>
-            <ul class="content-list">
-                <li><strong>Software de Sistema:</strong> SO, controladores, utilidades</li>
-                <li><strong>Software de Aplicación:</strong> Programas para tareas específicas</li>
-                <li><strong>Software de Programación:</strong> Herramientas para desarrolladores</li>
-            </ul>
+            <h2>3.1. Taxonomía del Software: Clasificación Arquitectónica</h2>
+            
+            <div class="hierarchy-diagram">
+                <div class="hierarchy-title">CLASIFICACIÓN FUNCIONAL DEL SOFTWARE</div>
+                
+                <div class="key-points-grid" style="margin-top: 1.5rem;">
+                    <div class="key-point-card" style="border-top-color: #e74c3c;">
+                        <div class="icon">⚙️</div>
+                        <h4>Software de Sistema</h4>
+                        <p><strong>Función:</strong> Gestión de recursos hardware y provisión de servicios fundamentales para aplicaciones.<br><br>
+                           <strong>Componentes principales:</strong><br>
+                           • <strong>Sistema Operativo:</strong> Kernel, gestor memoria, planificador procesos<br>
+                           • <strong>Controladores (Drivers):</strong> Interfaz hardware específico<br>
+                           • <strong>Firmware:</strong> Software embebido (BIOS/UEFI)<br>
+                           • <strong>Utilidades de sistema:</strong> Desfragmentador, gestor particiones, monitor rendimiento<br><br>
+                           <strong>Ejemplos:</strong> Windows, Linux kernel, macOS, Android, drivers GPU, systemd<br><br>
+                           <strong>Característica clave:</strong> Opera en modo privilegiado (kernel mode), acceso directo a hardware</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #3498db;">
+                        <div class="icon">📱</div>
+                        <h4>Software de Aplicación</h4>
+                        <p><strong>Función:</strong> Herramientas específicas de dominio para tareas productivas del usuario final.<br><br>
+                           <strong>Categorías principales:</strong><br>
+                           • <strong>Ofimática:</strong> Office suites (Word, Excel, Writer)<br>
+                           • <strong>Multimedia:</strong> Edición audio/vídeo/imagen<br>
+                           • <strong>CAD/CAM:</strong> Diseño asistido, ingeniería<br>
+                           • <strong>ERP/CRM:</strong> Gestión empresarial<br>
+                           • <strong>Navegadores web:</strong> Chrome, Firefox, Edge<br>
+                           • <strong>Comunicación:</strong> Email, mensajería, videoconferencia<br><br>
+                           <strong>Ejemplos:</strong> Microsoft Office, Adobe Creative Suite, AutoCAD, SAP, Salesforce<br><br>
+                           <strong>Modo ejecución:</strong> User mode (espacio usuario), sin acceso directo hardware</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #9b59b6;">
+                        <div class="icon">💻</div>
+                        <h4>Software de Desarrollo</h4>
+                        <p><strong>Función:</strong> Herramientas para crear, depurar, mantener y desplegar software.<br><br>
+                           <strong>Toolchain completo:</strong><br>
+                           • <strong>IDE:</strong> Entornos integrados (Visual Studio, Eclipse, IntelliJ)<br>
+                           • <strong>Compiladores:</strong> GCC, Clang, MSVC (C/C++)<br>
+                           • <strong>Intérpretes:</strong> Python, JavaScript (V8, Node.js)<br>
+                           • <strong>Debuggers:</strong> GDB, WinDbg, LLDB<br>
+                           • <strong>Control versiones:</strong> Git, SVN<br>
+                           • <strong>Build tools:</strong> Make, CMake, Gradle, npm<br>
+                           • <strong>Testing frameworks:</strong> JUnit, pytest, Jest<br><br>
+                           <strong>Ejemplos:</strong> Visual Studio Code, JetBrains suite, Xcode, Android Studio<br><br>
+                           <strong>Usuarios target:</strong> Desarrolladores software, DevOps, QA engineers</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #f39c12;">
+                        <div class="icon">🤖</div>
+                        <h4>Middleware</h4>
+                        <p><strong>Función:</strong> Capa intermedia que facilita comunicación entre aplicaciones distribuidas o componentes heterogéneos.<br><br>
+                           <strong>Tipos principales:</strong><br>
+                           • <strong>Servidores aplicaciones:</strong> Tomcat, JBoss, WebLogic<br>
+                           • <strong>Message brokers:</strong> RabbitMQ, Kafka, ActiveMQ<br>
+                           • <strong>API Gateways:</strong> Kong, Apigee<br>
+                           • <strong>Bases datos middleware:</strong> ODBC, JDBC<br>
+                           • <strong>ESB:</strong> Enterprise Service Bus (integración SOA)<br><br>
+                           <strong>Función clave:</strong> Abstracción de complejidad para aplicaciones distribuidas, orquestación microservicios, gestión transacciones distribuidas<br><br>
+                           <strong>Contexto:</strong> Arquitecturas empresariales, sistemas legados, interoperabilidad</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="comparison-table" style="margin-top: 2rem;">
+                <caption><strong>Comparativa: Niveles de Abstracción del Software</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Aspecto</th>
+                        <th>Software Sistema</th>
+                        <th>Software Aplicación</th>
+                        <th>Software Desarrollo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Proximidad Hardware</strong></td>
+                        <td>Muy alta (kernel mode)</td>
+                        <td>Baja (user mode)</td>
+                        <td>Variable (depuración bajo nivel)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Usuario típico</strong></td>
+                        <td>Administradores sistema</td>
+                        <td>Usuarios finales</td>
+                        <td>Programadores</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Complejidad técnica</strong></td>
+                        <td>Muy alta</td>
+                        <td>Baja (interfaz amistosa)</td>
+                        <td>Alta</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lenguajes típicos</strong></td>
+                        <td>C, C++, Assembly, Rust</td>
+                        <td>Java, C#, JavaScript, Python</td>
+                        <td>Diversos (según target)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Criticidad</strong></td>
+                        <td>Crítica (fallo = sistema inoperativo)</td>
+                        <td>Variable (fallo = pérdida funcionalidad)</td>
+                        <td>Media (afecta productividad)</td>
+                    </tr>
+                </tbody>
+            </div>
         </section>
 
         <section>
-            <h2>3.2. Procesadores de Texto</h2>
-            <p>Aplicaciones para crear, editar y dar formato a documentos de texto.</p>
-            <p><strong>Ejemplos:</strong> Microsoft Word, LibreOffice Writer, Google Docs</p>
+            <h2>3.2. Procesadores de Texto (Word Processors)</h2>
+            
+            <div class="definition-box">
+                <div class="def-title">Definición de Procesador de Texto</div>
+                <div class="def-content">
+                    Un <strong>procesador de texto</strong> es una aplicación informática especializada en la creación, edición, formateo y manipulación de documentos textuales digitales, proporcionando funcionalidades avanzadas de tipografía, maquetación, gestión de estilos, inserción multimedia y automatización documental mediante plantillas y macros. Representan la evolución digital de las máquinas de escribir mecánicas, incorporando capacidades de edición no destructiva (WYSIWYG - What You See Is What You Get), corrección ortográfica/gramatical asistida, gestión de versiones y exportación multiplataforma (PDF, HTML, EPUB).
+                </div>
+            </div>
 
-            <h3>Funciones Principales</h3>
-            <h4>Edición de Texto</h4>
-            <ul class="content-list">
-                <li>Escribir, copiar, pegar, cortar texto</li>
-                <li>Buscar y reemplazar</li>
-                <li>Corrección ortográfica y gramatical</li>
-                <li>Sinónimos y diccionarios</li>
-            </ul>
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Principales Procesadores de Texto: Análisis Comparativo</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Software</th>
+                        <th>Licencia</th>
+                        <th>Plataformas</th>
+                        <th>Formato Nativo</th>
+                        <th>Colaboración</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Microsoft Word</strong></td>
+                        <td>Propietario (pago)</td>
+                        <td>Windows, macOS, iOS, Android, Web</td>
+                        <td>.docx (OOXML)</td>
+                        <td>OneDrive + Office 365</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google Docs</strong></td>
+                        <td>Freeware (cloud)</td>
+                        <td>Web, iOS, Android</td>
+                        <td>Cloud (exporta .docx)</td>
+                        <td>Tiempo real nativa</td>
+                    </tr>
+                    <tr>
+                        <td><strong>LibreOffice Writer</strong></td>
+                        <td>FLOSS (MPL)</td>
+                        <td>Windows, macOS, Linux</td>
+                        <td>.odt (ODF)</td>
+                        <td>Limitada</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Apple Pages</strong></td>
+                        <td>Gratuito (ecosistema Apple)</td>
+                        <td>macOS, iOS, iCloud Web</td>
+                        <td>.pages</td>
+                        <td>iCloud</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <h3>🔤 Arquitectura Funcional de Procesadores de Texto</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Edición de Texto</h4>
+                    <p><strong>Operaciones básicas:</strong><br>
+                       • Inserción/eliminación de caracteres<br>
+                       • Clipboard: Cortar (Ctrl+X), Copiar (Ctrl+C), Pegar (Ctrl+V)<br>
+                       • Deshacer/Rehacer (Ctrl+Z/Y) - Stack de acciones<br>
+                       • Buscar (Ctrl+F) y Reemplazar (Ctrl+H) - Regex soportado<br>
+                       • Corrección ortográfica (diccionarios Hunspell)<br>
+                       • Corrección gramatical (NLP - LanguageTool)<br>
+                       • Tesauro/sinónimos (WordNet database)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Formato de Caracteres</h4>
+                    <p><strong>Atributos tipográficos:</strong><br>
+                       • <strong>Familia fuente:</strong> Serif (Times), Sans-serif (Arial), Mono (Courier)<br>
+                       • <strong>Tamaño:</strong> Puntos (1pt = 1/72 pulgada)<br>
+                       • <strong>Estilo:</strong> Negrita (bold), cursiva (italic), subrayado<br>
+                       • <strong>Color texto:</strong> RGB/CMYK<br>
+                       • <strong>Efectos:</strong> Tachado, superíndice ($x^2$), subíndice ($H_2O$)<br>
+                       • <strong>Espaciado:</strong> Kerning (entre pares), tracking (general)<br>
+                       • <strong>OpenType features:</strong> Ligaduras, versalitas</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Formato de Párrafo</h4>
+                    <p><strong>Maquetación textual:</strong><br>
+                       • <strong>Alineación:</strong> Izquierda, derecha, centrada, justificada (espaciado distribuido)<br>
+                       • <strong>Interlineado:</strong> Simple (1.0), 1.5, doble (2.0), exacto (puntos)<br>
+                       • <strong>Espaciado:</strong> Antes/después de párrafo (evitar enter doble)<br>
+                       • <strong>Sangría:</strong> Primera línea, francesa (hanging), izquierda/derecha<br>
+                       • <strong>Listas:</strong> Numeradas (1,2,3 / a,b,c / i,ii,iii), viñetas (bullets), multinivel<br>
+                       • <strong>Tabulaciones:</strong> Izquierda, derecha, centrada, decimal (números), relleno (puntos/líneas)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Estilos y Plantillas</h4>
+                    <p><strong>Gestión consistencia:</strong><br>
+                       • <strong>Estilos:</strong> Conjuntos formato reutilizables (Título 1-9, Normal, Cita)<br>
+                       • <strong>Cascada:</strong> Estilos basados en otros (herencia)<br>
+                       • <strong>Plantillas (.dotx):</strong> Documentos preformateados<br>
+                       • <strong>Ventajas:</strong><br>
+                       &nbsp;&nbsp;○ Consistencia visual<br>
+                       &nbsp;&nbsp;○ Actualización global<br>
+                       &nbsp;&nbsp;○ Tabla contenido automática<br>
+                       &nbsp;&nbsp;○ Navegación por outline<br>
+                       • <strong>Normas:</strong> APA, IEEE, Chicago (estilos académicos)</p>
+                </div>
+            </div>
 
             <h4>Formato de Texto (Fuentes)</h4>
             <ul class="content-list">
@@ -93,443 +303,1486 @@
                 <li><strong>Ventajas:</strong> Consistencia, rapidez, fácil actualización</li>
             </ul>
 
-            <h4>Inserción de Elementos</h4>
-            <ul class="content-list">
-                <li><strong>Imágenes:</strong> Desde archivo, online, capturas
-                    <ul>
-                        <li>Ajuste de texto: en línea, cuadrado, estrecho, detrás, delante</li>
-                        <li>Recorte, rotación, efectos</li>
-                    </ul>
-                </li>
-                <li><strong>Tablas:</strong> Filas y columnas para organizar datos</li>
-                <li><strong>Formas:</strong> Rectángulos, círculos, flechas, etc.</li>
-                <li><strong>Gráficos:</strong> SmartArt, organigramas</li>
-                <li><strong>Símbolos y ecuaciones matemáticas</strong></li>
-                <li><strong>Hipervínculos:</strong> Enlaces a páginas web o partes del documento</li>
-            </ul>
-
-            <h4>Tablas de Contenido e Índices</h4>
-            <ul class="content-list">
-                <li><strong>Tabla de contenido:</strong> Lista automática de capítulos basada en estilos de título</li>
-                <li><strong>Índice alfabético:</strong> Lista de términos con números de página</li>
-                <li><strong>Referencias cruzadas:</strong> Enlaces internos del documento</li>
-            </ul>
-
-            <h4>Encabezados y Pies de Página</h4>
-            <ul class="content-list">
-                <li>Texto que aparece en la parte superior (encabezado) o inferior (pie) de cada página</li>
-                <li>Pueden incluir: numeración de páginas, título del documento, fecha, autor</li>
-                <li>Pueden ser diferentes en páginas pares/impares o primera página</li>
-            </ul>
-
-            <h4>Maquetación</h4>
-            <ul class="content-list">
-                <li><strong>Márgenes:</strong> Superior, inferior, izquierdo, derecho</li>
-                <li><strong>Orientación:</strong> Vertical (portrait) u horizontal (landscape)</li>
-                <li><strong>Tamaño de papel:</strong> A4, Carta, Legal, etc.</li>
-                <li><strong>Columnas:</strong> Diseño en varias columnas (estilo periódico)</li>
-                <li><strong>Saltos:</strong> De página, de sección, de columna</li>
-            </ul>
-
-            <h4>Conversión a PDF</h4>
-            <ul class="content-list">
-                <li><strong>PDF</strong> (Portable Document Format): Formato universal para documentos</li>
-                <li><strong>Ventajas:</strong> Aspecto idéntico en cualquier dispositivo, no editable fácilmente</li>
-                <li><strong>Exportar/Guardar como PDF:</strong> Función en todos los procesadores modernos</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>3.3. Hojas de Cálculo</h2>
-            <p>Programas para organizar, analizar y representar datos numéricos.</p>
-            <p><strong>Ejemplos:</strong> Microsoft Excel, LibreOffice Calc, Google Sheets</p>
-
-            <h3>Conceptos Básicos</h3>
-            <ul class="content-list">
-                <li><strong>Libro:</strong> Archivo que contiene una o más hojas</li>
-                <li><strong>Hoja:</strong> Tabla compuesta de celdas organizadas en filas y columnas</li>
-                <li><strong>Celda:</strong> Intersección de una fila y columna (ej: A1, B5)</li>
-                <li><strong>Rango:</strong> Grupo de celdas (ej: A1:C10)</li>
-            </ul>
-
-            <h3>Operadores</h3>
-            <ul class="content-list">
-                <li><strong>Aritméticos:</strong> + (suma), - (resta), * (multiplicación), / (división), ^ (potencia)</li>
-                <li><strong>Comparación:</strong> = (igual), > (mayor), < (menor), >= (mayor o igual), <= (menor o igual), <> (diferente)</li>
-                <li><strong>Texto:</strong> & (concatenar)</li>
-                <li><strong>Lógicos:</strong> Y (AND), O (OR), NO (NOT)</li>
-            </ul>
-
-            <h3>Fórmulas</h3>
-            <ul class="content-list">
-                <li>Expresión que realiza cálculos con valores de la hoja</li>
-                <li>Siempre comienzan con <strong>=</strong></li>
-                <li>Ejemplos:
-                    <ul>
-                        <li><code>=A1+B1</code> (suma dos celdas)</li>
-                        <li><code>=A1*B1</code> (multiplica dos celdas)</li>
-                        <li><code>=(A1+A2)/2</code> (media de dos valores)</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Funciones</h3>
-            <p>Fórmulas predefinidas que realizan cálculos complejos.</p>
+            <h3>📄 Funcionalidades Avanzadas Documentales</h3>
             
-            <h4>Funciones Matemáticas</h4>
-            <ul class="content-list">
-                <li><code>=SUMA(A1:A10)</code> - Suma un rango de celdas</li>
-                <li><code>=PROMEDIO(A1:A10)</code> - Calcula la media</li>
-                <li><code>=MAX(A1:A10)</code> - Valor máximo</li>
-                <li><code>=MIN(A1:A10)</code> - Valor mínimo</li>
-                <li><code>=REDONDEAR(A1, 2)</code> - Redondea a 2 decimales</li>
-                <li><code>=POTENCIA(2, 3)</code> - 2 elevado a 3</li>
-                <li><code>=RAIZ(25)</code> - Raíz cuadrada de 25</li>
-            </ul>
-
-            <h4>Funciones Estadísticas</h4>
-            <ul class="content-list">
-                <li><code>=CONTAR(A1:A10)</code> - Cuenta celdas con números</li>
-                <li><code>=CONTARA(A1:A10)</code> - Cuenta celdas no vacías</li>
-                <li><code>=CONTAR.SI(A1:A10, ">5")</code> - Cuenta celdas que cumplen condición</li>
-            </ul>
-
-            <h4>Funciones Lógicas</h4>
-            <ul class="content-list">
-                <li><code>=SI(A1>10, "Aprobado", "Suspenso")</code> - Condicional</li>
-                <li><code>=Y(A1>0, A1<10)</code> - Verdadero si ambas condiciones se cumplen</li>
-                <li><code>=O(A1>10, B1>10)</code> - Verdadero si alguna condición se cumple</li>
-            </ul>
-
-            <h4>Funciones de Texto</h4>
-            <ul class="content-list">
-                <li><code>=CONCATENAR(A1, " ", B1)</code> - Une textos</li>
-                <li><code>=MAYUSC(A1)</code> - Convierte a mayúsculas</li>
-                <li><code>=MINUSC(A1)</code> - Convierte a minúsculas</li>
-                <li><code>=LARGO(A1)</code> - Longitud del texto</li>
-            </ul>
-
-            <h4>Funciones de Fecha y Hora</h4>
-            <ul class="content-list">
-                <li><code>=HOY()</code> - Fecha actual</li>
-                <li><code>=AHORA()</code> - Fecha y hora actuales</li>
-                <li><code>=AÑO(A1)</code> - Extrae el año de una fecha</li>
-                <li><code>=MES(A1)</code> - Extrae el mes</li>
-                <li><code>=DIA(A1)</code> - Extrae el día</li>
-            </ul>
-
-            <h4>Funciones de Búsqueda</h4>
-            <ul class="content-list">
-                <li><code>=BUSCARV(valor, rango, columna, FALSO)</code> - Busca valor verticalmente</li>
-                <li><code>=BUSCARH(valor, rango, fila, FALSO)</code> - Busca valor horizontalmente</li>
-            </ul>
-
-            <h3>Referencias de Celdas</h3>
-            <h4>Relativas (A1)</h4>
-            <ul class="content-list">
-                <li>Cambian al copiar la fórmula</li>
-                <li>Ejemplo: Si <code>=A1+B1</code> está en C1 y se copia a C2, se convierte en <code>=A2+B2</code></li>
-            </ul>
-
-            <h4>Absolutas ($A$1)</h4>
-            <ul class="content-list">
-                <li>No cambian al copiar la fórmula</li>
-                <li>Se usan con el símbolo $</li>
-                <li>Ejemplo: <code>=$A$1*B1</code> siempre referencia A1</li>
-            </ul>
-
-            <h4>Mixtas ($A1 o A$1)</h4>
-            <ul class="content-list">
-                <li><code>$A1</code> - Columna fija, fila relativa</li>
-                <li><code>A$1</code> - Fila fija, columna relativa</li>
-            </ul>
-
-            <h3>Gráficos</h3>
-            <p>Representación visual de datos.</p>
-            
-            <h4>Tipos de Gráficos</h4>
-            <ul class="content-list">
-                <li><strong>Columnas/Barras:</strong> Comparar valores entre categorías</li>
-                <li><strong>Líneas:</strong> Mostrar tendencias a lo largo del tiempo</li>
-                <li><strong>Circular (Sectores/Pastel):</strong> Mostrar porcentajes de un total</li>
-                <li><strong>Dispersión (XY):</strong> Relación entre dos variables</li>
-                <li><strong>Área:</strong> Similar a líneas pero con área sombreada</li>
-            </ul>
-
-            <h4>Elementos de un Gráfico</h4>
-            <ul class="content-list">
-                <li>Título del gráfico</li>
-                <li>Ejes (X e Y) con etiquetas</li>
-                <li>Leyenda</li>
-                <li>Etiquetas de datos</li>
-                <li>Líneas de cuadrícula</li>
-            </ul>
-
-            <h3>Otras Funciones</h3>
-            <ul class="content-list">
-                <li><strong>Formato condicional:</strong> Cambia aspecto de celdas según su valor</li>
-                <li><strong>Ordenar:</strong> Datos ascendente o descendentemente</li>
-                <li><strong>Filtrar:</strong> Mostrar solo filas que cumplen criterios</li>
-                <li><strong>Validación de datos:</strong> Limitar qué se puede introducir en una celda</li>
-                <li><strong>Tablas dinámicas:</strong> Resumen y análisis avanzado de datos</li>
-            </ul>
-        </section>
-
-        <section>
-            <h2>3.4. Presentaciones</h2>
-            <p>Software para crear presentaciones visuales con diapositivas.</p>
-            <p><strong>Ejemplos:</strong> Microsoft PowerPoint, LibreOffice Impress, Google Slides</p>
-
-            <h3>Elementos de una Presentación</h3>
-            <ul class="content-list">
-                <li><strong>Diapositiva:</strong> Cada pantalla individual de la presentación</li>
-                <li><strong>Diseño:</strong> Plantilla de distribución de elementos en la diapositiva</li>
-                <li><strong>Tema:</strong> Conjunto de colores, fuentes y efectos</li>
-                <li><strong>Patrón:</strong> Diseño maestro que aplica a todas las diapositivas</li>
-            </ul>
-
-            <h3>Creación de Diapositivas</h3>
-            <ul class="content-list">
-                <li>Nueva diapositiva: Insertar diapositiva con diseño predefinido</li>
-                <li>Tipos de diseños: Título, contenido, dos columnas, imagen con título, etc.</li>
-                <li>Orden: Se pueden reorganizar arrastrando</li>
-            </ul>
-
-            <h3>Inserción de Elementos Multimedia</h3>
-            
-            <h4>Texto</h4>
-            <ul class="content-list">
-                <li>Cuadros de texto</li>
-                <li>WordArt (texto decorativo)</li>
-                <li>Formato: fuentes, tamaños, colores, efectos</li>
-            </ul>
-
-            <h4>Imágenes</h4>
-            <ul class="content-list">
-                <li>Desde archivo local</li>
-                <li>Imágenes en línea</li>
-                <li>Capturas de pantalla</li>
-                <li>Recorte, compresión, efectos artísticos</li>
-            </ul>
-
-            <h4>Formas y SmartArt</h4>
-            <ul class="content-list">
-                <li>Formas geométricas, flechas, líneas</li>
-                <li>SmartArt: Diagramas profesionales (organigramas, procesos, ciclos)</li>
-            </ul>
-
-            <h4>Audio y Vídeo</h4>
-            <ul class="content-list">
-                <li>Insertar archivos de audio (música, narración)</li>
-                <li>Insertar vídeos (archivo o enlace de YouTube)</li>
-                <li>Configurar reproducción automática o al hacer clic</li>
-            </ul>
-
-            <h4>Tablas y Gráficos</h4>
-            <ul class="content-list">
-                <li>Tablas para organizar información</li>
-                <li>Gráficos para representar datos</li>
-            </ul>
-
-            <h4>Hipervínculos</h4>
-            <ul class="content-list">
-                <li>Enlaces a páginas web</li>
-                <li>Enlaces a otras diapositivas</li>
-                <li>Enlaces a archivos externos</li>
-            </ul>
-
-            <h3>Efectos y Animaciones</h3>
-            
-            <h4>Transiciones</h4>
-            <ul class="content-list">
-                <li>Efectos al pasar de una diapositiva a otra</li>
-                <li>Tipos: Desvanecer, empujar, barrido, cortinilla, etc.</li>
-                <li>Duración y sonido configurables</li>
-            </ul>
-
-            <h4>Animaciones</h4>
-            <ul class="content-list">
-                <li>Efectos sobre elementos dentro de una diapositiva</li>
-                <li><strong>Entrada:</strong> Aparecer, desvanecerse, volar desde</li>
-                <li><strong>Énfasis:</strong> Girar, cambiar tamaño, parpadear</li>
-                <li><strong>Salida:</strong> Desaparecer, volar hacia</li>
-                <li><strong>Trayectorias de movimiento:</strong> Personalizar recorrido</li>
-            </ul>
-
-            <h4>Buenas Prácticas</h4>
-            <div class="info-box warning">
-                <ul class="content-list">
-                    <li>Usar animaciones con moderación (no abusar)</li>
-                    <li>Coherencia en el estilo de transiciones</li>
-                    <li>Velocidad adecuada (ni muy lenta ni muy rápida)</li>
+            <div class="concept-box">
+                <div class="concept-title">Elementos Multimedia y Estructurales</div>
+                <ul class="content-list" style="margin-top: 1rem;">
+                    <li>📷 <strong>Imágenes:</strong> Inserción desde archivo/URL/clipboard, ajuste texto (en línea/cuadrado/estrecho/detrás/delante), anclaje absoluto/relativo, compresión, recorte no destructivo, efectos artísticos</li>
+                    <li>📊 <strong>Tablas:</strong> Estructura matricial (filas×columnas), fusión/división celdas, bordes/sombreado, fórmulas simples (suma columnas), conversión texto↔tabla</li>
+                    <li>🔷 <strong>Formas:</strong> Vectores geométricos (rectángulos, elipses, polígonos, flechas), relleno/contorno, agrupación, orden Z-index</li>
+                    <li>📐 <strong>SmartArt:</strong> Diagramas profesionales (jerarquías, procesos, ciclos, relaciones, matrices, pirámides)</li>
+                    <li>🔣 <strong>Símbolos especiales:</strong> Unicode (®™©€¥§), entidades matemáticas, Wingdings/Webdings</li>
+                    <li>∑ <strong>Ecuaciones (MathType/Office Math):</strong> Editor WYSIWYG, notación LaTeX, objetos OLE embebidos</li>
+                    <li>🔗 <strong>Hipervínculos:</strong> URLs externas, marcadores internos (bookmarks), referencias cruzadas dinámicas</li>
                 </ul>
             </div>
 
-            <h3>Consejos para Presentaciones Efectivas</h3>
-            <div class="info-box success">
-                <ul class="content-list">
-                    <li><strong>Menos es más:</strong> No saturar con texto</li>
-                    <li><strong>Regla 6x6:</strong> Máximo 6 líneas por diapositiva, 6 palabras por línea</li>
-                    <li><strong>Contraste:</strong> Texto legible sobre fondo</li>
-                    <li><strong>Imágenes de calidad:</strong> Alta resolución</li>
-                    <li><strong>Consistencia:</strong> Mismo estilo en toda la presentación</li>
-                    <li><strong>Tamaño de fuente:</strong> Mínimo 24 puntos para ser legible</li>
-                </ul>
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #2c3e50;">
+                    <h4>Tabla de Contenidos (TOC)</h4>
+                    <p><strong>Generación automática:</strong><br>
+                       • Basada en estilos de título (Heading 1-9)<br>
+                       • Actualización dinámica (F9 en Word)<br>
+                       • Niveles jerarquía configurables<br>
+                       • Numeración automática capítulos<br>
+                       • Hipervínculos a secciones<br>
+                       • Estilos TOC personalizables<br><br>
+                       <strong>Uso académico:</strong> TFG, tesis, manuales técnicos, libros</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #16a085;">
+                    <h4>Índices y Referencias</h4>
+                    <p><strong>Tipos de índices:</strong><br>
+                       • <strong>Alfabético:</strong> Términos marcados + números página<br>
+                       • <strong>Ilustraciones:</strong> Lista figuras/tablas numeradas<br>
+                       • <strong>Bibliografía:</strong> Gestor citas (Zotero, Mendeley, EndNote)<br>
+                       • <strong>Referencias cruzadas:</strong> "Ver Figura 3.2", "Como se explicó en §2.1"<br><br>
+                       <strong>Marcado:</strong> Entradas índice (XE fields), títulos objetos (Caption)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #d35400;">
+                    <h4>Encabezados/Pies</h4>
+                    <p><strong>Headers & Footers:</strong><br>
+                       • Texto repetitivo superior/inferior<br>
+                       • Campos automáticos:<br>
+                       &nbsp;&nbsp;○ Numeración páginas (formato romano/árabe)<br>
+                       &nbsp;&nbsp;○ Fecha/hora actualizable<br>
+                       &nbsp;&nbsp;○ Autor/título documento<br>
+                       &nbsp;&nbsp;○ Ruta archivo<br>
+                       • <strong>Secciones diferentes:</strong><br>
+                       &nbsp;&nbsp;○ Primera página distinta<br>
+                       &nbsp;&nbsp;○ Pares/impares (libros)<br>
+                       &nbsp;&nbsp;○ Cambio por sección<br>
+                       • <strong>Logo empresa:</strong> Marca agua/encabezado</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #c0392b;">
+                    <h4>Maquetación de Página</h4>
+                    <p><strong>Layout configuration:</strong><br>
+                       • <strong>Márgenes:</strong> Superior/inferior/izq/der (Normal: 2.54cm)<br>
+                       • <strong>Orientación:</strong> Vertical/Apaisada (Portrait/Landscape)<br>
+                       • <strong>Tamaños papel:</strong> A4 (210×297mm), Carta (8.5×11in), Legal<br>
+                       • <strong>Columnas:</strong> 1-3+ estilo periódico/newsletter<br>
+                       • <strong>Saltos:</strong><br>
+                       &nbsp;&nbsp;○ Página (Page Break - Ctrl+Enter)<br>
+                       &nbsp;&nbsp;○ Sección (permite config diferente)<br>
+                       &nbsp;&nbsp;○ Columna (en diseño multicolumna)<br>
+                       • <strong>Orientación mixta:</strong> Por secciones (ej: tablas apaisadas)</p>
+                </div>
+            </div>
+
+            <div class="summary-box" style="margin-top: 1.5rem;">
+                <h4>📄 PDF: Portable Document Format (ISO 32000)</h4>
+                <p><strong>Estándar universal documentos:</strong> Creado por Adobe (1993), formato abierto desde 2008. PostScript-based, multiplataforma, fidelidad visual garantizada.<br><br>
+                   <strong>Ventajas:</strong><br>
+                   • Aspecto idéntico independiente SO/software (font embedding)<br>
+                   • No editable fácilmente (protección contenido)<br>
+                   • Compresión (tamaño reducido vs DOCX)<br>
+                   • Seguridad: Cifrado, firmas digitales, DRM<br>
+                   • Accesibilidad: Tagged PDF (lectores pantalla)<br>
+                   • Formularios interactivos, hipervínculos, multimedia embebido<br><br>
+                   <strong>Exportación:</strong> Guardar como/Exportar PDF (todos los procesadores modernos), herramientas: Adobe Acrobat, PDFtk, Ghostscript<br>
+                   <strong>Estándar impresión:</strong> PDF/X (artes gráficas), PDF/A (archivo largo plazo)</p>
             </div>
         </section>
 
         <section>
-            <h2>3.5. Bases de Datos</h2>
-            <p>Sistema para almacenar, organizar y gestionar grandes cantidades de información estructurada.</p>
-            <p><strong>Ejemplos:</strong> Microsoft Access, LibreOffice Base, MySQL, SQL Server</p>
-
-            <h3>Conceptos Básicos</h3>
-            <ul class="content-list">
-                <li><strong>Base de datos:</strong> Conjunto organizado de datos relacionados</li>
-                <li><strong>Tabla:</strong> Estructura que contiene datos sobre un tema específico</li>
-                <li><strong>Registro (Fila):</strong> Conjunto de datos sobre una entidad individual</li>
-                <li><strong>Campo (Columna):</strong> Cada tipo de información en un registro</li>
-                <li><strong>Tipo de dato:</strong> Texto, número, fecha, sí/no, etc.</li>
-            </ul>
-
-            <h3>Diseño de una Base de Datos</h3>
-            <h4>Ejemplo: Base de Datos de una Biblioteca</h4>
-            <ul class="content-list">
-                <li><strong>Tabla Libros:</strong> ID_Libro, Título, ISBN, Año_Publicación, ID_Editorial</li>
-                <li><strong>Tabla Autores:</strong> ID_Autor, Nombre, Apellidos, Nacionalidad</li>
-                <li><strong>Tabla Préstamos:</strong> ID_Préstamo, ID_Libro, ID_Usuario, Fecha_Préstamo, Fecha_Devolución</li>
-            </ul>
-
-            <h3>Campos Clave</h3>
-            <ul class="content-list">
-                <li><strong>Clave primaria (Primary Key):</strong> Campo que identifica de forma única cada registro
-                    <ul>
-                        <li>No puede repetirse ni estar vacía</li>
-                        <li>Ejemplo: ID_Cliente, DNI</li>
-                    </ul>
-                </li>
-                <li><strong>Clave externa/foránea (Foreign Key):</strong> Campo que relaciona con otra tabla
-                    <ul>
-                        <li>Referencia a la clave primaria de otra tabla</li>
-                        <li>Establece relaciones entre tablas</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Relaciones entre Tablas</h3>
-            <ul class="content-list">
-                <li><strong>Uno a Uno (1:1):</strong> Un registro en A se relaciona con un registro en B</li>
-                <li><strong>Uno a Muchos (1:N):</strong> Un registro en A se relaciona con varios en B
-                    <ul>
-                        <li>Ejemplo: Un autor puede tener muchos libros</li>
-                    </ul>
-                </li>
-                <li><strong>Muchos a Muchos (N:M):</strong> Varios registros en A con varios en B
-                    <ul>
-                        <li>Requiere tabla intermedia</li>
-                        <li>Ejemplo: Libros y Autores (un libro puede tener varios autores)</li>
-                    </ul>
-                </li>
-            </ul>
-
-            <h3>Integridad Referencial</h3>
-            <ul class="content-list">
-                <li>Garantiza que las relaciones entre tablas sean válidas</li>
-                <li>No se puede eliminar un registro si tiene registros relacionados</li>
-                <li>No se puede crear una relación con un registro inexistente</li>
-            </ul>
-
-            <h3>Operaciones Básicas</h3>
+            <h2>3.3. Hojas de Cálculo (Spreadsheets)</h2>
             
-            <h4>Consultas</h4>
-            <ul class="content-list">
-                <li>Recuperan información de la base de datos</li>
-                <li>Pueden filtrar, ordenar y combinar datos de varias tablas</li>
-                <li>Lenguaje SQL: <code>SELECT * FROM Clientes WHERE Ciudad='Valencia'</code></li>
-            </ul>
+            <div class="definition-box">
+                <div class="def-title">Definición de Hoja de Cálculo</div>
+                <div class="def-content">
+                    Una <strong>hoja de cálculo</strong> es una aplicación informática diseñada para organización, análisis y visualización de datos numéricos mediante estructuras matriciales bidimensionales (filas×columnas), donde cada celda puede contener valores constantes, fórmulas matemáticas con referencias dinámicas a otras celdas, o funciones predefinidas complejas. Constituyen herramientas fundamentales para modelado financiero, análisis estadístico, gestión de inventarios, planificación presupuestaria y business intelligence, incorporando capacidades de cálculo automático, gráficas estadísticas, tablas dinámicas (pivot tables), macros programables (VBA, Google Apps Script) y conexión a fuentes de datos externas (SQL, APIs).
+                </div>
+            </div>
 
-            <h4>Formularios</h4>
-            <ul class="content-list">
-                <li>Interfaz amigable para introducir y visualizar datos</li>
-                <li>Facilitan el trabajo con registros individuales</li>
-                <li>Pueden incluir botones, listas desplegables</li>
-            </ul>
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Principales Hojas de Cálculo del Mercado</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Software</th>
+                        <th>Formato</th>
+                        <th>Límites</th>
+                        <th>Scripting</th>
+                        <th>Cuota Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Microsoft Excel</strong></td>
+                        <td>.xlsx (OOXML)</td>
+                        <td>1,048,576 filas × 16,384 columnas</td>
+                        <td>VBA (Visual Basic)</td>
+                        <td>~80% corporativo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google Sheets</strong></td>
+                        <td>Cloud (exporta .xlsx)</td>
+                        <td>10M celdas por libro</td>
+                        <td>Apps Script (JavaScript)</td>
+                        <td>Colaboración líder</td>
+                    </tr>
+                    <tr>
+                        <td><strong>LibreOffice Calc</strong></td>
+                        <td>.ods (ODF)</td>
+                        <td>1,048,576 × 16,384</td>
+                        <td>Basic, Python</td>
+                        <td>FLOSS reference</td>
+                    </tr>
+                </tbody>
+            </div>
 
-            <h4>Informesreports)</h4>
-            <ul class="content-list">
-                <li>Presentan datos de forma estructurada para imprimir</li>
-                <li>Pueden agrupar, calcular totales y subtotales</li>
-                <li>Formato profesional</li>
-            </ul>
+            <h3>📐 Arquitectura y Conceptos Fundamentales</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Estructura Jerárquica</h4>
+                    <p><strong>Organización de datos:</strong><br>
+                       • <strong>Libro (Workbook):</strong> Archivo contenedor (.xlsx, .ods, .gsheet)<br>
+                       • <strong>Hoja (Worksheet/Sheet):</strong> Matriz 2D dentro del libro (múltiples hojas por libro)<br>
+                       • <strong>Celda (Cell):</strong> Unidad básica identificada por referencia alfanumérica (A1, Z99, AA1)<br>
+                       • <strong>Rango (Range):</strong> Conjunto de celdas contiguas (A1:C10, B2:D8)<br>
+                       • <strong>Nomenclatura:</strong> Columnas (letras A-XFD), Filas (números 1-1,048,576)<br><br>
+                       <strong>Tipos de datos:</strong> Número, Texto, Fecha/Hora, Booleano, Error (#DIV/0!, #N/A, #REF!)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Sistema de Fórmulas</h4>
+                    <p><strong>Motor de cálculo:</strong><br>
+                       • Iniciar con <code>=</code> (señal fórmula)<br>
+                       • <strong>Operadores aritméticos:</strong> + - * / ^ (potencia) % (porcentaje)<br>
+                       • <strong>Operadores comparación:</strong> = > < >= <= <> (distinto)<br>
+                       • <strong>Operador texto:</strong> & (concatenación)<br>
+                       • <strong>Operadores lógicos:</strong> Y(), O(), NO()<br><br>
+                       <strong>Referencias:</strong><br>
+                       • <em>Relativa (A1):</em> Ajusta al copiar ($\Delta$ fila/columna)<br>
+                       • <em>Absoluta ($A$1):</em> Fija (F4 en Excel)<br>
+                       • <em>Mixta ($A1, A$1):</em> Fila o columna fija<br>
+                       • <em>Externa:</em> [Libro.xlsx]Hoja!A1<br><br>
+                       <strong>Ejemplo:</strong> <code>=($B$2*A3)/100</code></p>
+                </div>
+            </div>
 
-            <h3>Ordenación y Filtros</h3>
-            <ul class="content-list">
-                <li><strong>Ordenar:</strong> Ascendente (A-Z, 0-9) o descendente (Z-A, 9-0)</li>
-                <li><strong>Filtros:</strong> Mostrar solo registros que cumplen criterios
-                    <ul>
-                        <li>Por selección</li>
-                        <li>Por formulario</li>
-                        <li>Avanzados (con operadores lógicos)</li>
-                    </ul>
-                </li>
-            </ul>
+            <h3>🔢 Taxonomía de Funciones (650+ en Excel)</h3>
+            
+            <div class="comparison-table" style="margin-top: 1rem;">
+                <caption><strong>Funciones Esenciales por Categoría</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Función</th>
+                        <th>Sintaxis</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="4"><strong>Matemáticas</strong></td>
+                        <td>SUMA</td>
+                        <td><code>=SUMA(A1:A10)</code></td>
+                        <td>Sumatoria de rango</td>
+                    </tr>
+                    <tr>
+                        <td>PROMEDIO</td>
+                        <td><code>=PROMEDIO(A1:A10)</code></td>
+                        <td>Media aritmética $\bar{x} = \frac{\sum x_i}{n}$</td>
+                    </tr>
+                    <tr>
+                        <td>REDONDEAR</td>
+                        <td><code>=REDONDEAR(A1, 2)</code></td>
+                        <td>Redondeo a n decimales</td>
+                    </tr>
+                    <tr>
+                        <td>ALEATORIO.ENTRE</td>
+                        <td><code>=ALEATORIO.ENTRE(1,100)</code></td>
+                        <td>Entero aleatorio en intervalo</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"><strong>Estadísticas</strong></td>
+                        <td>MAX/MIN</td>
+                        <td><code>=MAX(A1:A10)</code></td>
+                        <td>Valor máximo/mínimo</td>
+                    </tr>
+                    <tr>
+                        <td>CONTAR</td>
+                        <td><code>=CONTAR(A1:A10)</code></td>
+                        <td>Cuenta celdas numéricas</td>
+                    </tr>
+                    <tr>
+                        <td>CONTAR.SI</td>
+                        <td><code>=CONTAR.SI(A1:A10,">5")</code></td>
+                        <td>Cuenta con condición</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3"><strong>Lógicas</strong></td>
+                        <td>SI</td>
+                        <td><code>=SI(A1>10,"Aprobado","Suspenso")</code></td>
+                        <td>Condicional if-then-else</td>
+                    </tr>
+                    <tr>
+                        <td>SI.ERROR</td>
+                        <td><code>=SI.ERROR(A1/B1, 0)</code></td>
+                        <td>Captura errores (#DIV/0!)</td>
+                    </tr>
+                    <tr>
+                        <td>Y / O</td>
+                        <td><code>=Y(A1>0, A1<100)</code></td>
+                        <td>Operadores booleanos</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><strong>Texto</strong></td>
+                        <td>CONCATENAR</td>
+                        <td><code>=CONCATENAR(A1," ",B1)</code></td>
+                        <td>Unir textos (moderno: TEXTJOIN)</td>
+                    </tr>
+                    <tr>
+                        <td>TEXTO</td>
+                        <td><code>=TEXTO(A1,"0.00")</code></td>
+                        <td>Formato numérico a texto</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><strong>Fecha/Hora</strong></td>
+                        <td>HOY/AHORA</td>
+                        <td><code>=HOY()</code></td>
+                        <td>Fecha actual (volátil)</td>
+                    </tr>
+                    <tr>
+                        <td>FECHA</td>
+                        <td><code>=FECHA(2025,1,15)</code></td>
+                        <td>Construir fecha desde componentes</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><strong>Búsqueda</strong></td>
+                        <td>BUSCARV</td>
+                        <td><code>=BUSCARV(valor,A1:D10,3,FALSO)</code></td>
+                        <td>Búsqueda vertical (columna 3)</td>
+                    </tr>
+                    <tr>
+                        <td>INDICE+COINCIDIR</td>
+                        <td><code>=INDICE(C:C,COINCIDIR(E1,A:A,0))</code></td>
+                        <td>Búsqueda bidireccional (superior a BUSCARV)</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <div class="summary-box" style="margin-top: 1.5rem;">
+                <h4>📊 Visualización: Tipos de Gráficos y Uso Apropiado</h4>
+                <ul class="content-list">
+                    <li>📊 <strong>Columnas/Barras:</strong> Comparación valores entre categorías discretas (ventas por producto, población por país)</li>
+                    <li>📈 <strong>Líneas:</strong> Evolución temporal/tendencias (series temporales, cotizaciones bursátiles)</li>
+                    <li>🥧 <strong>Circular (Pie):</strong> Composición porcentual de un todo (cuota mercado, distribución presupuesto). Máximo 7 categorías</li>
+                    <li>📉 <strong>Dispersión (Scatter XY):</strong> Correlación entre dos variables continuas (altura/peso, precio/demanda), análisis regresión</li>
+                    <li>📊 <strong>Área:</strong> Volumen acumulado temporal (tráfico web acumulado)</li>
+                    <li>📉 <strong>Histograma:</strong> Distribución frecuencias (calificaciones, rangos salariales)</li>
+                    <li>📊 <strong>Cascada (Waterfall):</strong> Contribuciones a total (P&L statement, análisis varianzas)</li>
+                </ul>
+                <p style="margin-top: 1rem;"><strong>Elementos configurables:</strong> Título, ejes (escala lineal/logarítmica), leyenda, etiquetas valores, líneas cuadrícula, series datos, colores/temas</p>
+            </div>
+
+            <div class="concept-box" style="margin-top: 1.5rem;">
+                <div class="concept-title">⚙️ Funcionalidades Avanzadas</div>
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card" style="border-top-color: #9b59b6;">
+                        <h4>Tablas Dinámicas (Pivot Tables)</h4>
+                        <p>Herramienta analítica para resumir/reorganizar grandes datasets:<br>
+                           • Arrastrar-soltar campos a filas/columnas/valores<br>
+                           • Agregaciones: SUM, COUNT, AVG, MAX, MIN<br>
+                           • Filtros y segmentadores (slicers)<br>
+                           • Agrupación temporal (días→meses→años)<br>
+                           • Campos calculados (fórmulas personalizadas)<br>
+                           • Gráficos dinámicos vinculados</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #e67e22;">
+                        <h4>Formato Condicional</h4>
+                        <p>Visualización automática basada en reglas:<br>
+                           • Escalas de color (heat maps)<br>
+                           • Barras de datos in-cell<br>
+                           • Iconos (semáforos, flechas, estrellas)<br>
+                           • Reglas personalizadas (fórmulas)<br>
+                           • Duplicados/Únicos<br>
+                           • Top/Bottom N valores</p>
+                    </div>
+                    
+                    <div class="key-point-card\" style=\"border-top-color: #16a085;">
+                        <h4>Validación de Datos</h4>
+                        <p>Control entrada usuario:<br>
+                           • Listas desplegables (dropdown)<br>
+                           • Rangos numéricos (min-max)<br>
+                           • Longitud texto<br>
+                           • Fechas válidas<br>
+                           • Fórmulas personalizadas<br>
+                           • Mensajes entrada/error</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #c0392b;">
+                        <h4>Solver & Análisis</h4>
+                        <p>Herramientas optimización:<br>
+                           • <strong>Solver:</strong> Optimización restricciones (LP, NLP)<br>
+                           • <strong>Tablas de datos:</strong> Análisis sensibilidad<br>
+                           • <strong>Buscar objetivo:</strong> What-if analysis<br>
+                           • <strong>Escenarios:</strong> Gestión múltiples casos<br>
+                           • <strong>Análisis regresión:</strong> Herramientas estadísticas</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>3.6. Imágenes Digitales</h2>
+            <h2>3.4. Software de Presentaciones (Presentation Software)</h2>
             
-            <h3>Tipos de Imágenes</h3>
+            <div class="definition-box">
+                <div class="def-title">Definición de Software de Presentaciones</div>
+                <div class="def-content">
+                    El <strong>software de presentaciones</strong> constituye una aplicación especializada en la creación, edición y exhibición de contenido multimedia secuencial organizado en diapositivas (slides), diseñado para facilitar la comunicación visual efectiva de información compleja ante audiencias presenciales o remotas mediante combinación estratégica de texto, imágenes, gráficos, vídeo, audio y animaciones. Representa la evolución digital de transparencias y proyectores de acetato, incorporando capacidades de transiciones dinámicas, interactividad (hipervínculos, botones acción), sincronización temporal, notas del presentador, y exportación multiplataforma (PDF, vídeo, HTML5).
+                </div>
+            </div>
+
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Ecosistema de Software de Presentaciones</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Software</th>
+                        <th>Licencia</th>
+                        <th>Formato Nativo</th>
+                        <th>Colaboración</th>
+                        <th>Características Distintivas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Microsoft PowerPoint</strong></td>
+                        <td>Propietario</td>
+                        <td>.pptx (OOXML)</td>
+                        <td>OneDrive</td>
+                        <td>Estándar corporativo, PowerPoint Designer (IA), Morph transition</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google Slides</strong></td>
+                        <td>Freeware (cloud)</td>
+                        <td>Cloud (exporta .pptx)</td>
+                        <td>Tiempo real nativa</td>
+                        <td>Colaboración líder, Q&A audiencia, Explore (sugerencias IA)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Apple Keynote</strong></td>
+                        <td>Gratuito (Apple)</td>
+                        <td>.key</td>
+                        <td>iCloud</td>
+                        <td>Transiciones cinematográficas (Magic Move), diseño superior</td>
+                    </tr>
+                    <tr>
+                        <td><strong>LibreOffice Impress</strong></td>
+                        <td>FLOSS (MPL)</td>
+                        <td>.odp (ODF)</td>
+                        <td>Limitada</td>
+                        <td>Open source, multiplataforma, extensiones</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Prezi</strong></td>
+                        <td>Freemium (web)</td>
+                        <td>Cloud (no lineal)</td>
+                        <td>Colaborativa</td>
+                        <td>Canvas infinito con zoom, narrativa no lineal</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <h3>🎨 Arquitectura de Presentaciones: Componentes Fundamentales</h3>
             
-            <h4>Mapas de Bits (Raster)</h4>
-            <ul class="content-list">
-                <li>Compuestas por píxeles (puntos de color)</li>
-                <li>Resolución fija (se pixelan al ampliar)</li>
-                <li>Buenas para fotografías</li>
-                <li><strong>Formatos:</strong> JPG, PNG, GIF, BMP, TIFF</li>
-                <li><strong>Editores:</strong> Photoshop, GIMP, Paint.NET</li>
-            </ul>
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Estructura Jerárquica</h4>
+                    <p><strong>Organización del contenido:</strong><br>
+                       • <strong>Presentación (Deck):</strong> Archivo contenedor completo<br>
+                       • <strong>Diapositiva (Slide):</strong> Unidad visual individual<br>
+                       • <strong>Diseño (Layout):</strong> Plantilla distribución elementos (título+contenido, 2 columnas, imagen, etc.)<br>
+                       • <strong>Tema (Theme):</strong> Paleta colores + fuentes + efectos consistentes<br>
+                       • <strong>Patrón diapositivas (Master Slide):</strong> Plantilla maestra que hereda a todas<br>
+                       • <strong>Secciones:</strong> Agrupación lógica de slides (capítulos)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Elementos de Contenido</h4>
+                    <p><strong>Objetos insertables:</strong><br>
+                       • <strong>Cuadros texto:</strong> Tipografía, formato párrafo, lista viñetas<br>
+                       • <strong>Imágenes:</strong> Raster (JPG/PNG), SVG, recorte background removal<br>
+                       • <strong>Formas/Iconos:</strong> Vectores geométricos, biblioteca iconos<br>
+                       • <strong>SmartArt:</strong> Diagramas conceptuales (jerarquía, proceso, matriz, relaciones)<br>
+                       • <strong>Tablas:</strong> Datos tabulares con formato<br>
+                       • <strong>Gráficos:</strong> Visualización datos (columnas, líneas, pie, dispersión)<br>
+                       • <strong>Ecuaciones:</strong> Editor matemático<br>
+                       • <strong>Multimedia:</strong> Audio (narración/música), vídeo embebido/enlazado</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Interactividad</h4>
+                    <p><strong>Navegación y acción:</strong><br>
+                       • <strong>Hipervínculos:</strong> A URLs, slides específicos, archivos externos<br>
+                       • <strong>Botones acción:</strong> Adelante/Atrás, Inicio, Final, Personalizado<br>
+                       • <strong>Desencadenadores (Triggers):</strong> Animaciones al clic en objeto<br>
+                       • <strong>Marcadores (Bookmarks):</strong> Puntos navegación<br>
+                       • <strong>Zoom slide:</strong> Navegación no lineal visual<br>
+                       • <strong>Q&A integrado:</strong> Preguntas audiencia en vivo (Google Slides)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Modo Presentador</h4>
+                    <p><strong>Herramientas de presentación:</strong><br>
+                       • <strong>Notas del orador:</strong> Solo visibles para presentador<br>
+                       • <strong>Vista dual monitor:</strong> Presentación + control panel<br>
+                       • <strong>Temporizador:</strong> Control tiempo por slide/total<br>
+                       • <strong>Vista próximo slide:</strong> Anticipación contenido<br>
+                       • <strong>Puntero láser virtual:</strong> Resaltar elementos<br>
+                       • <strong>Panel anotaciones:</strong> Dibujar sobre diapositivas<br>
+                       • <strong>Zoom específico:</strong> Magnificar detalles</p>
+                </div>
+            </div>
 
-            <h4>Vectoriales</h4>
-            <ul class="content-list">
-                <li>Basadas en fórmulas matemáticas (líneas, curvas, formas)</li>
-                <li>Se pueden escalar sin pérdida de calidad</li>
-                <li>Ideal para logos, ilustraciones, tipografía</li>
-                <li><strong>Formatos:</strong> SVG, AI, EPS, CDR</li>
-                <li><strong>Editores:</strong> Illustrator, Inkscape, CorelDRAW</li>
-            </ul>
+            <h3>🎬 Animaciones y Transiciones: Diseño Temporal</h3>
+            
+            <div class="hierarchy-diagram">
+                <div class="hierarchy-title">EFECTOS VISUALES DINÁMICOS</div>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
+                    <div class="concept-box">
+                        <div class="concept-title">Transiciones (Entre Diapositivas)</div>
+                        <p><strong>Efecto visual al cambiar de slide completo:</strong><br><br>
+                           <strong>Categorías principales:</strong><br>
+                           • <strong>Sutiles:</strong> Desvanecer (Fade), Empujar (Push), Limpiar (Wipe)<br>
+                           • <strong>Dinámicas:</strong> Cortinilla (Cover), Descubrir (Uncover), Dividir (Split)<br>
+                           • <strong>Espectaculares:</strong> Cubo 3D (Cube), Voltear (Flip), Puerta (Door)<br>
+                           • <strong>Morph/Magic Move:</strong> Transición inteligente interpola objetos comunes<br><br>
+                           <strong>Parámetros:</strong><br>
+                           • Duración (0.5-3 segundos óptimo)<br>
+                           • Dirección (arriba/abajo/izquierda/derecha)<br>
+                           • Sonido acompañamiento (evitar en profesional)<br>
+                           • Avance: Al clic vs. Automático (temporizador)</p>
+                    </div>
+                    
+                    <div class="concept-box">
+                        <div class="concept-title">Animaciones (Objetos Individuales)</div>
+                        <p><strong>Efectos sobre elementos dentro de una diapositiva:</strong><br><br>
+                           <strong>4 Tipos fundamentales:</strong><br>
+                           1. <strong>Entrada:</strong> Aparecer, Desvanecer, Volar desde, Zoom, Dividir<br>
+                           2. <strong>Énfasis:</strong> Pulso, Cambiar color, Girar, Crecer/Encoger<br>
+                           3. <strong>Salida:</strong> Desaparecer, Desvanecer, Volar hacia, Zoom salida<br>
+                           4. <strong>Trayectorias movimiento:</strong> Líneas, curvas, formas personalizadas<br><br>
+                           <strong>Control temporal:</strong><br>
+                           • <em>Inicio:</em> Al clic, Con anterior, Después de anterior<br>
+                           • <em>Duración:</em> Velocidad efecto (rápido/medio/lento)<br>
+                           • <em>Retraso:</em> Pausa antes de ejecutar<br>
+                           • <em>Orden:</em> Secuencia de ejecución numerada<br>
+                           • <em>Repetición:</em> Loop o número veces</p>
+                    </div>
+                </div>
+            </div>
 
-            <h3>Formatos de Imagen</h3>
-            <ul class="content-list">
-                <li><strong>JPG/JPEG:</strong> Con compresión, pierde calidad, no transparencia, fotos</li>
-                <li><strong>PNG:</strong> Sin pérdida, soporta transparencia, gráficos web</li>
-                <li><strong>GIF:</strong> 256 colores, animaciones, transparencia simple</li>
-                <li><strong>BMP:</strong> Sin compresión, archivos grandes</li>
-                <li><strong>TIFF:</strong> Alta calidad, profesional, archivos grandes</li>
-                <li><strong>SVG:</strong> Vectorial, escalable, web</li>
-            </ul>
+            <div class="info-box warning" style="margin-top: 1.5rem;">
+                <h4>⚠️ Principios de Uso Apropiado de Animaciones</h4>
+                <ul class="content-list">
+                    <li><strong>Moderación:</strong> Menos es más. Animaciones excesivas distraen del mensaje (efecto "Death by PowerPoint")</li>
+                    <li><strong>Propósito:</strong> Cada animación debe tener función comunicativa (revelar progresivo de información, enfatizar punto clave, mostrar relación causal)</li>
+                    <li><strong>Consistencia:</strong> Usar mismo estilo de transición en toda presentación (no mezclar 10 efectos diferentes)</li>
+                    <li><strong>Timing:</strong> Velocidad natural (1-2 segundos), evitar muy lento (aburre) o muy rápido (no se percibe)</li>
+                    <li><strong>Contexto:</strong> Presentaciones corporativas formales requieren sobriedad (fade, wipe), educativas admiten más creatividad</li>
+                    <li><strong>Accesibilidad:</strong> Usuarios con discapacidad vestibular pueden sufrir mareos con movimientos excesivos</li>
+                </ul>
+            </div>
 
-            <h3>Compresión de Imágenes</h3>
-            <ul class="content-list">
-                <li><strong>Con pérdida (Lossy):</strong> Reduce tamaño eliminando información (JPG)</li>
-                <li><strong>Sin pérdida (Lossless):</strong> Reduce tamaño sin perder calidad (PNG)</li>
-            </ul>
+            <h3>📐 Principios de Diseño de Presentaciones Efectivas</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>Regla 10-20-30 (Guy Kawasaki)</h4>
+                    <p><strong>Pitch perfecto para presentaciones empresariales:</strong><br><br>
+                       • <strong>10 diapositivas:</strong> Máximo para mantener atención<br>
+                       &nbsp;&nbsp;1. Problema<br>
+                       &nbsp;&nbsp;2. Solución<br>
+                       &nbsp;&nbsp;3. Modelo negocio<br>
+                       &nbsp;&nbsp;4. Tecnología/Magic<br>
+                       &nbsp;&nbsp;5. Marketing/Ventas<br>
+                       &nbsp;&nbsp;6. Competencia<br>
+                       &nbsp;&nbsp;7. Equipo<br>
+                       &nbsp;&nbsp;8. Proyecciones<br>
+                       &nbsp;&nbsp;9. Estado/Timeline<br>
+                       &nbsp;&nbsp;10. Financiación<br><br>
+                       • <strong>20 minutos:</strong> Duración óptima<br>
+                       • <strong>30 puntos:</strong> Tamaño fuente mínimo</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <h4>Regla 6×6 (Académica)</h4>
+                    <p><strong>Densidad textual controlada:</strong><br><br>
+                       • Máximo <strong>6 viñetas</strong> por diapositiva<br>
+                       • Máximo <strong>6 palabras</strong> por viñeta<br>
+                       • Total: ~36 palabras por slide<br><br>
+                       <strong>Razón psicológica:</strong> Memoria trabajo humana (7±2 chunks)<br><br>
+                       <strong>Alternativa moderna:</strong> Presentador habla, slides solo apoyo visual (imágenes grandes + palabras clave)<br><br>
+                       <strong>Anti-patrónpresentación no es documento. Si audiencia lee slides, no te escuchan</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #16a085;">
+                    <h4>Contraste y Legibilidad</h4>
+                    <p><strong>Accesibilidad visual:</strong><br><br>
+                       • <strong>Relación contraste:</strong> Mínimo 4.5:1 (WCAG AA), ideal 7:1 (AAA)<br>
+                       • <strong>Combinaciones seguras:</strong><br>
+                       &nbsp;&nbsp;✅ Texto oscuro / Fondo claro<br>
+                       &nbsp;&nbsp;✅ Texto blanco / Fondo oscuro<br>
+                       &nbsp;&nbsp;❌ Evitar: Rojo/Verde (daltonismo), Amarillo/Blanco<br><br>
+                       • <strong>Tamaño fuente:</strong><br>
+                       &nbsp;&nbsp;○ Título: 44+ puntos<br>
+                       &nbsp;&nbsp;○ Subtítulo: 32+ puntos<br>
+                       &nbsp;&nbsp;○ Cuerpo: 24-28 puntos mínimo<br>
+                       &nbsp;&nbsp;○ Notas pie: 18+ puntos<br><br>
+                       • <strong>Fuentes:</strong> Sans-serif para proyección (Arial, Calibri, Helvetica)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #c0392b;">
+                    <h4>Jerarquía Visual</h4>
+                    <p><strong>Diseño intencional de atención:</strong><br><br>
+                       • <strong>Ley de Proximidad (Gestalt):</strong> Elementos cercanos se perciben relacionados<br>
+                       • <strong>Alineación:</strong> Grid invisible estructura contenido (evitar centrar todo)<br>
+                       • <strong>Espacios en blanco:</strong> No rellenar cada píxel, respirar diseño<br>
+                       • <strong>Regla de tercios:</strong> Puntos focales en intersecciones grid 3×3<br>
+                       • <strong>Z-pattern / F-pattern:</strong> Lectura natural occidental<br>
+                       • <strong>Color funcional:</strong> Codificar información (verde=positivo, rojo=negativo)<br>
+                       • <strong>Imágenes alta calidad:</strong> Mínimo 1920×1080px (Full HD) para proyección</p>
+                </div>
+            </div>
 
-            <h3>Herramientas de Edición</h3>
-            <ul class="content-list">
-                <li>Recortar, rotar, redimensionar</li>
-                <li>Ajustar brillo, contraste, saturación</li>
-                <li>Filtros y efectos</li>
-                <li>Capas y máscaras</li>
-                <li>Selecciones y pinceles</li>
-                <li>Texto sobre imagen</li>
-            </ul>
+            <div class="summary-box" style="margin-top: 1.5rem;">
+                <h4>🎯 Storytelling y Narrativa Visual</h4>
+                <p><strong>Estructura de presentación persuasiva (método Nancy Duarte):</strong></p>
+                <div class="process-flow" style="margin-top: 1rem;">
+                    <div class="process-step">
+                        <div class="process-step-number">1</div>
+                        <strong>Apertura</strong><br>
+                        <small>Hook emocional, estadística impactante, pregunta provocativa</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">2</div>
+                        <strong>Contexto</strong><br>
+                        <small>Estado actual (¿Qué es?), problema identificado</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">3</div>
+                        <strong>Contraste</strong><br>
+                        <small>Estado deseado (¿Qué podría ser?), tensión creativa</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">4</div>
+                        <strong>Solución</strong><br>
+                        <small>Propuesta de valor, evidencias, demostración</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">5</div>
+                        <strong>Cierre</strong><br>
+                        <small>Call to action, visión futuro, resumen memorable</small>
+                    </div>
+                </div>
+                
+                <ul class="content-list" style="margin-top: 1.5rem;">
+                    <li>📊 <strong>Datos con alma:</strong> Transformar estadísticas en historias humanas (ejemplo: Steve Jobs no decía "5GB", decía "1000 canciones en tu bolsillo")</li>
+                    <li>🖼️ <strong>Imágenes memorables:</strong> Una imagen impactante vale 1000 palabras (fotografías auténticas > clipart)</li>
+                    <li>🎭 <strong>Metáforas visuales:</strong> Conceptos abstractos mediante analogías visuales (iceberg, puente, montaña)</li>
+                    <li>🔁 <strong>Repetición estratégica:</strong> Motivo visual recurrente refuerza mensaje (color, forma, icono)</li>
+                    <li>⏸️ <strong>Pausas y ritmo:</strong> Slides en negro/blanco para focalizar atención en orador (tecla B/W en presentación)</li>
+                </ul>
+            </div>
 
-            <h3>Conversión de Formatos</h3>
-            <ul class="content-list">
-                <li>Usar "Guardar como" o "Exportar"</li>
-                <li>Herramientas online: Convertio, CloudConvert</li>
-                <li>Software: IrfanView, XnConvert</li>
-            </ul>
+            <div class="info-box success" style="margin-top: 1.5rem;">
+                <h4>✅ Checklist Pre-Presentación</h4>
+                <ul class="content-list">
+                    <li>🔍 <strong>Revisar en dispositivo final:</strong> Colores se ven diferentes en proyector vs monitor</li>
+                    <li>🎬 <strong>Probar multimedia:</strong> Verificar vídeos reproducen, audio funciona, codecs compatibles</li>
+                    <li>💾 <strong>Backup múltiple:</strong> Copia en USB + cloud + email, PDF como respaldo</li>
+                    <li>🔗 <strong>Fuentes embebidas:</strong> Incluir tipografías en archivo (.pptx admite embed fonts)</li>
+                    <li>📐 <strong>Aspect ratio:</strong> Configurar 16:9 (widescreen) moderno vs 4:3 (legacy)</li>
+                    <li>⏱️ <strong>Ensayar timing:</strong> Cronometrar presentación completa, asignar tiempos por slide</li>
+                    <li>📱 <strong>Modo aviión:</strong> Evitar notificaciones durante presentación</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>3.5. Bases de Datos Relacionales (Relational Databases)</h2>
+            
+            <div class="definition-box">
+                <div class="def-title">Definición de Sistema Gestor de Bases de Datos (SGBD / DBMS)</div>
+                <div class="def-content">
+                    Un <strong>Sistema Gestor de Bases de Datos</strong> (SGBD o <em>Database Management System</em> - DBMS) constituye un software especializado que facilita la definición, construcción, manipulación y compartición de bases de datos relacionales mediante un modelo estructurado en tablas bidimensionales (relaciones) cuyos registros (tuplas) están formados por atributos (columnas) con restricciones de integridad. El SGBD abstrae la complejidad del almacenamiento físico mediante tres niveles arquitectónicos (externo/vista, conceptual/lógico, interno/físico), garantiza propiedades ACID en transacciones, gestiona concurrencia multiusuario, implementa seguridad mediante control acceso granular (roles/permisos), y proporciona lenguajes especializados (SQL: DDL, DML, DCL, TCL) para interacción declarativa con datos.
+                </div>
+            </div>
+
+            <h3>🏛️ Modelo Relacional: Fundamentos Teóricos (Edgar F. Codd, 1970)</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Componentes Estructurales</h4>
+                    <p><strong>Jerarquía de datos:</strong><br><br>
+                       📦 <strong>Base de Datos (Database):</strong> Contenedor lógico con múltiples esquemas<br>
+                       📁 <strong>Esquema (Schema):</strong> Agrupación de objetos (tablas, vistas, procedimientos)<br>
+                       📋 <strong>Tabla/Relación (Table):</strong> Estructura bidimensional (filas × columnas)<br>
+                       📄 <strong>Tupla/Registro (Row/Tuple):</strong> Instancia de entidad (<em>horizontal</em>)<br>
+                       📊 <strong>Atributo/Campo (Column/Attribute):</strong> Propiedad entidad (<em>vertical</em>)<br>
+                       🔢 <strong>Dominio (Domain):</strong> Conjunto valores permitidos para atributo<br>
+                       🎯 <strong>Valor (Value):</strong> Dato específico en intersección fila-columna</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Claves y Restricciones</h4>
+                    <p><strong>Mecanismos de identificación e integridad:</strong><br><br>
+                       🔑 <strong>Clave Primaria (Primary Key - PK):</strong><br>
+                       • Identifica unívocamente cada tupla (unicidad)<br>
+                       • No admite valores nulos (entidad)<br>
+                       • Generalmente autoincremental (ID, UUID)<br>
+                       • Ejemplo: <code>DNI</code>, <code>ID_Cliente</code>, <code>ISBN</code><br><br>
+                       
+                       🔗 <strong>Clave Foránea (Foreign Key - FK):</strong><br>
+                       • Referencia clave primaria de otra tabla<br>
+                       • Establece relación padre-hijo<br>
+                       • Garantiza integridad referencial<br>
+                       • Ejemplo: <code>Pedido.ID_Cliente</code> → <code>Cliente.ID</code><br><br>
+                       
+                       🌟 <strong>Clave Candidata (Candidate Key):</strong><br>
+                       • Atributo/conjunto únicos (potenciales PK)<br><br>
+                       
+                       ⚙️ <strong>Clave Compuesta (Composite Key):</strong><br>
+                       • Combinación múltiples columnas (unicidad conjunta)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Tipos de Relaciones</h4>
+                    <p><strong>Cardinalidad entre entidades:</strong><br><br>
+                       <strong>1:1 (Uno a Uno):</strong><br>
+                       • Cada registro en A se asocia máximo 1 en B<br>
+                       • Ejemplo: <code>Usuario ↔ Perfil</code><br>
+                       • Implementación: FK en cualquiera<br><br>
+                       
+                       <strong>1:N (Uno a Muchos):</strong><br>
+                       • Cada registro en A se asocia múltiples en B<br>
+                       • Relación más común en SGBD<br>
+                       • Ejemplo: <code>Autor → Libros</code><br>
+                       • Implementación: FK en tabla "muchos"<br><br>
+                       
+                       <strong>N:M (Muchos a Muchos):</strong><br>
+                       • Múltiples registros en A con múltiples en B<br>
+                       • Requiere tabla intermedia/puente<br>
+                       • Ejemplo: <code>Estudiantes ↔ Asignaturas</code><br>
+                       • Implementación: Tabla <code>Matriculas(ID_Estudiante, ID_Asignatura)</code></p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Integridad de Datos</h4>
+                    <p><strong>Restricciones de validación:</strong><br><br>
+                       ✅ <strong>Integridad de Entidad:</strong> PK no nula y única<br>
+                       ✅ <strong>Integridad Referencial:</strong> FK válida o NULL<br>
+                       ✅ <strong>Integridad de Dominio:</strong> Valor en rango permitido<br>
+                       ✅ <strong>Integridad Semántica:</strong> Reglas negocio<br><br>
+                       
+                       <strong>Acciones referenciales:</strong><br>
+                       • <code>ON DELETE CASCADE</code>: Elimina hijos al eliminar padre<br>
+                       • <code>ON DELETE SET NULL</code>: Anula FK al eliminar padre<br>
+                       • <code>ON UPDATE CASCADE</code>: Actualiza FK al cambiar PK<br>
+                       • <code>RESTRICT/NO ACTION</code>: Impide eliminación si hay hijos</p>
+                </div>
+            </div>
+
+            <h3>📊 Normalización de Bases de Datos</h3>
+            
+            <div class="concept-box">
+                <div class="concept-title">Proceso de Normalización (Database Normalization)</div>
+                <p><strong>Técnica de diseño para eliminar redundancia, anomalías de actualización y garantizar dependencias funcionales correctas mediante descomposición de relaciones.</strong></p>
+            </div>
+
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Formas Normales (Normal Forms)</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Forma</th>
+                        <th>Requisitos</th>
+                        <th>Problema Resuelto</th>
+                        <th>Ejemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>1NF</strong><br>(Primera Forma Normal)</td>
+                        <td>• Eliminar grupos repetitivos<br>• Valores atómicos (indivisibles)<br>• Cada celda un valor único<br>• Identificar PK</td>
+                        <td>Evita arrays en columnas (multivalor)</td>
+                        <td>❌ <code>Teléfonos: "666111222, 666333444"</code><br>✅ Tabla separada <code>Teléfono</code></td>
+                    </tr>
+                    <tr>
+                        <td><strong>2NF</strong><br>(Segunda Forma Normal)</td>
+                        <td>• Cumple 1NF<br>• Eliminar dependencias parciales<br>• Todo atributo no clave depende completamente de PK</td>
+                        <td>Elimina dependencias de parte de clave compuesta</td>
+                        <td>❌ <code>(ID_Pedido, ID_Producto, NombreCliente)</code><br>✅ <code>NombreCliente</code> solo depende de <code>ID_Pedido</code></td>
+                    </tr>
+                    <tr>
+                        <td><strong>3NF</strong><br>(Tercera Forma Normal)</td>
+                        <td>• Cumple 2NF<br>• Eliminar dependencias transitivas<br>• Atributos no clave NO dependen de otros no clave</td>
+                        <td>Evita columnas que se calculan de otras</td>
+                        <td>❌ <code>Precio, Cantidad, Total</code> (<code>Total = Precio × Cantidad</code>)<br>✅ Calcular <code>Total</code> en consulta</td>
+                    </tr>
+                    <tr>
+                        <td><strong>BCNF</strong><br>(Boyce-Codd NF)</td>
+                        <td>• Cumple 3NF<br>• Para toda dependencia X→Y, X es superclave</td>
+                        <td>Casos especiales con múltiples claves candidatas</td>
+                        <td>Diseños avanzados con solapamiento claves</td>
+                    </tr>
+                    <tr>
+                        <td><strong>4NF / 5NF</strong><br>(Cuarta/Quinta NF)</td>
+                        <td>• Eliminar dependencias multivalor<br>• Decomposición sin pérdida (join)</td>
+                        <td>Casos teóricos complejos</td>
+                        <td>Raramente necesarias en práctica</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <h3>🗣️ Lenguaje SQL (Structured Query Language)</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>DDL - Data Definition Language</h4>
+                    <p><strong>Definición estructura base de datos:</strong><br><br>
+                       <strong>CREATE:</strong> Crear objetos<br>
+                       <code style="font-size: 0.85em;">CREATE TABLE Clientes (<br>
+                       &nbsp;&nbsp;ID INT AUTO_INCREMENT PRIMARY KEY,<br>
+                       &nbsp;&nbsp;Nombre VARCHAR(100) NOT NULL,<br>
+                       &nbsp;&nbsp;Email VARCHAR(100) UNIQUE<br>
+                       );</code><br><br>
+                       
+                       <strong>ALTER:</strong> Modificar estructura<br>
+                       <code>ALTER TABLE Clientes ADD Telefono VARCHAR(15);</code><br><br>
+                       
+                       <strong>DROP:</strong> Eliminar objetos<br>
+                       <code>DROP TABLE Clientes;</code><br><br>
+                       
+                       <strong>TRUNCATE:</strong> Vaciar tabla conservando estructura<br>
+                       <code>TRUNCATE TABLE Clientes;</code></p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>DML - Data Manipulation Language</h4>
+                    <p><strong>Manipulación de datos:</strong><br><br>
+                       <strong>SELECT:</strong> Consultar datos (el más usado)<br>
+                       <code style="font-size: 0.85em;">SELECT Nombre, Email FROM Clientes<br>
+                       WHERE Ciudad='Madrid'<br>
+                       ORDER BY Nombre ASC<br>
+                       LIMIT 10;</code><br><br>
+                       
+                       <strong>INSERT:</strong> Añadir registros<br>
+                       <code>INSERT INTO Clientes (Nombre, Email)<br>
+                       VALUES ('Ana García', 'ana@mail.com');</code><br><br>
+                       
+                       <strong>UPDATE:</strong> Actualizar datos<br>
+                       <code>UPDATE Clientes SET Ciudad='Barcelona'<br>
+                       WHERE ID=5;</code><br><br>
+                       
+                       <strong>DELETE:</strong> Eliminar registros<br>
+                       <code>DELETE FROM Clientes WHERE ID=5;</code></p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <h4>DCL - Data Control Language</h4>
+                    <p><strong>Control de permisos y seguridad:</strong><br><br>
+                       <strong>GRANT:</strong> Otorgar privilegios<br>
+                       <code style="font-size: 0.85em;">GRANT SELECT, INSERT ON BaseDatos.*<br>
+                       TO 'usuario'@'localhost';</code><br><br>
+                       
+                       <strong>REVOKE:</strong> Revocar privilegios<br>
+                       <code>REVOKE DELETE ON Clientes<br>
+                       FROM 'usuario'@'localhost';</code><br><br>
+                       
+                       <strong>Niveles de privilegios:</strong><br>
+                       • Global (servidor completo)<br>
+                       • Base de datos<br>
+                       • Tabla específica<br>
+                       • Columna específica</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>TCL - Transaction Control Language</h4>
+                    <p><strong>Gestión de transacciones ACID:</strong><br><br>
+                       <strong>BEGIN/START TRANSACTION:</strong> Iniciar transacción<br>
+                       <code>START TRANSACTION;</code><br><br>
+                       
+                       <strong>COMMIT:</strong> Confirmar cambios permanentemente<br>
+                       <code>COMMIT;</code><br><br>
+                       
+                       <strong>ROLLBACK:</strong> Deshacer cambios (cancelar)<br>
+                       <code>ROLLBACK;</code><br><br>
+                       
+                       <strong>SAVEPOINT:</strong> Punto de restauración intermedio<br>
+                       <code>SAVEPOINT sp1;<br>
+                       ROLLBACK TO sp1;</code></p>
+                </div>
+            </div>
+
+            <div class="formula-box" style="margin-top: 1.5rem;">
+                <h4>🔗 Consultas Avanzadas: JOINs (Uniones de Tablas)</h4>
+                <p><strong>Combinar datos de múltiples tablas relacionadas:</strong></p>
+                
+                <ul class="content-list">
+                    <li><strong>INNER JOIN:</strong> Solo filas con coincidencias en ambas tablas<br>
+                        <code style="display: block; margin-top: 0.5rem;">SELECT Clientes.Nombre, Pedidos.Fecha<br>
+                        FROM Clientes INNER JOIN Pedidos ON Clientes.ID = Pedidos.ID_Cliente;</code>
+                    </li>
+                    
+                    <li style="margin-top: 1rem;"><strong>LEFT JOIN:</strong> Todas filas de tabla izquierda + coincidencias derecha (nulls si no hay)<br>
+                        <code style="display: block; margin-top: 0.5rem;">SELECT Clientes.Nombre, Pedidos.Fecha<br>
+                        FROM Clientes LEFT JOIN Pedidos ON Clientes.ID = Pedidos.ID_Cliente;</code>
+                    </li>
+                    
+                    <li style="margin-top: 1rem;"><strong>RIGHT JOIN:</strong> Todas filas de tabla derecha + coincidencias izquierda</li>
+                    
+                    <li style="margin-top: 1rem;"><strong>FULL OUTER JOIN:</strong> Todas filas de ambas tablas (MySQL no soporta nativo)</li>
+                    
+                    <li style="margin-top: 1rem;"><strong>CROSS JOIN:</strong> Producto cartesiano (todas combinaciones posibles)</li>
+                </ul>
+                
+                <p style="margin-top: 1rem;"><strong>Funciones agregación:</strong> <code>COUNT()</code>, <code>SUM()</code>, <code>AVG()</code>, <code>MAX()</code>, <code>MIN()</code> con <code>GROUP BY</code></p>
+            </div>
+
+            <h3>⚙️ Propiedades ACID de Transacciones</h3>
+            
+            <div class="hierarchy-diagram">
+                <div class="hierarchy-title">GARANTÍAS DE TRANSACCIONES CONFIABLES</div>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1.5rem;">
+                    <div class="concept-box">
+                        <div class="concept-title">A - Atomicity (Atomicidad)</div>
+                        <p>La transacción es una unidad indivisible: se ejecuta completamente o no se ejecuta nada (<em>todo o nada</em>).<br><br>
+                           <strong>Ejemplo:</strong> Transferencia bancaria:<br>
+                           • Retirar 100€ cuenta A<br>
+                           • Ingresar 100€ cuenta B<br>
+                           → Si falla ingreso, se deshace retiro automáticamente</p>
+                    </div>
+                    
+                    <div class="concept-box">
+                        <div class="concept-title">C - Consistency (Consistencia)</div>
+                        <p>La transacción lleva la base de datos de un estado válido a otro estado válido, preservando restricciones e invariantes.<br><br>
+                           <strong>Ejemplo:</strong> No violar clave primaria, foreign key, checks, triggers. El saldo total del banco no cambia tras transferencia.</p>
+                    </div>
+                    
+                    <div class="concept-box">
+                        <div class="concept-title">I - Isolation (Aislamiento)</div>
+                        <p>Transacciones concurrentes se ejecutan de forma aislada (como si fueran secuenciales), sin interferencias.<br><br>
+                           <strong>Niveles aislamiento SQL:</strong><br>
+                           • Read Uncommitted<br>
+                           • Read Committed<br>
+                           • Repeatable Read<br>
+                           • Serializable (más estricto)</p>
+                    </div>
+                    
+                    <div class="concept-box">
+                        <div class="concept-title">D - Durability (Durabilidad)</div>
+                        <p>Una vez confirmada (COMMIT), la transacción persiste permanentemente incluso ante fallos del sistema (apagón, crash).<br><br>
+                           <strong>Mecanismo:</strong> Write-Ahead Logging (WAL), journaling, escritura en disco no volátil antes de COMMIT.</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>🗄️ Ecosistema de Sistemas Gestores de Bases de Datos</h3>
+            
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Comparativa SGBD Populares</strong></caption>
+                <thead>
+                    <tr>
+                        <th>SGBD</th>
+                        <th>Tipo</th>
+                        <th>Licencia</th>
+                        <th>Casos de Uso</th>
+                        <th>Características Destacadas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>MySQL</strong></td>
+                        <td>Relacional</td>
+                        <td>GPL + Comercial</td>
+                        <td>Aplicaciones web (LAMP), WordPress</td>
+                        <td>Velocidad lectura, fácil instalación, comunidad masiva</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PostgreSQL</strong></td>
+                        <td>Relacional-Objeto</td>
+                        <td>PostgreSQL License (permisiva)</td>
+                        <td>Aplicaciones empresariales complejas</td>
+                        <td>Cumplimiento estricto SQL, extensible, tipos personalizados, JSON</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Microsoft SQL Server</strong></td>
+                        <td>Relacional</td>
+                        <td>Propietario</td>
+                        <td>Entornos corporativos Windows, .NET</td>
+                        <td>Integración perfecta ecosistema Microsoft, Analysis Services, SSIS</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Oracle Database</strong></td>
+                        <td>Relacional-Objeto</td>
+                        <td>Propietario (Enterprise)</td>
+                        <td>Grandes corporaciones, sistemas críticos</td>
+                        <td>Máxima robustez, RAC (clustering), particionamiento avanzado</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SQLite</strong></td>
+                        <td>Relacional (embebido)</td>
+                        <td>Dominio público</td>
+                        <td>Aplicaciones móviles/escritorio, IoT</td>
+                        <td>Sin servidor, archivo único, transaccional, ~500KB binario</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MariaDB</strong></td>
+                        <td>Relacional</td>
+                        <td>GPL</td>
+                        <td>Reemplazo MySQL (fork)</td>
+                        <td>Compatible MySQL, desarrollo open source puro, performance</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MongoDB</strong></td>
+                        <td>NoSQL (Documento)</td>
+                        <td>SSPL</td>
+                        <td>Big Data, datos no estructurados, real-time</td>
+                        <td>Esquema flexible JSON/BSON, escalado horizontal (sharding)</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <div class="info-box success" style="margin-top: 1.5rem;">
+                <h4>🚀 Optimización y Buenas Prácticas</h4>
+                <ul class="content-list">
+                    <li>📇 <strong>Índices (Indexes):</strong> Estructuras B-tree/Hash aceleran búsquedas. Crear en columnas frecuentemente usadas en WHERE/JOIN
+                        <br><code>CREATE INDEX idx_email ON Clientes(Email);</code>
+                    </li>
+                    <li>📊 <strong>Explicar planes consulta:</strong> <code>EXPLAIN SELECT ...</code> muestra cómo ejecutará el motor (usa índices o full scan)</li>
+                    <li>🔒 <strong>Bloqueos mínimos:</strong> Transacciones cortas, evitar long-running queries bloqueantes</li>
+                    <li>💾 <strong>Backups regulares:</strong> <code>mysqldump</code>, pg_dump, snapshots automáticos</li>
+                    <li>🔐 <strong>Principio mínimo privilegio:</strong> Usuarios con solo permisos necesarios (no usar root en apps)</li>
+                    <li>🧹 <strong>Mantenimiento:</strong> VACUUM (PostgreSQL), OPTIMIZE TABLE (MySQL), actualizar estadísticas</li>
+                    <li>📡 <strong>Conexiones pool:</strong> Reutilizar conexiones en aplicaciones (evitar overhead open/close)</li>
+                    <li>⚡ <strong>Caché de consultas:</strong> Redis/Memcached para datos accedidos frecuentemente</li>
+                </ul>
+            </div>
+
+            <div class="summary-box" style="margin-top: 1.5rem;">
+                <h4>📚 Ejemplo Diseño Completo: Sistema Biblioteca</h4>
+                <p><strong>Diagrama Entidad-Relación simplificado:</strong></p>
+                
+                <div class="formula-box" style="margin-top: 1rem;">
+                    <strong>LIBRO</strong> (<u>ISBN</u>, Titulo, Año, ID_Editorial↗)<br>
+                    <strong>AUTOR</strong> (<u>ID_Autor</u>, Nombre, Apellidos, Nacionalidad)<br>
+                    <strong>LIBRO_AUTOR</strong> (<u>ISBN↗, ID_Autor↗</u>) <em>← Tabla intermedia N:M</em><br>
+                    <strong>EDITORIAL</strong> (<u>ID_Editorial</u>, Nombre, Ciudad)<br>
+                    <strong>USUARIO</strong> (<u>ID_Usuario</u>, DNI, Nombre, Email, Telefono)<br>
+                    <strong>PRESTAMO</strong> (<u>ID_Prestamo</u>, ISBN↗, ID_Usuario↗, FechaPrestamo, FechaDevolucion)<br>
+                    <br>
+                    <small><em>Leyenda:</em> <u>Subrayado</u> = Clave Primaria | ↗ = Clave Foránea</small>
+                </div>
+                
+                <p style="margin-top: 1rem;"><strong>Relaciones:</strong></p>
+                <ul class="content-list">
+                    <li>EDITORIAL 1:N LIBRO (una editorial publica muchos libros)</li>
+                    <li>LIBRO N:M AUTOR (un libro puede tener varios autores, un autor varios libros) → Tabla LIBRO_AUTOR</li>
+                    <li>USUARIO 1:N PRESTAMO (un usuario puede tener varios préstamos)</li>
+                    <li>LIBRO 1:N PRESTAMO (un libro puede prestarse varias veces -no simultáneo-)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>3.6. Imágenes Digitales (Digital Imaging)</h2>
+            
+            <div class="definition-box">
+                <div class="def-title">Definición de Imagen Digital</div>
+                <div class="def-content">
+                    Una <strong>imagen digital</strong> constituye una representación bidimensional discreta de información visual obtenida mediante procesos de <em>muestreo espacial</em> (discretización en matriz de puntos/píxeles) y <em>cuantización cromática</em> (asignación valores numéricos a intensidades lumínicas), almacenada electrónicamente mediante codificación binaria. Clasifica primordialmente en dos paradigmas: <strong>raster/bitmap</strong> (matriz píxeles con resolución fija, apropiada para fotografías con gradientes continuos) y <strong>vectorial</strong> (descripción matemática mediante primitivas geométricas -líneas Bézier, polígonos, círculos-, escalable infinitamente sin degradación). La calidad percibida depende de resolución espacial (píxeles totales), profundidad color (bits por píxel: 1-bit B/N, 8-bit grayscale, 24-bit RGB true color), y algoritmo compresión aplicado (lossy vs lossless).
+                </div>
+            </div>
+
+            <h3>🎨 Paradigmas de Representación Digital</h3>
+            
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Raster vs. Vectorial: Comparación Fundamental</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>Imágenes Raster (Bitmap)</th>
+                        <th>Imágenes Vectoriales</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Estructura</strong></td>
+                        <td>Matriz rectangular de píxeles (picture elements)</td>
+                        <td>Ecuaciones matemáticas (curvas Bézier, primitivas SVG)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Escalabilidad</strong></td>
+                        <td>❌ Resolución dependiente → Pixelación al ampliar</td>
+                        <td>✅ Resolución independiente → Escalado infinito sin pérdida</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tamaño archivo</strong></td>
+                        <td>Proporcional a dimensiones (Ancho × Alto × Profundidad_Bits)</td>
+                        <td>Proporcional a complejidad (número nodos/trayectorias)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Casos de uso</strong></td>
+                        <td>Fotografías, texturas, edición compleja píxel a píxel</td>
+                        <td>Logotipos, iconos, tipografía, diagramas, cartografía</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Formatos típicos</strong></td>
+                        <td>JPEG, PNG, GIF, TIFF, BMP, WebP</td>
+                        <td>SVG, PDF (vectorial), EPS, AI, CDR</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Editores</strong></td>
+                        <td>Adobe Photoshop, GIMP, Paint.NET, Pixelmator</td>
+                        <td>Adobe Illustrator, Inkscape, CorelDRAW, Figma</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gradientes/Sombras</strong></td>
+                        <td>✅ Nativos con suavizado antialiasing</td>
+                        <td>⚠️ Mediante degradados matemáticos (menos natural)</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <h3>📊 Formatos de Imagen: Análisis Exhaustivo</h3>
+            
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Ecosistema de Formatos de Imagen Digital</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Formato</th>
+                        <th>Tipo</th>
+                        <th>Compresión</th>
+                        <th>Transparencia</th>
+                        <th>Animación</th>
+                        <th>Profundidad Color</th>
+                        <th>Caso de Uso Óptimo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>JPEG / JPG</strong></td>
+                        <td>Raster</td>
+                        <td>Lossy (DCT)</td>
+                        <td>❌ No</td>
+                        <td>❌ No</td>
+                        <td>24-bit (16.7M colores)</td>
+                        <td>📷 Fotografías, imágenes médicas, web content</td>
+                    </tr>
+                    <tr>
+                        <td><strong>PNG</strong></td>
+                        <td>Raster</td>
+                        <td>Lossless (Deflate)</td>
+                        <td>✅ Alpha 8-bit</td>
+                        <td>❌ No (APNG sí)</td>
+                        <td>1/8/24/48-bit</td>
+                        <td>🎨 Gráficos web, logos, capturas, overlay transparente</td>
+                    </tr>
+                    <tr>
+                        <td><strong>GIF</strong></td>
+                        <td>Raster</td>
+                        <td>Lossless (LZW)</td>
+                        <td>✅ 1-bit (on/off)</td>
+                        <td>✅ Sí (frames)</td>
+                        <td>8-bit (256 colores)</td>
+                        <td>🎬 Animaciones simples, memes, iconos retro</td>
+                    </tr>
+                    <tr>
+                        <td><strong>WebP</strong></td>
+                        <td>Raster</td>
+                        <td>Lossy + Lossless</td>
+                        <td>✅ Sí</td>
+                        <td>✅ Sí</td>
+                        <td>24-bit + Alpha</td>
+                        <td>🌐 Imágenes web modernas (25-35% más pequeño que JPEG/PNG)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>TIFF</strong></td>
+                        <td>Raster</td>
+                        <td>Ninguna/Lossless</td>
+                        <td>✅ Sí</td>
+                        <td>❌ No</td>
+                        <td>1-48 bit, CMYK</td>
+                        <td>🖨️ Impresión profesional, archivos maestros, GIS</td>
+                    </tr>
+                    <tr>
+                        <td><strong>BMP</strong></td>
+                        <td>Raster</td>
+                        <td>Generalmente ninguna</td>
+                        <td>⚠️ Opcional</td>
+                        <td>❌ No</td>
+                        <td>1-32 bit</td>
+                        <td>🖥️ Windows legacy, screenshots (obsoleto)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>SVG</strong></td>
+                        <td>Vectorial</td>
+                        <td>N/A (XML texto)</td>
+                        <td>✅ Sí (CSS)</td>
+                        <td>✅ Sí (SMIL/CSS)</td>
+                        <td>N/A (colores hex/rgb)</td>
+                        <td>🎯 Iconos web, logos responsive, gráficos interactivos</td>
+                    </tr>
+                    <tr>
+                        <td><strong>HEIF / HEIC</strong></td>
+                        <td>Raster</td>
+                        <td>Lossy (HEVC)</td>
+                        <td>✅ Sí</td>
+                        <td>✅ Secuencias</td>
+                        <td>10-bit HDR</td>
+                        <td>📱 Fotografía móvil (Apple), HDR, burst photos</td>
+                    </tr>
+                    <tr>
+                        <td><strong>RAW</strong></td>
+                        <td>Raster</td>
+                        <td>Ninguna/Mínima</td>
+                        <td>❌ No</td>
+                        <td>❌ No</td>
+                        <td>12-16 bit/canal</td>
+                        <td>📸 Fotografía profesional (CR2, NEF, ARW), máxima edición</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <h3>🗜️ Algoritmos de Compresión de Imágenes</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Compresión con Pérdida (Lossy)</h4>
+                    <p><strong>Algoritmos que sacrifican fidelidad por ratio compresión:</strong><br><br>
+                       📐 <strong>DCT (Discrete Cosine Transform) - JPEG:</strong><br>
+                       • Convierte imagen a dominio frecuencia (coeficientes)<br>
+                       • Descarta altas frecuencias (detalles imperceptibles)<br>
+                       • División en bloques 8×8 píxeles<br>
+                       • <em>Calidad configurable:</em> 0-100 (95 = casi lossless, 60 = compresión agresiva)<br>
+                       • <strong>Artefactos:</strong> Blocking, ringing, mosquito noise<br><br>
+                       
+                       🎥 <strong>HEVC (High Efficiency Video Coding) - HEIF:</strong><br>
+                       • Codec H.265 adaptado a imágenes estáticas<br>
+                       • 50% tamaño vs JPEG con misma calidad<br>
+                       • Soporte HDR (10-bit), múltiples imágenes en contenedor<br><br>
+                       
+                       <strong>Cuándo usar:</strong> Fotografías, gradientes suaves, web (prioridad velocidad carga)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Compresión sin Pérdida (Lossless)</h4>
+                    <p><strong>Algoritmos que preservan fidelidad perfecta:</strong><br><br>
+                       🗜️ <strong>DEFLATE (ZIP) - PNG:</strong><br>
+                       • Combinación LZ77 + Huffman coding<br>
+                       • Filtros pre-compresión (sub, up, average, paeth)<br>
+                       • Compresión nivel 0-9 (0=ninguno, 9=máxima)<br>
+                       • Ideal para capturas pantalla, diagramas<br><br>
+                       
+                       🔄 <strong>LZW (Lempel-Ziv-Welch) - GIF:</strong><br>
+                       • Diccionario adaptativos patrones repetidos<br>
+                       • Limitación 256 colores (paleta indexada)<br>
+                       • Eficiente con áreas color plano<br><br>
+                       
+                       📦 <strong>PackBits, RLE - TIFF:</strong><br>
+                       • Run-Length Encoding (secuencias repetidas)<br>
+                       • Usado en fax, imágenes B/N<br><br>
+                       
+                       <strong>Cuándo usar:</strong> Archivos maestros, texto/gráficos nítidos, transparencias, edición iterativa</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Decisión Lossy vs Lossless</h4>
+                    <p><strong>Criterios de selección:</strong><br><br>
+                       <strong>Usar Lossy (JPEG/WebP) si:</strong><br>
+                       ✅ Contenido fotográfico (millones colores)<br>
+                       ✅ Prioridad tamaño (web, email)<br>
+                       ✅ Sin ediciones futuras<br>
+                       ✅ Tolerable pérdida imperceptible<br><br>
+                       
+                       <strong>Usar Lossless (PNG/TIFF) si:</strong><br>
+                       ✅ Gráficos nítidos (texto, logos, diagramas)<br>
+                       ✅ Transparencia requerida<br>
+                       ✅ Archivo intermedio (master)<br>
+                       ✅ Ediciones múltiples iterativas<br>
+                       ✅ Archivado profesional<br><br>
+                       
+                       <strong>Regla de oro:</strong> Siempre conservar master sin pérdida (TIFF/PSD), exportar copias lossy para distribución</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Ratio de Compresión</h4>
+                    <p><strong>Cálculo eficiencia:</strong><br><br>
+                       <div class="formula-box">
+                       $$\text{Ratio} = \frac{\text{Tamaño Original}}{\text{Tamaño Comprimido}}$$
+                       
+                       $$\text{% Reducción} = \left(1 - \frac{\text{Comprimido}}{\text{Original}}\right) \times 100$$
+                       </div>
+                       
+                       <strong>Ejemplos típicos:</strong><br>
+                       • <strong>JPEG Calidad 80:</strong> 10:1 (90% reducción)<br>
+                       • <strong>PNG Gráficos:</strong> 3:1 a 10:1<br>
+                       • <strong>GIF 256 colores:</strong> 5:1 aproximado<br>
+                       • <strong>WebP:</strong> 25-35% mejor que JPEG/PNG<br>
+                       • <strong>TIFF sin compresión:</strong> 1:1 (tamaño BMP)</p>
+                </div>
+            </div>
+
+            <h3>🎨 Modelos de Color y Espacios Cromáticos</h3>
+            
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Espacios de Color Digitales</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Canales</th>
+                        <th>Rango Valores</th>
+                        <th>Aplicación</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>RGB</strong><br>(Red-Green-Blue)</td>
+                        <td>3 canales aditivos</td>
+                        <td>0-255 cada canal<br>(8-bit/canal = 24-bit total)</td>
+                        <td>Pantallas, web, fotografía digital</td>
+                        <td><strong>Síntesis aditiva:</strong> (0,0,0)=Negro, (255,255,255)=Blanco. 16.777.216 colores posibles.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CMYK</strong><br>(Cyan-Magenta-Yellow-Key)</td>
+                        <td>4 canales sustractivos</td>
+                        <td>0-100% cada tinta</td>
+                        <td>Impresión offset, prensa</td>
+                        <td><strong>Síntesis sustractiva:</strong> K (negro) compensa imperfección CMY. Gamut menor que RGB.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>HSL / HSV</strong><br>(Hue-Saturation-Lightness/Value)</td>
+                        <td>3 componentes perceptuales</td>
+                        <td>H: 0-360°<br>S,L: 0-100%</td>
+                        <td>Interfaces selección color, ajustes</td>
+                        <td><strong>Intuitivo:</strong> H=tono (rueda cromática), S=viveza, L=luminosidad. Fácil manipulación artística.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lab</strong><br>(Lightness, a, b)</td>
+                        <td>L (luminosidad)<br>a (verde-rojo)<br>b (azul-amarillo)</td>
+                        <td>L: 0-100<br>a,b: -128 a +127</td>
+                        <td>Conversiones precisas, perfil ICC</td>
+                        <td><strong>Device-independent:</strong> Percepción humana universal. Gamut más amplio. Usado en conversiones RGB↔CMYK.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Grayscale</strong></td>
+                        <td>1 canal luminancia</td>
+                        <td>0-255 (8-bit)<br>0-65535 (16-bit)</td>
+                        <td>Fotografía B/N, documentos</td>
+                        <td>Conversión desde RGB: $Y = 0.299R + 0.587G + 0.114B$ (pesos perceptuales)</td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+
+            <div class="concept-box" style="margin-top: 1.5rem;">
+                <div class="concept-title">🌈 Profundidad de Color (Color Depth / Bit Depth)</div>
+                <p><strong>Bits por píxel determinan rango cromático representable:</strong></p>
+                <ul class="content-list">
+                    <li><strong>1-bit (Monocromo):</strong> 2 colores (negro/blanco). Fax, e-readers.</li>
+                    <li><strong>8-bit (Indexed Color):</strong> 256 colores de paleta predefinida. GIF tradicional.</li>
+                    <li><strong>24-bit (True Color):</strong> RGB 8-bit/canal = 16.777.216 colores. Estándar fotografía.</li>
+                    <li><strong>32-bit (RGBA):</strong> True Color + Alpha 8-bit (transparencia). PNG con canal alpha.</li>
+                    <li><strong>48-bit (Deep Color):</strong> RGB 16-bit/canal. RAW, TIFF profesional. 281 billones colores.</li>
+                    <li><strong>HDR (High Dynamic Range):</strong> 10-12 bit/canal. Mayor rango luminancia. HEIF, Display P3.</li>
+                </ul>
+            </div>
+
+            <h3>📐 Resolución de Imagen: Conceptos y Cálculos</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <h4>Resolución Espacial</h4>
+                    <p><strong>Dimensiones en píxeles de la imagen:</strong><br><br>
+                       <strong>Formatos comunes:</strong><br>
+                       • HD (720p): 1280 × 720 = 0.92 MP<br>
+                       • Full HD (1080p): 1920 × 1080 = 2.07 MP<br>
+                       • 2K: 2048 × 1080 = 2.21 MP<br>
+                       • 4K UHD: 3840 × 2160 = 8.29 MP<br>
+                       • 8K UHD: 7680 × 4320 = 33.18 MP<br><br>
+                       
+                       <strong>Fotografía digital:</strong><br>
+                       • 12 MP: 4000 × 3000 aprox<br>
+                       • 24 MP: 6000 × 4000 aprox<br>
+                       • 50 MP: 8688 × 5792 (cámaras profesionales)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #16a085;">
+                    <h4>DPI / PPI</h4>
+                    <p><strong>Densidad píxeles para impresión/pantalla:</strong><br><br>
+                       🖥️ <strong>PPI (Pixels Per Inch):</strong><br>
+                       • Densidad píxeles en pantalla<br>
+                       • Retina Display (iPhone): ~326 PPI<br>
+                       • Monitor estándar: 96-110 PPI<br>
+                       • 4K 27": ~163 PPI<br><br>
+                       
+                       🖨️ <strong>DPI (Dots Per Inch):</strong><br>
+                       • Densidad puntos tinta impresora<br>
+                       • <strong>300 DPI:</strong> Impresión fotográfica profesional<br>
+                       • <strong>150 DPI:</strong> Aceptable impresión estándar<br>
+                       • <strong>72 DPI:</strong> Solo pantalla (obsoleto)<br><br>
+                       
+                       <div class="formula-box">
+                       <strong>Tamaño impresión:</strong>
+                       $$\text{Anchura (pulgadas)} = \frac{\text{Píxeles Anchura}}{\text{DPI}}$$
+                       
+                       <strong>Ejemplo:</strong> Imagen 3000×2000px a 300 DPI:<br>
+                       $10" × 6.67"$ (25.4cm × 16.9cm)
+                       </div>
+                    </p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #c0392b;">
+                    <h4>Aspect Ratio (Proporción)</h4>
+                    <p><strong>Relación anchura:altura de imagen:</strong><br><br>
+                       • <strong>16:9</strong> (1.78:1): Pantallas widescreen modernas, HDTV<br>
+                       • <strong>4:3</strong> (1.33:1): TV analógica, monitores clásicos<br>
+                       • <strong>3:2</strong> (1.5:1): Fotografía (cámaras DSLR, 35mm)<br>
+                       • <strong>1:1</strong>: Cuadrado (Instagram legacy)<br>
+                       • <strong>21:9</strong> (2.37:1): Ultrawide, cinematográfico<br>
+                       • <strong>9:16</strong>: Vertical (Stories, Reels, TikTok)<br><br>
+                       
+                       <strong>Cambio aspect ratio:</strong><br>
+                       • <em>Crop (recorte):</em> Pierde contenido<br>
+                       • <em>Letterbox/Pillarbox:</em> Añade barras negras<br>
+                       • <em>Stretch:</em> Distorsiona imagen ❌</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Tamaño Archivo</h4>
+                    <p><strong>Cálculo teórico imagen sin comprimir:</strong><br><br>
+                       <div class="formula-box">
+                       $$\text{Tamaño (bytes)} = \frac{\text{Anchura} \times \text{Altura} \times \text{Bits/Píxel}}{8}$$
+                       </div>
+                       
+                       <strong>Ejemplo:</strong> Imagen Full HD 24-bit RGB sin comprimir:<br>
+                       $(1920 \times 1080 \times 24) / 8 = 6.220.800$ bytes ≈ <strong>6.2 MB</strong><br><br>
+                       
+                       <strong>Con compresión real:</strong><br>
+                       • JPEG (80%): ~300-600 KB<br>
+                       • PNG (lossless): ~1-2 MB<br>
+                       • WebP (lossy): ~200-400 KB</p>
+                </div>
+            </div>
+
+            <h3>🖌️ Workflow de Edición de Imágenes Profesional</h3>
+            
+            <div class="process-flow" style="margin-top: 1.5rem;">
+                <div class="process-step">
+                    <div class="process-step-number">1</div>
+                    <strong>Adquisición</strong><br>
+                    <small>Cámara RAW, escaneo, stock photography</small>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-number">2</div>
+                    <strong>Importación</strong><br>
+                    <small>Adobe Lightroom, Capture One, organización catálogo</small>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-number">3</div>
+                    <strong>Ajustes Globales</strong><br>
+                    <small>Exposición, balance blancos, contraste, curvas tonales</small>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-number">4</div>
+                    <strong>Edición Avanzada</strong><br>
+                    <small>Photoshop: capas, máscaras, clonado, retoque píxel</small>
+                </div>
+                <div class="process-step">
+                    <div class="process-step-number">5</div>
+                    <strong>Exportación</strong><br>
+                    <small>Formato destino (web/print), perfil color, metadatos</small>
+                </div>
+            </div>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Herramientas Edición Raster</h4>
+                    <p><strong>Software especializado píxel a píxel:</strong><br><br>
+                       🏆 <strong>Adobe Photoshop:</strong> Estándar industria, capas/máscaras, filtros IA (Neural Filters)<br>
+                       🆓 <strong>GIMP:</strong> Open source similar Photoshop, scripting Python<br>
+                       🍎 <strong>Affinity Photo:</strong> Alternativa profesional, pago único<br>
+                       🎨 <strong>Krita:</strong> Orientado ilustración digital, brushes<br>
+                       ⚡ <strong>Paint.NET:</strong> Ligero Windows, interfaz sencilla<br>
+                       📱 <strong>Photopea:</strong> Editor web gratuito compatible PSD</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Herramientas Edición Vectorial</h4>
+                    <p><strong>Software basado en curvas Bézier:</strong><br><br>
+                       🏆 <strong>Adobe Illustrator:</strong> Estándar diseño gráfico, logos, ilustraciones<br>
+                       🆓 <strong>Inkscape:</strong> Open source vectorial completo, SVG nativo<br>
+                       🍎 <strong>Affinity Designer:</strong> Competidor Illustrator, workflow híbrido<br>
+                       🎯 <strong>CorelDRAW:</strong> Popular diseño serigrafía, rotulación<br>
+                       🌐 <strong>Figma / Sketch:</strong> UI/UX design, colaborativo web</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <h4>Técnicas Edición Comunes</h4>
+                    <p><strong>Operaciones fundamentales imagen digital:</strong><br><br>
+                       ✂️ <strong>Crop (Recortar):</strong> Reencuadrar composición<br>
+                       🔄 <strong>Rotate/Flip:</strong> Girar, voltear horizontal/vertical<br>
+                       📏 <strong>Resize/Resample:</strong> Cambiar dimensiones (interpolación)<br>
+                       🎚️ <strong>Levels/Curves:</strong> Ajuste histograma tonal<br>
+                       🌈 <strong>Hue/Saturation:</strong> Modificar colores específicos<br>
+                       🔧 <strong>Sharpen/Blur:</strong> Enfoque o desenfoque<br>
+                       🎭 <strong>Masks:</strong> Selecciones no destructivas<br>
+                       📚 <strong>Layers:</strong> Edición por capas composición<br>
+                       🖌️ <strong>Clone Stamp:</strong> Clonar áreas, eliminar objetos<br>
+                       ✨ <strong>Filters:</strong> Efectos artísticos (oil paint, sketch)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Optimización Web</h4>
+                    <p><strong>Mejores prácticas imágenes web:</strong><br><br>
+                       ⚡ <strong>Lazy loading:</strong> Cargar imágenes al scroll<br>
+                       📱 <strong>Responsive images:</strong> <code>&lt;picture&gt;</code> + srcset<br>
+                       🗜️ <strong>Compresión:</strong> TinyPNG, ImageOptim, Squoosh<br>
+                       🎯 <strong>Formato adecuado:</strong> WebP > JPEG > PNG<br>
+                       🖼️ <strong>Dimensiones justas:</strong> No enviar 4K si se muestra thumbnail<br>
+                       🌐 <strong>CDN:</strong> Servir desde edge locations (Cloudflare, CloudFront)<br>
+                       📊 <strong>Monitoreo:</strong> Lighthouse, PageSpeed Insights<br>
+                       🔢 <strong>Meta objetivo:</strong> &lt;100KB por imagen, LCP &lt;2.5s</p>
+                </div>
+            </div>
+
+            <div class="summary-box" style="margin-top: 1.5rem;">
+                <h4>🎯 Árbol de Decisión: Selección Formato Óptimo</h4>
+                <div class="formula-box" style="margin-top: 1rem;">
+                    <strong>¿Qué formato usar?</strong><br><br>
+                    
+                    <strong>📷 ¿Es fotografía realista con millones de colores?</strong><br>
+                    &nbsp;&nbsp;├─ ✅ Sí → <strong>JPEG</strong> (calidad 80-90) o <strong>WebP</strong> (más eficiente)<br>
+                    &nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;├─ ¿Necesita transparencia? → <strong>PNG-24</strong><br>
+                    &nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;└─ ¿Archivo maestro? → <strong>TIFF</strong> o <strong>PSD</strong><br>
+                    &nbsp;&nbsp;└─ ❌ No (gráficos/logos) → Continuar...<br><br>
+                    
+                    <strong>🎨 ¿Necesita escalarse a cualquier tamaño?</strong><br>
+                    &nbsp;&nbsp;├─ ✅ Sí → <strong>SVG</strong> (vectorial web) o <strong>PDF</strong> (impresión)<br>
+                    &nbsp;&nbsp;└─ ❌ No (raster) → Continuar...<br><br>
+                    
+                    <strong>🎬 ¿Requiere animación?</strong><br>
+                    &nbsp;&nbsp;├─ ✅ Sí → <strong>GIF</strong> (simple, &lt;256 colores) o <strong>WebP animado</strong> (complejo, millones colores)<br>
+                    &nbsp;&nbsp;└─ ❌ No → Continuar...<br><br>
+                    
+                    <strong>🔍 ¿Contiene texto nítido o líneas precisas?</strong><br>
+                    &nbsp;&nbsp;├─ ✅ Sí → <strong>PNG</strong> (lossless, sin artefactos)<br>
+                    &nbsp;&nbsp;└─ ❌ No → <strong>JPEG</strong><br><br>
+                    
+                    <strong>🖨️ ¿Destino final es impresión profesional?</strong><br>
+                    &nbsp;&nbsp;├─ ✅ Sí → <strong>TIFF</strong> (CMYK, 300 DPI) o <strong>PDF/X</strong><br>
+                    &nbsp;&nbsp;└─ ❌ No (pantalla) → <strong>JPEG/PNG/WebP</strong>
+                </div>
+            </div>
         </section>
 
         <section>

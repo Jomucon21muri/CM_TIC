@@ -35,490 +35,1305 @@
 
         <section>
             <h2>📖 Introducción</h2>
-            <p>La Web 2.0 representa una evolución de Internet hacia la participación activa de los usuarios, la colaboración y el contenido generado por los usuarios. En este bloque estudiaremos las aplicaciones colaborativas, la creación y publicación de contenidos web, y la importancia de la accesibilidad.</p>
+            
+            <div class="definition-box">
+                <strong>Web 2.0 (Tim O'Reilly, 2004):</strong> Paradigma sociotécnico caracterizado por arquitecturas de participación que transforman usuarios pasivos consumidores en prosumers (productores + consumidores) de contenido, habilitado por tecnologías AJAX, APIs REST, y modelos negocio freemium basados en efectos red y datos agregados usuarios.
+            </div>
+
+            <p style="margin-top: 1.5rem;">Este bloque examina la evolución arquitectónica y social de la World Wide Web desde su concepción hipertextual estática (Web 1.0) hacia ecosistemas colaborativos interactivos dinámicos (Web 2.0), analizando:</p>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Transformación Arquitectónica</h4>
+                    <p>De páginas estáticas HTML/CGI hacia aplicaciones web ricas (RIA) con estado persistente cliente-servidor, sincronización tiempo real (WebSockets, Server-Sent Events), y computación distribuida cloud.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Economía Colaboración</h4>
+                    <p>SaaS (Software as a Service) freemium, productividad asíncrona distribuida, eliminación costes coordinación (Coase), inteligencia colectiva (Lévy), crowdsourcing, long tail economies.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Accesibilidad Universal</h4>
+                    <p>WCAG 2.1 (Web Content Accessibility Guidelines), diseño inclusivo, tecnologías asistivas (screen readers, switch controls), legislación internacional (ADA, EN 301 549), imperativo ético acceso información.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>Publicación Democratizada</h4>
+                    <p>CMS (Content Management Systems), generadores sitios estáticos (SSG), JAMstack architecture, CI/CD pipelines, SEO técnico, Core Web Vitals, descentralización contenido (IPFS, blockchain).</p>
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>5.1. De la Web 1.0 a la Web 2.0</h2>
+            <h2>5.1. Evolución Arquitectónica de la World Wide Web</h2>
             
-            <h3>Web 1.0 (1991-2004): Web Estática</h3>
-            <ul class="content-list">
-                <li><strong>Características:</strong> Solo lectura</li>
-                <li>Páginas estáticas HTML</li>
-                <li>Usuarios como consumidores pasivos</li>
-                <li>Contenido creado por webmasters</li>
-                <li>Poca interacción</li>
-                <li>Ejemplos: Páginas corporativas básicas, directorios como Yahoo!</li>
-            </ul>
+            <div class="timeline" style="margin-top: 1.5rem;">
+                <div class="timeline-item">
+                    <div class="timeline-marker">1989-1991</div>
+                    <div class="timeline-content">
+                        <h4>🌐 Nacimiento Web 1.0 (Tim Berners-Lee, CERN)</h4>
+                        <p><strong>Invención fundamental:</strong> Berners-Lee propone (1989) y implementa (1991) tres tecnologías interdependientes: <strong>HTTP</strong> (protocolo transferencia), <strong>HTML</strong> (lenguaje marcado hipertextual), <strong>URL</strong> (identificadores únicos recursos). Primera página: <code>info.cern.ch</code> (6 agosto 1991).</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Arquitectura cliente-servidor stateless:</strong> Navegador (Mosaic 1993, Netscape Navigator 1994) envía petición HTTP GET, servidor responde HTML estático. No sesiones, no estado, cada request independiente.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Paradigma documental:</strong> Web concebida como biblioteca hipertextual académica (Vannevar Bush "Memex" 1945, Ted Nelson "Xanadu" 1960). Solo lectura (read-only), usuarios consumidores pasivos, contenido creado webmasters técnicos.</p>
+                    </div>
+                </div>
 
-            <h3>Web 2.0 (2004-presente): Web Social</h3>
-            <ul class="content-list">
-                <li><strong>Características:</strong> Lectura y escritura</li>
-                <li>Contenido dinámico e interactivo</li>
-                <li>Usuarios como creadores de contenido</li>
-                <li>Participación, colaboración y compartir</li>
-                <li>Inteligencia colectiva</li>
-                <li>Aplicaciones en la nube</li>
-                <li>Ejemplos: Redes sociales, blogs, wikis, YouTube</li>
-            </ul>
+                <div class="timeline-item">
+                    <div class="timeline-marker">1995-2000</div>
+                    <div class="timeline-content">
+                        <h4>⚙️ Dinamismo Servidor: CGI, PHP, ASP</h4>
+                        <p><strong>CGI (Common Gateway Interface):</strong> Perl scripts servidor generan HTML dinámico (formularios, contadores visitas). Problema: Spawning proceso cada request (lento, no escala).</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Lenguajes server-side integrados:</strong><br>
+                        • <strong>PHP (1995, Rasmus Lerdorf):</strong> Personal Home Page → PHP Hypertext Preprocessor. Embebido HTML, conecta MySQL. WordPress, Facebook early.<br>
+                        • <strong>ASP (1996, Microsoft):</strong> Active Server Pages, VBScript/JScript, IIS.<br>
+                        • <strong>JSP/Servlets (1999, Sun):</strong> Java servidor, enterprise.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Bases datos relacionales:</strong> MySQL (1995), PostgreSQL (1996) almacenan contenido dinámico. Separación lógica vs presentación.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Dot-com bubble (1995-2000):</strong> Especulación valoraciones sin modelo negocio sostenible. Crash marzo 2000 (NASDAQ -78%). Lessons: Quemar cash rápido, crecimiento usuarios sin monetización, pets.com iconografía fracaso.</p>
+                    </div>
+                </div>
 
-            <h3>Diferencias Clave</h3>
-            <table>
+                <div class="timeline-item">
+                    <div class="timeline-marker">2004-2005</div>
+                    <div class="timeline-content">
+                        <h4>🚀 Nacimiento Web 2.0: O'Reilly Media Conference</h4>
+                        <p><strong>Tim O'Reilly (2004):</strong> Artículo "What Is Web 2.0" acuña término post dot-com crash. Empresas supervivientes (Google, Amazon, eBay) comparten patrones:</p>
+                        
+                        <ul class="content-list" style="margin-top: 0.5rem;">
+                            <li><strong>Web como plataforma:</strong> No software instalable, servicios accesibles browser (Gmail 2004, Google Maps 2005).</li>
+                            <li><strong>Efectos red:</strong> Valor aumenta con usuarios (ley Metcalfe $V \propto n^2$). Amazon reseñas, eBay reputación vendedores, Google PageRank.</li>
+                            <li><strong>Datos como activo:</strong> Agregación comportamiento usuarios mejora servicio (búsquedas Google entrenan algoritmo ranking).</li>
+                            <li><strong>Arquitecturas participación:</strong> UGC (User-Generated Content) default. Wikipedia vs Enciclopedia Britannica, Blogger vs páginas estáticas, Flickr vs galerías curadas.</li>
+                            <li><strong>Long tail economics (Chris Anderson):</strong> Amazon vende millones libros nicho (long tail) > bestsellers (head). Costes almacenamiento/distribución digital $\rightarrow$ 0.</li>
+                            <li><strong>Rich User Experience:</strong> AJAX (Asynchronous JavaScript and XML) permite actualizaciones sin full page reload. Gmail, Google Maps revolucionan UX.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">2005-2010</div>
+                    <div class="timeline-content">
+                        <h4>📱 Era Redes Sociales y Cloud Computing</h4>
+                        <p><strong>SaaS emerges:</strong> Salesforce (1999 pionero), Google Apps (2006), Microsoft Office 365. Modelo subscripción vs licencias perpetuas. Ventajas: Actualizaciones automáticas, acceso ubicuo, capex → opex.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Social platforms explosion:</strong> Facebook (2004), YouTube (2005), Twitter (2006) redefinen web como espacio social. User profiles, feeds algorítmicos, sharing viral, engagement metrics.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>AWS lanza (2006):</strong> Amazon Web Services democratiza infraestructura cloud. EC2 (compute), S3 (storage), empresas pequeñas acceden capacidad antes solo grandes. Spotify, Netflix, Airbnb nacen cloud-native.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Mobile web:</strong> iPhone (2007) + App Store (2008) crean ecosistema apps nativas. Diseño responsive (Ethan Marcotte 2010) adapta web a pantallas móviles.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">2010-2020</div>
+                    <div class="timeline-content">
+                        <h4>⚡ SPAs, Progressive Web Apps, JAMstack</h4>
+                        <p><strong>Single Page Applications (SPAs):</strong> Frameworks JavaScript (Angular 2010, React 2013, Vue 2014) construyen apps enteras cliente. Routing client-side, Virtual DOM, componentes reutilizables. Server APIs solo JSON (REST, GraphQL).</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Progressive Web Apps (2015, Google):</strong> Service Workers cachean assets, funcionan offline, push notifications, instalables home screen. Híbrido web/nativa sin app stores.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>JAMstack (2016, Netlify):</strong> JavaScript + APIs + Markup. Sitios estáticos pre-rendered (Gatsby, Next.js SSG), servidos CDN global, actualizaciones vía Git. Ventajas: Velocidad extrema, seguridad (no server attacks), escalabilidad infinita, DX (Developer Experience) excelente.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>WebAssembly (2017):</strong> Bytecode binario ejecuta C/C++/Rust browser velocidad nativa. Figma, AutoCAD web, gaming AAA browsers.</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker">2020-2026</div>
+                    <div class="timeline-content">
+                        <h4>🔮 Convergencia: Edge Computing, AI-Native, Web3</h4>
+                        <p><strong>Edge computing:</strong> Cloudflare Workers, Vercel Edge Functions ejecutan código geografically closest usuario (<10ms latency). Personalización ultra-rápida.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>AI-native applications:</strong> GPT-4, Claude, Gemini APIs integradas apps web. Copilot programación (GitHub 2021), generación imágenes (Midjourney, DALL-E), chatbots contextuales, content moderation automática.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>WebGPU (2023):</strong> Sucesor WebGL, acceso GPU computación paralela. Machine learning inference browser, simulaciones físicas, ray tracing tiempo real.</p>
+                        
+                        <p style="margin-top: 0.5rem;"><strong>Frameworks meta:</strong> Remix (2021), Astro (2021), Qwik (2023) optimizan hidratación, islands architecture, resumability. Performance obsession (Core Web Vitals Google ranking factor 2021).</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 2rem;">⚖️ Comparación Paradigmas Arquitectónicos</h3>
+
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Web 1.0 vs Web 2.0 vs Web 3.0</strong></caption>
                 <thead>
                     <tr>
-                        <th>Aspecto</th>
-                        <th>Web 1.0</th>
-                        <th>Web 2.0</th>
+                        <th>Dimensión</th>
+                        <th>Web 1.0 (1991-2004)<br><em>Read-Only</em></th>
+                        <th>Web 2.0 (2004-presente)<br><em>Read-Write</em></th>
+                        <th>Web 3.0 (2014-futuro)<br><em>Read-Write-Own</em></th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Rol del usuario</td>
-                        <td>Lector</td>
-                        <td>Lector y escritor</td>
+                        <td><strong>Rol Usuario</strong></td>
+                        <td>Consumidor pasivo, lector</td>
+                        <td>Prosumer (productor + consumidor), creador UGC</td>
+                        <td>Propietario datos/activos, participante económico directo</td>
                     </tr>
                     <tr>
-                        <td>Contenido</td>
-                        <td>Estático</td>
-                        <td>Dinámico</td>
+                        <td><strong>Contenido</strong></td>
+                        <td>Estático HTML, curado webmasters</td>
+                        <td>Dinámico generado usuarios (posts, vídeos, comments), algoritmically ranked</td>
+                        <td>Tokenizado NFTs, verificable on-chain, inmutable, censorship-resistant</td>
                     </tr>
                     <tr>
-                        <td>Comunicación</td>
-                        <td>Unidireccional</td>
-                        <td>Bidireccional</td>
+                        <td><strong>Arquitectura</strong></td>
+                        <td>Cliente-servidor stateless, páginas independientes</td>
+                        <td>Client-server stateful, sessions, cookies, WebSockets real-time, cloud backend</td>
+                        <td>Peer-to-peer descentralizado, blockchain (Ethereum), IPFS storage, smart contracts</td>
                     </tr>
                     <tr>
-                        <td>Tecnología</td>
-                        <td>HTML, formularios</td>
-                        <td>AJAX, APIs, RSS</td>
+                        <td><strong>Datos</strong></td>
+                        <td>Archivos locales servidor, backups manuales</td>
+                        <td>Bases datos centralizadas (MySQL, PostgreSQL, MongoDB), propiedad plataforma</td>
+                        <td>Distributed ledgers, usuarios controlan claves privadas, self-sovereign identity</td>
                     </tr>
                     <tr>
-                        <td>Ejemplos</td>
-                        <td>Enciclopedia Britannica</td>
-                        <td>Wikipedia</td>
+                        <td><strong>Tecnologías</strong></td>
+                        <td>HTML, CSS básico, CGI, forms POST</td>
+                        <td>AJAX, REST APIs, JSON, frameworks JS (React, Vue), WebSockets, GraphQL</td>
+                        <td>Blockchain (Ethereum, Solana), Solidity smart contracts, Web3.js, IPFS, ENS domains</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Modelo Negocio</strong></td>
+                        <td>Banner ads, CPM, e-commerce directo</td>
+                        <td>Freemium, targeted ads (surveillance capitalism), subscriptions SaaS, data monetization</td>
+                        <td>Tokenomics, DeFi (finance descentralizado), NFT royalties, DAOs, play-to-earn</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Interacción</strong></td>
+                        <td>Unidireccional (site → user), email feedback</td>
+                        <td>Multidireccional (user ↔ user, user ↔ platform), likes, comments, shares, DMs</td>
+                        <td>Trustless transactions (no intermediarios), governance voting (DAOs), reputation on-chain</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Identidad</strong></td>
+                        <td>Opcional, emails, no authentication común</td>
+                        <td>Centralized accounts (Google, Facebook login), OAuth delegación, perfiles ricos</td>
+                        <td>Wallet addresses (0x...), ENS names, DID (Decentralized Identifiers), no KYC</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ejemplos</strong></td>
+                        <td>Yahoo! Directory, Enciclopedia Britannica Online, GeoCities páginas personales</td>
+                        <td>Wikipedia, Facebook, YouTube, Gmail, Google Docs, Spotify, Netflix, Notion</td>
+                        <td>Ethereum, Uniswap (DEX), OpenSea (NFT marketplace), Mirror (publishing), Lens Protocol (social)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Control/Poder</strong></td>
+                        <td>Webmasters individuales, hosting providers</td>
+                        <td>Plataformas centralizadas (FAANG), términos servicio unilaterales, deplatforming posible</td>
+                        <td>Usuarios (claves privadas), comunidad (governance tokens), código abierto auditable</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Monetización Creadores</strong></td>
+                        <td>Casi inexistente (donaciones, Paypal buttons)</td>
+                        <td>Ad revenue sharing (YouTube 55%), Patreon, sponsorships, plataformas toman 15-30% comisión</td>
+                        <td>Royalties NFT perpetuas (10% secondary sales), tokens sociales, DeFi yield, sin intermediarios</td>
                     </tr>
                 </tbody>
-            </table>
+            </div>
 
-            <h3>Web 3.0: El Futuro</h3>
-            <ul class="content-list">
-                <li>Web semántica: Datos interconectados y comprensibles por máquinas</li>
-                <li>Inteligencia artificial integrada</li>
-                <li>Descentralización (blockchain)</li>
-                <li>Realidad virtual y aumentada</li>
-                <li>IoT (Internet de las Cosas)</li>
-            </ul>
+            <h3 style="margin-top: 2rem;">🔮 Web 3.0: Semantic Web vs Blockchain Web</h3>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Semantic Web (Berners-Lee Vision 2001)</h4>
+                    <p><strong>Datos estructurados machine-readable:</strong> RDF (Resource Description Framework), OWL (Web Ontology Language), SPARQL queries. Linked Data conecta datasets globalmente.<br><br>
+                    
+                    <strong>Ejemplos:</strong> Schema.org markup (Google, Microsoft, Yahoo, Yandex), Knowledge Graph Google, Wikidata, DBpedia.<br><br>
+                    
+                    <strong>Meta implementada:</strong> Open Graph Protocol (Facebook), Twitter Cards, JSON-LD microdata. AI asistentes (Siri, Alexa, Google Assistant) consumen datos estructurados.<br><br>
+                    
+                    <strong>Limitación adopción:</strong> Complejidad ontologías, overhead marcado manual, ROI unclear sitios pequeños.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Blockchain Web (Crypto Community 2014+)</h4>
+                    <p><strong>Descentralización radical:</strong> Ethereum (Vitalik Buterin 2015) smart contracts Turing-complete. Solidity programación, gas fees execution.<br><br>
+                    
+                    <strong>DApps (Decentralized Applications):</strong> Frontend tradicional + backend blockchain. Uniswap (DEX, $1T+ volumen), Aave (lending), Axie Infinity (gaming).<br><br>
+                    
+                    <strong>NFTs (Non-Fungible Tokens):</strong> Arte digital (Beeple $69M), PFPs (Bored Apes), música (Royal), dominios (ENS .eth).<br><br>
+                    
+                    <strong>Desafíos:</strong> Escalabilidad (15 TPS Ethereum L1 vs 65k Visa), costes gas ($50+ transacciones bull market), UX fricción (wallets, seed phrases lose = funds gone), scams/rug pulls rampant, volatilidad extrema, regulación unclear, environmental concerns (PoW energy, Ethereum transitioned PoS 2022 -99.95% energy).</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>AI-Powered Web (Actual 2023-2026)</h4>
+                    <p><strong>LLMs integrados:</strong> ChatGPT (Nov 2022, 100M users 2 meses), Claude, Gemini, Llama. Interfaces conversacionales reemplazan forms tradicionales.<br><br>
+                    
+                    <strong>Generación contenido:</strong> Copilot código (46% GitHub commits AI-assisted 2024), Midjourney/DALL-E imágenes, ElevenLabs voces, Runway vídeo.<br><br>
+                    
+                    <strong>Personalización extreme:</strong> Recommendation engines (Netflix, Spotify, TikTok FYP), dynamic pricing, A/B testing automatizado (Google Optimize $\rightarrow$ AI).<br><br>
+                    
+                    <strong>Autonomización:</strong> Agentes AI reservan viajes, programan citas, negocian contratos. AutoGPT, BabyAGI frameworks agent chains.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Spatial Web (Apple Vision Pro 2024)</h4>
+                    <p><strong>visionOS SDK:</strong> Apps 3D flotantes espacio real (AR), environments inmersivos (VR), eye tracking, hand gestures input.<br><br>
+                    
+                    <strong>WebXR API:</strong> Estándar W3C experiencias VR/AR browsers. A-Frame, Babylon.js frameworks.<br><br>
+                    
+                    <strong>Meta Quest 3:</strong> Mixed reality $500, hand tracking, color passthrough. Horizon Worlds social VR.<br><br>
+                    
+                    <strong>Limitación actual:</strong> Hardware caro/pesado, motion sickness, killer apps escasas, adoption <5M headsets (2024).</p>
+                </div>
+            </div>
         </section>
 
         <section>
             <h2>5.2. Aplicaciones Web 2.0 para Trabajo Colaborativo</h2>
             
-            <h3>¿Qué es el Trabajo Colaborativo?</h3>
-            <p>Proceso donde varias personas trabajan juntas en un proyecto u objetivo común, compartiendo recursos, conocimientos y responsabilidades.</p>
+            <div class="definition-box">
+                <strong>CSCW (Computer-Supported Cooperative Work):</strong> Campo interdisciplinar estudia cómo tecnología puede facilitar colaboración grupos, abordando coordinación (sincronización actividades), comunicación (intercambio información) y awareness (conocimiento estado/acciones otros). Emergió 1984 (Greif, Cashman), precede Web 2.0 pero materializado plenamente SaaS cloud-based.</div>
 
-            <h3>Suites Ofimáticas Online</h3>
-            
-            <h4>Google Workspace (antes G Suite)</h4>
-            <ul class="content-list">
-                <li><strong>Google Docs:</strong> Procesador de texto
-                    <ul>
-                        <li>Edición simultánea en tiempo real</li>
-                        <li>Comentarios y sugerencias</li>
-                        <li>Historial de revisiones</li>
-                        <li>Compatible con formatos de Word</li>
-                    </ul>
-                </li>
-                <li><strong>Google Sheets:</strong> Hojas de cálculo
-                    <ul>
-                        <li>Funciones y gráficos</li>
-                        <li>Colaboración en tiempo real</li>
-                        <li>Formularios vinculados</li>
-                    </ul>
-                </li>
-                <li><strong>Google Slides:</strong> Presentaciones
-                    <ul>
-                        <li>Plantillas y temas</li>
-                        <li>Presentación remota</li>
-                        <li>Preguntas y respuestas en vivo</li>
-                    </ul>
-                </li>
-                <li><strong>Google Forms:</strong> Crear encuestas y formularios</li>
-                <li><strong>Google Drive:</strong> Almacenamiento en la nube (15 GB gratis)</li>
-            </ul>
+            <h3>🧩 Fundamentos Teóricos Colaboración Digital</h3>
 
-            <h4>Microsoft 365 (antes Office 365)</h4>
-            <ul class="content-list">
-                <li><strong>Word Online:</strong> Procesador de texto</li>
-                <li><strong>Excel Online:</strong> Hojas de cálculo</li>
-                <li><strong>PowerPoint Online:</strong> Presentaciones</li>
-                <li><strong>OneDrive:</strong> Almacenamiento en la nube</li>
-                <li><strong>Teams:</strong> Comunicación y colaboración</li>
-                <li>Versiones online con colaboración en tiempo real</li>
-            </ul>
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Teoría Costes Transacción (Coase, 1937)</h4>
+                    <p><strong>Proposición:</strong> Organizaciones existen minimizar costes coordinación transacciones (búsqueda información, negociación, enforcement contratos). <strong>Aplicación Web 2.0:</strong> Tools colaborativas reducen transaction costs casi cero → equipos distribuidos globalmente viables. Slack elimina email chaos, Trello visibiliza estado tareas sin meetings. <strong>Resultado:</strong> Remote work explosion (COVID-19 aceleró 5 años tendencia).</p>
+                </div>
 
-            <h4>Otras Alternativas</h4>
-            <ul class="content-list">
-                <li><strong>Zoho Docs:</strong> Suite ofimática completa</li>
-                <li><strong>LibreOffice Online:</strong> Código abierto</li>
-                <li><strong>Dropbox Paper:</strong> Documentos colaborativos</li>
-            </ul>
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Commons-based Peer Production (Benkler, 2002)</h4>
+                    <p><strong>Definición:</strong> Producción colaborativa descentralizada no-propietaria (vs. firma jerárquica, mercado contractual). <strong>Ejemplos:</strong> Wikipedia (20M artículos, 300k editores activos), Linux kernel (15k+ contributors), OpenStreetMap. <strong>Motivaciones:</strong> Intrínsecas (autonomía, maestría, propósito Deci & Ryan), reputación, altruismo, learning-by-doing. <strong>Requisitos:</strong> Modularidad tareas, low cost
 
-            <h3>Herramientas de Gestión de Proyectos</h3>
-            <ul class="content-list">
-                <li><strong>Trello:</strong> Tableros Kanban con tarjetas
-                    <ul>
-                        <li>Visual e intuitivo</li>
-                        <li>Listas: Por hacer, En progreso, Completado</li>
-                        <li>Asignar tareas, fechas límite, etiquetas</li>
-                    </ul>
-                </li>
-                <li><strong>Asana:</strong> Gestión de tareas y proyectos
-                    <ul>
-                        <li>Vista de lista, tablero, calendario, línea de tiempo</li>
-                        <li>Subtareas y dependencias</li>
-                    </ul>
-                </li>
-                <li><strong>Monday.com:</strong> Plataforma de gestión visual</li>
-                <li><strong>Notion:</strong> Espacio de trabajo todo-en-uno
-                    <ul>
-                        <li>Notas, documentos, bases de datos, wikis</li>
-                        <li>Muy flexible y personalizable</li>
-                    </ul>
-                </li>
-            </ul>
+ coordination (version control Git, wikis), granularidad heterogénea (micro-contributions válidas).</p>
+                </div>
 
-            <h3>Herramientas de Comunicación</h3>
-            <ul class="content-list">
-                <li><strong>Slack:</strong> Chat para equipos
-                    <ul>
-                        <li>Canales por temas</li>
-                        <li>Mensajes directos</li>
-                        <li>Integraciones con otras apps</li>
-                        <li>Llamadas de voz y vídeo</li>
-                    </ul>
-                </li>
-                <li><strong>Microsoft Teams:</strong> Comunicación integrada con Office 365</li>
-                <li><strong>Discord:</strong> Popular en comunidades</li>
-                <li><strong>Zoom, Google Meet, Microsoft Teams:</strong> Videoconferencias</li>
-            </ul>
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>Awareness en Groupware (Dourish & Bellotti, 1992)</h4>
+                    <p><strong>Concepto:</strong> Comprensión actividades otros proporciona contexto propia actividad. <strong>Tipos:</strong><br>
+                    • <strong>Workspace awareness:</strong> Quién está editando (Google Docs cursores coloreados, presencia real-time)<br>
+                    • <strong>Social awareness:</strong> Disponibilidad (Slack status: 🟢 activo, 🔴 ocupado, 🌙 ausente)<br>
+                    • <strong>Activity awareness:</strong> Notificaciones cambios (Asana updates, GitHub commit feeds)<br><br>
+                    
+                    <strong>Trade-off:</strong> Information overload vs. under-informed. Notification fatigue ROI negativo productividad.</p>
+                </div>
 
-            <h3>Almacenamiento y Compartir Archivos</h3>
-            <ul class="content-list">
-                <li><strong>Google Drive:</strong> 15 GB gratis, integración con Google Workspace</li>
-                <li><strong>Dropbox:</strong> Sincronización automática, 2 GB gratis</li>
-                <li><strong>OneDrive:</strong> 5 GB gratis, integración con Windows</li>
-                <li><strong>iCloud:</strong> 5 GB gratis, ecosistema Apple</li>
-                <li><strong>Mega:</strong> 20 GB gratis, cifrado</li>
-            </ul>
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Ley Brooks (1975): "Adding manpower to a late software project makes it later"</h4>
+                    <p><strong>Razón:</strong> Costes comunicación crecen $O(n^2)$ con team size (cada persona debe coordinarse con $n-1$ otros). <strong>Implicación tools:</strong> Async documentation (Notion wikis, Confluence) reduce reuniones sincrónicas exponenciales. <strong>Scrum response:</strong> Equipos pequeños (5-9 personas), roles claros, ceremonies estructuradas (daily standups 15min).</p>
+                </div>
+            </div>
 
-            <h3>Pizarras Digitales y Visualización</h3>
-            <ul class="content-list">
-                <li><strong>Miro:</strong> Pizarra colaborativa online
-                    <ul>
-                        <li>Brainstorming visual</li>
-                        <li>Diagramas, mapas mentales</li>
-                        <li>Plantillas para diferentes métodos</li>
-                    </ul>
-                </li>
-                <li><strong>Padlet:</strong> Muro virtual para ideas</li>
-                <li><strong>Jamboard:</strong> Pizarra de Google</li>
-                <li><strong>Mural:</strong> Similar a Miro</li>
-            </ul>
+            <h3>📊 Suites Ofimáticas Online: Comparativa Exhaustiva</h3>
 
-            <h3>Notas y Documentación</h3>
-            <ul class="content-list">
-                <li><strong>Evernote:</strong> Tomar y organizar notas</li>
-                <li><strong>OneNote:</strong> Cuadernos digitales de Microsoft</li>
-                <li><strong>Google Keep:</strong> Notas rápidas</li>
-                <li><strong>Notion:</strong> Base de conocimiento y wiki</li>
-            </ul>
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Google Workspace vs Microsoft 365 vs Alternativas</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Dimensión</th>
+                        <th>Google Workspace</th>
+                        <th>Microsoft 365</th>
+                        <th>Alternativas Open/Free</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Usuarios</strong></td>
+                        <td>3.0B Gmail users, 2M+ businesses</td>
+                        <td>345M+ paid subscribers (2024), enterprise dominance</td>
+                        <td>Zoho 80M, LibreOffice Online nascent, Nextcloud 400k servers</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Precio</strong></td>
+                        <td>• Business Starter: $6/user/mes (30GB)<br>
+                            • Business Standard: $12/user/mes (2TB)<br>
+                            • Business Plus: $18/user/mes (5TB)<br>
+                            • Enterprise: Custom pricing</td>
+                        <td>• Business Basic: $6/user/mes (1TB)<br>
+                            • Business Standard: $12.50/user/mes (1TB, desktop apps)<br>
+                            • Business Premium: $22/user/mes (1TB, security)<br>
+                            • E5: $57/user/mes (unlimited, compliance)</td>
+                        <td>• Zoho Workplace: $3/user/mes<br>
+                            • LibreOffice Online: Free (self-hosted)<br>
+                            • ONLYOFFICE: Free (self-hosted), $5/user SaaS<br>
+                            • Nextcloud: Free (self-hosted)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Procesador texto</strong></td>
+                        <td><strong>Google Docs:</strong> Web-first, real-time cursors, comments threading, version history automático, suggestions mode (track changes), @mentions, smart compose AI</td>
+                        <td><strong>Word Online:</strong> Feature parity desktop parcial, real-time co-authoring (añadido 2016), track changes, templates extensas, reference manager Zotero</td>
+                        <td><strong>Zoho Writer:</strong> Similar Docs. <strong>LibreOffice Writer:</strong> ODT native, .docx compatibility, desktop-like UI browser. <strong>Etherpad:</strong> Ultra-lightweight, open source</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Hojas cálculo</strong></td>
+                        <td><strong>Google Sheets:</strong> 10M celdas límite, fórmulas array, Google Finance/Translate functions, Explore AI insights, Apps Script automation, real-time multi-user</td>
+                        <td><strong>Excel Online:</strong> Subset desktop (no macros VBA, no Power Query avanzado), pero PivotTables, sparklines, conditional formatting. Desktop version líder industria (Power BI integration)</td>
+                        <td><strong>Zoho Sheet:</strong> AI asistente Zia. <strong>LibreOffice Calc:</strong> Macros Basic, pivot tables. <strong>Airtable:</strong> Híbrido spreadsheet/database, vistas Kanban/Grid/Gallery</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Presentaciones</strong></td>
+                        <td><strong>Google Slides:</strong> Plantillas, transiciones, presenter view dual-screen, Q&A audience interaction, real-time collaboration, export MP4 vídeo</td>
+                        <td><strong>PowerPoint Online:</strong> Animaciones complejas, Morph transitions, Designer AI layout suggestions, desktop version animations avanzadas (motion paths)</td>
+                        <td><strong>Prezi:</strong> Non-linear zooming canvas ($15/mes). <strong>Canva Presentations:</strong> Design-first templates. <strong>LibreOffice Impress:</strong> Basic slideshow</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Almacenamiento</strong></td>
+                        <td><strong>Google Drive:</strong> 15GB gratis compartido (Gmail+Drive+Photos), búsqueda potente (OCR PDFs, speech-to-text audio), integración nativa Docs/Sheets,priority AI organization</td>
+                        <td><strong>OneDrive:</strong> 5GB gratis, integración Windows Explorer (Files On-Demand), Personal Vault cifrado, Office integration tight</td>
+                        <td><strong>Dropbox:</strong> 2GB gratis, sync pioneer (2008), Smart Sync, Paper docs, best UX historically. <strong>Nextcloud:</strong> Self-hosted unlimited, end-to-end encryption, GDPR compliance total</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Comunicación</strong></td>
+                        <td><strong>Google Chat:</strong> Spaces (channels), Meet integration (1080p, 500 participants Enterprise), Gmail unified inbox</td>
+                        <td><strong>Microsoft Teams:</strong> Channels, threaded conversations, Meet Now, integration Office apps profunda, Copilot AI summariza meetings</td>
+                        <td><strong>Slack:</strong> Líder standalone ($8-15/user/mes), 2.5k+ integrations, huddles audio, Canvas docs, workflows automation. <strong>Discord:</strong> Free unlimited, gaming/community focus</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Formularios</strong></td>
+                        <td><strong>Google Forms:</strong> Unlimited responses free, quiz mode auto-grading, logic branching, responses → Sheets automático, add-ons (certifications)</td>
+                        <td><strong>Microsoft Forms:</strong> Similar Forms, integración Excel, branching, quizzes. <strong>Limitación:</strong> 200 responses/form (Business), 50k (Enterprise)</td>
+                        <td><strong>Typeform:</strong> UX conversacional ($25-83/mes), 10k responses Enterprise. <strong>Jotform:</strong> 10k templates, payment integration. <strong>Tally:</strong> Free unlimited, Notion-like blocks</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Colaboración real-time</strong></td>
+                        <td>Operational Transformation (OT) desde 2010, latencia <100ms typical, conflict resolution automático, presence indicators</td>
+                        <td>Coauthoring añadido 2016 (después Google), CRDT-based (Conflict-free Replicated Data Types), initially laggy mejorado 2020+</td>
+                        <td>Varía: Zoho OT avanzado, LibreOffice Online basic (refresh delays), Nextcloud Collabora decent, Etherpad OT pioneer (2008)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Offline capability</strong></td>
+                        <td>Docs/Sheets/Slides: Offline mode Chrome, sincroniza al reconectar, requiere activación previa</td>
+                        <td>Desktop apps funcionan offline nativo, Online versions requieren conexión (mode offline experimental)</td>
+                        <td>Desktop LibreOffice fully offline, web versions requieren conexión excepto Nextcloud (experimental offline)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Seguridad & Compliance</strong></td>
+                        <td>ISO 27001, SOC 2/3, GDPR compliant, data centers globally, 2FA obligatorio enterprise, Admin console granular permissions, Vault e-discovery/retention</td>
+                        <td>ISO 27001, SOC 2/3, HIPAA, FedRAMP (gobierno EEUU), Advanced Threat Protection, DLP (Data Loss Prevention), privileged access management, compliance superior (regulado industries)</td>
+                        <td><strong>Nextcloud:</strong> Self-hosted = usuario controla (GDPR ideal), E2EE opcional, auditorías regular. <strong>SaaS:</strong> Zoho GDPR, menos certifications que Big Tech</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ecosistema & Lock-in</strong></td>
+                        <td>Google Workspace Marketplace 6k+ apps integradas (Trello, Asana, DocuSign), Apps Script JavaScript automation, export formatos abiertos (.docx, .xlsx, .pptx) pero formatting loss posible</td>
+                        <td>AppSource 30k+ apps, Power Automate (Zapier-like), macro VBA legacy massive (finance, academia dependencia), interoperability formatos excelente (líder industria decades)</td>
+                        <td>Open formats (ODF) máxima interoperability (no vendor lock-in), pero adopción corporativa menor → collaboration friction externos</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ideal para</strong></td>
+                        <td>Startups, tech companies, education (Google Classroom integration), colaboración real-time crítica, mobile-first teams</td>
+                        <td>Enterprises (Fortune 500 dominance), regulated industries (finance, healthcare, government), hybrid work (desktop+web), Excel power users, legacy compatibility</td>
+                        <td><strong>Nextcloud/LibreOffice:</strong> Privacy-conscious orgs, NGOs, European public sector (sovereignty), cost-sensitive. <strong>Zoho:</strong> SMBs price-conscious, CRM integration (Zoho ecosystem)</td>
+                    </tr>
+                </tbody>
+            </div>
 
-            <h3>Creatividad y Diseño Colaborativo</h3>
-            <ul class="content-list">
-                <li><strong>Canva:</strong> Diseño gráfico online
-                    <ul>
-                        <li>Plantillas para redes sociales, presentaciones, pósters</li>
-                        <li>Colaboración en equipo</li>
-                        <li>Biblioteca de elementos</li>
-                    </ul>
-                </li>
-                <li><strong>Figma:</strong> Diseño de interfaces colaborativo</li>
-                <li><strong>Adobe Spark:</strong> Gráficos, páginas web, vídeos</li>
-            </ul>
+            <h3>🗂️ Gestión Proyectos y Metodologías Ágiles</h3>
 
-            <h3>Ventajas del Trabajo Colaborativo Online</h3>
-            <div class="info-box success">
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Herramientas Project Management Comparativa</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Tool</th>
+                        <th>Metodología</th>
+                        <th>Características</th>
+                        <th>Precio & Usuarios</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Trello</strong><br>(Atlassian, 2011)</td>
+                        <td>Kanban visual</td>
+                        <td>• Boards → Lists → Cards (tareas)<br>
+                            • Arrastrar/soltar intuitivo<br>
+                            • Power-Ups (Gantt, Calendar, voting)<br>
+                            • Butler automation (if-then rules)<br>
+                            • Labels, checklists, due dates<br>
+                            <strong>Limitación:</strong> Proyectos complejos difíciles (no dependencies nativo)</td>
+                        <td>• Free: 10 boards<br>
+                            • Standard: $5/user/mes<br>
+                            • Premium: $10/user/mes<br>
+                            • Enterprise: $17.50/user<br>
+                            <strong>Usuarios:</strong> 50M+ (2024)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Asana</strong><br>(Dustin Moskovitz, 2012)</td>
+                        <td>Híbrido (listas, Kanban, Gantt)</td>
+                        <td>• Vistas múltiples: List, Board, Timeline (Gantt), Calendar<br>
+                            • Subtasks jerárquicas (3 niveles)<br>
+                            • Dependencies tareas (bloqueadores)<br>
+                            • Forms entrada requests<br>
+                            • Portfolios multi-proyecto<br>
+                            • Workload view capacidad equipo</td>
+                        <td>• Free: Básico<br>
+                            • Premium: $10.99/user/mes<br>
+                            • Business: $24.99/user<br>
+                            <strong>Usuarios:</strong> 150k+ organizations</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Monday.com</strong><br>(2012, Israel)</td>
+                        <td>Work OS flexible</td>
+                        <td>• Spreadsheet-like interface (rows/columns personalizables)<br>
+                            • 200+ templates (Marketing, HR, CRM, Dev)<br>
+                            • Automations sin código (cuando Status=Done → notify   manager)<br>
+                            • Integraciones 40+ (Slack, Gmail, Zoom)<br>
+                            • Dashboards reporting widgets</td>
+                        <td>• Individual: Free<br>
+                            • Basic: $8/seat/mes (3 seats min)<br>
+                            • Standard: $10/seat<br>
+                            • Pro: $16/seat<br>
+                            <strong>IPO 2021:</strong> $7B valuation</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jira</strong><br>(Atlassian, 2002)</td>
+                        <td>Scrum/Kanban Agile desarrollo software</td>
+                        <td>• Sprints planning (backlog grooming)<br>
+                            • Burndown charts velocity tracking<br>
+                            • User stories, epics, sub-tasks<br>
+                            • Git integration (commits linked issues)<br>
+                            • Custom workflows (To Do → In Progress → Code Review → Done)<br>
+                            <strong>Complejidad:</strong> Steep learning curve, overkill proyectos no-software</td>
+                        <td>• Free: 10 users<br>
+                            • Standard: $7.75/user/mes<br>
+                            • Premium: $15.25/user<br>
+                            <strong>Usuarios:</strong> 65k+ orgs, 180k customers</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Notion</strong><br>(2016)</td>
+                        <td>All-in-one workspace (wiki + tasks + DB)</td>
+                        <td>• Bloques modulares (text, images, tables, databases, embed)<br>
+                            • Databases relacionales (Kanban, Table, Gallery, Calendar, Timeline views)<br>
+                            • Formulas, rollups, relations entre databases<br>
+                            • Templates comunidad (Product roadmap, CRM, meeting notes)<br>
+                            • Wiki colaborativa equipos<br>
+                            <strong>Strengths:</strong> Flexibilidad extrema, knowledge management. <strong>Weakness:</strong> Performance lenta DB grandes (1000+ rows lag)</td>
+                        <td>• Free: Individual<br>
+                            • Plus: $8/user/mes<br>
+                            • Business: $15/user<br>
+                            • Enterprise: Custom<br>
+                            <strong>Valuación 2021:</strong> $10B (rounds Sequoia, Coatue)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ClickUp</strong><br>(2017)</td>
+                        <td>"One app replace all" (ultra-features)</td>
+                        <td>• 15+ vistas (List, Box, Gantt, Mind Maps, Workload, Activity)<br>
+                            • Docs integrados, Whiteboards, Chat, Goals, Time tracking<br>
+                            • Automations 50+ acciones<br>
+                            • AI writing assistant (ClickUp Brain)<br>
+                            <strong>Trade-off:</strong> Feature bloat overwhelms beginners, pero power users adoran customization</td>
+                        <td>• Free: Unlimited tasks (100MB storage)<br>
+                            • Unlimited: $7/user/mes<br>
+                            • Business: $12/user<br>
+                            <strong>Usuarios:</strong> 2M+ teams (2023)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Basecamp</strong><br>(37signals, 2004)</td>
+                        <td>Simplicidad opinionated</td>
+                        <td>• Message boards (async discussions)<br>
+                            • To-dos (listas simples, no Gantt)<br>
+                            • Campfire (chat)<br>
+                            • Docs & Files<br>
+                            • Hill Charts (novel progress visualization)<br>
+                            <strong>Filosofía:</strong> "Menos features = mejor UX" (anti-feature creep), flat pricing ($299/mes unlimited users)</td>
+                        <td>• Free: 1 proyecto, 3 users<br>
+                            • Pro: $299/mes flat (unlimited users/projects)<br>
+                            <strong>Diferenciador:</strong> Pricing transparente, no seat-based nickel-and-diming</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <h3>🎨 Pizarras Digitales y Visual Collaboration</h3>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Miro (2011, Amsterdam)</h4>
+                    <p><strong>Canvas infinito colaborativo.</strong> 50M usuarios (2024), valoración $17.5B (2022).<br><br>
+                    
+                    <strong>Features:</strong><br>
+                    • 2k+ templates (Brainstorming, User Story Mapping, Retrospectives, Design Thinking)<br>
+                    • Sticky notes, shapes, connectors, frameworks (SWOT, Kanban, Gantt)<br>
+                    • Integraciones: Zoom, Microsoft Teams, Slack (whiteboard embedded reuniones)<br>
+                    • Voting, timer, video chat integrado canvas<br>
+                    • Miro AI (cluster sticky notes, summarize content)<br><br>
+                    
+                    <strong>Uso:</strong> Workshops remotos, design sprints, agile ceremonies, architecture diagrams.<br>
+                    <strong>Precio:</strong> Free 3 boards, Team $8/user/mes, Business $16/user, Enterprise custom.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Mural (2011, San Francisco)</h4>
+                    <p><strong>Competidor directo Miro.</strong> Diferencias sutiles: UI ligeramente distinto, faciliator superpowers (summon all, timer presentation).<br><br>
+                    
+                    <strong>Fortalezas:</strong> Enterprise security (SOC 2, ISO 27001), integraciones Microsoft superior (SharePoint, Azure AD).<br><br>
+                    
+                    <strong>Debilidad:</strong> Menor adopción consumer/SMB (brand awareness Miro >).<br><br>
+                    
+                    <strong>Precio:</strong> $9.99/user/mes (Team), custom Enterprise.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>FigJam (Figma, 2021)</h4>
+                    <p><strong>Whiteboard Figma.</strong> Integración nativa Figma design files (paste frames, prototype links).<br><br>
+                    
+                    <strong>Ventajas:</strong> Designers already workflow Figma, jamming synchronous (cursors, audio), widgets interactivos (polls, stamps, templates).<br><br>
+                    
+                    <strong>Adopción:</strong> Rápida (Figma 4M+ users inherit FigJam access). Adobe acquisition $20B (2022, regulators blocked 2024).<br><br>
+                    
+                    <strong>Precio:</strong> Free 3 files, Figma Professional $12/editor (FigJam incluido).</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Padlet (2008)</h4>
+                    <p><strong>Simplified wall posts.</strong> Educación dominante (10M+ teachers).<br><br>
+                    
+                    <strong>Formats:</strong> Wall (Pinterest-like), Stream (blog), Grid (spreadsheet), Shelf (columns), Backchannel (Q&A), Map (geolocation), Timeline.<br><br>
+                    
+                    <strong>Simplicidad:</strong> No login required participantes (share link), embeddable, moderation admin.<br><br>
+                    
+                    <strong>Precio:</strong> Free 3 padlets, Gold $6.99/mes unlimited, Platinum $9.99/mes removing branding.</p>
+                </div>
+            </div>
+
+            <h3>⚙️ Tecnologías Sincronización Tiempo Real</h3>
+
+            <div class="summary-box" style="margin-top: 1.5rem;">
+                <h4>🔧 Algoritmos Edición Colaborativa</h4>
+                
+                <p><strong>Operational Transformation (OT):</strong></p>
                 <ul class="content-list">
-                    <li>Acceso desde cualquier lugar con internet</li>
-                    <li>Trabajo en tiempo real simultáneo</li>
-                    <li>Sin problemas de versiones</li>
-                    <li>Historial de cambios automático</li>
-                    <li>No requiere instalación de software</li>
-                    <li>Ahorro de tiempo y recursos</li>
-                    <li>Facilita trabajo remoto</li>
+                    <li><strong>Concepto (Ellis & Gibbs, 1989):</strong> Operaciones edición (insert, delete) transformadas account operaciones concurrentes otros usuarios. Mantiene intención original cada edit preservando convergencia final.</li>
+                    <li><strong>Ejemplo:</strong> Usuario A inserta "x" posición 5, simultáneamente Usuario B deleta posición 3. OT transforma operación A → insert posición 4 (adjusted delete anterior).</li>
+                    <li><strong>Implementaciones:</strong> Google Docs (pioneer web-scale OT), Apache Wave (Google discontinued), ShareJS, Etherpad.</li>
+                    <li><strong>Complejidad:</strong> $O(n^2)$ worst-case transformaciones, debugging difícil.</li>
                 </ul>
+
+                <p style="margin-top: 1rem;"><strong>Conflict-free Replicated Data Types (CRDTs):</strong></p>
+                <ul class="content-list">
+                    <li><strong>Concepto (Shapiro et al., 2011):</strong> Estructuras datos diseñadas matemáticamente garantizan convergencia eventual sin coordinación central. Operaciones commutative (orden no importa), idempotent (aplicar múltiples veces = una vez).</li>
+                    <li><strong>Tipos:</strong>
+                        <ul>
+                            <li><strong>G-Counter:</strong> Grow-only counter (cada réplica suma local, merge = suma todos)</li>
+                            <li><strong>LWW-Register:</strong> Last-Write-Wins (timestamp determina winner conflict)</li>
+                            <li><strong>OR-Set:</strong> Observed-Remove Set (adds/removes tracked IDs únicos)</li>
+                            <li><strong>YJS:</strong> Sequence CRDT optimizado text editing (Figma multiplayer, TipTap editor)</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ventaja vs OT:</strong> Simpler mental model, decentralized (P2P friendly), offline-first natural.</li>
+                    <li><strong>Implementaciones:</strong> Figma (multiplayer cursor/edits), Notion (database sync), Automerge, Yjs (collaborative editors).</li>
+                </ul>
+
+                <p style="margin-top: 1rem;"><strong>WebSockets (RFC 6455, 2011):</strong></p>
+                <ul class="content-list">
+                    <li><strong>Protocolo:</strong> Full-duplex persistent connection sobre TCP (vs HTTP request-response unidirectional). Handshake HTTP Upgrade, luego binary frames bidirectional.</li>
+                    <li><strong>Ventajas:</strong> Low latency (<50ms typical), server push (no polling), eficiente bandwidth (headers mínimos post-handshake).</li>
+                    <li><strong>Uso:</strong> Chat apps (Slack, Discord), collaborative editing, live dashboards, gaming, trading platforms.</li>
+                    <li><strong>Desafíos:</strong> Load balancing (sticky sessions requeridas), scalability (10k+ concurrent connections per server challenging), fallback HTTP long-polling browsers legacy.</li>
+                </ul>
+
+                <p style="margin-top: 1rem;"><strong>Server-Sent Events (SSE):</strong></p>
+                <ul class="content-list">
+                    <li><strong>Protocolo:</strong> HTTP persistent connection unidirectional (server → client). Más simple WebSockets, suficiente casos uso read-only updates.</li>
+                    <li><strong>Ventaja:</strong> HTTP standard (proxies/firewalls friendly), auto-reconnect browser, EventSource API nativo.</li>
+                    <li><strong>Limitación:</strong> Solo server-push (client envía datos HTTP POST separado).</li>
+                    <li><strong>Uso:</strong> Live notifications (Twitter feed updates), stock tickers, logs streaming.</li>
+                </ul>
+            </div>
+
+            <h3>💼 Modelos Negocio SaaS</h3>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>Freemium</h4>
+                    <p><strong>Concepto:</strong> Core producto gratis, features premium pago. Conversión típica 2-5% free → paid.<br><br>
+                    
+                    <strong>Rationale:</strong> Viral growth (free users invitan otros), network effects, upsell power users.<br><br>
+                    
+                    <strong>Ejemplos:</strong> Slack (10k messages history limit free), Notion (1k blocks free), Trello (10 boards), Zoom (40 min meetings), Dropbox (2GB).<br><br>
+                    
+                    <strong>Challenge:</strong> Support costs free users, CAC (Customer Acquisition Cost) alto si conversión baja.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Seat-based Pricing</h4>
+                    <p><strong>Modelo:</strong> Precio por usuario activo/mes. Linear scaling revenue con team size.<br><br>
+                    
+                    <strong>Variantes:</strong><br>
+                    • <strong>Per-user:</strong> Google Workspace $6-18/user<br>
+                    • <strong>Active users:</strong> Figma cobra solo editors (viewers gratis)<br>
+                    • <strong>Concurrent users:</strong> Zoom cobra hosts, participantes gratis<br><br>
+                    
+                    <strong>Advantage:</strong> Predictable revenue, scales con customer growth.<br>
+                    <strong>Disadvantage:</strong> Shadow IT (teams evitan agregar users por coste).</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Usage-based Pricing</h4>
+                    <p><strong>Modelo:</strong> Cobra consumo real (API calls, storage, compute).<br><br>
+                    
+                    <strong>Ejemplos:</strong> AWS EC2 ($/hora instance), Twilio ($/SMS enviado), OpenAI GPT-4 ($/1k tokens).<br><br>
+                    
+                    <strong>Pros:</strong> Fair (pay what use), scalable infinito, aligns incentives (customer success = vendor revenue).<br>
+                    <strong>Cons:</strong> Bill shock fears, CFO unpredictability, requiere robust metering infrastructure.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Flat-rate All-you-can-eat</h4>
+                    <p><strong>Modelo:</strong> Precio fijo unlimited users/usage. Simplicity extrema.<br><br>
+                    
+                    <strong>Ejemplo:</strong> Basecamp ($299/mes unlimited everything).<br><br>
+                    
+                    <strong>Ventaja:</strong> Sales cycle corto (no negotiations seats), customer love transparency.<br>
+                    <strong>Desventaja:</strong> Deja dinero mesa (large orgs pagarían más), attracts resource-heavy users (profitability challenging).</p>
+                </div>
             </div>
         </section>
 
         <section>
             <h2>5.3. Creación y Publicación en la Web</h2>
             
-            <h3>Páginas Web Estáticas vs Dinámicas</h3>
-            
-            <h4>Estáticas</h4>
-            <ul class="content-list">
-                <li>Contenido fijo en HTML/CSS</li>
-                <li>Mismo contenido para todos los usuarios</li>
-                <li>Rápidas de cargar</li>
-                <li>Fáciles de crear</li>
-                <li>Ejemplo: Página personal básica</li>
-            </ul>
+            <h3>🏗️ Arquitecturas Web: Evolución y Paradigmas</h3>
 
-            <h4>Dinámicas</h4>
-            <ul class="content-list">
-                <li>Contenido generado por servidor (PHP, Python, etc.)</li>
-                <li>Interactúan con bases de datos</li>
-                <li>Contenido personalizado para cada usuario</li>
-                <li>Más complejas pero más potentes</li>
-                <li>Ejemplo: Facebook, tiendas online</li>
-            </ul>
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Estáticas, Dinámicas y JAMstack</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Aspecto</th>
+                        <th>Estáticas Clásicas</th>
+                        <th>Dinámicas (SSR)</th>
+                        <th>JAMstack Moderno</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Rendering</strong></td>
+                        <td>HTML precompilado, mismo todos usuarios</td>
+                        <td>Generado servidor cada request (PHP, Ruby, Python)</td>
+                        <td>Pre-rendered build time (SSG) + client-side JS + APIs</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Velocidad</strong></td>
+                        <td>Muy rápida (archivo estático CDN)</td>
+                        <td>Lenta (query DB + render cada request)</td>
+                        <td>Muy rápida (CDN global + hydration)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Personalización</strong></td>
+                        <td>No personalizada (mismo HTML todos)</td>
+                        <td>Alta (query user DB, sesión cookies)</td>
+                        <td>Client-side personalización (fetch APIs post-load)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Escalabilidad</strong></td>
+                        <td>Infinita (solo bandwidth CDN)</td>
+                        <td>Limitada (DB connections, server CPU bottleneck)</td>
+                        <td>Infinita (serverless functions horizontally scalable)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Costo</strong></td>
+                        <td>Mínimo (GitHub Pages $0, Netlify free tier)</td>
+                        <td>Moderado-alto (VPS $20-200/mes, DB hosting)</td>
+                        <td>Bajo (serverless free tier generoso, CDN barato)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Seguridad</strong></td>
+                        <td>Máxima (no server vulnerabilities, no SQL injection)</td>
+                        <td>Vulnerable (PHP/SQL injection, XSS, CSRF, patches constantes)</td>
+                        <td>Alta (no server tradicional, APIs aisladas, serverless sandboxed)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ejemplos</strong></td>
+                        <td>Página personal básica HTML/CSS, documentación estática</td>
+                        <td>WordPress tradicional, Django apps, Rails, Laravel e-commerce</td>
+                        <td>Gatsby blogs, Next.js apps, Netlify sites, Vercel deployments</td>
+                    </tr>
+                </tbody>
+            </div>
 
-            <h3>Lenguajes para Crear Páginas Web</h3>
-            <ul class="content-list">
-                <li><strong>HTML (HyperText Markup Language):</strong> Estructura del contenido
-                    <ul>
-                        <li>Etiquetas: <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;img&gt;</code></li>
-                        <li>Versión actual: HTML5</li>
-                    </ul>
-                </li>
-                <li><strong>CSS (Cascading Style Sheets):</strong> Diseño y presentación
-                    <ul>
-                        <li>Colores, fuentes, márgenes, disposición</li>
-                        <li>Diseño responsive (adaptable a móviles)</li>
-                    </ul>
-                </li>
-                <li><strong>JavaScript:</strong> Interactividad y dinamismo
-                    <ul>
-                        <li>Animaciones, validación de formularios</li>
-                        <li>Manipulación del contenido sin recargar</li>
-                    </ul>
-                </li>
-            </ul>
+            <h3>🌐 Lenguajes Web: Evolución y Ecosistema</h3>
 
-            <h3>Creadores de Páginas Web (Website Builders)</h3>
-            <p>Plataformas que permiten crear sitios web sin conocimientos de programación.</p>
-            
-            <h4>WordPress</h4>
-            <ul class="content-list">
-                <li>CMS (Content Management System) más popular</li>
-                <li>Miles de temas y plugins</li>
-                <li>Desde blogs hasta tiendas online</li>
-                <li>Versión: WordPress.com (hosting incluido) o WordPress.org (auto-alojado)</li>
-            </ul>
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <h4>HTML5 (2014, W3C)</h4>
+                    <p><strong>Evolución desde HTML 4.01 (1999):</strong> Semantic elements (<code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;footer&gt;</code>), multimedia nativo (<code>&lt;video&gt;</code>, <code>&lt;audio&gt;</code>sin plugins), Canvas 2D/3D (WebGL), APIs JavaScript (Geolocation, LocalStorage, Web Workers, WebSockets).<br><br>
+                    
+                    <strong>Living Standard (WHATWG 2019+):</strong> HTML no versionado, evolución continua. Nuevos elementos: <code>&lt;dialog&gt;</code> modals nativos, <code>&lt;details&gt;</code>/<code>&lt;summary&gt;</code> accordions, <code>loading="lazy"</code> images.</p>
+                </div>
 
-            <h4>Wix</h4>
-            <ul class="content-list">
-                <li>Constructor visual drag-and-drop</li>
-                <li>Muchas plantillas profesionales</li>
-                <li>Plan gratuito con dominio Wix</li>
-            </ul>
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>CSS3 Modules</h4>
+                    <p><strong>Flexbox (2012):</strong> Layout unidimensional (<code>display: flex</code>), alignitems/justify-content.<br>
+                    <strong>Grid (2017):</strong> Layout bidimensional (<code>display: grid</code>), grid-template-areas, gap. Revolución diseño complejo.<br>
+                    <strong>Custom Properties (2015):</strong> Variables CSS (<code>--color-primary: #3498db</code>, <code>var(--color-primary)</code>).<br>
+                    <strong>Animations & Transitions:</strong> @keyframes, transform: rotate/scale/translate.<br>
+                    <strong>Media Queries:</strong> Responsive design (<code>@media (max-width: 768px)</code>).<br>
+                    <strong>Preprocessors:</strong> Sass/SCSS variables/mixins/nesting (compila → CSS), Less, Stylus.<br>
+                    <strong>PostCSS:</strong> Autoprefixer (vendor prefixes automático), CSS Modules (scoped styles).</p>
+                </div>
 
-            <h4>Squarespace</h4>
-            <ul class="content-list">
-                <li>Diseños elegantes</li>
-                <li>Ideal para portfolios y negocios creativos</li>
-                <li>De pago</li>
-            </ul>
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>JavaScript ES6+ (ECMAScript 2015+)</h4>
+                    <p><strong>Sintaxis moderna:</strong> Arrow functions (<code>=></code>), destructuring (<code>{name, age} = user</code>), template literals (<code>`Hello ${name}`</code>), classes, modules (import/export), async/await (2017).<br><br>
+                    
+                    <strong>Frameworks frontend:</strong><br>
+                    • <strong>React (2013, Meta):</strong> Component-based, Virtual DOM, hooks, 220k+ stars GitHub, JSX syntax.<br>
+                    • <strong>Vue.js (2014, Evan You):</strong> Progressive framework, template syntax, 210k stars, easier learning curve.<br>
+                    • <strong>Angular (2016, Google):</strong> Full framework, TypeScript, enterprise adoption, MVC architecture.<br>
+                    • <strong>Svelte (2016):</strong> Compiler (no virtual DOM), smaller bundles, fastest performance benchmarks.<br><br>
+                    
+                    <strong>TypeScript (2012, Microsoft):</strong> Superset JavaScript typed. Type safety previene bugs, mejor IDE autocomplete. Adoption: 78% developers Stack Overflow 2024.</p>
+                </div>
 
-            <h4>Google Sites</h4>
-            <ul class="content-list">
-                <li>Gratuito y simple</li>
-                <li>Integración con Google Workspace</li>
-                <li>Ideal para sitios internos de empresas o proyectos escolares</li>
-            </ul>
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Backend Languages</h4>
+                    <p><strong>Node.js (2009):</strong> JavaScript servidor (V8 engine). Express.js framework, npm packages (2M+), full-stack JS.<br>
+                    <strong>Python (Django/Flask):</strong> Django batteries-included (ORM, admin, auth), Flask microframework, data science synergy.<br>
+                    <strong>PHP (WordPress/Laravel):</strong> 77% websites (W3Techs 2024), WordPress 43% CMS market, Laravel elegant modern syntax.<br>
+                    <strong>Ruby (Rails):</strong> Convention over configuration, Basecamp/GitHub/Shopify built Rails, rapid prototyping.<br>
+                    <strong>Go (Golang):</strong> Google 2009, compiled fast, concurrency goroutines, microservices ideal.<br>
+                    <strong>Rust:</strong> Systems language memory-safe, Servo browser engine, WebAssembly compile target.</p>
+                </div>
+            </div>
 
-            <h4>Otros</h4>
-            <ul class="content-list">
-                <li><strong>Weebly:</strong> Fácil de usar</li>
-                <li><strong>Shopify:</strong> Especializado en comercio electrónico</li>
-                <li><strong>Webflow:</strong> Control de diseño avanzado sin código</li>
-            </ul>
+            <h3>📝 CMS y Website Builders Comparativa</h3>
 
-            <h3>Blogs y Microblogs</h3>
-            <ul class="content-list">
-                <li><strong>Blogger:</strong> Plataforma gratuita de Google</li>
-                <li><strong>WordPress.com:</strong> Hosting gratuito para blogs</li>
-                <li><strong>Medium:</strong> Plataforma de publicación, comunidad de escritores</li>
-                <li><strong>Tumblr:</strong> Microblogging multimedia</li>
-                <li><strong>Ghost:</strong> Plataforma de publicación minimalista</li>
-            </ul>
-
-            <h3>Wikis</h3>
-            <ul class="content-list">
-                <li><strong>Wikipedia:</strong> Enciclopedia colaborativa libre</li>
-                <li><strong>Wikia/Fandom:</strong> Wikis sobre cultura pop, juegos, series</li>
-                <li><strong>MediaWiki:</strong> Software detrás de Wikipedia (se puede instalar)</li>
-                <li>Características: Edición colaborativa, historial de versiones, enlaces internos</li>
-            </ul>
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Content Management Systems & Builders</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Platform</th>
+                        <th>Tipo</th>
+                        <th>Market Share / Adoption</th>
+                        <th>Características & Trade-offs</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>WordPress</strong></td>
+                        <td>Open Source CMS (PHP)</td>
+                        <td>43.4% todos websites, 64% CMS market (W3Techs 2024)</td>
+                        <td><strong>Ventajas:</strong> 60k+ plugins (Yoast SEO, WooCommerce e-commerce $12B GMV 2023, Elementor page builder), 11k themes, community massive, self-hosted control total.<br>
+                            <strong>Desventajas:</strong> Seguridad vulnerable (outdated plugins attack vector), performance lenta sin optimization (caching plugins necesarios), updates breaking sites riesgo.<br>
+                            <strong>Hosting:</strong> WordPress.com managed ($4-45/mes), Bluehost/SiteGround ($3-20/mes), WP Engine premium ($20-400/mes).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wix</strong></td>
+                        <td>Proprietary drag-drop builder</td>
+                        <td>200M+ users, 3.5% total websites</td>
+                        <td><strong>Ventajas:</strong> ADI (Artificial Design Intelligence) genera site automático, 900+ templates, Wix Code (custom JS), Wix Stores e-commerce integrado.<br>
+                            <strong>Desventajas:</strong> Vendor lock-in total (no export site), SEO limitations historically (mejorado 2020+), ads plan free.<br>
+                            <strong>Precio:</strong> Free (ads), Combo $16/mes (remove ads), Business $27/mes (e-commerce 0% commission).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Squarespace</strong></td>
+                        <td>All-in-one builder premium</td>
+                        <td>4M websites, creatives/portfolios dominance</td>
+                        <td><strong>Ventajas:</strong> Templates elegantes (designer-grade, Anthony Casalena focus), mobile responsive default, analytics integrado, domains incluidos.<br>
+                            <strong>Desventajas:</strong> Customization limitada vs code access, precio alto ($16-49/mes), no free tier.<br>
+                            <strong>Ideal:</strong> Photographers, artists, designers, restaurants (block editing intuitive).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Webflow</strong></td>
+                        <td>Visual dev platform</td>
+                        <td>500k+ designers/devs (2024), $4B valuation</td>
+                        <td><strong>Ventajas:</strong> CSS visual (Flexbox/Grid GUI), animations timeline (like After Effects), CMS headless possibilities, export code clean HTML/CSS.<br>
+                            <strong>Complejidad:</strong> Steeper learning curve (necesita entender CSS concepts), pricing confuso (site plans + workspace plans).<br>
+                            <strong>Precio:</strong> Free 2 projects, Basic $14/mes (custom domain), CMS $23/mes (2k items), Business $39/mes (10k).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Shopify</strong></td>
+                        <td>E-commerce specialized</td>
+                        <td>4.4M merchants, 10% e-commerce US, $200B+ GMV</td>
+                        <td><strong>Ventajas:</strong> All-in-one (payments, shipping, inventory, marketing), Shopify Payments (no fees), apps 8k+ (Klaviyo email, Yotpo reviews).<br>
+                            <strong>Desventajas:</strong> Transaction fees si payment gateway externo (0.5-2%), theme customization Liquid templating (learning curve).<br>
+                            <strong>Precio:</strong> Basic $39/mes, Shopify $105/mes, Advanced $399/mes (lower fees), Plus $2k/mes (enterprise).</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Ghost</strong></td>
+                        <td>Open Source publishing (Node.js)</td>
+                        <td>3M+ installs, independent journalism focus</td>
+                        <td><strong>Ventajas:</strong> Memberships/subscriptions nativo (Substack competitor self-hosted), SEO-optimized, Markdown editing, newsletters integrados.<br>
+                            <strong>Desventajas:</strong> Narrower use cases (solo publishing/blogs), no e-commerce, community smaller WordPress.<br>
+                            <strong>Precio:</strong> Self-hosted free, Ghost(Pro) managed $9-199/mes depending subscribers.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wikis (MediaWiki)</strong></td>
+                        <td>Collaborative knowledge base</td>
+                        <td>60k+ wikis, Wikipedia (6.9M English articles)</td>
+                        <td><strong>Funcionalidad:</strong> Edit history granular (diff every change), talk pages discussions, categories/templates structuring, WYSIWYG editor VisualEditor.<br>
+                            <strong>Alternativas modernas:</strong> Notion (wiki + databases), Confluence (Atlassian, enterprise wikis $5-10/user), Obsidian Publish (local-first Markdown published).</td>
+                    </tr>
+                </tbody>
+            </div>
         </section>
 
         <section>
             <h2>5.4. Integración y Organización de Contenidos</h2>
             
-            <h3>Estructuras Hipertextuales</h3>
-            <p>Organización de información mediante enlaces (hipervínculos) que conectan diferentes contenidos.</p>
+            <div class="definition-box" style="margin-top: 1.5rem;">
+                <strong>Information Architecture (Rosenfeld & Morville 2002):</strong> Disciplina diseño estructuras información facilitan <em>findability</em> y usability. Combina principios Library Science, Cognitive Psychology (mental models), y User Experience Design.
+            </div>
 
-            <h4>Tipos de Estructuras</h4>
-            <ul class="content-list">
-                <li><strong>Lineal:</strong> Secuencial, una página después de otra (ej: tutorial)</li>
-                <li><strong>Jerárquica/Árbol:</strong> Organización por categorías y subcategorías</li>
-                <li><strong>Red/Malla:</strong> Enlaces múltiples entre páginas (ej: Wikipedia)</li>
-                <li><strong>Mixta:</strong> Combinación de las anteriores</li>
-            </ul>
+            <h3>📐 Estructuras Hipertextuales Comparativa</h3>
 
-            <h3>Elementos Multimedia</h3>
-            <ul class="content-list">
-                <li><strong>Texto:</strong> Títulos, párrafos, listas</li>
-                <li><strong>Imágenes:</strong> JPG, PNG, GIF, SVG</li>
-                <li><strong>Audio:</strong> Música, podcast, narración</li>
-                <li><strong>Vídeo:</strong> Tutoriales, presentaciones, demos</li>
-                <li><strong>Animaciones:</strong> GIF, CSS, JavaScript</li>
-                <li><strong>Gráficos interactivos:</strong> Infografías, visualizaciones de datos</li>
-            </ul>
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Patrones Navegación Web</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Estructura</th>
+                        <th>Características</th>
+                        <th>Ventajas</th>
+                        <th>Desventajas</th>
+                        <th>Ejemplos Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Lineal</strong></td>
+                        <td>Secuencial (1→2→3), Prev/Next navegación, wizard flows</td>
+                        <td>Claridad progresión, cognitive load bajo</td>
+                        <td>Inflexible, usuarios frustrados saltar</td>
+                        <td>Onboarding, checkout, tutoriales paso-a-paso</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Jerárquica</strong></td>
+                        <td>Árbol categorías, breadcrumbs (Home>Products>Laptops)</td>
+                        <td>Lógica intuitiva, escalable, familiar</td>
+                        <td>Deep hierarchies 4+ niveles perdidos, rígida</td>
+                        <td>E-commerce, government sites, documentación</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Red/Malla</strong></td>
+                        <td>Enlaces libres multidireccional, Wikipedia 500M links</td>
+                        <td>Exploración descubrimiento, paths múltiples</td>
+                        <td>Usuarios perdidos, link rot maintenance</td>
+                        <td>Wikis, knowledge bases, academic research</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mixta</strong></td>
+                        <td>Combinación jerárquica + red contextual,  navigation patterns múltiples</td>
+                        <td>Flexibilidad, balance guidance + exploration</td>
+                        <td>Complejidad diseño, consistency harder</td>
+                        <td>News sites (NYT), corporate sites, Medium</td>
+                    </tr>
+                </tbody>
+            </div>
 
-            <h3>Principios de Buen Diseño Web</h3>
-            <div class="info-box success">
-                <ul class="content-list">
-                    <li><strong>Simplicidad:</strong> No recargar, ir al grano</li>
-                    <li><strong>Navegación clara:</strong> Menú intuitivo, breadcrumbs</li>
-                    <li><strong>Jerarquía visual:</strong> Usar tamaños, colores, espacios para guiar la vista</li>
-                    <li><strong>Consistencia:</strong> Mismo estilo en todas las páginas</li>
-                    <li><strong>Legibilidad:</strong> Fuentes claras, contraste suficiente</li>
-                    <li><strong>Espacios en blanco:</strong> No llenar cada píxel</li>
-                    <li><strong>Responsive:</strong> Adaptable a móviles y tablets</li>
-                    <li><strong>Velocidad de carga:</strong> Optimizar imágenes, código</li>
-                </ul>
+            <h3>🎨 Multimedia Optimización Web</h3>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #34495e;">
+                    <h4>Imágenes Formats</h4>
+                    <p><strong>JPEG:</strong> Lossy compression (80-90% quality ideal), photos.<br>
+                    <strong>PNG:</strong> Lossless transparency, logos/icons.<br>
+                    <strong>WebP:</strong> Google 25-35% smaller (92% browsers 2024).<br>
+                    <strong>AVIF:</strong> Next-gen 50% smaller JPEG (86% support).<br>
+                    <strong>SVG:</strong> Vector scalable (XML code).<br><br>
+                    
+                    <strong>Optimization:</strong> TinyPNG/Squoosh compression, <code>loading="lazy"</code> offscreen, <code>srcset</code> responsive múltiples resoluciones, CDN Cloudinary/Imgix.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Vídeo Streaming</h4>
+                    <p><strong>Codecs:</strong> H.264 (universal), H.265/HEVC (50% smaller), AV1 (royalty-free Netflix).<br>
+                    <strong>Containers:</strong> MP4 (compatible), WebM (VP9+Opus).<br><br>
+                    
+                    <strong>Adaptive streaming:</strong> HLS (Apple), DASH (MPEG). <strong>Bitrates:</strong> 1080p 8 Mbps, 720p 5 Mbps, 480p 2.5 Mbps. <strong>CDNs:</strong> Vimeo/Bunny/Mux global distribution. <strong>Accessibility:</strong> WebVTT <code>&lt;track&gt;</code> subtítulos obligatorio WCAG AA.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Audio & Podcasting</h4>
+                    <p><strong>Formatos:</strong> MP3 (128-320 kbps universal), AAC (Apple mejor Q/size), OGG Vorbis (open source).<br><br>
+                    
+                    <strong>HTML5:</strong> <code>&lt;audio controls&gt;&lt;source src="file.mp3"&gt;</code>. <strong>Podcasting:</strong> RSS feeds Apple Podcasts/Spotify, hosting Buzzsprout ($12-24/mes), transcripts accessibility + SEO boost, show notes timestamps.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Typography Web</h4>
+                    <p><strong>Fonts:</strong> Sans-serif screens (Inter, Roboto), Serif elegancia (Merriweather). <strong>Tamaños:</strong> 16px móvil mínimo, headings scale 1.25 ratio. <strong>Line-height:</strong> 1.5-1.8 body.<br><br>
+                    
+                    <strong>Contrast WCAG AA:</strong> 4.5:1 texto normal, 3:1 large text (≥18px/≥14px bold). <strong>Measure:</strong> 45-75 caracteres línea óptimo (66 ideal). <strong>Web fonts:</strong> Google Fonts (free 1.5k families), font-display: swap avoid FOIT.</p>
+                </div>
+            </div>
+
+            <h3>🧭 UX Principles (Nielsen Norman Group)</h3>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Simplicidad (Hick's Law)</h4>
+                    <p><strong>Cognitive Load Theory:</strong> Miller's Law (7±2 items memoria), Hick's Law (tiempo decisión $\propto \log_2(n+1)$ opciones).<br><br>
+                    
+                    <strong>Progressive Disclosure:</strong> Essential first, advanced options demand. <strong>Whitespace:</strong> Margins generous, sections separated. <strong>Ejemplos:</strong> Google homepage minimal search-first, Apple products hero + minimal text.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>Navegación Findability</h4>
+                    <p><strong>Information Scent (Pirolli & Card):</strong> Users follow links promising labels. <strong>Breadcrumbs:</strong> Context ubicación. <strong>Patterns:</strong> Horizontal primary nav, hamburger móvil, mega menus hover.<br><br>
+                    
+                    <strong>Search:</strong> Header prominent, autocomplete suggestions. <strong>Keyboard:</strong> Tab/Enter/Escape, skip links <code>&lt;a href="#main"&gt;</code> bypass nav repetitive.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <h4>Jerarquía Visual Gestalt</h4>
+                    <p><strong>Size contrast:</strong> H1>H2>H3 headings, CTAs larger. <strong>Color emphasis:</strong> Primary blue actions, destructive red. <strong>Proximity:</strong> Related elements closer, whitespace separates.<br><br>
+                    
+                    <strong>Reading patterns:</strong> F-pattern text-heavy (Nielsen eye-tracking 2006), Z-pattern visual landing pages. <strong>Important content:</strong> Top-left occidental reading start point.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #16a085;">
+                    <h4>Performance Web Vitals</h4>
+                    <p><strong>Core Web Vitals (Google ranking 2021):</strong><br>
+                    • <strong>LCP:</strong> <2.5s (hero image preload)<br>
+                    • <strong>FID:</strong> <100ms (minimize JS blocking)<br>
+                    • <strong>CLS:</strong> <0.1 (images explicit dimensions)<br><br>
+                    
+                    <strong>Tools:</strong> Lighthouse Chrome (90+ score objetivo), PageSpeed Insights, WebPageTest waterfall.</p>
+                </div>
             </div>
         </section>
 
         <section>
             <h2>5.5. Publicación de Contenidos en la Web</h2>
             
-            <h3>Proceso de Publicación</h3>
-            <ol class="content-list">
-                <li><strong>Planificación:</strong> Objetivo, audiencia, contenido</li>
-                <li><strong>Diseño:</strong> Estructura, maqueta, estilo</li>
-                <li><strong>Creación de contenido:</strong> Textos, imágenes, multimedia</li>
-                <li><strong>Desarrollo:</strong> Construir la web (HTML/CSS o builder)</li>
-                <li><strong>Pruebas:</strong> Verificar funcionamiento, enlaces, responsive</li>
-                <li><strong>Publicación:</strong> Subir al servidor/hosting</li>
-                <li><strong>Mantenimiento:</strong> Actualizar contenido, corregir errores</li>
-            </ol>
+            <h3>🚀 Workflow Publicación Web (SDLC Simplified)</h3>
 
-            <h3>Conceptos de Hosting y Dominio</h3>
-            <ul class="content-list">
-                <li><strong>Dominio:</strong> Dirección web (www.ejemplo.com)
-                    <ul>
-                        <li>Se compra/registra por períodos (anualmente)</li>
-                        <li>TLDs: .com, .es, .org, .net, .edu</li>
-                    </ul>
-                </li>
-                <li><strong>Hosting/Alojamiento:</strong> Servidor donde se almacenan los archivos de la web
-                    <ul>
-                        <li>Compartido, VPS, dedicado, cloud</li>
-                        <li>Proveedores: SiteGround, Bluehost, HostGator, AWS</li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="process-flow" style="margin-top: 1.5rem;">
+                <ol class="content-list">
+                    <li><strong>1. Planificación:</strong> Goals SMART (Specific/Measurable/Achievable/Relevant/Time-bound), audience personas (demographics/psychographics), competitor analysis SWOT, content strategy keywords research, sitemap IA wireframes.</li>
+                    
+                    <li><strong>2. Diseño:</strong> Mockups Figma/Adobe XD high-fidelity, design system components style guide, prototyping interactive InVision, user testing 5 users discover 85% issues (Nielsen), stakeholder feedback iterations.</li>
+                    
+                    <li><strong>3. Creación Contenido:</strong> Copywriting (headlines compelling, SEO-optimized keywords natural, CTAs action-oriented), photography (original vs stock Unsplash/Pexels, product shooting lighting), videography (scripting storyboard, editing Premiere/DaVinci), audio (podcasts Audacity, music royalty-free Epidemic Sound).</li>
+                    
+                    <li><strong>4. Desarrollo:</strong> Frontend (HTML semantic, CSS responsive Sass, JavaScript React/Vue), backend (PHP/Python/Node.js, database MySQL/PostgreSQL, API RESTful/GraphQL), CMS integration (WordPress themes/plugins, headless Contentful/Strapi), version control (Git branches feature/develop/main, pull requests code review GitHub/GitLab), local environment (Docker containers, VS Code IDE).</li>
+                    
+                    <li><strong>5. Testing:</strong> Functional (links no broken, forms submit, e-commerce checkout flow), cross-browser (Chrome/Firefox/Safari/Edge latest, IE11 legacy), responsive (breakpoints móvil/tablet/desktop, orientation portrait/landscape), performance (Lighthouse 90+ score, PageSpeed recommendations, load testing K6 traffic spikes), accessibility (WAVE errors zero, keyboard Tab/Enter, screen reader NVDA/JAWS, WCAG AA compliance), security (HTTPS SSL, CSRF tokens forms, SQL injection prevention, XSS sanitization, headers CSP/HSTS).</li>
+                    
+                    <li><strong>6. Deployment:</strong> FTP/SFTP (FileZilla credentials host/user/password port 22 SFTP encrypted, directories public_html/www, permissions 755 folders 644 files), Git-based (GitHub Pages free static, Vercel/Netlify auto-deploy push, preview URLs pull requests), CI/CD pipelines (GitHub Actions workflows build/test/deploy, GitLab CI .gitlab-ci.yml, automatic deployments merge main), DNS config (A records IP, CNAME www alias, nameservers Cloudflare/Route53, propagation 24-48h), SSL certificates (Let's Encrypt free auto-renew, Cloudflare Universal SSL).</li>
+                    
+                    <li><strong>7. Mantenimiento:</strong> Content updates (blog posts schedule, product inventory, annual reviews), software updates (WordPress core/plugins monthly security patches, dependencies <code>npm audit fix</code>, PHP upgrades), backups (automated daily UpdraftPlus, offsite Dropbox/Drive, restoration testing quarterly), monitoring (uptime UptimeRobot/Pingdom alerts, analytics Google Analytics traffic/conversions, error tracking Sentry exceptions, logs Papertrail), SEO ongoing (keyword rankings Ahrefs/SEMrush, backlinks building, technical audits Screaming Frog, Core Web Vitals monitoring).</li>
+                </ol>
+            </div>
 
-            <h3>Subir Archivos: FTP</h3>
-            <ul class="content-list">
-                <li>Protocolo para transferir archivos al servidor</li>
-                <li>Clientes FTP: FileZilla, Cyberduck, WinSCP</li>
-                <li>Credenciales: host, usuario, contraseña</li>
-                <li>Directorio público: public_html, www, htdocs</li>
-            </ul>
+            <h3>🌐 DNS, Dominios & Hosting Infrastructure</h3>
 
-            <h3>SEO Básico (Search Engine Optimization)</h3>
-            <p>Optimizar la web para aparecer en buscadores.</p>
-            <ul class="content-list">
-                <li><strong>Palabras clave:</strong> Términos que buscan los usuarios</li>
-                <li><strong>Títulos y descripciones:</strong> Meta tags descriptivos</li>
-                <li><strong>URLs amigables:</strong> Descriptivas y cortas</li>
-                <li><strong>Contenido de calidad:</strong> Original, útil, actualizado</li>
-                <li><strong>Enlaces internos y externos:</strong> Conectar páginas relevantes</li>
-                <li><strong>Velocidad de carga:</strong> Páginas rápidas</li>
-                <li><strong>Mobile-friendly:</strong> Adaptada a móviles</li>
-                <li><strong>Alt text en imágenes:</strong> Describir imágenes para accesibilidad y SEO</li>
-            </ul>
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Dominios Registration</h4>
+                    <p><strong>Registrars:</strong> GoDaddy/Namecheap/Google Domains/Cloudflare ($10-15/year), ICANN regulated. <strong>TLDs:</strong> gTLDs (.com/.net/.org generic 150M dominios .com), ccTLDs (.es/.uk/.de country-specific), new TLDs (.io tech $30-60/year, .blog content, .app secure HTTPS obligatorio).<br><br>
+                    
+                    <strong>WHOIS Privacy:</strong> $  5-10/year hide personal info public database (GDPR compliance ICANN 2018). <strong>Transfer:</strong> Unlock domain, EPP authorization code, 60-day lock new registrations, 5-7 days tiempo. <strong>Renewal:</strong> Auto-renew recomendado (squatters snap expired), grace period 1-45 días restore fee $100-200.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Hosting Types</h4>
+                    <p><strong>Shared:</strong> $3-10/mes, múltiples sites servidor, recursos compartidos CPU/RAM (slow neighbors problem), suitable <10k visits/mes, providers Bluehost/SiteGround.<br>
+                    <strong>VPS:</strong> $10-50/mes, servidor virtual dedicated recursos, root access sudo, escalable RAM/CPU upgrades, 10k-100k visits, Linode/DigitalOcean/Vultr.<br>
+                    <strong>Dedicated:</strong> $100-500/mes, servidor físico completo, máximo performance/ control, >100k visits legacy.<br>
+                    <strong>Cloud:</strong> AWS/GCP/Azure serverless scaling automático auto, pay-per-use $0.01-1000+/mes variable traffic, regions globally latencia baja, complejidad configuración.<br>
+                    <strong>Managed WordPress:</strong> $15-50/mes optimized cache plugins preinstalled, WP Engine/Kinsta/Flywheel, agencies clients múltiples ideal.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <h4>FTP/SFTP Protocols</h4>
+                    <p><strong>FTP (port 21/20):</strong> File Transfer Protocol 1971, ⚠️ INSECURE plaintext passwords visible intercepción, legacy deprecated.<br>
+                    <strong>SFTP (port 22):</strong> SSH File Transfer encrypted tunnel seguro, public key authentication RSA/ED25519 keys, current standard 2026.<br><br>
+                    
+                    <strong>Clients:</strong> FileZilla (open source Win/Mac/Linux), Cyberduck (Mac/Win SFTP/S3/Azure), WinSCP (Windows only), Transmit (Mac premium $45), command-line <code>scp</code>/<code>rsync</code> scriptable automation. <strong>Operations:</strong> Upload local→remote, download, sync bidirectional, permissions <code>chmod 755</code> folders <code>644</code> files, batch transfers queues.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Modern Deployment</h4>
+                    <p><strong>Git-based:</strong> Push código Git trigger build/deploy automático, Vercel/Netlify free tier generous (100GB bandwidth), preview URLs pull requests testing stakeholders, rollback instant previous deployment.<br>
+                    <strong>Containers:</strong> Docker images reproducible environments dependencies bundled, Kubernetes orchestration scaling automático 10-1000+ pods, registries Docker Hub/AWS ECR/GitHub Container Registry.<br>
+                    <strong>Serverless:</strong> Functions AWS Lambda/Vercel Edge/Cloudflare Workers, event-driven HTTP/cron triggers, cold start latency initial 100-500ms (warm <10ms), billing per-invocation fractions penny.<br>
+                    <strong>Infrastructure as Code:</strong> Terraform declarativo multi-cloud HashiCorp, CloudFormation AWS-specific YAML/JSON templates, Pulumi programmatic TypeScript/Python.</p>
+                </div>
+            </div>
+
+            <h3>🔍 SEO Technical Framework Comprehensive</h3>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Keywords Research</h4>
+                    <p><strong>Tools:</strong> Google Keyword Planner (volume/competition free), Ahrefs Keywords Explorer (difficulty score 0-100 $99/mes), SEMrush Keyword Magic ($119/mes), AnswerThePublic (questions visualizations), Google Trends (seasonality datos).<br><br>
+                    
+                    <strong>Intent tipos:</strong> Informational ("qué es SEO"), Navigational ("Spotify login"), Commercial ("mejor portátil 2024" comparisons), Transactional ("comprar iPhone 15" alta conversión). <strong>Long-tail:</strong> 3-5 palabras específicas menor competencia mayor conversión "agencia SEO Barcelona pequeñas empresas". <strong>Placement:</strong> H1 title una vez keyword inicio, H2-H6 subheadings variants, primer párrafo 100 palabras keyword natural, density 2-3% máximo no stuffing.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>On-Page Optimization</h4>
+                    <p><strong>Title tags:</strong> <60 caracteres (desktop SERP), keyword inicio peso mayor, unique cada página no duplicates, compelling CTR optimized "Guía SEO 2024: 15 Estrategias | Expertos" vs "SEO | Homepage".<br>
+                    <strong>Meta descriptions:</strong> <160 caracteres, keyword included bold SERP, call-to-action "Descubre", ⚠️ no ranking direct pero CTR 5.8% average affects indirectly.<br>
+                    <strong>Headings hierarchy:</strong> H1 solo uno página keyword primary, H2 secciones (3-6 optimal), H3-H6 subsections logical outline.<br>
+                    <strong>URL structure:</strong> Short descriptive <code>example.com/seo-tips-2024</code> vs <code>example.com/?p=123</code>, hyphens separators (not underscores), lowercase consistency, avoid parameters <code>?id=</code> session tokens.<br>
+                    <strong>Internal linking:</strong> Anchor text descriptive "estrategias link building" vs "haz clic aquí", links 2-5 per 1000 words related content, site structure reinforce Topic Clusters (pillar pages + cluster content), distribute PageRank juice evenly, orphan pages avoid (no inbound links crawling indexing issues).</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #1abc9c;">
+                    <h4>Technical SEO</h4>
+                    <p><strong>Robots.txt:</strong> Directives <code>User-agent: * / Disallow: /admin / Allow: /</code>, block admin/staging environments, XML sitemap location <code>Sitemap: https://example.com/sitemap.xml</code>.<br>
+                    <strong>Sitemap.xml:</strong> List URLs priority 0.0-1.0 frequency daily/weekly, submit Google Search Console/Bing Webmaster Tools, regenerate content adds plugins Yoast XML autom.<br>
+                    <strong>Structured Data:</strong> Schema.org JSON-LD markup <code>&lt;script type="application/ld+json"&gt;</code>, rich snippets recipes ⭐ reviews products FAQs, breadcrumbs navigation, testing Google Rich Results Test valid preview.<br>
+                    <strong>Canonicalization:</strong> <code>&lt;link rel="canonical" href="…"&gt;</code> duplicate content consolidate (HTTPS vs HTTP, www vs non-www, pagination), self-referencing canonical recommended cada página.<br>
+                    <strong>Redirects:</strong> 301 permanent (passed ~90-95% PageRank), 302 temporary (no PageRank passed), redirect chains avoid A→B→C crawl budget waste latency, broken links 404 monitoring Screaming Frog crawl weekly.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Mobile & Performance SEO</h4>
+                    <p><strong>Mobile-First Indexing (Google 2019):</strong> Predominantly crawls mobile version site, responsive design vs separate mobile <code>m.</code> subdomain (responsive preferred), viewport meta <code>&lt;meta name="viewport" content="width=device-width"&gt;</code>, tap targets 48×48px minimum Apple HIG spacing 8px adjacent.<br><br>
+                    
+                    <strong>Core Web Vitals (ranking signal June 2021):</strong> LCP <2.5s (hero image preload <code>&lt;link rel="preload"&gt;</code>, CDN Cloudflare/Fastly, server TTFB <200ms), FID <100ms (minimize JavaScript blocking defer/async, code splitting lazy load routes), CLS <0.1 (images explicit <code>width</code>/<code>height</code>, ads reserve space, fonts <code>font-display: swap</code> no FOIT text invisible Flash). <strong>Tools:</strong> PageSpeed Insights field + lab data, Lighthouse CI automated checks deployments, Search Console Core Web Vitals report URLs field data 28 days.</p>
+                </div>
+            </div>
         </section>
 
         <section>
             <h2>5.6. Accesibilidad de la Información</h2>
             
-            <h3>¿Qué es la Accesibilidad Web?</h3>
-            <p>Diseñar sitios web que puedan ser usados por todas las personas, incluidas aquellas con discapacidades.</p>
+            <div class="definition-box" style="margin-top: 1.5rem;">
+                <strong>Web Accessibility:</strong> Diseñar sitios web usables por <em>todas</em> las personas, incluidas aquellas con discapacidades (15% población mundial OMS 1.3B personas, 20%+ counting elderly temporal disabilities). Imperativo ético, legal (Section 508/ADA/EN 301 549), y business case (expanded reach, SEO benefits, innovation driver).
+            </div>
 
-            <h3>Tipos de Discapacidades a Considerar</h3>
-            <ul class="content-list">
-                <li><strong>Visuales:</strong> Ceguera, baja visión, daltonismo</li>
-                <li><strong>Auditivas:</strong> Sordera, hipoacusia</li>
-                <li><strong>Motoras:</strong> Dificultad para usar ratón/teclado</li>
-                <li><strong>Cognitivas:</strong> Dificultades de comprensión, atención</li>
-            </ul>
+            <h3>🌐 WCAG 2.1 Framework (W3C)</h3>
 
-            <h3>Pautas WCAG (Web Content Accessibility Guidelines)</h3>
-            <p>Estándares internacionales del W3C para accesibilidad web.</p>
-            
-            <h4>Cuatro Principios (POUR)</h4>
-            <ul class="content-list">
-                <li><strong>Perceptible:</strong> La información debe ser presentable en formas que los usuarios puedan percibir</li>
-                <li><strong>Operable:</strong> Los componentes de interfaz deben ser operables
-                <li><strong>Comprensible:</strong> La información y operación de la interfaz deben ser comprensibles</li>
-                <li><strong>Robusto:</strong> El contenido debe ser interpretable por variedad de agentes de usuario (navegadores, lectores de pantalla)</li>
-            </ul>
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Historia WCAG</h4>
+                    <p><strong>WCAG 1.0 (1999):</strong> Primera versión W3C, 14 guidelines.<br>
+                    <strong>WCAG 2.0 (2008):</strong> Testable technology-agnostic, POUR principles, 12 guidelines 61 success criteria, ISO/IEC 40500 standard.<br>
+                    <strong>WCAG 2.1 (2018):</strong> +17 criteria (78 total) mobile/low vision/cognitive improvements, backward compatible 2.0.<br>
+                    <strong>WCAG 2.2 (2023):</strong> +9 criteria (87 total) dragging motions redundant mechanism, focus visible enhanced, consistent help.<br>
+                    <strong>WCAG 3.0 draft (Silver):</strong> Ambitious scoring model 0-100 vs Pass/Fail, simplified language, broader disabilities coverage, timeline TBD years away mature.</p>
+                </div>
 
-            <h4>Niveles de Conformidad</h4>
-            <ul class="content-list">
-                <li><strong>Nivel A:</strong> Mínimo (esencial)</li>
-                <li><strong>Nivel AA:</strong> Recomendado (elimina barreras importantes)</li>
-                <li><strong>Nivel AAA:</strong> Óptimo (excelencia)</li>
-            </ul>
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>POUR Principles Detailed</h4>
+                    <p><strong>1. Perceptible:</strong> Information & UI components presentable usuarios perciben. Guidelines text alternatives (1.1), time-based media captions (1.2), adaptable content structure (1.3), distinguishable contrast/resize (1.4).<br><br>
+                    
+                    <strong>2. Operable:</strong> UI components navigation operable. Guidelines keyboard accessible (2.1), enough time (2.2), seizures avoid flashing (2.3), navigable skip links/headings (2.4), input modalities touch/voice (2.5).<br><br>
+                    
+                    <strong>3. Comprensible (Understandable):</strong> Information & operation understandable. Guidelines readable language ID (3.1), predictable consistent navigation (3.2), input assistance labels/errors (3.3).<br><br>
+                    
+                    <strong>4. Robusto (Robust):</strong> Content interpretable variety user agents assistive tech. Guidelines compatible valid HTML parsing (4.1), name/role/value ARIA (4.1.2).</p>
+                </div>
 
-            <h3>Técnicas de Accesibilidad</h3>
-            <div class="info-box success">
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>Niveles Conformidad</h4>
+                    <p><strong>Nivel A (Mínimo):</strong> 30 criteria esencial, ejemplos keyboard access full, text alternatives images, color contrast 3:1 large text, suitable básico legal bare minimum.<br><br>
+                    
+                    <strong>Nivel AA (Recomendado):</strong> 50 criteria (+20 sobre A), ejemplos contrast 4.5:1 normal text, captions video prerecorded, resize text 200% no scroll horizontal, headings labels descriptive. <strong>Legislación mayormente AA</strong> (Section 508 US 2018, EN 301 549 EU, ADA websites jurisprudence, AODA Ontario).<br><br>
+                    
+                    <strong>Nivel AAA (Excelencia):</strong> 78 criteria (+28 sobre AA), ejemplos contrast enhanced 7:1, sign language interpretation videos, extended audio description pauses action, abbreviations expansion glossary. Difícil conseguir 100% todas páginas, suitable contenido crítico healthcare/education/government.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Conformance Requirements</h4>
+                    <p><strong>Whole page:</strong> No partial compliance, single element fail → entire page fails. <strong>Complete processes:</strong> Multi-step forms wizards checkouts all steps accessible unassisted.<br><br>
+                    
+                    <strong>Accessibility Statement:</strong> Declare level conformity (A/AA/AAA) date evaluation, list known issues workarounds, contact feedback <code>accessibility@company.com</code>, testing evidence manual + automated tools.<br><br>
+                    
+                    <strong>Monitoring:</strong> Regular audits quarterly/annually, user testing disabled users essential feedback (5 users 85% issues Nielsen), bug tracking accessibility labeled priority.</p>
+                </div>
+            </div>
+
+            <h3>♿ Disabilities User Needs Comprehensive</h3>
+
+            <div class="comparison-table" style="margin-top: 1.5rem;">
+                <caption><strong>Tipos Discapacidades & Necesidades Tecnológicas</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Discapacidad</th>
+                        <th>Prevalencia</th>
+                        <th>Tecnologías Asistivas</th>
+                        <th>Necesidades Design</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Ceguera</strong></td>
+                        <td>43M personas mundial (OMS)</td>
+                        <td>Screen readers (NVDA Win free, JAWS $95/year, VoiceOver Mac/iOS built-in, TalkBack Android), braille displays refreshable táctil output Perkins</td>
+                        <td>Semantic HTML landmarks (<code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;aside&gt;</code>), alt text images descriptivo función ("Submit form" button vs decorative <code>alt=""</code>), headings hierarchy H1-H6 logical outline navegación, forms labels asociados <code>&lt;label for="email"&gt;</code>, skip links bypass repetitive navigation</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Baja Visión</strong></td>
+                        <td>295M personas (OMS)</td>
+                        <td>Screen magnifiers (ZoomText 400% zoom, Windows Magnifier built-in, macOS Zoom Ctrl+scroll), high contrast modes (Windows High Contrast inverts colors switches CSS, Chrome extensions)</td>
+                        <td>Text resize 200% no horizontal scroll reflow responsive, contrast sufficient 4.5:1 AA normal text 3:1 large text ≥18px/≥14px bold WebAIM Checker, zoom pinch enable no <code>user-scalable=no</code> viewport, large tap targets 48×48px minimum spacing 8px</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Daltonismo</strong></td>
+                        <td>8% hombres, 0.5% mujeres</td>
+                        <td>Color blindness simulators (Color Oracle free desktop, Sim Daltonism Mac, Chrome DevTools rendering emulation protanopia/deuteranopia/tritanopia)</td>
+                        <td>No información solo color (red error green success), patterns textures icons redundant cues (✓ checkmark ✗ X symbols), sufficient contrast color combinations tested simulators, link underline no solo color distinguish body text</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Sordera</strong></td>
+                        <td>466M personas hipoacusia (OMS)</td>
+                        <td>Sign language interpretation videos (ASL American, BSL British, LSE Española), captions subtítulos prerecorded (WebVTT <code>&lt;track&gt;</code>), live captions CART real-time Communication Access Realtime Translation $150-200/hour</td>
+                        <td>Captions accurate speaker identification [JANE], sound effects [door slams] [music playing], transcripts podcasts text alternative searchable indexable, visual alerts notifications vs audio-only beeps (flashing badge counts), volume controls adjustable auto-start avoid</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Motoras (Motrices)</strong></td>
+                        <td>Amplio espectro parálisis/temblor</td>
+                        <td>Switch controls single-switch scanning (sip-and-puff pneumatic, head-mounted pointers infrared), eye tracking (Tobii devices $5k-15k gaze selection dwell clicks), voice control (Dragon NaturallySpeaking $150-500, Siri/Google Assistant built-in)</td>
+                        <td>Keyboard access complete no mouse required Tab/Enter/Escape navigate activate, large click targets 48×48px WCAG 2.1 Target Size, spacing generous 8px adjacent avoid mis-clicks fat fingers, autocomplete reduce typing burden, undo easily mistakes forgiving UX, time limits avoid or extensions offered</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Cognitivas</strong></td>
+                        <td>Neurodiversidad espectro amplio</td>
+                        <td>Text-to-speech read aloud (Natural Reader, Read&Write toolbar), fonts specialized (OpenDyslexic weighted bottom letters), browser extensions simplify (Mercury Reader, Readability)</td>
+                        <td>Lenguaje simple plain language avoid jargon (Hemingway Grade 8 nivel), consistent layout predictable navigation no surprises, minimize distractions no auto-playing videos popups, content structure clear headings lists bullets, spacing generous line-height 1.5-1.8 paragraph breaks frequent, memory aids breadcrumbs progress indicators, clear labels explicit instructions no ambiguous "Click here", icons + text redundant labels universal (🏠 Home, 🔍 Search)</td>
+                    </tr>
+                </tbody>
+            </div>
+
+            <h3>🛠️ Técnicas Implementación Accessibilidad</h3>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Text Alternatives & Alt Text</h4>
+                    <p><strong>Images functional:</strong> Alt describes action "Submit form" button "Search" icon, decorative <code>alt=""</code> null empty ignored screen reader, complex charts detailed <code>longdesc</code> attribute or adjacent text paragraph table data.<br><br>
+                    
+                    <strong>Icons accessibility:</strong> <code>aria-label="Search"</code> SVG icons, font icons (FontAwesome) screen reader problems prefer SVG <code>&lt;title&gt;</code> element, text hidden visually <code>&lt;span class="sr-only"&gt;Submit&lt;/span&gt;</code> CSS <code>.sr-only { position: absolute; left: -10000px }</code>.<br><br>
+                    
+                    <strong>CAPTCHAs barriers:</strong> Alternatives audio CAPTCHA (also inaccessible deaf-blind), reCAPTCHA v3 invisible risk analysis backend, hCaptcha privacy-focused, <strong>best avoid altogether</strong> honeypot techniques spam detection user-friendly.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Semantic HTML & ARIA</h4>
+                    <p><strong>Landmarks:</strong> <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;aside&gt;</code>, <code>&lt;footer&gt;</code> vs generic <code>&lt;div&gt;</code> no semantics, ARIA roles fallback <code>role="banner"</code> <code>role="navigation"</code> redundant HTML5 support missing IE legacy.<br><br>
+                    
+                    <strong>Headings hierarchy:</strong> H1 page title once keyword primary, H2 major sections (3-6 optimal), H3-H6 subsections logical outline, no skipping levels (H2→H4 confuses screen readers), headings navegación screen readers lists jump commands.<br><br>
+                    
+                    <strong>Lists:</strong> <code>&lt;ul&gt;</code> unordered, <code>&lt;ol&gt;</code> ordered steps, <code>&lt;dl&gt;</code> definition terms glossaries, screen reader announces "list 5 items" context users familiar patterns.<br><br>
+                    
+                    <strong>ARIA best practices:</strong> First rule <strong>don't use ARIA</strong> if native HTML sufficient (<code>&lt;button&gt;</code> vs <code>&lt;div role="button"&gt;</code> reinvent wheel), second rule don't change semantics (<code>&lt;h1 role="button"&gt;</code> nonsense confuses), ARIA supplements not replaces, <strong>no ARIA better than bad ARIA</strong> breaks accessibility.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>Keyboard Navigation & Focus</h4>
+                    <p><strong>Tab order:</strong> Logical flow source order DOM, <code>tabindex="0"</code> add focusable native non-interactive elements, <code>tabindex="-1"</code> programmatically focusable JavaScript skip visual tab order, <code>tabindex="1+"</code> positive values <strong>AVOID</strong> disrupts natural flow unpredictable.<br><br>
+                    
+                    <strong>Focus management:</strong> Modal dialogs trap focus inside Escape closes return original trigger, SPA route changes focus H1 announcement location changed, skip links <code>&lt;a href="#main"&gt;Skip to main content&lt;/a&gt;</code> bypass repetitive navigation invisible until focused CSS <code>:focus</code> visible absolute position.<br><br>
+                    
+                    <strong>Focus visible:</strong> Outline 2px solid color blue/orange <strong>NEVER</strong> <code>:focus { outline: none }</code> unless alternative provided (custom border glow shadow), WCAG 2.1 Focus Visible AA required, browsers default outlines sufficient don't remove aesthetics <em>usability > aesthetics</em>.<br><br>
+                    
+                    <strong>Keyboard shortcuts:</strong> Access keys <code>accesskey="s"</code> search Alt+S conflicts screen readers avoid, single character shortcuts (S search) dangerous press accidentally, need modifiers Ctrl+S safer, document shortcuts help page disclosure.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>ARIA States, Properties & Live Regions</h4>
+                    <p><strong>Dynamic content:</strong> <code>aria-live="polite"</code> announces finish current screen reader utterance (notifications, status messages), <code>aria-live="assertive"</code> interrupts immediately (errors, urgent alerts), <code>aria-atomic="true"</code> announce entire region vs changes only.<br><br>
+                    
+                    <strong>Common attributes:</strong> <code>aria-expanded="true"</code> accordion open/closed state toggle, <code>aria-checked="true"</code> checkbox custom styled, <code>aria-selected="true"</code> tab panel active, <code>aria-hidden="true"</code> decorative elements removed accessibility tree (visual present semantic absent icons redundant text), <code>aria-labelledby="id"</code> associate label element ID reference, <code>aria-describedby="id"</code> supplementary description helper text.<br><br>
+                    
+                    <strong>Roles:</strong> <code>role="button"</code> clickable div (prefer <code>&lt;button&gt;</code>), <code>role="tablist"</code>/<code>role="tab"</code>/<code>role="tabpanel"</code> tabs pattern complex widget, <code>role="dialog"</code> modal focus trap, <code>role="alert"</code> important message aria-live assertive implicit.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Color Contrast & Visual Design</h4>
+                    <p><strong>WCAG AA Requirements:</strong> 4.5:1 ratio normal text <18px/<14px bold, 3:1 large text ≥18px/≥14px bold, <strong>AAA enhanced:</strong> 7:1 normal 4.5:1 large.<br><br>
+                    
+                    <strong>Tools:</strong> WebAIM Contrast Checker (ratio calculator hex colors), Stark plugin Figma/Sketch (batch checking designs), Chrome DevTools Lighthouse audit (flags insufficient contrast elements), Color Oracle (simulator preview deuteranopia/protanopia/tritanopia).<br><br>
+                    
+                    <strong>Exceptions:</strong> Logos no requirement (brand identity), incidental text pure decoration (background watermarks), inactive elements disabled grayed intentionally low contrast communicates state, large text easier read lower ratio acceptable.<br><br>
+                    
+                    <strong>Beyond contrast:</strong> Don't rely color alone (red error + ✗ icon + text "Error:"), patterns textures distinguish charts graphs, link underline or bold distinguish body text (color alone insufficient 8% males daltonismo), focus indicators beyond color (outline border shadow visible).</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #16a085;">
+                    <h4>Captions, Transcripts & Multimedia</h4>
+                    <p><strong>Captions formats:</strong> WebVTT .vtt (web standard HTML5 <code>&lt;track&gt;</code>), SRT .srt (universal video players SubRip), TTML .ttml (streaming services), CEA-608/708 (broadcast TV closed captions analog/digital).<br><br>
+                    
+                    <strong>Caption quality:</strong> Verbatim vs edited readability balance (remove filler "um" "uh"), speaker identification [JANE]: Hello, sound effects context [door slams] [music playing] [applause], placement avoid covering visual important (subtitles bottom, speaker top), timing synchronized 1-2 second lag acceptable human reading speed.<br><br>
+                    
+                    <strong>Tools:</strong> YouTube auto-generated 60-70% accuracy (manual editing essential), Rev.com professional human captions $1.25/min turnaround 24h, Otter.ai AI transcription $10/mes real-time meetings, Amara community subtitling volunteer translating.<br><br>
+                    
+                    <strong>Transcripts:</strong> Audio podcasts full text transcripts searchable indexable SEO boost, expandable disclosure below media player, timestamps link jump position [00:15] clickable anchors, downloadable PDF accessibility offline consumption.</p>
+                </div>
+            </div>
+
+            <h3>🧪 Testing Tools Comprehensive</h3>
+
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #e67e22;">
+                    <h4>Automated Scanners</h4>
+                    <p><strong>WAVE (WebAIM):</strong> Browser extension visualizes errors/alerts overlay icons, detailed documentation each issue learn why, API batch testing $200-1200/year, free web version paste URL.<br>\n                    <strong>axe DevTools (Deque):</strong> Chrome/Firefox extensions intelligent guided tests, explains issues Plain English, integrates CI/CD axe-core library npm/jest/cypress, Pro version $1000/year enterprise.<br>\n                    <strong>Lighthouse (Google):</strong> Chrome DevTools Accessibility category score 0-100, audits ARIA/contrast/names/navigation/semantics, performance SEO PWA simultaneous comprehensive, CLI automated scripts CI/CD.<br>\n                    <strong>pa11y (Node.js):</strong> Command-line tool headless browser tests, integration CI/CD GitHub Actions/GitLab, pa11y-dashboard tracking multiple URLs over time, open source free.<br>\n                    <strong>Tenon.io:</strong> API-based comprehensive robust ($10-500/mes), VPAT reports Section 508 enterprise compliance documentation, priority scoring severity.</p>\n                </div>
+
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>Manual Testing Essential</h4>
+                    <p><strong>⌨️ Keyboard navegación:</strong> Tab through entire page every interactive element focusable, Enter activates buttons/links, Escape closes modals/dialogs/dropdowns, Arrow keys navigate menus/tabs/radios/selects, no keyboard traps (can't escape section), focus visible always 2px outline.<br><br>
+                    
+                    <strong>🔊 Screen readers:</strong> <strong>NVDA</strong> (Windows free open source, download nvaccess.org, priority testing most users), <strong>JAWS</strong> (Windows $95/year industry standard enterprise dominant 50%+ market share, Freedom Scientific), <strong>VoiceOver</strong> (macOS/iOS built-in Cmd+F5 toggle, Safari browser combination), <strong>TalkBack</strong> (Android Settings>Accessibility), testing narration makes sense landmarks announced correctly headings navigable forms labels associated buttons descriptive.<br><br>
+                    
+                    <strong>🔍 Zoom functionality:</strong> Browser zoom 200% Ctrl/Cmd + reflow content no horizontal scroll text larger readable, OS zoom Windows Magnifier Win++ macOS Zoom System Preferences hover zoom Ctrl+scroll, no fixed pixel sizes break zoom <code>px</code> → <code>rem</code>/<code>em</code> relative units.<br><br>
+                    
+                    <strong>🎨 Color blindness simulators:</strong> Color Oracle free desktop Mac/Win/Linux real-time filters, Sim Daltonism Mac app, Chrome DevTools Rendering emulation (protanopia/deuteranopia/tritanopia/achromatopsia), verify information communicated beyond color patterns textures labels.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #27ae60;">
+                    <h4>User Testing Disabled Users</h4>
+                    <p><strong>Recruitment:</strong> Disability advocacy organizations (NFB National Federation Blind, NAD National Association Deaf), accessibility testing platforms Fable $5k+ user sessions, UsabilityHub unmoderated crowdsource diverse participants, local universities disability services student volunteers research compensation.<br><br>
+                    
+                    <strong>Tasks realistas:</strong> Find product category navigation, complete purchase checkout flow, read article content consumption, contact support form submission, watch video captions on, listen podcast transcript reference.<br><br>
+                    
+                    <strong>Observe barriers:</strong> Note frustration pain points where struggle, qualitative feedback quotes "I couldn't find submit button" "headings out of order confused location", time-on-task metrics compare baseline, success rates task completion percentages.<br><br>
+                    
+                    <strong>Iterate improvements:</strong> Prioritize fixes high-impact (navigation broken > color contrast low), retest changes validate improvements effective, continuous improvement accessibility journey not one-time audit, quarterly user testing cadence recommended monitor regressions new features.</p>
+                </div>
+            </div>
+
+            <h3>⚖️ Legislación & Compliance Internacional</h3>
+
+            <div class="info-box success" style="margin-top: 1.5rem;">
                 <ul class="content-list">
-                    <li><strong>Texto alternativo (alt):</strong> Describir imágenes para lectores de pantalla</li>
-                    <li><strong>Contraste suficiente:</strong> Entre texto y fondo (mínimo 4.5:1)</li>
-                    <li><strong>Tamaños de fuente ajustables:</strong> Permitir zoom sin romper diseño</li>
-                    <li><strong>Navegación por teclado:</strong> Todo accesible sin ratón (Tab, Enter)</li>
-                    <li><strong>Etiquetas en formularios:</strong> Labels claros asociados a campos</li>
-                    <li><strong>Estructura semántica:</strong> Usar etiquetas HTML correctas (h1, h2, nav, main)</li>
-                    <li><strong>Subtítulos en vídeos:</strong> Para personas sordas</li>
-                    <li><strong>Transcripciones de audio:</strong> Texto alternativo</li>
-                    <li><strong>Enlaces descriptivos:</strong> Evitar "haz clic aquí", usar texto significativo</li>
-                    <li><strong>Evitar solo color:</strong> No transmitir info únicamente por color</li>
-                    <li><strong>Contenido predecible:</strong> No cambios inesperados</li>
-                    <li><strong>Mensajes de error claros:</strong> Ayudar a corregir formularios</li>
+                    <li><strong>Section 508 (EEUU 1998, updated 2018):</strong> Federal agencies websites accessible, WCAG 2.0 AA incorporated standards, procurement requirements ICT products/services, enforcement complaints Department Justice investigations, fines penalties lawsuits damages $50k-500k+.</li>
+                    
+                    <li><strong>ADA Title III (EEUU 1990):</strong> Americans with Disabilities Act "places of public accommodation," courts increasingly interpret websites covered (Robles v Domino's Pizza Supreme Court 2019 upheld Ninth Circuit websites ADA apply), private companies liable especially e-commerce customer-facing, settlements $10k-100k typical + legal fees $50-200k, demand letters proliferating law firms targeting small businesses automated scan reports shakedown tactics, <strong>best practice proactive compliance</strong> avoid litigation cheaper than reactive defense.</li>
+                    
+                    <li><strong>EN 301 549 (Europa 2014, updated 2021):</strong> Harmonized European standard accessibility, WCAG 2.1 Level AA adopted technical requirements, procurement ICT products/services public sector, <strong>European Accessibility Act (EAA) 2025 mandatory</strong> e-commerce banking transport obligatorio private sector June 2025, member states transposing national legislation variations (Germany BITV, France RGAA, UK Equality Act 2010, Spain UNE 139803).</li>
+                    
+                    <li><strong>AODA (Canada Ontario 2005):</strong> Accessibility for Ontarians with Disabilities Act phased compliance deadlines, public sector + private 50+ employees websites Level AA 2021 deadline (some extensions granted COVID), fines $15k-100k per day per violation non-compliance (rarely enforced encouraging compliance education), annual accessibility reporting requirements public accountability.</li>
+                    
+                    <li><strong>Web Accessibility Directive (EU 2016):</strong> Public sector bodies websites/mobile apps mandatory 2018 onwards (mobile apps 2021), accessibility statements required (template provided method assessment WCAG monitoring), enforcement member states monitoring mechanisms proportionate penalties, complaints procedures ombudsman escalation process citizens file.</li>
                 </ul>
             </div>
 
-            <h3>Herramientas de Evaluación</h3>
-            <ul class="content-list">
-                <li><strong>WAVE:</strong> Evaluador de accesibilidad web</li>
-                <li><strong>Lighthouse:</strong> En Chrome DevTools</li>
-                <li><strong>axe DevTools:</strong> Extensión de navegador</li>
-                <li><strong>NVDA/JAWS:</strong> Lectores de pantalla para probar</li>
-            </ul>
+            <h3>💼 Business Case Accesibilidad</h3>
 
-            <h3>Beneficios de la Accesibilidad</h3>
-            <ul class="content-list">
-                <li>Inclusión: Llegar a más usuarios</li>
-                <li>SEO: Los motores de búsqueda valoran la accesibilidad</li>
-                <li>Usabilidad: Mejora la experiencia para todos</li>
-                <li>Legal: Obligatorio en sitios públicos (España, EEUU, UE)</li>
-                <li>Ética: Derecho de acceso a la información</li>
-            </ul>
+            <div class="key-points-grid" style="margin-top: 1.5rem;">
+                <div class="key-point-card" style="border-top-color: #2ecc71;">
+                    <h4>Reach Expanded Market</h4>
+                    <p>15% población mundial disabilities OMS (1.3 billion personas), aging populations Boomers 65+ creciendo (10k/day US turn 65 Silver Tsunami), purchasing power discapacidad $8 trillion globally "Purple Pound" £274B UK, temporal disabilities broken arm pregnancy holding baby situational factors (loud environment commuting sunlight glare screens), accessible design benefits <strong>everyone</strong> (captions noisy gym, voice control cooking hands dirty, large buttons elderly arthritis).</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <h4>SEO Benefits Technical</h4>
+                    <p>Semantic HTML search engines parse better structure understanding (<code>&lt;article&gt;</code>/<code>&lt;section&gt;</code> vs <code>&lt;div&gt;</code>), headings hierarchy content outline keywords crawlers index, alt text images indexable searchable Google Image Search traffic 20-30% total, transcripts captions videos podcasts text content indexable audio previously invisible search, performance accessibility overlap (fast load times Core Web Vitals responsive mobile-first), structured data Schema.org rich snippets enhance SERP appearance CTR boost.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <h4>Legal Risk Mitigation</h4>
+                    <p>Lawsuits settlements expensive $10k-100k + legal fees $50-200k defense costs, reputation damage bad PR "Company X sued inaccessible website excludes disabled customers" headlines viral social media boycotts, insurance policies cyber liability beginning require accessibility compliance WCAG AA evidence proactive testing, <strong>proactive compliance avoids reactive litigation</strong> cheaper audit fix $10-50k vs lawsuit defense $100-300k, risk assessment annual audits VPAT documentation compliance evidence reduces liability exposure.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <h4>Usability Improvements Universal</h4>
+                    <p>Accessible design = good design benefits everyone, clear labels predictable navigation intuitive UX reduces cognitive load all users, subtitles captions noisy environments commuting exercise studying loud roommates, keyboard shortcuts power users efficiency mouse slower repetitive, consistent layouts familiar patterns reduce learning curve onboard faster, error prevention validation helpful messages reduce frustration abandonment cart checkout forms.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <h4>Innovation Driver Technical</h4>
+                    <p>Accessibility constraints creativity innovations benefit mainstream, curb cuts (wheelchair ramps) benefit strollers bicycles rolling luggage deliveries, captions technology speech recognition Siri Alexa voice assistants AI transcription Otter Rev auto-captions YouTube, OCR scanners text-to-speech assistive tech → Google Lens visual search, closed captions TV 1972 deaf → 80%+ viewers use subtitles gym noisy bars second language learners, voice control Dragon 1997 disabled → ubiquitous Siri/Alexa/Google Assistant 3 billion users 2024.</p>
+                </div>
+
+                <div class="key-point-card" style="border-top-color: #1abc9c;">
+                    <h4>Ethical Responsibility CSR</h4>
+                    <p><strong>Human right information access:</strong> UN Convention Rights Persons Disabilities (CRPD) Article 9 accessibility, digital divide exclusion exacerbates inequality education employment healthcare civic participation, corporate social responsibility (CSR) diversity inclusion values aligned accessibility inclusive culture, ethical design user-centered empathy personas disabilities design thinking, brand reputation "good citizenship" attracts customers employees investors ESG environmental social governance metrics screening, future-proofing aging populations governments mandate accessibility regulations increasing worldwide trend proactive vs reactive.</p>
+                </div>
+            </div>
         </section>
 
         <section>
