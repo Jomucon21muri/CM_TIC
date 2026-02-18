@@ -1,0 +1,321 @@
+
+--- PAGE 1 ---
+ 
+ 
+ 
+ 
+FPA Miguel Hernández  
+Curso 202 1/202 2      
+
+--- PAGE 2 ---
+FPA Miguel Hernández            Tratamiento de la Información y Competencia Digital ( Programa B ( ACFGS) ) 
+Profesora: María José Díaz Herrera.                      Curso 202 1/202 2                                  
+ I 
+ 
+Índice  
+ 
+1. Justificación  ................................ ................................ ................................ ................................ ....... 1 
+Contextualización.  ................................ ................................ ................................ ................................ ..............  1 
+2. Normativa  ................................ ................................ ................................ ................................ ..........  1 
+3. Contenidos  ................................ ................................ ................................ ................................ .........  2 
+4. Metodología didác tica  ................................ ................................ ................................ ...................  4 
+5. Materiales y recursos didácticos  ................................ ................................ ................................  4 
+6. Temporalización  ................................ ................................ ................................ ..............................  4 
+7. Evaluación  ................................ ................................ ................................ ................................ .........  5 
+7.1. Criterios de evaluación  ................................ ................................ ................................ .............................  5 
+7.2. Procedimiento y Sistema de Evaluación  ................................ ................................ ............................  5 
+8. Actividades compl ementarias  ................................ ................................ ................................ ..... 7 
+9. Conclusión  ................................ ................................ ................................ ................................ ..........  7 
+--- PAGE 3 ---
+FPA Miguel Hernández            Tratamiento de la Información y Competencia Digital ( Programa B ( ACFGS) ) 
+Profesora: María José Díaz Herrera.                      Curso 202 1/202 2                                  
+ 1 
+ 
+1. Justificación  
+ 
+La preparación para el acceso a ciclos formativos de grado superior en la especialidad de Tratamiento de la 
+Información y Competencia Digital tiene como finalidad el desarrollo de parte de las capacidades referentes 
+al campo profesional del ciclo formativo  de grado superior al que se quiera acceder. Es por ello que la 
+preparación de l a prueba  de acceso a los ciclos formativos de Formación Profesional facilita al alumnado  
+su continuidad en la educación y la formación, concretamente a aquell os que por alguna razón abandonaron 
+el sistema educativo sin ninguna titulación o con titulación insuficiente para continuar sus estudios, de tal 
+forma que posibilitan a los interesados cursar estudios de  Formación Profesional sin reunir los requisitos 
+académicos de acceso.  Aunque a quellas personas que estén en posesión del título de Técnico de Formación 
+Profesional podrán presentarse a las pruebas de acceso a ciclos formativos de grado superior, teniéndose en 
+cuenta el resultado de la prueba , o bien para elevar la s califica ciones  de alguna parte o materia de 
+convocatorias anteriores , respetándose la nota más alta.  
+ 
+Para concurrir a la prueba de acceso a ciclos formativos de grado superior se requerirá tener, como mínimo, 
+19 años cumplidos en el año de realización de la prueba, salvo en el supuesto de aquellas personas que estén 
+en posesión del título de Técnico de Formación Profesional que deberán tener como mínimo 18 años 
+cumplidos en el año de realización de la prueba.  
+ 
+Tratamiento de la información y competencia digital es uno de los cuatro apartados de la parte común de la 
+prueba, por lo que es imprescindible  su formación. Además, ante la situación en la que estamos viviendo 
+donde se ha reforzado la competencia digital y el tratamiento de la información justifica la importancia de 
+fomentar estos conocimientos.  
+ 
+Contextualización.  
+ 
+Dado la escasa oferta y gran demanda de solicitantes de una vacante para acceder a los ciclos formativos de 
+los institutos de la zona, hace que  el alumnado que quier a prepararse la prueba de acceso a un ciclo formativo 
+de grado superior quiera mejorar  la nota de acceso mediante la prueba o acceder porque no tiene el requisito 
+académico.  
+ 
+2. Normativa  
+ 
+ 
+• RESOLUCIÓN de 2 de noviembre de 20 15, de la Dirección General de Formación Profesional y Enseñanzas de 
+Régimen Especial, por la que se por la que se modifica el currículo de las materias que forman parte de las pruebas 
+de acceso a ciclos formativos de grado medio y de grado superior de For mación Profesional y de los cursos 
+preparatorios de las mismas en la Comunitat Valenciana , se detallan l os contenidos y criterios de evaluación 
+programados en el programa B de Acceso a ciclos formativos de Grado superior  sobre los que se fundamenta esta 
+programación en el punto 2 y 6.1.  
+ 
+• ORDEN 16/2016, de 20 de mayo, de la Conselleria  de Educación, Investigación, Cultura y Deporte, por la que se 
+regulan las pruebas de acceso a ciclos formativos de grado medio y grado superior correspondientes a la 
+Formación Profesional del sistema educativo en el ámbito de gestión de la Comunitat Valen ciana. [2016/3675]  
+determina la Evaluación y calificación de las pruebas especificado en el punto 6.2  
+ 
+--- PAGE 4 ---
+FPA Miguel Hernández            Tratamiento de la Información y Competencia Digital ( Programa B ( ACFGS) ) 
+Profesora: María José Díaz Herrera.                      Curso 202 1/202 2                                  
+ 2 
+• RESOLUCIÓN de 1 de junio de 2021 , del director general de Centros Docentes, por la que se 
+fija el calendario escolar del curso académico 2021 -2022 . 
+ 
+• LEY 1/95, de 20 de enero, de la Generalitat Valenciana, de Formación de las Personas 
+Adultas.   
+ 
+• DECRETO 220 /1999, de 23 de noviembre , del Gobierno Valenciano, por el que se regulan 
+los programas formativos que figuran en la Ley 1/1995, de 20 de enero , de la Generalitat 
+Valenciana, de formación de las personas adultas, y se establece el currículo de los programa s 
+de alfabetización y programas para adquirir y actualizar la formación básica de las personas 
+adultas hasta la obtención del título de Graduado en Educación Secundaria, en la Comunidad 
+Valenciana.  
+3. Contenidos  
+El currículo de los diferentes apartados de la  prueba de acceso a los ciclos formativos de grado superior y 
+de las correspondientes materias de los cursos preparatorios de las mismas, es el que se detalla en la 
+Resolución de 2 de noviembre de 2015 en su anexo II . Según esta normativa, en el caso de Tratamiento de 
+la Información y Competencia Digital para el Acceso a Ciclo s Formativos de Grado Superior , los contenidos 
+del currículo son los que se detalla n a continuación.  
+ 
+Bloque 1: Equipos informáticos y redes  
+– El ordenador, concepto, funciones e historia.  
+– Componentes físicos del ordenador personal.  
+– Software, concepto y clases.  
+– Sistemas operativos. Definición y funciones generales. Ejemplos.  
+– Almacenamiento de la información, soportes y formatos. Capacidades y medidas.  
+– Introducción a las redes telemáticas. Tipos. – Dispositivos de red.  
+– Configuración básica de redes TCP/IP.  
+Bloque 2: Seguridad y ética informática  
+– Ley Orgánica de Protección de Datos. Garantías y derechos sobre los datos de carácter  personal.  
+– Estrategias de protección y prevención de pérdida de información. Copias de seguridad y 
+restauración. Antivirus, cortafuegos, antispam, antiespías.  
+– Seguridad en internet. Problemas de seguridad y protección en el correo electrónico. Importanci a 
+de la adopción de medidas de seguridad. Técnicas habituales de fraude: Phishing, troyanos.  
+– Medidas de protección (encriptación, claves...).  
+– Propiedad intelectual, tipos de licencias (copyright, GPL, Creative C ommons).  
+Bloque 3: Soft ware para sistemas informáticos  
+– Tipos de software. Clasificación.  
+– Edición de texto. Fuentes. Formato. Tabulaciones. Estilos y plantillas. Inserción de imágenes. 
+Tablas de contenido e índices. Encabezados y pies de página. Maquetación. Conversión de 
+--- PAGE 5 ---
+FPA Miguel Hernández            Tratamiento de la Información y Competencia Digital ( Programa B ( ACFGS) ) 
+Profesora: María José Díaz Herrera.                      Curso 202 1/202 2                                  
+ 3 
+documentos de tex to al formato de documento portátil (PDF).  
+– Utilización de las hojas de cálculo  para resolver problemas. Oper adores. Fórmulas. Funciones. 
+Referenci as relativas y absolutas. Conf ección de gráficos  
+– Elaboración de presentaciones. C reación de diapositivas. In serción de elementos multimedia. 
+Efectos. Transiciones.  
+– Utilización de los gestores de bases de datos. Diseño de una base de datos. Los registros y los 
+campos. O rdenación y selección de regis tros. Los filtros. Tablas, consultas, formularios e informes. 
+Campos clave. Introducción a relaciones entre tablas e integridad referencial.  
+– Imágenes digitales. Tipos (vectorial es y mapas de bits). Herramien tas de dibujo y edición. 
+Compresión. Formatos. Conversión de formatos.  
+– Edición de sonidos y vídeos digitales. Compresión de los archivos de audio y vídeo. Formatos más 
+utiliz ados. Los codificadores -decodi ficadores (codecs).  
+Bloque 4: Internet y redes sociales  
+– La información y la comunicación como fuentes de comprensión y transformación del entorno -
+social: c omunidades virtuales y globali zación.  
+– Internet. Evolución histórica y situación actual.  
+– Servicios básicos de internet. Web, e -mail, chat, P2P, blog, FTP.  
+– Las redes sociales en internet. Evol ución, características y herra mientas. Tendencias.  
+– La inte gridad y rigurosidad de la información en la red.  
+Bloque 5: Aplicaciones web 2.0 cola borativas y publicación de con tenidos  
+– Aplicaciones web 2.0 para trabajo colaborativo.  
+– Creación y publicación en la web.  
+–  Integración y organización de elementos textuales, numéricos, sonoros y gráficos en estructuras 
+hipertextuales.  
+– Publi cación de contenidos en la web.  
+– Accesibilidad de la información.  
+– Criterios de evaluación  
+– Distinguir los diferentes eleme ntos de un orde nador y sus fun ciones.  
+– Conocer las funciones de un sistema operativo y manejar a nivel usuario alguno de ellos.  
+– Comprender y saber indicar las medidas de capacidad de alma cenamiento.  
+– Entender las características básicas de la propiedad intelectual y los tipos de licencias  
+– Usar los programas de protección y seguridad de manera básica.  
+– Manejar de forma básica los programas de contenido ofimático (procesador de textos, hojas de 
+cálculo, presentación de contenidos y bases de datos)  
+– Conocer el funcionamiento básico de redes e identificar los dis positivos de red.  
+– Obtener imágenes fotográfi cas, audio, vídeo digital y aplicarles técnicas de edición digital.  
+– Usar adecuadamente internet y las redes sociales, haciendo un uso responsable, teniendo en cuenta 
+las amenazas.  
+– Conocer y usar aplicaciones web 2.0 de manera colaborativa.  
+– Publicar conte nidos en internet.  
+--- PAGE 6 ---
+FPA Miguel Hernández            Tratamiento de la Información y Competencia Digital ( Programa B ( ACFGS) ) 
+Profesora: María José Díaz Herrera.                      Curso 202 1/202 2                                  
+ 4 
+4. Metodología didáctica  
+ 
+Este programa formativo se enfoca para la preparación de la  prueba libre  de acceso , por lo tanto, se debe de 
+hacer especial atención a los ejercicios de examen tipo test que han salido con anterioridad en años anteriores 
+en las pruebas libres de Acceso a Ciclos Formativos de Grado Superior , así como los propuestos después de 
+cada uno de  los bloques impartidos .  
+La metodología será la preparación del examen tipo test a partir de los conceptos técnicos  y el vocabulario 
+visionado de vídeos e imág enes descriptivas de los procesos a e studiar en el temario que se proponen en el 
+blog de mestre@ casa cuyo enlace es http://mestreacasa.gva.es/web/diaz_mar22/52   y contenidos del 
+curso virtual TICD de Aules https://aules.edu.gva.es/fpa  . Además, en  la plataforma de Moodle de la 
+Conselleria, Aules, se realizarán simulacros de exámenes tipo test, atendiendo tanto al número de preguntas 
+(30), temporalización (45’) y cálculo de nota en la que se contempla la penalización por pregunta errónea.  
+ 
+5. Materiales y recursos didácticos  
+Para el desarrollo de la materia TICD se empleará:  
+• Material creado por la profesora  
+• Ejercicios y contenidos seleccionados de diferentes fuentes cuyos recursos son de  licencia CC . 
+• Vídeos didácticos  
+• Blog docente  de Mª José Díaz Herrera proporcionado por la Conselleria  en la plataforma de 
+mestre@casa   http://mestreacasa.gva.es/web/diaz_mar22/52   
+• Aules , plataforma de Moodle facilitada por la Conselleria  https://aules.edu.gva.es/fpa/  
+• Pizarra digital  Interactiva, PDI.  
+• Aula de informática  
+ 
+6. Temporalización  
+ 
+TICD se  impartirá 1 hora a la semana en un cuatrimestre  de 15 ó 16 horas , según si el 25 de mayo no se ha 
+realizado la prueba . El día y hora que se impartirá Tratamiento de la información y Competencia Digital 
+será el siguiente:  
+ 
+– Miérco les de 17:00h a 1 8:00h del 2 de febrero hasta la fecha de la prueba, previsiblemente hasta el 
+25 de mayo  (16 horas)  
+ 
+La temporalización aproximada será c omo s e indica en la siguiente tabla , aunque es orientativ a, ya que es  
+flexible en función de la asimilación de contenidos por el alumnado  y la fecha de la prueba, que se publicará 
+en la convocatoria correspondiente.  
+ 
+ 
+--- PAGE 7 ---
+FPA Miguel Hernández            Tratamiento de la Información y Competencia Digital ( Programa B ( ACFGS) ) 
+Profesora: María José Díaz Herrera.                      Curso 202 1/202 2                                  
+ 5 
+Contenidos  Horas  Miércoles  
+Presentaci ón de los  contenidos y 
+temporalización  
+Bloque 1: Equipos informáticos y redes  1 
+ 
+ 
+4 02/02  
+09/02 
+16/02 
+23/02 
+02/03 
+Bloque 2: Seguridad y ética 
+informática  3 09/03 
+16/03  
+23/03  
+Bloque 4: Internet y redes sociales  2 30/03  
+06/04  
+Bloque 5: Aplicaciones web 2.0 
+colaborativas y publicación 
+de contenidos  3 13/04  
+27/04  
+04/05  
+Bloque 3: Software para sistemas 
+informáticos  3 11/05  
+18/05  
+25/05?  
+7. Evaluación  
+ 
+7.1. Criterios de evaluación  
+• Distinguir los diferentes elementos de un ordenador y sus funciones.  
+• Conocer las funciones de un sistema operativo y manejar a nivel usuario alguno de ellos.  
+• Comprender y saber indicar las medidas de capacidad de almacenamiento.  
+• Entender las características básicas de la propiedad intelectual y los tipos de licencias  
+• Usar los programas de protección y seguridad de manera básica.  
+• Manejar de forma básica los programas de contenido ofimático (procesador de textos, hojas de 
+cálculo, presentación de contenidos y bases de datos)  
+• Conocer el funcionamiento básico de redes e identificar los dispositivos de red.  
+• Obtener imágenes fotográficas, audio, vídeo digital y aplicarles técnicas de edición digital.  
+• Usar adecuadamente internet y las redes sociales, haciendo un uso responsable, teniendo en cuenta 
+las amenazas.  
+• Conocer y usar aplicaciones web 2.0 de manera colaborativa.  
+• Publicar contenidos en internet.  
+7.2. Procedimiento y Sistema de Evaluación  
+ 
+Prueba  
+La Prueba se regirá por lo marcado en la Orden siguiente:  
+ORDEN 16/2016, de 20 de mayo, de la Conselleria de Educación, Investigación, Cultura y Deporte, por la 
+que se regulan las pruebas de acceso a ciclos formativos de grado medio y grado su perior correspondientes 
+a la Formación Profesional del sistema educativo en el ámbito de gestión de la Comunitat Valenciana. 
+[2016/3675]  
+--- PAGE 8 ---
+FPA Miguel Hernández            Tratamiento de la Información y Competencia Digital ( Programa B ( ACFGS) ) 
+Profesora: María José Díaz Herrera.                      Curso 202 1/202 2                                  
+ 6 
+Partes  
+Esta prueba constará de dos partes:  
+a) Parte común , que tiene como objetivo apreciar la madurez e idoneidad de los candidatos para seguir con 
+éxito los estudios de Formación Profesional de grado superior, a sí como su capacidad de razona miento y de 
+expresión escrita. Constará de cuatro apartados:  
+a1) Lengua y Litera tura (Castellana o Valenciana),  
+a2) L engua Extranjera (Inglés),  
+a3) Matemáticas.  
+a4) Tratamiento de la Inf ormación y Competencia Digital.  
+(TICD - Será de ti po TEST  con una duración de 45’ para contestar la opción correcta  de 30 
+preguntas. Se penalizará si se contesta una pregunta erróneamente, pero no cuenta si no se contesta.   
+b) Parte específica , que tiene como objetivo valorar las capacidades de base referentes al campo profesional 
+de que se trate y versará sobre los conocimientos básicos de las materias de Bachillerato que faciliten la 
+conexión con cada ciclo formativo de grado superior.  
+Opcio nes 
+Existirán tres opciones, según el ciclo al que se desee acceder, y, en cada una de ellas, el candidato elegirá 
+dos de las tres materias  que lo forman.  
+Las opciones serán:  
+A) Humanidades y Ciencias Sociales , cuyas materias serán Historia, Economía y Geografía.  
+B) Tecnología , cuyas materias serán Dibujo Técnico, Tecnología Industrial, y Física y Química.  
+C) Ciencias,  cuyas materias serán Física, Biología y Ciencias de la Tierra, y Química.  
+ 
+ 
+Cálculo de la Nota  
+Para la prueba de acceso a grado superior : 
+– Se calculará la media aritmética ponderada con dos decimales de las notas de Lengua y Literatura 
+(Cast ellana o Valenciana), Matemáti cas, Lengua Extranjera (Inglés) y Trata miento de la 
+Información y Com petencia Digital , que tendrán un peso  de 3’5; 3’5; 2 y 1 respectivamente, 
+que será la nota de la parte común.  
+ 
+– Se calculará la nota de la parte específica con la media aritmética con dos decimales de las notas de 
+las dos optativas de la opción que se hayan elegido.  
+--- PAGE 9 ---
+FPA Miguel Hernández            Tratamiento de la Información y Competencia Digital ( Programa B ( ACFGS) ) 
+Profesora: María José Díaz Herrera.                      Curso 202 1/202 2                                  
+ 7 
+La nota final  será la media aritmética  con dos decimales de las dos partes  en la prueba de acceso de grado 
+superior si bien la nota final solo podrá calcularse cuando la nota de cada una de las partes de la prueba sea 
+igual o superior a 4.  
+Si la nota final es igual o superior a 5, la prueba se considerará superada.  
+ 
+8. Actividade s complementarias  
+ 
+Se podrán realizar actividades complementarias como : 
+ 
+• Visitar alguna empresa o fábrica relacionada con los temas a tratar.   
+• Asistencia a alguna conferencia informativa acerca de los ciclos formativos de los institutos 
+de la zona , sobre todo en la próxima III Feria de la Formación Profesional de abril.  
+ 
+9. Conclusión  
+ 
+Es cierto que TICD tiene una ponderación de sólo un 10% en la parte común, pero con sólo prestar atención 
+de lo que se tratará en clase y la práctica de los test, será suficiente para que incrementes 1 punto con sólo 
+hacer un examen/test de 45 minutos. Por tanto, aprovecha todas tus posibilidades para incrementar tu nota 
+final de la prueba.  

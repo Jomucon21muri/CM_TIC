@@ -1,0 +1,81 @@
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR
+JUNIO 2018
+PARTE COMÚN:
+TRATAMIENTO DE LA INFORMACIÓN Y COMPETENCIA DIGITAL
+Duración: 45 minutos
+El examen consta de 30 preguntas tipo test, de opción múltiple. Todas las preguntas tienen una única 
+respuesta y tienen el mismo valor. Las preguntas sin respuesta marcada no puntúan. Las preguntas con 
+respuesta errónea penalizan 0,1 puntos.
+1. Los antivirus son:
+a) programas diseñados para detectar y eliminar el software dañino
+2. El antispam es:
+b) un método para prevenir el correo basura
+3. El objetivo del SCAM es:
+c) estafar a la persona que recibe el correo electrónico 
+4. Un troyano:
+d) todas las anteriores son correctas
+5. Un sistema operativo es:
+a) imprescindible para poder utilizar un ordenador
+6. El modo RGB:
+a) cada canal se corresponde con un color primario, rojo, verde y azul
+7. El formato de imagen GIF:
+b) no es recomendable para fotografías de cierta calidad ni originales 
+8. El formato OGG:
+c) surgió como alternativa libre y de código abierto 
+9. El formato MIDI:
+d) no guardan el sonido sino la información o partitura necesaria para que el ordenador la
+componga y reproduzca
+10. El formato FLV:
+a) es un formato que utiliza el reproductor Adobe Flash 
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 1/3
+
+11. Un foro de discusión:
+a)  permite  a  los  usuarios  leer  mensajes  incluidos  por  el  resto  de  miembros  de  la
+comunidad, elegir el tema de interés y  dar una respuesta a los mensajes
+12. En la Web 2.0:
+c) las aplicaciones son más interactivas
+13. Una Página web dinámica:
+d) todas las anteriores son correctas
+14. Indica cuál de los siguientes componentes es un periférico de entrada:
+c) escáner
+15. ¿Qué significan las siglas SGBD?
+b) Sistema Gestor de Base de Datos
+16.  Es  una  Organización  sin  ánimo  de  lucro,  cuya  finalidad  es  que  autores  y
+creadores puedan compartir voluntariamente su trabajo con herramientas libres:
+a) Creative Commons
+17. En OpenOffice Cal una celda es:
+a) La unidad básica de información
+18. HTTP es:
+a) el protocolo en el que se basa internet
+19. De los siguientes, indica cuál es un navegador:
+d) todas las anteriores son correctas
+20. Indica de los siguientes programa de los paquetes ofimáticos de Apache Open
+Office y LibreOffice, los que se utilizan para crear presentaciones:
+b) Impress
+21. Un teclado es un elemento periférico de:
+b) entrada
+22. Un PB (petabyte) se puede representar como:
+c) 1.024 TB (Terabyte)
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 2/3
+
+23. La memoria RAM es:
+d) una memoria donde se guardan los programas en ejecución
+24. La memoria ROM es:
+a) una memoria de solo lectura
+25. Cuando en un procesador de textos queremos la linea de texto ocupe todo el
+ancho de la página, debemos elegir la alineación de texto:
+a) justificada
+26. El Hoax o bulos:
+b) suelen ser difundidos a través del correo electrónico
+27. La transición de diapositiva es:
+a) cómo se produce el paso de una diapositiva a otra
+28. La Red de Área Local (LAN) es:
+c) pequeña extensión, como en una casa, en un instituto o empresa
+29. ¿Con qué extensión se guardan por defecto las presentaciones en LibreOffice
+Base?
+c) .odb
+30.  ¿Con  que  extensión  se  guarda  por  defecto  un  documento  de  texto  en
+LibreOffice Calc?
+d) .ods
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 3/3
+

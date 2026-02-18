@@ -1,0 +1,166 @@
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR
+JUNIO 2017
+PARTE COMÚN: Apartado A4 TRATAMIENTO DE LA INFORMACIÓN Y COMPETENCIA  
+DIGITAL
+Duración: 45 minutos
+El examen consta de 30 preguntas tipo test, de opción múltiple. Todas las preguntas tienen  
+una única respuesta y tienen el mismo valor. Las preguntas sin respuesta marcada no  
+puntúan. Las preguntas con respuesta errónea penalizan 0,1 puntos.
+1.Tenemos  archivos  de  música  mp3,  que  ocupan  cada  uno  8000Kb,  ¿cuántos  caben  
+aproximadamente en un lápiz de memoria de 16MB?
+a)16
+b)2
+c)20
+2.¿En qué se mide la resolución del monitor?
+a)Puntos por pulgada
+b)Hercios
+c)Ninguno de los anteriores
+3.Indica cuál de las siguientes extensiones corresponde a un fichero de imagen.
+a).avi
+b).mpg
+c).png
+4.Queremos comprarnos un lápiz usb. ¿Qué versión USB es más rápida?
+a)2.0
+b)3.0
+c)5.0
+5.Indica cuál de las siguientes afirmaciones es falsa:
+a)Los inmigrantes digitales, tienen que aprender a usar las nuevas herramientas que sustituyen a  
+las analógicas que conocían.
+b)Se entiende como brecha digital a la distancia existente entre la salida al mercado de los  
+distintos dispositivos electrónicos.
+c)Un ejemplo de IoT (Internet of Things) podría ser el propio hogar, donde electrodomésticos,  
+servicios o pequeños gadgets ya estarían conectados a Internet. 
+6.¿Qué son los drivers de un dispositivo? Selecciona la respuesta correcta:
+a)Los manuales
+b)Programa que le indica al sistema operativo cómo gestionar el dispositivo
+c)Los elementos del dispositivo 
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección  
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos  
+formativos de Formación Profesional (DOGV 13-02-2017).
+
+7.El cortafuegos permite: 
+a)Prevenir el correo basura
+b)Detectar y eliminar el software dañino
+c)Bloquear el acceso a determinadas páginas de Internet 
+8.¿Cuál de los siguientes NO es un buen hábito de uso para proteger nuestros equipos?
+a)Mantener el sistema operativo actualizado
+b)Utilizar un antivirus que analice lo que descargas
+c)Abrir cualquier tipo de adjunto 
+9.La autenticación es:
+a)El proceso para el establecimiento o confirmación de algo como real
+b)El proceso por el que un texto es transformado en otro
+c)Un tipo de malware
+10.La licencia 
+  es:
+a)Ninguna es correcta
+b)Reconocimiento-Compartir igual
+c)Reconocimiento-No comercial-Compartir Igual
+11.¿Cuál de las siguientes NO es una función del sistema operativo?
+a)Todas las opciones son funciones de un sistema operativo
+b)Proporcionar una interfaz de usuario
+c)Gestionar los recursos hardware 
+12.¿Qué acción no podemos realizar sobre una carpeta desde el explorador de archivos?
+a)Comprimirla
+b)Borrarla
+c)Se pueden hacer todas las anteriores
+13.¿Cuál de los siguientes no es un sistema de archivos?
+a)FEXT
+b)FAT32
+c)NTFS 
+14.Cuando en un procesador de textos queremos que la línea de texto ocupe todo el ancho de página  
+debemos elegir la alineación de texto…
+a)Centrada
+b)Justificada
+c)Alineada
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección  
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos  
+formativos de Formación Profesional (DOGV 13-02-2017).
+
+15.En una hoja de cálculo: ¿Qué se teclearía en la celda A4 para introducir la fórmula A3+2?
+a)A3+2
+b)Suma(A3;2)
+c)=A3+2
+16.Los programas PowerPoint, LibreOffice Impress y OpenOffice Impress son:
+a)Aplicaciones para procesar textos
+b)Aplicaciones de bases de datos
+c)Aplicaciones para crear presentaciones
+17.De los siguientes campos de una tabla en una base de datos, indica cuál podría ser una clave (o  
+llave) primaria (o principal):
+a)Nombre y primer apellido de un usuario
+b)DNI
+c)Cualquiera de los anteriores
+18.De los siguientes formatos, ¿cuál es de código abierto (Software libre)?
+a)MP3 
+b)WAV 
+c)OGG 
+19.¿Cuál de las siguientes topologías de red es más robusta a fallos?
+a)Estrella
+b)Mallada
+c)Anillo
+20.Indica qué dirección IP es correcta:
+a)192.168.1.3
+b)192.163.2.3.2
+c)256.2.13.2
+21.La puerta de enlace es:
+a)Es una IP que suele ser proporcionada por el ISP
+b)IP que es visible desde Internet
+c)Es la dirección IP por la que la red local sale al exterior, ya sea otra red o Internet
+22.De los siguientes programas, ¿cuál NO es un buscador?
+a)Safari
+b)Yahoo
+c)Ask
+23.Respecto a las comunidades virtuales, ¿cuál de las siguientes afirmaciones NO es cierta?
+a)Un chat es una herramienta que permite a un grupo de individuos conversar mediante mensajes  
+de texto y en tiempo real.
+b)En  una  comunidad  virtual se  dialoga,  se  discute,  se  opina,  mientras  la  identidad  real del  
+participante puede permanecer oculta.
+c)En las comunidades virtuales no existen roles, todos los participantes pueden opinar, borrar o  
+editar las intervenciones de los demás.
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección  
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos  
+formativos de Formación Profesional (DOGV 13-02-2017).
+
+24.Sistemas peer to peer.
+a)Son sistemas basados en una arquitectura cliente-servidor.
+b)Son sistemas basados en una arquitectura de igual a igual.
+c)Suelen utilizarse para la implementación de las Wikis.
+25.Servicios básicos de Internet.
+a)Un ISP (Internet Service Provider) es una aplicación web que permite el acceso a los diferentes  
+servicios presentes en la WWW.
+b)En la web 2.0 los usuarios son pasivos y no suelen ser participar en los contenidos de la misma.
+c)La WWW se basa en el lenguaje HTML y el protocolo HTTP.
+26.Indica cuál de las siguientes aplicaciones NO permite el trabajo colaborativo en la nube:
+a)Google Docs
+b)Office Web Apps (OneDrive)
+c)Microsoft Office
+27.Tecnología web 2.0.
+a)Para trabajar con la web 2.0 es necesario tener instalado un software cliente en el ordenador.
+b)La plataforma de trabajo es la propia página web.
+c)Ambas son incorrectas
+28.Indica cuál de las siguientes afirmaciones NO es una ventaja de la web 2.0:
+a)La Web 2.0 ha originado la democratización de los medios haciendo que cualquiera tenga las  
+mismas posibilidades de publicar noticias que un periódico tradicional.
+b)La Web 2.0 ha reducido considerablemente los costes de difusión de la información, de manera  
+que podemos tener gratuitamente nuestra propia emisora de radio online, nuestro periódico  
+online, nuestro canal de vídeos, etc.
+c)La Web 2.0 dificulta la comercialización de productos difíciles de encontrar en los comercios  
+tradicionales por ser más específicos o menos populares.
+29.Páginas web estáticas. Encuentra la respuesta incorrecta:
+a)La gran ventaja de los sitios Web estáticos reside en lo sencillo que resulta el uso de sus foros y  
+consultas online.
+b)Son básicamente informativas y están enfocadas principalmente a mostrar una información  
+permanente.
+c)La principal ventaja de este tipo de páginas es lo económico que resulta crearlas.
+30.Páginas web dinámicas. Encuentra la respuesta incorrecta:
+a)Permiten crear aplicaciones dentro de la propia Web, otorgando una mayor interactividad con el  
+navegante.
+b)Una de sus grandes desventajas es que no permiten el uso de lenguajes como PHP.
+c)Permiten crear formularios o consultar catálogos a los usuarios con una respuesta inmediata.
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección  
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos  
+formativos de Formación Profesional (DOGV 13-02-2017).
+

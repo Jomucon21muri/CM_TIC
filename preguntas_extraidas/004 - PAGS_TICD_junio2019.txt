@@ -1,0 +1,187 @@
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR
+JUNIO 2019
+PARTE COMÚN
+TRATAMIENTO DE LA INFORMACIÓN y COMPETENCIA DIGITAL
+Duración: 45 minutos
+1. Los inmigrantes digitales son :
+a)Aquellas personas que nacieron en el siglo pasado, vieron desarrollarse
+los inventos tecnológicos que ahora usamos y para ellos es algo que hay
+que aprender a dominar.
+b)Describe  a  alguien  nacido  en  la  era  digital,  a  diferencia  de  quienes
+adquirieron familiaridad con los sistemas digitales ya siendo adultos, a
+los que se describe como nativos digitales.
+c)Ninguna de las dos es correcta.
+2. Alan Turing :
+a)Colaboró en el diseño y desarrollo de los sistemas operativos Multics y
+Unix, así como el desarrollo de varios lenguajes de programación .
+b)Es considerado uno de los padres de la ciencia de la computación y
+precursor  de  la  informática  moderna.  Formalizó  los  conceptos  de
+algoritmo y computación gracias a La máquina de Turing.
+c)Fue un científico inglés conocido por ser el padre de la World Wide Web.
+3. ¿Qué es el Internet de las cosas, IoT?
+a)Es  un  concepto  que  se  refiere  a  la  interconexión  digital  de  objetos
+domésticos y cotidianos con Internet utilizando la comunicación M2M.
+b)Es el Internet incrustado en algunos objetos como el DNI electrónico.
+c)Son cosas que tienen Internet.
+4. Si te compras un Disco duro portatil (USB) de 1 TB ¿Cuántos CDs caben
+teóricamente en él (contando que 1 CD son 700 MB)?
+a)Aproximadamente 1000.
+b)Entre 1400 y 1500 aproximadamente.
+c)Unos 2000
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019).
+Pág. 1/6
+5. ¿Qué es la Unidad Central de Proceso o CPU?
+a)Es el componente que se encarga de ejecutar las operaciones que debe
+realizar el ordenador; El que procesa las instrucciones.
+b)Es la caja que engloba todo el Hardware del que está compuesto el
+ordenador.
+c)Es la caja que engloba todo el Software del que está compuesto el
+ordenador.
+6. La memoria RAM :
+a)Es una memoria de sólo lectura se pueden leer los datos que tiene
+almacenados
+b)Es una memoria volátil y tienes que apretar un botón para borra todo su
+contenido.
+c)Es una memoria volátil, cuando se apaga el ordenador se borra todo su
+contenido.
+7. La memoria ROM :
+a)Es una memoria que se borra si apagas el ordenador 
+b)La memoria ROM (Read Only Memory) es de sólo lectura, es decir, no se
+puede  escribir  en  ella.  Las  instrucciones  que  contiene  han  sido
+almacenadas por el fabricante.
+c)La memoria ROM  (Run Operation Memory) sirve para que se ejecuten
+los programas.
+8. Indica qué opción es la correcta:
+a)Periféricos de entrada son el monitor y la impresora, y periféricos de
+salida son el ratón, el teclado y el dispositivo de almacenamiento USB
+(pendrive).
+b)Periféricos de entrada son el ratón y el teclado, y periféricos de salida
+son el monitor, la impresora, y un dispositivo de almacenamiento USB
+(pendrive).
+c)Periféricos de entrada son el ratón y el teclado, y periféricos de salida
+son  el  monitor  y  la  impresora,  mientras  que  un  dispositivo  de
+almacenamiento USB (pendrive) es de entrada y salida. 
+9. ¿Cuál no es una condición de las licencias Creative Commons?
+a)Reconocimiento-No Comercial-Compartir Igual 
+b)Reconocimiento-No Comercial-Compartir en un tiempo determinado 
+c)Reconocimiento-No Comercial-Sin Obra Derivada 
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019).
+Pág. 2/6
+10.  ¿Cuales  son  los  derechos  que  tenemos  sobre  nuestros  Datos  de
+carácter personal?
+a)Acceso, Rectificación, Cancelación y Oposición.
+b)Calidad, Tratamiento de los datos y deber de la información.
+c)Calidad, Acceso, Deber y Cancelación.
+11. ¿Qué es un sistema de archivos en un Sistema Operativo? 
+a)Un programa para guardar archivos.
+b)Es una de las partes que conforman el Sistema Operativo WINDOWS.
+c)Es una forma de organizar archivos que se incluye en los S.O.  
+12. Elige la opción falsa. 
+Las funciones más importantes de los Sistemas Operativos son los siguientes:
+a)Gestionar los recursos hardware. 
+b)Administrar el sistema de archivos.
+c)No hay ninguna falsa, todas son verdaderas.
+13. ¿Qué significa “Formatear un disco” ?
+a)Formatear es el proceso por el cual se evita la fragmentación de un disco
+y así conseguimos que no se borre la información.
+b)Formatear  es  el  proceso  de  crear  un  sistema  de  archivos  en  una
+partición. Al formatear se borra toda la información.
+c)Necesitaremos formatear un disco para instalar un Sistema Operativo.
+14. ¿Qué significa la extensión .exe ?
+a)Puede ser un archivo que instala un programa o ejecutarlo si ya está
+instalado.
+b)Son archivos de exterior del sistema.
+c)Puede ser un archivo que instala un programa o ejecutarlo si ya está
+instalado.  Además  de  esto,  un  exe  corresponde  siempre  a  una
+aplicación.
+15. A la hora de instalar un Sistema Operativo:
+a)Hay que saber qué requisitos de espacio y procesador necesita para
+poder instalarse correctamente. 
+b)Insertar el CD y darle al play. 
+c)Hay que formatear en FAT-32 para que recoja el sistema de ficheros de
+cualquier sistema.
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019).
+Pág. 3/6
+16. ¿Con qué extensión se guarda por defecto un documento de texto en
+LibreOffice Writer?
+a).odt
+b).odb
+c).ods
+17. ¿Para qué sirve la vista preliminar del documento en Writer ?
+a)Para ver el documento con las últimas modificaciones realizadas.
+b)Para mostrar el documento tal y como se va a imprimir.
+c)Para poder visualizarlo y cambiar lo que consideres antes de imprimirlo.
+18. Elige la opción correcta: 
+a)Ctrl+X → Cortar
+b)Ctrl+Z → Cortar
+c)Ctrl+C → Cortar
+19. ¿Con qué extensión se guarda por defecto un documento de texto en
+LibreOffice Calc?
+a).odt
+b).odb
+c).ods
+20. ¿Cómo se nombra un rango de celdas en Calc?
+a)A3:A20 → Por ejemplo = SUMA(A3:A20)
+b)A3;A20 → Por ejemplo = SUMA(A3;A20)
+c)3A:20A → Por ejemplo = SUMA(3A:20A)
+21. Si las celdas de una hoja de cálculo A1, A2, A3 y A4 contienen los
+caracteres A, C, X y A respectivamente y las celdas B1, B2, B3 y B4 los
+números  7,  5,  3  y  9,  ¿qué  resultado  daría  la  fórmula
+SUMAR.SI(A1:A4;"A";B1:B4)?
+a)7 y 9
+b)24
+c)16
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019).
+Pág. 4/6
+22. ¿Qué significa el icono de llave amarilla en un campo de una tabla en
+Base ?
+a)Indica el campo por el cual se relaciona con otra tabla.
+b)Indica el campo unívoco de la tabla, la Clave Primaria.
+c)La llave no es amarilla, sino azul. 
+23. En una Base de datos relacional, para establecer una relación entre
+dos tablas:
+a)Han de tener el mismo número de campos.
+b)Han de tener el mismo número de registros.
+c)Han de tener un campo común entre ambas. 
+24. El formato MP3 :
+a)Es un archivo que desarrolló originalmente Microsoft para guardar audio. 
+b)No todos los reproductores multimedia son capaces de leer por defecto
+este formato. En algunos casos es necesario instalar los códecs o filtros
+oportunos.
+c)Es ideal para publicar audios en la web. Se puede escuchar desde la
+mayoría de reproductores.
+25. ¿Qué programa de los paquetes ofimáticos de Apache OpenOffice y
+LibreOffice se utilizan para crear presentaciones?
+a)Impress
+b)Calc
+c)PowerPoint
+26. ¿Qué es la resolución de imagen ?
+a)Es el grado de detalle o calidad de una imagen digital ya sea escaneada,
+fotografiada  o  impresa.  Este  valor  se  expresa  en  ppp  (píxeles  por
+pulgada). Cuantos más píxeles contenga una imagen, mayor calidad. 
+b)Se  refiere  al  número  de  bits  necesarios  para  codificar  y  guardar  la
+información del color en una imagen.
+c)Es la calidad de una imagen fotografiada. Este valor se expresa en ppp
+(píxeles por centímetros). Cuantos menos píxeles contenga una imagen
+por centímetros mayor calidad tendrá. 
+27. ¿Cuáles de estas extensiones son t odas referidas a archivos de video?
+a)mp3, mp4 y mp5
+b)avi, jpg, wav y tiff
+c)avi, mpeg, mov y wmv
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019).
+Pág. 5/6
+28. Indica qué es una dirección IP pública:
+a)Es aquella que identifica a cada dispositivo dentro de una LAN.
+b)Es una combinación de bits que sirve para delimitar el ámbito de una red
+de computadoras.
+c)Es aquella dirección IP que es visible desde Internet.
+29. Indica qué dirección IP es correcta:
+a)192.163.2.3.2
+b)256.2.13.2
+c)192.168.1.3
+30. Indica cuál de las siguientes puede ser una máscara de red:
+a)10..2.3.5
+b)255.255.255.0
+c)256.2.13.2
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019).
+Pág. 6/6

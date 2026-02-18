@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 2: Seguridad y Ética Informática - Curso TICD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔒 Bloque 2: Seguridad y Ética Informática</h1>
+            <p>Curso TICD - Acceso a Ciclos Formativos de Grado Superior</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="bloque1.html">Bloque 1</a></li>
+                <li><a href="bloque2.html" class="active">Bloque 2</a></li>
+                <li><a href="bloque3.html">Bloque 3</a></li>
+                <li><a href="bloque4.html">Bloque 4</a></li>
+                <li><a href="bloque5.html">Bloque 5</a></li>
+                <li><a href="evaluacion.html">Evaluación</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Inicio</a> <span>→</span> <span>Bloque 2</span>
+        </div>
+
+        <section>
+            <h2>📖 Introducción</h2>
+            <p>La seguridad informática y la ética digital son fundamentales en la sociedad actual. En este bloque aprenderemos sobre protección de datos personales, medidas de seguridad, amenazas comunes y los diferentes tipos de licencias software.</p>
+            
+            <div class="info-box danger">
+                <h4>⚠️ Importancia de la Seguridad</h4>
+                <p>Cada día se producen millones de ataques informáticos. Conocer las medidas de protección y los riesgos es esencial para proteger tu información personal y profesional.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>2.1. Ley Orgánica de Protección de Datos (LOPD)</h2>
+            
+            <h3>¿Qué es la LOPD?</h3>
+            <p>La <strong>Ley Orgánica de Protección de Datos</strong> (actualmente LOPDGDD - Ley Orgánica 3/2018) y el <strong>RGPD</strong> (Reglamento General de Protección de Datos) europeo regulan el tratamiento de los datos personales.</p>
+
+            <h3>Datos de Carácter Personal</h3>
+            <p>Son cualquier información sobre una persona física identificada o identificable:</p>
+            <ul class="content-list">
+                <li>Nombre y apellidos</li>
+                <li>DNI/NIE</li>
+                <li>Dirección, teléfono, email</li>
+                <li>Datos bancarios</li>
+                <li>Imágenes, voz</li>
+                <li>Datos de salud</li>
+                <li>Dirección IP</li>
+                <li>Datos de localización</li>
+            </ul>
+
+            <h3>Principios de la Protección de Datos</h3>
+            <div class="info-box info">
+                <ul class="content-list">
+                    <li><strong>Licitud:</strong> Tratamiento legal y transparente</li>
+                    <li><strong>Finalidad:</strong> Datos recogidos con fines específicos y legítimos</li>
+                    <li><strong>Minimización:</strong> Solo datos necesarios</li>
+                    <li><strong>Exactitud:</strong> Datos correctos y actualizados</li>
+                    <li><strong>Limitación del plazo:</strong> Conservar solo el tiempo necesario</li>
+                    <li><strong>Integridad y confidencialidad:</strong> Seguridad adecuada</li>
+                </ul>
+            </div>
+
+            <h3>Derechos de los Ciudadanos (ARCO-POL)</h3>
+            <ul class="content-list">
+                <li><strong>Acceso:</strong> Saber qué datos tienen sobre ti</li>
+                <li><strong>Rectificación:</strong> Corregir datos inexactos</li>
+                <li><strong>Cancelación/Supresión:</strong> Eliminar datos (derecho al olvido)</li>
+                <li><strong>Oposición:</strong> Oponerse al tratamiento de tus datos</li>
+                <li><strong>Portabilidad:</strong> Llevarte tus datos a otro servicio</li>
+                <li><strong>Limitación:</strong> Restringir el tratamiento de los datos</li>
+            </ul>
+
+            <h3>Consentimiento</h3>
+            <ul class="content-list">
+                <li>Debe ser libre, específico, informado e inequívoco</li>
+                <li>Debe poder retirarse fácilmente</li>
+                <li>Para menores de 14 años se requiere consentimiento de los padres/tutores</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2.2. Estrategias de Protección y Prevención</h2>
+            
+            <h3>Copias de Seguridad (Backup)</h3>
+            <p>Una <strong>copia de seguridad</strong> es una copia de los datos almacenada en un lugar diferente al original para poder recuperarla en caso de pérdida.</p>
+
+            <h4>Tipos de Copias de Seguridad</h4>
+            <ul class="content-list">
+                <li><strong>Completa:</strong> Copia de todos los datos. Lenta pero completa</li>
+                <li><strong>Incremental:</strong> Solo copia lo que ha cambiado desde la última copia</li>
+                <li><strong>Diferencial:</strong> Copia lo que ha cambiado desde la última copia completa</li>
+            </ul>
+
+            <h4>Regla 3-2-1 para Backups</h4>
+            <div class="info-box success">
+                <ul class="content-list">
+                    <li><strong>3</strong> copias de tus datos (original + 2 copias)</li>
+                    <li><strong>2</strong> soportes diferentes (disco duro + nube, por ejemplo)</li>
+                    <li><strong>1</strong> copia fuera del sitio (offsite backup)</li>
+                </ul>
+            </div>
+
+            <h4>Restauración</h4>
+            <p>Proceso de recuperar los datos desde una copia de seguridad cuando se han perdido o dañado.</p>
+
+            <h3>Herramientas de Protección</h3>
+            
+            <h4>Antivirus</h4>
+            <ul class="content-list">
+                <li>Detecta, previene y elimina software malicioso (malware)</li>
+                <li>Debe mantenerse actualizado constantemente</li>
+                <li>Escaneo en tiempo real y bajo demanda</li>
+                <li>Ejemplos: Windows Defender, Avast, Norton, Kaspersky</li>
+            </ul>
+
+            <h4>Cortafuegos (Firewall)</h4>
+            <ul class="content-list">
+                <li>Controla el tráfico de red entrante y saliente</li>
+                <li>Bloquea conexiones no autorizadas</li>
+                <li>Puede ser hardware (en router) o software (en ordenador)</li>
+                <li>Windows incluye firewall integrado</li>
+            </ul>
+
+            <h4>Antiespías (Anti-spyware)</h4>
+            <ul class="content-list">
+                <li>Detecta y elimina software espía (spyware)</li>
+                <li>El spyware recopila información sin consentimiento</li>
+                <li>Ejemplos: Malwarebytes, Spybot Search & Destroy</li>
+            </ul>
+
+            <h4>Antispam</h4>
+            <ul class="content-list">
+                <li>Filtra correos electrónicos no deseados</li>
+                <li>Reduce el riesgo de phishing y malware</li>
+                <li>Integrado en la mayoría de servicios de correo</li>
+            </ul>
+
+            <h3>Actualizaciones de Software</h3>
+            <ul class="content-list">
+                <li>Mantener sistema operativo y aplicaciones actualizadas</li>
+                <li>Los parches de seguridad corrigen vulnerabilidades</li>
+                <li>Configurar actualizaciones automáticas cuando sea posible</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2.3. Seguridad en Internet</h2>
+            
+            <h3>Amenazas Comunes</h3>
+            
+            <h4>Malware (Software Malicioso)</h4>
+            <ul class="content-list">
+                <li><strong>Virus:</strong> Programa que se replica e infecta archivos
+                    <ul>
+                        <li>Se propaga al ejecutar archivos infectados</li>
+                        <li>Puede dañar o destruir datos</li>
+                    </ul>
+                </li>
+                <li><strong>Gusanos (Worms):</strong> Se propagan por la red sin intervención del usuario
+                    <ul>
+                        <li>No necesitan archivo anfitrión</li>
+                        <li>Consumen recursos de red</li>
+                    </ul>
+                </li>
+                <li><strong>Troyanos:</strong> Se camuflan como software legítimo
+                    <ul>
+                        <li>Abren puertas traseras para acceso remoto</li>
+                        <li>No se replican por sí mismos</li>
+                    </ul>
+                </li>
+                <li><strong>Ransomware:</strong> Cifra archivos y pide rescate
+                    <ul>
+                        <li>Muy peligroso para empresas</li>
+                        <li>Ejemplo: WannaCry</li>
+                    </ul>
+                </li>
+                <li><strong>Spyware:</strong> Espía y recopila información
+                    <ul>
+                        <li>Keyloggers: registran pulsaciones de teclado</li>
+                        <li>Adware: muestra publicidad no deseada</li>
+                    </ul>
+                </li>
+                <li><strong>Rootkit:</strong> Oculta la presencia de malware
+                    <ul>
+                        <li>Muy difícil de detectar</li>
+                        <li>Modifica el sistema operativo</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Técnicas de Fraude</h3>
+            
+            <h4>Phishing</h4>
+            <div class="info-box danger">
+                <p>El <strong>phishing</strong> es un intento de obtener información confidencial (contraseñas, datos bancarios) haciéndose pasar por una entidad de confianza.</p>
+                
+                <h4>Características del Phishing:</h4>
+                <ul class="content-list">
+                    <li>Correos que imitan a bancos, PayPal, Amazon, etc.</li>
+                    <li>Urgencia ("tu cuenta será bloqueada")</li>
+                    <li>Enlaces a páginas web falsas muy similares a las reales</li>
+                    <li>Solicitan datos personales o bancarios</li>
+                    <li>Errores ortográficos y gramaticales</li>
+                </ul>
+
+                <h4>Cómo Protegerse:</h4>
+                <ul class="content-list">
+                    <li>Verificar remitente del correo</li>
+                    <li>No hacer clic en enlaces sospechosos</li>
+                    <li>Comprobar URL del sitio web (https://, dominio correcto)</li>
+                    <li>Nunca proporcionar contraseñas por correo</li>
+                    <li>Contactar directamente con la empresa ante dudas</li>
+                </ul>
+            </div>
+
+            <h4>Pharming</h4>
+            <ul class="content-list">
+                <li>Redirección fraudulenta a sitios web falsos</li>
+                <li>Manipula el DNS para enviar al usuario a páginas falsas</li>
+                <li>Más sofisticado que el phishing</li>
+            </ul>
+
+            <h4>Smishing</h4>
+            <ul class="content-list">
+                <li>Phishing por SMS</li>
+                <li>Mensajes con enlaces maliciosos</li>
+                <li>Ejemplo: "Has ganado un premio, haz clic aquí"</li>
+            </ul>
+
+            <h4>Vishing</h4>
+            <ul class="content-list">
+                <li>Phishing por llamada telefónica</li>
+                <li>Se hacen pasar por soporte técnico u organizaciones</li>
+            </ul>
+
+            <h4>Ingeniería Social</h4>
+            <ul class="content-list">
+                <li>Manipulación psicológica para obtener información</li>
+                <li>Suplantación de identidad</li>
+                <li>Explotan la confianza humana</li>
+            </ul>
+
+            <h4>Ataques Man-in-the-Middle (MITM)</h4>
+            <ul class="content-list">
+                <li>Interceptación de comunicaciones entre dos partes</li>
+                <li>El atacante se sitúa entre usuario y servicio</li>
+                <li>Puede leer o modificar la información</li>
+            </ul>
+
+            <h3>Seguridad en el Correo Electrónico</h3>
+            <div class="info-box warning">
+                <h4>Buenas Prácticas:</h4>
+                <ul class="content-list">
+                    <li>No abrir archivos adjuntos de remitentes desconocidos</li>
+                    <li>Verificar extensiones de archivos (.exe, .bat son peligrosos)</li>
+                    <li>Usar filtros antispam</li>
+                    <li>No responder a correos sospechosos</li>
+                    <li>Usar contraseñas fuertes y únicas</li>
+                    <li>Activar autenticación de dos factores (2FA)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>2.4. Medidas de Protección</h2>
+            
+            <h3>Encriptación/Cifrado</h3>
+            <p>La <strong>encriptación</strong> es el proceso de convertir información legible en formato codificado que solo puede leerse con la clave correcta.</p>
+
+            <h4>Tipos de Cifrado</h4>
+            <ul class="content-list">
+                <li><strong>Cifrado simétrico:</strong> La misma clave para cifrar y descifrar (AES, DES)
+                    <ul>
+                        <li>Más rápido</li>
+                        <li>Problema: compartir la clave de forma segura</li>
+                    </ul>
+                </li>
+                <li><strong>Cifrado asimétrico:</strong> Clave pública (cifrar) y privada (descifrar) (RSA)
+                    <ul>
+                        <li>Más seguro para transmisión</li>
+                        <li>Más lento</li>
+                        <li>Usado en HTTPS, email certificado</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Aplicaciones del Cifrado</h4>
+            <ul class="content-list">
+                <li>HTTPS: Navegación web segura (certificado SSL/TLS)</li>
+                <li>VPN: Conexiones privadas virtuales</li>
+                <li>Cifrado de disco: BitLocker (Windows), FileVault (macOS)</li>
+                <li>WhatsApp, Signal: Mensajería cifrada end-to-end</li>
+            </ul>
+
+            <h3>Contraseñas Seguras</h3>
+            <div class="info-box success">
+                <h4>Características de una Buena Contraseña:</h4>
+                <ul class="content-list">
+                    <li><strong>Longitud:</strong> Mínimo 12-16 caracteres</li>
+                    <li><strong>Complejidad:</strong> Mayúsculas, minúsculas, números y símbolos</li>
+                    <li><strong>Impredecible:</strong> No usar palabras del diccionario ni datos personales</li>
+                    <li><strong>Única:</strong> Diferente para cada servicio</li>
+                    <li><strong>Ejemplos de MAL contraseña:</strong> 12345678, contraseña, nombre123</li>
+                    <li><strong>Ejemplo de BUENA contraseña:</strong> T7$mK9@pL3#qW2</li>
+                </ul>
+            </div>
+
+            <h4>Gestores de Contraseñas</h4>
+            <ul class="content-list">
+                <li>Almacenan todas las contraseñas de forma cifrada</li>
+                <li>Solo necesitas recordar una contraseña maestra</li>
+                <li>Generan contraseñas aleatorias fuertes</li>
+                <li>Ejemplos: LastPass, 1Password, Bitwarden, KeePass</li>
+            </ul>
+
+            <h3>Autenticación de Dos Factores (2FA)</h3>
+            <p>Añade una segunda capa de seguridad además de la contraseña:</p>
+            <ul class="content-list">
+                <li><strong>Algo que sabes:</strong> Contraseña</li>
+                <li><strong>Algo que tienes:</strong> Móvil (código SMS o app autenticadora)</li>
+                <li><strong>Algo que eres:</strong> Huella dactilar, reconocimiento facial</li>
+            </ul>
+
+            <h3>Certificados Digitales</h3>
+            <ul class="content-list">
+                <li>Documento electrónico que verifica la identidad</li>
+                <li>Usado para firmar documentos digitalmente</li>
+                <li>Ejemplos: DNI electrónico, certificados de la FNMT</li>
+            </ul>
+
+            <h3>Navegación Segura</h3>
+            <ul class="content-list">
+                <li>Verificar HTTPS (candado verde en navegador)</li>
+                <li>No conectarse a redes Wi-Fi públicas sin VPN</li>
+                <li>Borrar cookies y caché periódicamente</li>
+                <li>Usar modo de navegación privada/incógnito cuando sea necesario</li>
+                <li>Mantener navegador actualizado</li>
+                <li>Instalar extensiones de seguridad (bloqueadores de anuncios, anti-tracking)</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>2.5. Propiedad Intelectual y Tipos de Licencias</h2>
+            
+            <h3>Propiedad Intelectual</h3>
+            <p>La <strong>propiedad intelectual</strong> protege las creaciones de la mente: obras literarias, artísticas, invenciones, símbolos, nombres e imágenes utilizados en el comercio.</p>
+
+            <h3>Derechos de Autor (Copyright)</h3>
+            <ul class="content-list">
+                <li>Protege automáticamente al crear una obra original</li>
+                <li>El autor tiene derechos morales (reconocimiento) y patrimoniales (explotación)</li>
+                <li>Símbolo: ©</li>
+                <li>Duración: vida del autor + 70 años (en España)</li>
+            </ul>
+
+            <h3>Tipos de Licencias de Software</h3>
+            
+            <h4>1. Software Propietario (Copyright)</h4>
+            <div class="info-box warning">
+                <ul class="content-list">
+                    <li>El código fuente no está disponible</li>
+                    <li>No se puede modificar ni redistribuir</li>
+                    <li>Requiere licencia de pago o aceptación de términos</li>
+                    <li><strong>Tipos:</strong>
+                        <ul>
+                            <li><strong>Comercial:</strong> Se paga por usarlo (Microsoft Office, Adobe Photoshop)</li>
+                            <li><strong>Freeware:</strong> Gratuito pero propietario (Skype, Adobe Reader)</li>
+                            <li><strong>Shareware:</strong> Prueba gratuita limitada, luego de pago (WinRAR)</li>
+                            <li><strong>Demo:</strong> Versión de demostración con funciones limitadas</li>
+                            <li><strong>Trial:</strong> Versión completa con tiempo de uso limitado</li>
+                        </ul>
+                    </li>
+                    <li><strong>Ejemplos:</strong> Windows, Microsoft Office, Adobe Creative Suite</li>
+                </ul>
+            </div>
+
+            <h4>2. Software Libre y Código Abierto</h4>
+            <div class="info-box success">
+                <h4>GPL (General Public License)</h4>
+                <ul class="content-list">
+                    <li>Creada por la Free Software Foundation</li>
+                    <li>4 libertades fundamentales:
+                        <ul>
+                            <li>Libertad 0: Usar el programa para cualquier propósito</li>
+                            <li>Libertad 1: Estudiar cómo funciona y modificarlo</li>
+                            <li>Libertad 2: Redistribuir copias</li>
+                            <li>Libertad 3: Distribuir versiones modificadas</li>
+                        </ul>
+                    </li>
+                    <li><strong>Copyleft:</strong> Las obras derivadas deben usar la misma licencia</li>
+                    <li><strong>Ejemplo:</strong> Linux, GNU</li>
+                </ul>
+
+                <h4>Licencias BSD, MIT, Apache</h4>
+                <ul class="content-list">
+                    <li>Más permisivas que GPL</li>
+                    <li>Permiten uso en software propietario</li>
+                    <li>No requieren copyleft</li>
+                </ul>
+
+                <h4>Open Source</h4>
+                <ul class="content-list">
+                    <li>Código fuente disponible</li>
+                    <li>Se puede modificar y redistribuir</li>
+                    <li><strong>Ejemplos:</strong> LibreOffice, GIMP, Firefox, Linux, Android</li>
+                </ul>
+            </div>
+
+            <h4>3. Creative Commons (CC)</h4>
+            <div class="info-box info">
+                <p>Licencias para obras creativas (no solo software): textos, imágenes, música, vídeos.</p>
+                
+                <h4>Elementos de las Licencias CC:</h4>
+                <ul class="content-list">
+                    <li><strong>BY (Atribución):</strong> Debe reconocerse la autoría</li>
+                    <li><strong>SA (Share Alike):</strong> Compartir igual, obras derivadas con misma licencia</li>
+                    <li><strong>ND (No Derivatives):</strong> No se permiten obras derivadas</li>
+                    <li><strong>NC (Non Commercial):</strong> Solo uso no comercial</li>
+                </ul>
+
+                <h4>Combinaciones Comunes:</h4>
+                <ul class="content-list">
+                    <li><strong>CC BY:</strong> Se puede usar libremente con atribución</li>
+                    <li><strong>CC BY-SA:</strong> Igual que BY, obras derivadas con misma licencia</li>
+                    <li><strong>CC BY-NC:</strong> Uso no comercial con atribución</li>
+                    <li><strong>CC BY-NC-SA:</strong> No comercial, atribución, compartir igual</li>
+                    <li><strong>CC BY-ND:</strong> Atribución, sin obras derivadas</li>
+                    <li><strong>CC BY-NC-ND:</strong> No comercial, atribución, sin derivadas (más restrictiva)</li>
+                    <li><strong>CC0:</strong> Dominio público, sin restricciones</li>
+                </ul>
+
+                <h4>Ejemplos de Uso:</h4>
+                <ul class="content-list">
+                    <li>Wikipedia: CC BY-SA</li>
+                    <li>Flickr, YouTube: Varias opciones CC</li>
+                    <li>Recursos educativos abiertos (OER)</li>
+                </ul>
+            </div>
+
+            <h4>4. Dominio Público</h4>
+            <ul class="content-list">
+                <li>No tiene derechos de autor</li>
+                <li>Puede usarse libremente</li>
+                <li>Obras muy antiguas o renunciadas expresamente</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>🎯 Criterios de Evaluación del Bloque 2</h2>
+            <div class="info-box success">
+                <ul class="content-list">
+                    <li>Entender las características básicas de la propiedad intelectual y los tipos de licencias</li>
+                    <li>Usar los programas de protección y seguridad de manera básica</li>
+                    <li>Conocer los principales riesgos y amenazas de seguridad en internet</li>
+                    <li>Aplicar medidas de protección de la información personal</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>✏️ Actividades de Autoevaluación</h2>
+            <div class="activity">
+                <h3>Actividad 1: Tipos de Malware</h3>
+                <p>Identifica el tipo de malware según la descripción:</p>
+                <ol class="content-list">
+                    <li>Se propaga por la red sin necesidad de archivo anfitrión</li>
+                    <li>Se camufla como software legítimo y abre puertas traseras</li>
+                    <li>Cifra tus archivos y pide un rescate</li>
+                    <li>Registra todas las pulsaciones de teclado</li>
+                </ol>
+            </div>
+
+            <div class="activity">
+                <h3>Actividad 2: Identificar Phishing</h3>
+                <p>¿Qué señales te alertarían de un correo de phishing?</p>
+            </div>
+
+            <div class="activity">
+                <h3>Actividad 3: Licencias</h3>
+                <p>Clasifica los siguientes ejemplos según su licencia:</p>
+                <ol class="content-list">
+                    <li>Microsoft Windows</li>
+                    <li>Linux</li>
+                    <li>Adobe Reader</li>
+                    <li>LibreOffice</li>
+                    <li>Una imagen de Wikipedia</li>
+                </ol>
+            </div>
+        </section>
+
+        <section>
+            <h2>🎯 Practica con Cuestionarios</h2>
+            <div class="info-box success">
+                <h4>📝 Pon a prueba tus conocimientos</h4>
+                <p>Ahora que has completado el estudio del Bloque 2, es momento de practicar con preguntas de exámenes reales. El generador de cuestionarios te permitirá:</p>
+                <ul class="content-list">
+                    <li>✅ Responder preguntas sobre <strong>Seguridad Informática</strong></li>
+                    <li>✅ Practicar sobre <strong>Licencias y Derechos</strong></li>
+                    <li>✅ Evaluar tus conocimientos de protección de datos</li>
+                    <li>✅ Ver respuestas correctas con explicaciones detalladas</li>
+                    <li>✅ Obtener estadísticas de tu rendimiento</li>
+                </ul>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="generador_cuestionarios.html" class="btn btn-primary" style="font-size: 1.2em; padding: 15px 30px;">🎲 Generar Cuestionario de Práctica</a>
+                </div>
+                <p style="margin-top: 15px; text-align: center; color: #666;">
+                    <small>💡 Recomendación: Selecciona los módulos "Seguridad Informática" o "Licencias y Derechos" para practicar este bloque</small>
+                </p>
+            </div>
+        </section>
+
+        <div style="text-align: center; margin: 3rem 0;">
+            <a href="bloque1.html" class="btn">← Bloque 1</a>
+            <a href="index.html" class="btn">Inicio</a>
+            <a href="bloque3.html" class="btn btn-primary">Siguiente: Bloque 3 →</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>REA by JaMC</p>
+            <p>Bloque 2: Seguridad y Ética Informática</p>
+        </div>
+    </footer>
+</body>
+</html>

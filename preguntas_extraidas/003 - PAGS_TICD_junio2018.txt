@@ -1,0 +1,176 @@
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR
+JUNIO 2018
+PARTE COMÚN: TRATAMIENTO DE LA INFORMACIÓN Y COMPETENCIA DIGITAL
+Duración: 45 minutos
+El examen consta de 30 preguntas tipo test, de opción múltiple. Todas las preguntas tienen una única
+respuesta y tienen el mismo valor. Las preguntas sin respuesta marcada no puntúan. Las preguntas con
+respuesta errónea penalizan 0,1 puntos.
+1. Los antivirus son:
+a) programas diseñados para detectar y eliminar el software dañino
+b) programas diseñados solo para detectar el software dañino
+c) programas diseñados solo para avisar que tienes un software dañino
+d) ninguna de las anteriores es correcta
+2. El antispam es:
+a) un método de detección de estafas en internet
+b) un método para prevenir el correo basura
+c) un método que permite comprar por internet
+d) ninguna de las anteriores es correcta
+3. El objetivo del SCAM es:
+a) avisar a la persona que recibe el correo  electrónico de que le pueden estafar
+b) poner en alerta a la persona que recibe el correo  electrónico de que le pueden estafar
+c) estafar a la persona que recibe el correo electrónico 
+d) ninguna de las anteriores es correcta
+4. Un troyano:
+a) permite robar contraseñas 
+b) es un código malicioso que se encuentra en un programa sano 
+c) permite realizar operaciones maliciosas
+d) todas las anteriores son correctas
+5. Un sistema operativo es:
+a) imprescindible para poder utilizar un ordenador
+b) no es imprescindible para poder utilizar un ordenador
+c) no tiene relación con la informática
+d) ninguna de las anteriores es correcta
+6. El modo RGB:
+a) cada canal se corresponde con un color primario, rojo, verde y azul
+b) cada canal se corresponde con un color primario, negro, blanco y azul
+c) cada canal se corresponde con un color primario, amarillo, blanco y azul
+d) ninguna de las anteriores es correcta
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 1/5
+
+7. El formato de imagen GIF:
+a) es recomendable para fotografías de cierta calidad y originales 
+b) no es recomendable para fotografías de cierta calidad ni originales 
+c) todas las anteriores son correctas
+d) ninguna de las anteriores es correcta
+8. El formato OGG:
+a) surgió como alternativa libre y de código cerrado
+b) surgió como alternativa no libre y de código abierto 
+c) surgió como alternativa libre y de código abierto 
+d) ninguna de las anteriores es correcta
+9. El formato MIDI:
+a) resulta de un proceso de digitalización de un sonido analógico
+b) es un archivo de extensión *.md
+c) son archivos de mucho peso
+d) no guardan el sonido sino la información o partitura necesaria para que el ordenador la
+componga y reproduzca
+10. El formato FLV:
+a) es un formato que utiliza el reproductor Adobe Flash 
+b) es un formato que utiliza el reproductor Windows
+c) es un formato que utiliza el reproductor Linux
+d) ninguna de las anteriores es correcta
+11. Un foro de discusión:
+a)  permite  a  los  usuarios  leer  mensajes  incluidos  por  el  resto  de  miembros  de  la
+comunidad, elegir el tema de interés y  dar una respuesta a los mensajes
+b)  permite  a  los  usuarios  leer  mensajes  incluidos  por  el  resto  de  miembros  de  la
+comunidad, dar una respuesta a los mensajes, pero no permite elegir tema de interés
+c)  permite  a  los  usuarios  leer  mensajes  incluidos  por  el  resto  de  miembros  de  la
+comunidad, elegir el tema de interés, pero no dar una respuesta a los mensajes
+d) ninguna de las anteriores es correcta
+12. En la Web 2.0:
+a) las aplicaciones son estáticas
+b) las aplicaciones son permanentes
+c) las aplicaciones son más interactivas
+d) ninguna de las anteriores es correcta
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 2/5
+
+13. Una Página web dinámica:
+a) permite crear aplicaciones dentro de la web
+b) permite interactuar
+c) las encuestas o votaciones son ejemplos
+d) todas las anteriores son correctas
+14. Indica cuál de los siguientes componentes es un periférico de entrada:
+a) monitor
+b) altavoz
+c) escáner
+d) ninguna de las anteriores es correcta
+15. ¿Qué significan las siglas SGBD?
+a) Servicio Gestor de Base de Datos
+b) Sistema Gestor de Base de Datos
+c) Subsistema General de Base de Datos
+d) ninguna de las anteriores es correcta
+16.  Es  una  Organización  sin  ánimo  de  lucro,  cuya  finalidad  es  que  autores  y
+creadores puedan compartir voluntariamente su trabajo con herramientas libres:
+a) Creative Commons
+b) Creative
+c) Commons
+d) ninguna de las anteriores es correcta
+17. En OpenOffice Cal una celda es:
+a) La unidad básica de información
+b) una diapositiva
+c) una hoja de texto
+d) ninguna de las anteriores es correcta
+18. HTTP es:
+a) el protocolo en el que se basa internet
+b) el lenguaje en el que se basa internet
+c) el formato de los archivos en el que se basa internet
+d) ninguna de las anteriores es correcta
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 3/5
+
+19. De los siguientes, indica cuál es un navegador:
+a) Google Chrome
+b) Mozilla Firefox
+c) Internet Explorer
+d) todas las anteriores son correctas
+20. Indica de los siguientes programa de los paquetes ofimáticos de Apache Open
+Office y LibreOffice, los que se utilizan para crear presentaciones:
+a) Calc
+b) Impress
+c) Power Point
+d) Presentación
+21. Un teclado es un elemento periférico de:
+a) almacenamiento
+b) entrada
+c) acceso directo
+d) ninguna de las anteriores es correcta
+22. Un PB (petabyte) se puede representar como:
+a) 1.024 Bytes
+b) 1.024 Bits
+c) 1.024 TB (Terabyte) 
+d) 1.024 MG (Megabytes)
+23. La memoria RAM es:
+a) una memoria de solo lectura
+b) una memoria intermedia
+c) una memoria donde se guarda la hora
+d) una memoria donde se guardan los programas en ejecución
+24. La memoria ROM es:
+a) una memoria de solo lectura
+b) una memoria intermedia
+c) una memoria de acceso aleatorio
+d) una memoria donde se guardan los programas en ejecución
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 4/5
+
+25. Cuando en un procesador de textos queremos que la linea de texto ocupe todo
+el ancho de la página, debemos elegir la alineación de texto:
+a) justificada
+b) centrada
+c) derecha
+d) alineada
+26. El Hoax o bulos:
+a) suelen ser difundidos a través de anuncios publicitarios
+b) suelen ser difundidos a través del correo electrónico
+c) suelen ser difundidos solo cuando accedes a su página web
+d) ninguna de las anteriores es correcta 
+27. La transición de diapositiva es:
+a) cómo se produce el paso de una diapositiva a otra
+b) la velocidad a la que pasan las diapositivas
+c) el orden en el que aparecen los distintos elementos de una diapositiva
+d) ninguna de las anteriores es correcta
+28. La Red de Área Local (LAN) es:
+a) una red que conecta equipos entre países
+b) una red para una ciudad
+c) una pequeña extensión, como en una casa, en un instituto o empresa
+d) ninguna de las anteriores es correcta
+29. ¿Con qué extensión se guardan por defecto las presentaciones en LibreOffice
+Base?
+a) .odp
+b) .odt
+c) .odb
+d) .ods
+30.  ¿Con  qué  extensión  se  guarda  por  defecto  un  documento  de  texto  en
+LibreOffice Calc?
+a) .pdf
+b) .odt
+c) .odb
+d) .ods
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 5/5
+

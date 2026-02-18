@@ -1,0 +1,194 @@
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR
+JUNIO 2016
+PARTE COMÚN: Apartado A4 TRATAMIENTO DE LA INFORMACIÓN Y COMPETENCIA
+DIGITAL
+Duración: 1h 15 minutos
+El examen consta de 30 preguntas tipo test, de opción múltiple. Todas las preguntas tienen una única
+respuesta y tienen el mismo valor. Las preguntas sin respuesta marcada no puntúan. Las preguntas
+con respuesta errónea penalizan 0,1 puntos.
+1. Diez KB son:
+a. 12400 bites
+b. 10240 bytes
+c. 10,00 bytes
+d. 1.000.000 bytes
+2. ¿Cuál de los siguientes NO es un código informático de caracteres?
+a. Unicode
+b. ASCII
+c. RAM
+d. ANSI
+3.  ¿Cómo  se  llaman  los  programas  grabados  en  la  ROM  que  sirven  para  controlar
+dispositivos?
+a. Bugs
+b. Programas del sistema
+c. Shareware
+d. Drivers
+4.- Indica cuál de los siguientes es un periférico de salida
+a. Ratón
+b. Teclado
+c. Scanner
+d. Monitor
+5.- Para aumentar su rapidez, el microprocesador accede a una memoria que almacena datos
+de uso frecuente y que se llama …
+a. memoria USB
+b. memoria caché
+c. cookies
+d. memoria flash
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección 
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos 
+formativos de Formación Profesional  (DOCV 25-05-2016).
+
+6.  Cuando  el  sistema  operativo  de  un  ordenador  reconoce  un  periférico  sin  que  sea
+necesario realizar una instalación, es debido a la tecnología …
+a. Plug&Play
+b. Play&Go
+c. Las opciones a y b son términos sinónimos
+d. No son ciertas ninguna de las anteriores
+7. El Sistema Operativo ...
+a. es el primer hardware que se ejecuta al conectar el ordenador
+b. es un lenguaje de programación simplificado
+c. forma parte del software del equipo
+d. No es cierta ninguna de las anteriores opciones
+8. De los siguientes dispositivos, indica cual es de almacenamiento de tipo óptico:
+a. memoria flash
+b. DVD
+c. disco duro externo
+d. Ninguna de las anteriores opciones es cierta
+9. Indica, de las siguientes opciones, cuál es una dirección IP válida:
+a. 221.232.1154
+b. 123.257.112.3
+c. 145.250.5.7.23
+d. 192.131.122.4
+10. ¿Qué es un spam?
+a. Un fallo informático del Sistema Operativo de un ordenador
+b. Un correo que incluye un adjunto infectado por un virus
+c. Un correo publicitario enviado de forma indiscriminada y masiva
+d. Cualquiera de las anteriores opciones puede denominarse spam
+11. La publicación de una página Web imitando a una página Web existente con intención de
+engañar a posibles usuarios es un caso de ...
+a. scam
+b. hoax
+c. firewall
+d. phishing
+12. Sobre la criptografía ...
+a. utiliza un algoritmo de encriptación, que es una fórmula matemática
+b. identifica al emisor del mensaje de forma inequívoca
+c.  las  personas  autorizadas  a  leer  un  documento  encriptado  necesitan  una  clave  para
+desencriptarlo
+d. todas las anteriores son ciertas
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección 
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos 
+formativos de Formación Profesional  (DOCV 25-05-2016).
+
+13. Si en una obra encontramos el símbolo de esta licencia
+Creative Commons  significa que:
+a. Se permite modificar la obra, que es de un único autor. Es gratuíta y tiene partes iguales a
+otras obras.
+b. No se permite un uso comercial de las copias, reconociendo la autoría y no se permite
+crear obras derivadas.
+c. Se permite el uso comercial de la obra a igual precio del original, reconociendo la autoría.
+d. La obra es de un único autor. No se permite un uso comercial de las copias y debe
+compartirse igual.
+14. La extensión “txt” pertenece a ...
+a. un archivo de texto creado con OpenOffice
+b. un archivo de texto creado con Gimp
+c. un archivo de texto creado con el Bloc de Notas
+d. Ninguna de las anteriores es cierta
+15. La vista preliminar de un archivo de texto nos permite ...
+a. ver el archivo antes de imprimirlo y hacer las modificaciones pertinentes desde esta vista 
+b. exportarlo a pdf
+c. ver el archivo antes de imprimirlo, pero no se pueden hacer las modificaciones pertinentes
+desde esta vista
+d. Ninguna de las anteriores es cierta
+16. B5:H8, en una hoja de cálculo, indica …
+a. la localización exacta de una celda
+b. un rango de celdas
+c. una fórmula
+d. cualquiera de las opciones, dependiendo del menú que se esté utilizando
+17. ¿Cuál de estas expresiones es una fórmula en una hoja de cálculo?
+a. 31*5
+b. =2^2
+c. 31+5
+d. = B5:D7
+18. Al paso de una diapositiva a otra en una presentación se le denomina …
+a. transición
+b. evolución
+c. efecto
+d. pase de diapositivas
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección 
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos 
+formativos de Formación Profesional  (DOCV 25-05-2016).
+
+19. Un SGBD …
+a. crea las estructuras de una base de datos
+b. gestiona los datos de una base de datos
+c. ambas son ciertas
+d. ambas son falsas
+20. La clave primaria en una tabla de una base de datos relacional …
+a. identifica de forma inequívoca a un campo de la tabla
+b. es la contraseña sin la cual no puede accederse a una tabla
+c. ambas son ciertas
+d. ambas son falsas
+21.   Los archivos de imágenes vectoriales ...
+a. al ampliar la imagen, ésta pierde calidad
+b. almacenan el color de cada punto en la matriz
+c. tienen poco peso
+d. todas las respuestas son ciertas
+22.   De los siguientes formatos, ¿cuál es el que guarda más calidad de imagen?:
+a. TIFF 
+b. JPG
+c. GIF
+d. Las respuestas b y c son ciertas
+23. La reducción del tamaño de un archivo de vídeo manteniendo la información necesaria
+para poder abrirlo (o trabajar con él) se llama …
+a. Compresión 
+b. Conversión
+c. Resolución
+d. Rasterización
+24. De las siguientes características, ¿cuál NO se corresponde con el formato AVI?:
+a. El archivo tiene calidad excelente
+b. El archivo tiene poco peso 
+c. Puede ser visualizado por la mayoría de reproductores
+d. Su extensión de archivo es “.avi”
+25. De los siguientes programas, ¿cuál NO es un navegador?
+a. Google Chrome
+b. Safari
+c. Internet Explorer
+d. Google
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección 
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos 
+formativos de Formación Profesional  (DOCV 25-05-2016).
+
+26. La dirección única de un documento en la Web se denomina:
+a. URL
+b. HTTP
+c. WWW
+d. DNS
+27. Indica, de los siguientes supuestos, cuál NO representa una comunidad virtual:
+a. los ciudadanos incluídos en el listín de teléfonos municipal
+b. los jugadores participantes de un MUD
+c. los científicos que editan una wiki sobre astronomía
+d. Todos los anteriores supuestos describen comunidades virtuales
+28. En una red social …
+a.  el  moderador  ha  de  aprobar  los  perfiles  antes  de  su  publicación
+b.  el  usuario  envía  solicitudes  a  otros  miembros  de  la  red  para  establecer  conexión
+c.  está  permitido  intercambiar  mensajes  pero  no  fotografías,  música  o  vídeos
+d. Todas las anteriores son ciertas
+29. En el lenguaje de las redes sociales, post significa …
+a. un correo electrónico
+b. una entrada, mensaje o publicación
+c. una entrada retardada, es decir, que se publica posteriormente a la desconexión
+d. Ninguna de las anteriores
+30. ¿Cuál de las siguientes no es una herramienta de la Web 2.0?
+a. LibreOffice Calc  
+b. Google Docs
+c. Mindminster 
+d. Wikis
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN
+La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección 
+General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos 
+formativos de Formación Profesional  (DOCV 25-05-2016).
+

@@ -1,0 +1,294 @@
+site_name: Curso TICD - Tratamiento de la Información y Competencia Digital
+site_description: Curso preparatorio completo para las Pruebas de Acceso a Ciclos Formativos de Grado Superior (ACFGS) - FPA Miguel Hernández
+site_author: JaMC
+site_url: https://curso-ticd.example.com
+
+# Copyright
+copyright: Copyright &copy; 2021-2026 REA by JaMC - FPA Miguel Hernández
+
+# Repositorio
+repo_name: Curso_madurez_TIC
+# repo_url: https://github.com/usuario/Curso_madurez_TIC
+
+# Tema Material for MkDocs
+theme:
+  name: material
+  language: es
+  
+  # Paleta de colores
+  palette:
+    # Modo claro
+    - scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    
+    # Modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+  
+  # Fuente
+  font:
+    text: Roboto
+    code: Roboto Mono
+  
+  # Íconos y logo
+  icon:
+    logo: material/school
+    repo: fontawesome/brands/github
+  
+  # Favicon
+  favicon: assets/images/favicon.png
+  
+  # Características del tema
+  features:
+    # Navegación
+    - navigation.tabs              # Pestañas de navegación superiores
+    - navigation.tabs.sticky       # Pestañas fijas al hacer scroll
+    - navigation.sections          # Secciones en el sidebar
+    - navigation.expand            # Expandir subsecciones
+    - navigation.path              # Ruta de navegación
+    - navigation.indexes           # Páginas índice de secciones
+    - navigation.top               # Botón "volver arriba"
+    - navigation.footer            # Navegación en el footer
+    
+    # Tabla de contenidos
+    - toc.follow                   # TOC sigue el scroll
+    - toc.integrate                # TOC integrado en navegación
+    
+    # Búsqueda
+    - search.suggest               # Sugerencias de búsqueda
+    - search.highlight             # Resaltar términos buscados
+    - search.share                 # Compartir búsqueda
+    
+    # Contenido
+    - content.code.copy            # Botón copiar en bloques de código
+    - content.code.annotate        # Anotaciones en código
+    - content.tabs.link            # Sincronizar pestañas de contenido
+    - content.tooltips             # Tooltips informativos
+    
+    # Header
+    - header.autohide              # Ocultar header al hacer scroll
+    
+    # Anuncios
+    - announce.dismiss             # Permitir cerrar anuncios
+
+# Plugins
+plugins:
+  - search:
+      lang: es
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+  
+  - tags:
+      tags_file: referencias/tags.md
+  
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      skip_classes:
+        - custom-skip-class-name
+      auto_caption: false
+      caption_position: bottom
+
+# Extensiones de Markdown
+markdown_extensions:
+  # Python Markdown
+  - abbr                          # Abreviaturas
+  - admonition                    # Cajas de advertencias/notas
+  - attr_list                     # Atributos HTML
+  - def_list                      # Listas de definiciones
+  - footnotes                     # Notas al pie
+  - md_in_html                    # Markdown dentro de HTML
+  - tables                        # Tablas
+  - toc:
+      permalink: true             # Enlaces permanentes en títulos
+      permalink_title: Enlace permanente
+      toc_depth: 3
+  
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:          # Matemáticas LaTeX
+      generic: true
+  - pymdownx.betterem:            # Énfasis mejorado
+      smart_enable: all
+  - pymdownx.caret                # Superíndice y subrayado
+  - pymdownx.mark                 # Marcado/resaltado
+  - pymdownx.tilde                # Tachado
+  - pymdownx.critic               # Marcado de cambios
+  - pymdownx.details              # Detalles colapsables
+  - pymdownx.emoji:               # Emojis
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:           # Resaltado de código
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite         # Código inline resaltado
+  - pymdownx.keys                 # Teclas de teclado
+  - pymdownx.magiclink:           # Enlaces automáticos
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.smartsymbols         # Símbolos inteligentes
+  - pymdownx.superfences:         # Bloques de código avanzados
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:              # Contenido en pestañas
+      alternate_style: true
+  - pymdownx.tasklist:            # Listas de tareas
+      custom_checkbox: true
+  - pymdownx.snippets             # Incluir fragmentos de archivos
+
+# CSS y JavaScript personalizados
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - assets/javascripts/cuestionarios.js
+
+# Información extra
+extra:
+  # Redes sociales
+  social:
+    - icon: fontawesome/solid/school
+      link: https://portal.edu.gva.es
+      name: Portal Educación GVA
+    - icon: fontawesome/solid/envelope
+      link: mailto:correo@ejemplo.com
+      name: Contacto
+  
+  # Analytics (opcional)
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+  
+  # Información del curso
+  version:
+    provider: mike
+    default: latest
+  
+  # Anuncio en la parte superior (opcional)
+  # announcement: |
+  #   🎉 Nueva versión del curso disponible con contenido actualizado
+
+  # Generador de cuestionarios
+  cuestionarios:
+    enabled: true
+    base_conocimiento: base_conocimiento_ticd.json
+
+# Navegación
+nav:
+  - Inicio:
+    - index.md
+    - Bienvenida: inicio/bienvenida.md
+    - Información del Curso: inicio/informacion-curso.md
+    - Requisitos de Acceso: inicio/requisitos-acceso.md
+    - Estructura del Examen: inicio/estructura-examen.md
+    - Consejos de Estudio: inicio/consejos-estudio.md
+  
+  - Módulos del Curso:
+    - modulos/index.md
+    - Bloque 1 - Equipos Informáticos y Redes:
+      - modulos/bloque1/index.md
+      - 1.1 El Ordenador: modulos/bloque1/ordenador.md
+      - 1.2 Componentes Físicos: modulos/bloque1/componentes.md
+      - 1.3 Software: modulos/bloque1/software.md
+      - 1.4 Sistemas Operativos: modulos/bloque1/sistemas-operativos.md
+      - 1.5 Almacenamiento: modulos/bloque1/almacenamiento.md
+      - 1.6 Redes Telemáticas: modulos/bloque1/redes.md
+      - 1.7 Dispositivos de Red: modulos/bloque1/dispositivos-red.md
+      - 1.8 Configuración TCP/IP: modulos/bloque1/tcp-ip.md
+      - Actividades: modulos/bloque1/actividades.md
+    
+    - Bloque 2 - Seguridad y Ética Informática:
+      - modulos/bloque2/index.md
+      - 2.1 Protección de Datos: modulos/bloque2/proteccion-datos.md
+      - 2.2 Seguridad en Internet: modulos/bloque2/seguridad-internet.md
+      - 2.3 Malware y Amenazas: modulos/bloque2/malware.md
+      - 2.4 Estrategias de Prevención: modulos/bloque2/prevencion.md
+      - 2.5 Propiedad Intelectual: modulos/bloque2/propiedad-intelectual.md
+      - 2.6 Licencias de Software: modulos/bloque2/licencias.md
+      - Actividades: modulos/bloque2/actividades.md
+    
+    - Bloque 3 - Software para Sistemas Informáticos:
+      - modulos/bloque3/index.md
+      - 3.1 Procesadores de Texto: modulos/bloque3/procesadores-texto.md
+      - 3.2 Hojas de Cálculo: modulos/bloque3/hojas-calculo.md
+      - 3.3 Bases de Datos: modulos/bloque3/bases-datos.md
+      - 3.4 Presentaciones: modulos/bloque3/presentaciones.md
+      - 3.5 Edición Multimedia: modulos/bloque3/multimedia.md
+      - Actividades: modulos/bloque3/actividades.md
+    
+    - Bloque 4 - Internet y Redes Sociales:
+      - modulos/bloque4/index.md
+      - 4.1 Servicios de Internet: modulos/bloque4/servicios-internet.md
+      - 4.2 Evolución de la Web: modulos/bloque4/evolucion-web.md
+      - 4.3 Redes Sociales: modulos/bloque4/redes-sociales.md
+      - 4.4 Identidad Digital: modulos/bloque4/identidad-digital.md
+      - 4.5 Uso Responsable: modulos/bloque4/uso-responsable.md
+      - Actividades: modulos/bloque4/actividades.md
+    
+    - Bloque 5 - Aplicaciones Web 2.0 Colaborativas:
+      - modulos/bloque5/index.md
+      - 5.1 Computación en la Nube: modulos/bloque5/nube.md
+      - 5.2 Herramientas de Colaboración: modulos/bloque5/colaboracion.md
+      - 5.3 Wikis y Conocimiento Colaborativo: modulos/bloque5/wikis.md
+      - 5.4 Blogs y Creación Web: modulos/bloque5/blogs.md
+      - 5.5 Plataformas de E-Learning: modulos/bloque5/e-learning.md
+      - Actividades: modulos/bloque5/actividades.md
+  
+  - Sistema de Cuestionarios:
+    - cuestionarios/index.md
+    - Inicio Rápido: cuestionarios/inicio-rapido.md
+    - Usar el Generador: cuestionarios/usar-generador.md
+    - Base de Conocimiento: cuestionarios/base-conocimiento.md
+    - Módulos Disponibles: cuestionarios/modulos.md
+    - Estadísticas: cuestionarios/estadisticas.md
+  
+  - Evaluación:
+    - evaluacion/index.md
+    - Criterios de Evaluación: evaluacion/criterios.md
+    - Ejemplos de Examen: evaluacion/ejemplos.md
+    - Autoevaluación: evaluacion/autoevaluacion.md
+  
+  - Sistema Técnico:
+    - sistema/index.md
+    - Arquitectura: sistema/arquitectura.md
+    - Scripts Python: sistema/scripts.md
+    - Base de Datos JSON: sistema/base-datos.md
+    - Actualización de Contenidos: sistema/actualizacion.md
+  
+  - Referencias:
+    - referencias/index.md
+    - Normativa: referencias/normativa.md
+    - Enlaces Útiles: referencias/enlaces.md
+    - Glosario: referencias/glosario.md
+    - Etiquetas: referencias/tags.md
+
+# Configuración estricta
+strict: false
+
+# Directorio de documentos
+docs_dir: docs
+
+# Directorio de salida
+site_dir: site
+
+# Usar directorio de URLs relativas
+use_directory_urls: true

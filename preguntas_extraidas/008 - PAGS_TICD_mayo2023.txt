@@ -1,0 +1,190 @@
+Pág. 1/5
+Apellidos y Nombre
+NIF/NIE
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR
+MAYO 2023
+MODELO A. PARTE COMÚN: TRATAMIENTO DE LA INFORMACIÓN Y
+COMPETENCIA DIGITAL
+Duración: 45 minutos
+OBSERVACIONES: Test de 30 pregunta s con una única respuesta válida. Las 
+preguntas incorrectas restan 0,11 puntos.
+1. Hay una emergencia y necesito acceder a Internet conectándome a una red wifi 
+pública de una cafetería. ¿Cuál de estas técnicas puede ayud ar a mejorar la privacidad 
+de la navegación? [0,33 puntos]
+a) Cifrar mi dispositivo.
+b) Tener una copia de segurida d de los archivos importantes.
+c) Usar una VPN.
+d) Entrar en modo root desde el móvil.
+2. Un navegador... [0,33 puntos]
+a) Utiliza el protocolo HTTP para conectar con un servidor, luego interpreta el 
+código HTML de la página  a la que queremos acceder y muestra su contenido.
+b) Permite buscar la información de las páginas de Internet.
+c) Dispone de unos programas llamados robots o arañas.
+d) Es un servicio dedicado a recopilar la información de forma estructurada.
+3. ¿Qué es un EULA? [0,33 puntos]
+a) Son las siglas de Enhancement User Lini ng Access, una red propia de las redes 
+sociales.
+b) Es un organismo europeo para regular las redes sociales a nivel empresarial.
+c) Es el acuerdo que se acepta al utilizar un programa o servicio web.
+d) Sirve para armonizar las leyes aplicadas a las distintas redes sociales.
+4. Un virus que accede a tu ordenador y cifra todos los ficheros, dejando el 
+ordenador inutilizable, para después pedir una cantidad de dinero a cambio de 
+desbloquearlo, ¿cómo se llama? [0,33 puntos]
+a) Spyware
+b) Keylogger
+c) Ransomware
+d) Troyano
+Pág. 2/5
+5. ¿Cuál de las siguientes opciones NO es una función de edición de texto en 
+Microsoft Word? [0,33 puntos]
+a) Edición de código HTML.
+b) Combinación de correspondencia.
+c) Tablas de contenido.
+d) Insertar audio y video en  un documento de Word.
+6. En una base de datos, ¿qué es una clave principal o clave primaria? [0,33 
+puntos]
+a) La contraseña que bloquea una de las tablas de la base de datos.
+b) Un elemento de la tabl a que no se puede repetir.
+c) La contraseña que permite el acceso a toda la base de datos
+d) Una tabla que referencia a todas las ta blas de la base de datos, a modo de 
+directorio.
+7. ¿Cuándo se utiliza la memoria RAM de un ordenador? [0,38 puntos]
+a) Solo al arrancar el ordenador.
+b) Solo al configurar el dispositivo de arranque en la BIOS.
+c) Solo cuando guardamos un fichero en el disco duro.
+d) Todo el tiempo.
+8. ¿Cuál es una característica común de las aplicaciones web 2.0 para trabajo 
+colaborativo? [0,33 puntos]
+a) Son herramientas de escritorio.
+b) No permiten compartir archivos.
+c) Permiten la interacción y co laboración en tiempo real.
+d) Solo pueden ser accedidas desde un dispositivo móvil.
+9. ¿Qué es la accesibilidad web? [0,33 puntos]
+a) La facilidad con la que se puede acceder a un sitio web.
+b) La capacidad de un sitio web de ser accedido por cualquier persona, 
+independientemente de sus capacidades o limitaciones.
+c) La velocidad con la que se carg an las páginas de un sitio web.
+d) La calidad de los contenidos  ofrecidos en un sitio web.
+10. Si en una celda de una hoja de cálculo tenemos la referencia $A5 y 
+autocompletamos hacia la derecha una celda,  la nueva referencia será: [0,38 puntos]
+a) $A6
+b) $A5
+c) $B6.
+d) $B5
+Pág. 3/5
+11. Cuando envías un correo a otra pers ona, ¿quién puede ver el contenido del 
+correo? [0,33 puntos]
+a) El destinatario.
+b) El destinatario, su proveedor de corr eo electrónico y nuestro proveedor de 
+correo electrónico.
+c) El destinatario y su prov eedor de correo electrónico.
+d) El destinatario y su proveedor de Internet.
+12. El buscador Google… [0,33 puntos]
+a) Busca a través de Yahoo si no encuentra una información.
+b) No dispone de búsqueda avanzada.c) No tiene buscador de imágenes.
+d) Cuenta con sus propios comandos, que ofrecen unas funciones muy útiles para 
+exprimir su motor de búsqueda.
+13. ¿Qué disco tiene una capa cidad mayor? [0,33 puntos]
+a) 10 Petabytes
+b) 10 Terabytes
+c) 100 Gigabytes
+d) 2000 Megabytes
+14. ¿Qué ventaja nos proporciona HT TPS frente a HTTP? [0,33 puntos]
+a) El software de las páginas web que se acceden por HTTPS es más seguro.
+b) Encripta las comunicaciones entre nuestra máquina y el servidor.c) Trabaja a una velocidad mayor.
+d) Permite que nos identifiquemos en la  aplicación web sin usar contraseñas.
+15. ¿Cuál es la forma correcta de utilizar el buscador de Google para buscar dentro 
+de una única página web? [0,33 puntos]
+a) Indicando web: nombre de la página . Por ejemplo: web: gva.es
+b) Indicando pageweb: nombre de la página . Por ejemplo: pageweb: gva.es
+c) Indicando site: nombre de la página . Por ejemplo: site: gva.es
+d) Indicando siteweb: nombre de la página . Por ejemplo: siteweb: gva.es
+16. Un texto encriptado con la clave pú blica de un usuario… [0,33 puntos]
+a) Se puede descifrar utilizando otra vez la clave pública de ese usuario.
+b) Se puede descifrar utilizando la clave privada de ese usuario.c) Podemos estar seguros de que ha sido escrito por ese usuario.
+d) La clave pública no si rve para encriptar, sólo para desencriptar.
+17. Cuando compartimos una conexión a Internet desde nuestro teléfono móvil… 
+[0,33 puntos]
+a) Todos los dispositivos que compartan la conexión tendrán la misma IP pública.
+a) Cada dispositivo tendrá una IP pública diferente.
+Pág. 4/5
+b) Solo nuestro dispositivo móvil tendrá una IP pública, el resto de los dispositivos 
+no tendrán.
+c) No se pueden compartir conexiones desde el móvil.
+18. ¿Cuál de los siguientes elementos es una arquitectura de red? [0,33 puntos]
+a) DNS
+b) FTP
+c) TCP/IPd) P2P
+19. ¿Qué es la resolución de un a imagen digital? [0,33 puntos]
+a) La cantidad de colores diferent es que una imagen puede mostrar.
+b) La relación entre el ancho y la altura de la imagen.
+c) La cantidad de píxeles que componen la imagen.
+d) La cantidad de información que se puede almacenar en la imagen.
+20. ¿Cuál de las siguientes opciones es una dirección IP v4 correcta? [0,33 puntos]
+a) 10.10.10.10
+b) 255.255.256.0
+c) 154.312.23.4
+d) 154.212.23.4.23
+21. Cuando subimos contenidos a TikTok… [0,33 puntos]
+a) Podemos ejercitar nuestros derech os de autor siempre que queramos.
+b) Nuestros contenidos permanecerán en  el servidor de TikTok hasta que los 
+borremos.
+c) Permanecerán para siempre en los servidores de TikTok.
+d) Podemos evitar que TikTok los vea utilizando un cifrado ZIP.
+22. ¿Qué es un sistema de gestión de contenidos (CMS)? [0,33 puntos]
+a) Un sistema que permite crear y gestionar contenidos en línea.
+b) Un sistema que permite gest ionar el tráfico en línea.
+c) Un sistema que permite analizar el comportamiento del usuario en línea.
+d) Un sistema que permite la creación  de páginas web sin necesidad de 
+conocimientos de programación.
+23. 20 El formato RGB… [0,33 puntos]
+a) Permite representar solo 3 colores (rojo, verde y azul).
+b) Representa el color negro median te un canal indexado de grises.
+c) Cuanto mayores son los valores, más oscuro es el pixel.
+d) La intensidad de cada una de las co mponentes se mide según una escala que 
+va del 0 al 255.
+24. Las cláusulas de TikTok referidas a pub licación de contenidos… [0,33 puntos]
+a) Tienen una versión con un extracto re sumen de las características principales.
+b) Son difíciles de entender, aunque ayuda el hecho de que todas estén 
+disponibles en español.
+Pág. 5/5
+c) Permiten, bajo circunstancias especiales, crear perfiles para menores de 11 
+años.
+d) Son complicadas de leer y entender, además de utilizar una jerga legal 
+compleja.
+25. Indica cuál de las siguientes afir maciones es verdadera: [0,33 puntos]
+a) El navegador Firefox es gratuito y de código cerrado.
+b) El navegador Firefox solo se puede utilizar en Linux.c) El navegador Firefox tiene sus orígenes en Mosaic.
+d) El navegador Firefox no tiene versión para móviles.
+26. En el contexto de un procesador de textos, ¿qué son las líneas viudas? [0,33 
+puntos]
+a) Las primeras líneas de un párrafo que quedan solas en la parte inferior de la 
+página.
+b) Todas aquellas líneas que no tienen sangría.
+c) Son un concepto de las hojas de cálc ulo, no de los procesadores de texto.
+d) Las últimas líneas de un párrafo que quedan solas al  principio de la página 
+siguiente.
+27. Si grabamos la pantalla del ordena dor mientras estamos visualizando una 
+película, ¿quién tiene derech o a reproducir esa grabación públicamente? [0,33 puntos]
+a) Nosotros, porque es una gr abación de nuestro ordenador.
+b) El dueño de los derechos de la película.
+c) Cualquier persona, ya que tend rá licencia Creative Commons.
+d) No se puede grabar un vídeo de la pantalla del ordenador.
+28. ¿Qué dispositivo nos permite extender el rango de una red Wi-Fi conectándolo 
+por cable a un router? [0,33 puntos]
+a) Switch
+b) Hub
+c) Punto de acceso
+d) Repetidor Wi-Fi
+29. Una copia de seguridad que incluye so lo los archivos creados o modificados 
+desde la última copia completa es un a copia de seguridad: [0,33 puntos]
+a) Acumulativa
+b) Intermedia
+c) Incrementald) Diferencial
+30. ¿Cuál de las siguientes redes sociales  dispone de un sistema de verificación 
+exhaustivo con respecto a la  edad de los usuarios que se pueden crear un perfil y 
+publicar contenidos? [0,33 puntos]
+a) Instagram
+b) Facebook
+c) TikTok
+d) Ninguna de las anteriores

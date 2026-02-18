@@ -1,0 +1,192 @@
+Apellidos y Nombre
+NIF/NIE
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR
+MAYO 2022
+MODELO A. PARTE COMÚN: TRATAMIENTO DE LA INFORMACIÓN Y
+COMPETENCIA DIGITAL
+Duración: 45 minutos.
+OBSERVACIONES :  Test de 30 preguntas de 4 respuestas con una única
+válida.  Las  respuestas  correctas  suman 0,3  puntos  y  las  incorrectas
+restan 0,1 puntos. 
+Sólo serán válidas las   respuestas   anotadas en la hoja de respuestas final.  
+Pregunta 01: ¿Cuántos bytes son aproximadamente, 10 kilobytes?
+A) 0,001 bytes
+B) 0,0001 bytes
+C) 10000 bytes
+D) 1000  bytes
+Pregunta 02: ¿Indique qué es hardware?
+A) Windows
+B) Libre Office
+C) Monitor
+D) Linux
+Pregunta 03: ¿Indique lo incorrecto sobre l as aplicaciones de 32 bits ?
+A) Funcionan en sistemas operativos de 32 bits.
+B) Funcionan en sistemas operativos de 64 bits.
+C) Funcionan sólo con windows.
+D) Se utilizan cuando se tienen 4 GB de RAM o menos.
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de enero del 2022, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 9271,  04.02.2022).
+Pág. 1/7
+
+Pregunta 04: ¿Qué es un driver?
+A) Es hardware de impresión.
+B) Es software que se instala en el dispositivo.
+C) Es software que no se instala en el dispositivo.
+D) Es un tipo de cable.
+Pregunta  05:  ¿Indique  cuál  es  la  memoria  donde  se  cargan  las
+aplicaciones, y se borra cuando se apaga el ordenador.
+A) Memoria RAM.
+B) Memoria RUM.
+C) Memoria ROM.
+D) Memoria BIOS.
+Pregunta 06: Indique qué NO es software libre: 
+A) Gimp
+B) Firefox
+C) Lliurex
+D) Windows
+Pregunta 07: Si queremos configurar los dispositivos de nuestra red local
+de forma automática, utilizaremos: 
+A) DNS
+B) VNC
+C) VPN
+D) DHCP
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de enero del 2022, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 9271,  04.02.2022).
+Pág. 2/7
+
+Pregunta 08: En una hoja de cálculo, indique cómo sería la función “SI”
+que cuenta cuántos números positivos hay entre las celdas A10 Y A20.
+A) =CONTAR.SI(A10:A20;”>5”)
+B) =CONTAR.SI(10:20;”>5”)
+C) =CONTAR.SI(10:20;>5)
+D) =CONTAR.SI(”>5”,A10-20)
+Pregunta 09: Señale qué formula de una hoja de cálculo, indique que todas
+sus referencias a celda son relativas:
+A) =a1
+B) =$a1
+C) =$a$1
+D) =a$1
+Pregunta 10: ¿En una tabla de una base de datos el campo no nulo y único
+se llama?
+A) Campo de texto.
+B) Campo clave.
+C) Campo numérico.
+D) Campo compuesto.
+Pregunta  11: ¿En una presentación el paso de una diapositiva a otra se
+llama?
+A) Transición
+B) Traspaso
+C) Despliegue
+D) Apertura
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de enero del 2022, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 9271,  04.02.2022).
+Pág. 3/7
+
+Pregunta 12: Indique cuál de las siguientes extensiones son de imágenes  :
+A) AVI
+B) BMP
+C) MP4
+D) OGG
+Pregunta 13: Indique cuál de las siguientes extensiones de archivos es un
+vídeo: 
+A) BMP
+B) PNG
+C) MPV
+D) OGG
+Pregunta 14: Indique cuál de las siguientes extensiones de archivos son
+solo de audio?
+A) AVI
+B) FLAC
+C) JPG
+D) MKV
+Pregunta 15: ¿En la configuración de red de un dispositivo, un DNS es?
+A) Un servidor de nombres.
+B) Un cable.
+C) Un switch.
+D) Un router.
+Pregunta 16: ¿En una red, un punto de acceso es?
+A) Amplía la señal wifi.
+B) Amplía la red de cable.
+C) Puede funcionar como router.
+D) Todas son correctas.
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de enero del 2022, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 9271,  04.02.2022).
+Pág. 4/7
+
+Pregunta 17: ¿En Lliurex, indicar dónde se encuentra la carpeta personal
+del usuario paco ?
+A)  \paco
+B)  C:\paco
+C)  c:/home/paco
+D)  \home\paco
+Pregunta 18: ¿Que es un Acces Point en una red?
+A) Es un dispositivo que permite extender la señal wifi en una red.
+B) Es un dispositivo  que conecta dos redes diferentes.
+C) Es un dispositivo utilizado para acceder un servidor.
+D) Es un dispositivo que valida usuarios de red de cable.
+Pregunta 19: Si hablamos de nombre de dominio, indique la opción falsa:
+A) Se le asocia una dirección IP.
+B) Es el nombre de un ordenador en una red privada.
+C) Es el nombre de un ordenador en una red pública.
+D) No permite asociarlo a un servidor de correo.
+Pregunta 20: La dirección física o MAC:
+A) Se le asocia a una tarjeta de red.
+B) Se le asocia a un ordenador.
+C) Está en decimal.
+D) No va asociada a una IP.
+Pregunta 21: Indique lo que no sería en la nube un disco externo privado.
+A) Dropbox
+B) NAS (Network Attach System)
+C) Onedrive Microsoft
+D) Google Drive
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de enero del 2022, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 9271,  04.02.2022).
+Pág. 5/7
+
+Pregunta 22: Indique cuál no sería un sistema de archivos
+A) NTFS
+B) FAT32
+C) EXT4
+D) XFES
+Pregunta 23: ¿Qué sistema de archivos usa Windows?
+A) NTFS
+B) XFS
+C) EXT4
+D) RALF
+Pregunta 24: ¿Qué red social es de fotos?
+A) TELEGRAM
+B) INSTAGRAM
+C) WHATSAPP
+D) VIMEO
+Pregunta 25: Qué función tiene en la configuración de red los DNS.
+A) Obtener la dirección IP del nombre del dominio.
+B) Obtener la MAC de la IP.
+C) Obtener la IP de la MAC.
+D) Obtener el nombre del dominio de la MAC.
+Pregunta 26: Indique qué no es un buscador:
+A) Firefox
+B) Google
+C) Yahoo
+D) Bing
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de enero del 2022, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 9271,  04.02.2022).
+Pág. 6/7
+
+Pregunta 27: De los siguientes nombres, cuál es actualmente el sistema
+peer to peer (p2p) más utilizado?
+A) Navegador
+B) Email
+C) Ftp
+D) Ficheros torrent
+Pregunta 28: Wordpress es un servidor muy conocido de:
+A) Emails
+B) Blogs
+C) Imágenes
+D) Wikis
+Pregunta 29: Qué es html?
+A) Un editor de textos.
+B) Un lenguaje para hacer páginas web.
+C) Un lenguaje de programación.
+D) Un programa.
+Pregunta 30: Si una dirección URL empieza por http significa?
+A) Que se va utilizar una dirección segura.
+B) Que se va a accede a una dirección de correo electrónico. 
+C) Que se va a conectar a una página web insegura.
+D) Ninguna es cierta.
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de enero del 2022, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 9271,  04.02.2022).
+Pág. 7/7
+

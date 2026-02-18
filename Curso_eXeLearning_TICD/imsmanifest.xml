@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="TICD_CURSO_2022" version="1.0"
+          xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                              http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                              http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  
+  <organizations default="TICD_ORG">
+    <organization identifier="TICD_ORG">
+      <title>Tratamiento de la Información y Competencia Digital - Curso TICD</title>
+      
+      <item identifier="ITEM_000" identifierref="RES_000">
+        <title>Inicio del Curso</title>
+      </item>
+      
+      <item identifier="ITEM_001" identifierref="RES_001">
+        <title>Bloque 1: Equipos Informáticos y Redes</title>
+      </item>
+      
+      <item identifier="ITEM_002" identifierref="RES_002">
+        <title>Bloque 2: Seguridad y Ética Informática</title>
+      </item>
+      
+      <item identifier="ITEM_003" identifierref="RES_003">
+        <title>Bloque 3: Software para Sistemas Informáticos</title>
+      </item>
+      
+      <item identifier="ITEM_004" identifierref="RES_004">
+        <title>Bloque 4: Internet y Redes Sociales</title>
+      </item>
+      
+      <item identifier="ITEM_005" identifierref="RES_005">
+        <title>Bloque 5: Aplicaciones Web 2.0 Colaborativas</title>
+      </item>
+      
+      <item identifier="ITEM_006" identifierref="RES_006">
+        <title>Evaluación y Preparación</title>
+      </item>
+      
+      <item identifier="ITEM_007" identifierref="RES_007">
+        <title>Generador de Cuestionarios</title>
+      </item>
+    </organization>
+  </organizations>
+  
+  <resources>
+    <!-- Recurso: Página de Inicio -->
+    <resource identifier="RES_000" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <file href="css/style.css"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    
+    <!-- Recurso: Bloque 1 -->
+    <resource identifier="RES_001" type="webcontent" adlcp:scormtype="sco" href="bloque1.html">
+      <file href="bloque1.html"/>
+      <file href="css/style.css"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    
+    <!-- Recurso: Bloque 2 -->
+    <resource identifier="RES_002" type="webcontent" adlcp:scormtype="sco" href="bloque2.html">
+      <file href="bloque2.html"/>
+      <file href="css/style.css"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    
+    <!-- Recurso: Bloque 3 -->
+    <resource identifier="RES_003" type="webcontent" adlcp:scormtype="sco" href="bloque3.html">
+      <file href="bloque3.html"/>
+      <file href="css/style.css"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    
+    <!-- Recurso: Bloque 4 -->
+    <resource identifier="RES_004" type="webcontent" adlcp:scormtype="sco" href="bloque4.html">
+      <file href="bloque4.html"/>
+      <file href="css/style.css"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    
+    <!-- Recurso: Bloque 5 -->
+    <resource identifier="RES_005" type="webcontent" adlcp:scormtype="sco" href="bloque5.html">
+      <file href="bloque5.html"/>
+      <file href="css/style.css"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    
+    <!-- Recurso: Evaluación -->
+    <resource identifier="RES_006" type="webcontent" adlcp:scormtype="sco" href="evaluacion.html">
+      <file href="evaluacion.html"/>
+      <file href="css/style.css"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    
+    <!-- Recurso: Generador de Cuestionarios -->
+    <resource identifier="RES_007" type="webcontent" adlcp:scormtype="sco" href="generador_cuestionarios.html">
+      <file href="generador_cuestionarios.html"/>
+      <file href="base_conocimiento_ticd.json"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    
+    <!-- Archivos Comunes -->
+    <resource identifier="COMMON_FILES" type="webcontent" adlcp:scormtype="asset">
+      <file href="css/style.css"/>
+      <file href="base_conocimiento_ticd.json"/>
+    </resource>
+  </resources>
+</manifest>

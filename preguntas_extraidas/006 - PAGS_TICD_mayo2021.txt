@@ -1,0 +1,222 @@
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR
+MAYO 2021
+PARTE COMÚN:
+TRATAMIENTO DE LA INFORMACIÓN Y COMPETENCIA DIGITAL 
+Duración: 45 minutos
+OBSERVACIONES: 
+Test de 30 preguntas de 4 respuestas con una única válida. 
+Las  respuestas  correctas  suman 0,33  puntos  y  las  incorrectas  restan  0,1
+puntos. 
+Sólo serán válidas las   respuestas   anotadas en la hoja de respuestas final  
+Pregunta 01: ¿Cuántos hercios son 3,2 GHz?
+A) 3.200 Hz
+B) 3.200.000.000 Hz
+C) 0,0032 Hz
+D) 0,32 Hz
+Pregunta  02:  ¿Qué  medida  indica  una  mayor  capacidad  de
+almacenamiento ?
+A) Gigabyte
+B) Megabyte
+C) Gigahercio
+D) Megahercio
+Pregunta 03: ¿En qué unidad se mide la velocidad de transmisión de los
+datos por la red?
+A) Hercios por segundo
+B) Baudios por segundo
+C) Hercios por hora
+D) Bits por segundo
+Pregunta 04: ¿Qué es una persona nativa digital y un inmigrante digital?
+A) Un nativo digital está acostumbrado a usar la tecnología y un inmigrante
+tiene que aprender el uso de las nuevas tecnologías
+B) Un inmigrante digital está acostumbrado a usar la tecnología y un nativo
+digital tiene que aprender el uso de las nuevas tecnologías
+C) Son conceptos sinónimos e intercambiables
+D) Un nativo digital ha nacido en un país digitalmente avanzado y un inmigrante
+digital en un país en vías de desarrollo
+Pregunta 05: ¿Cuántas canciones de 5 megabytes podemos descargar a
+una velocidad de 400 Mbps (en condiciones ideales) en un segundo?
+A) Aproximadamente 10 canciones
+B) Aproximadamente 40 canciones
+C) Aproximadamente 50 canciones
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 23 de diciembre de 2020, de la DirecciónGeneral de Formación Profesional y Enseñanzas de Régimen  Especial, por la que se convocan pruebas de acceso a los ciclosformativos de Formación Profesional (DOGV núm. 8893, 11.01.2021).
+Modelo B    Pág. 1/6
+
+D) Aproximadamente 80 canciones
+Pregunta 06: Si tenemos una licencia Creative Commons ¿qué significa
+BY-ND?
+A) Sin obra derivada-No comercial
+B) No comercial-Sin obra derivada
+C) Reconocimiento-Compartir igual
+D) Reconocimiento-Sin obra derivada
+Pregunta 07: ¿En qué consiste garantizar la “integridad de los datos” en
+un sistema de comunicación?
+A) El hecho no poder negar la recepción ni el envío de un mensaje
+B) El hecho de que cada mensaje sólo pueda ser leído por su destinatario
+C) El hecho de no poder filtrar los mensajes de spam
+D) El hecho de que un mensaje que se envía sea igual al que se recibe
+Pregunta 08: ¿Qué es un hoax?
+A) Es un bulo que circula por internet
+B) Es un tipo de software que se instala en tu equipo y se autoreplica
+C) Es un tipo de estafa consistente en hacerse pasar por otra persona
+D) Es un tipo de software que se instala en tu equipo y da acceso a otros 
+Pregunta  09:  ¿Qué  debemos  hacer  para  corregir  los  posibles  fallos  y
+problemas de seguridad del sistema operativo que se detecten a lo largo
+del tiempo?
+A) Instalar un Firewall y mantenerlo actualizado
+B) Descargar las actualizaciones del sistema operativo
+C) Instalar un antivirus y mantenerlo actualizado
+D) Instalar un Firewall y un antivirus y mantenerlos actualizados
+Pregunta 10: ¿Qué se entiende por malware?
+A) El uso inadecuado del software que puede perjudicar la salud
+B) Es un software que está diseñado para, principalmente, dañar tu dispositivo
+C) Es un hardware que está diseñado para, principalmente, dañar tu dispositivo
+D) Se agrupa bajo ese término el software de baja calidad, creado sin un sólido
+sistema de testeo
+Pregunta 11: Si quiero compartir una imagen que estoy editando en un
+programa como GIMP o Photoshop ¿qué debo hacer para asegurarme de
+que quien la recibe puede verla con la máxima resolución?
+A) Guardar la imagen en el tipo de archivos del editor
+B) Exportar la imagen en un formato conocido
+C) Exportar la imagen en un formato sin pérdidas
+D) Exportar la imagen en un formato con pérdidas
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 23 de diciembre de 2020, de la DirecciónGeneral de Formación Profesional y Enseñanzas de Régimen  Especial, por la que se convocan pruebas de acceso a los ciclosformativos de Formación Profesional (DOGV núm. 8893, 11.01.2021).
+Modelo B    Pág. 2/6
+
+Pregunta  12:  ¿Cuál  de  las  siguientes  extensiones  corresponde  a  un
+archivo de video?
+A) AVI
+B) PNG
+C) BMP
+D) JPG
+Pregunta 13: En una hoja de cálculo como Libre Calc, ¿qué texto debemos
+teclear en cualquier celda para que nos calcule la fórmula G12+2+42?
+A) =SUMA(G12;2;42)
+B) G12+2+42
+C) SUMA(G12;2;42)
+D) =SUMA(G12:2:42)
+Pregunta  14:  ¿Qué  ocurre  cuando  una  celda  de  una  hoja  de  cálculo
+aparece llena de símbolos # seguidos en lugar del valor esperado?
+A) Puede que la hoja de cálculo tenga un virus
+B) El valor que se quiere mostrar en la celda no cabe en el espacio físico
+asignado
+C) Hay un problema con la codificación del archivo que hace el valor ilegible
+D) El valor que se quiere mostrar en la celda es menor al valor esperado
+Pregunta 15: En una base de datos de tipo relacional:
+A) Cada fila puede tener un número de campos distinto al resto
+B) Los datos se almacenan en tablas y las tablas en registros
+C) Los registros son las filas de las tablas
+D) Las relaciones son siempre entre datos concretos, no entre tablas
+Pregunta 16: Indica qué dirección IP puede ser una dirección válida:
+A) 65.22.1.2.3
+B) 65.22.22
+C) 652.1.2.1.1
+D) 65.22.1.2
+Pregunta 17: ¿Cuál es la versión más usada en la actualidad del protocolo
+IP y a qué versión estamos migrando, poco a poco?
+A) Versión actual 3. Nueva versión 5
+B) Versión actual 4. Nueva versión 6
+C) Versión actual 2. Nueva versión 3
+D) Versión actual 4. Nueva versión 5
+Pregunta  18:  ¿Cuál  de  estas  redes  suele  ser  la  más  pequeña  en
+extensión?
+A) PAN
+B) LAN
+C) MAN
+D) WAN
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 23 de diciembre de 2020, de la DirecciónGeneral de Formación Profesional y Enseñanzas de Régimen  Especial, por la que se convocan pruebas de acceso a los ciclosformativos de Formación Profesional (DOGV núm. 8893, 11.01.2021).
+Modelo B    Pág. 3/6
+
+Pregunta 19: Indica cuál de los siguientes elementos es un dispositivo
+hardware de red
+A) Firewall
+B) Switch
+C) MAC
+D) ISP
+Pregunta 20: En una oficina en la que un router asigna dinámicamente una
+IP a cada dispositivo ¿cómo es, generalmente, esa IP?
+A) Pública
+B) Privada
+C) Mixta
+D) Estática
+Pregunta  21:  Escoge  la  opción  más  correcta  sobre  esta  dirección  de
+Internet: http://familias.uned.es/general/info.html
+A) El subdominio es “familias” y el dominio “uned.es”
+B)  El  subdominio  es  “uned.es”  y  el  dominio  es  toda  la  dirección
+(http://familias.uned.es/general/info.html)
+C) El dominio es “uned” y el subdominio “.es”
+D) El protocolo es “familias” y el dominio “uned.es”
+Pregunta  22:  ¿Cómo  se  suele  denominar  al  dispositivo  en  el  cual  se
+encuentran almacenadas las páginas web?
+A) Servidor
+B) Dominio
+C) Cliente
+D) DNS
+Pregunta 23: ¿Cual de las siguientes aplicaciones no permite, a fecha de
+hoy, mantener videoconferencias en línea? 
+A) Skype
+B) Firefox
+C) Google Hangouts
+D) WhatsApp
+Pregunta 24: ¿Para qué sirve el campo CCO de los correos electrónicos? 
+A) Significa “copia de carbón oculta” y sirve para enviar copias de un e-mail a
+varias personas y que los destinatarios no sepan a quién se las hemos enviado
+B) Significa “copia de cifrada opcional” y sirve para enviar e-mails cifrados con
+información confidencial a más de una persona
+C) Significa “copia de carbón opcional” y guarda en borrador el mensaje
+D) Ninguna de las anteriores es correcta
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 23 de diciembre de 2020, de la DirecciónGeneral de Formación Profesional y Enseñanzas de Régimen  Especial, por la que se convocan pruebas de acceso a los ciclosformativos de Formación Profesional (DOGV núm. 8893, 11.01.2021).
+Modelo B    Pág. 4/6
+
+Pregunta 25: De los siguientes ... ¿cuál NO es un buscador?
+A) Bing
+B) Yahoo
+C) Chrome
+D) Google
+Pregunta 26: En un blog (como WordPress), ¿qué es una entrada?
+A) Cada uno de los accesos que hacen los editores 
+B) Cada una de las visitas que recibe el blog desde los navegadores web
+C) Cada una de las publicaciones o artículos que aparecen en el blog
+D) Los elementos multimedia que componen cada artículo (fotos, videos..)
+Pregunta 27: ¿Puedo recibir en Gmail mi correo de otras cuentas que no
+son de Gmail y consultar Gmail en otros gestores de correo?
+A) No, no es posible realizar ninguna de las dos cosas
+B) Sí, es posible hacer ambas cosas
+C) Solo es posible la segunda de ellas
+D) Solo es posible la primera de ellas
+Pregunta  28:  ¿Cómo  pedirías  a  GOOGLE  que  te  muestre  todos  los
+documentos  PDF  que  hablan  de  "informática"  pero  NO  ESTÉN
+PUBLICADOS en la web uned.es?
+A) -nosite:uned.es filetype:pdf informática
+B) excludesite:uned.es filetype:pdf informática
+C) -site:uned.es filetype:pdf informática
+D) nosite:uned.es filetype:pdf informática
+Pregunta  29:  ¿Cómo  se  denomina  la  técnica  que  permite  disfrutar  de
+vídeos online sin cortes, independientemente de nuestra conexión?
+A) Streaming
+B) Phishing
+C) Ghosting
+D) Hosting
+Pregunta 30: Si una URL empieza por https significa, generalmente, que:
+A) Su contenido no viajará cifrado por la red
+B) Su contenido viajará cifrado por la red
+C) Su contenido viajará cifrado por la red solo si se consulta desde móviles
+D) Su contenido viajará cifrado si se consulta desde navegadores compatibles
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 23 de diciembre de 2020, de la DirecciónGeneral de Formación Profesional y Enseñanzas de Régimen  Especial, por la que se convocan pruebas de acceso a los ciclosformativos de Formación Profesional (DOGV núm. 8893, 11.01.2021).
+Modelo B    Pág. 5/6
+
+HOJA DE RESPUESTAS
+OBSERVACIONES: 
+Test de 30 preguntas de 4 respuestas con una única válida. 
+Las respuestas correctas suman 0,33 puntos y las incorrectas restan 0,1 
+puntos. 
+Sólo serán válidas las   respuestas   anotadas en esta hoja de respuestas   
+Contesta con letras mayúsculas
+01 >02 >03 >04 >05 >
+06 >07 >08 >09 >10 >
+11 >12 >13 >14 >15 >
+16 >17 >18 >19 >20 >
+21 >22 >23 >24 >25 >
+26 >27 >28 >29 >30 >
+CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 23 de diciembre de 2020, de la DirecciónGeneral de Formación Profesional y Enseñanzas de Régimen  Especial, por la que se convocan pruebas de acceso a los ciclosformativos de Formación Profesional (DOGV núm. 8893, 11.01.2021).
+Modelo B    Pág. 6/6
+

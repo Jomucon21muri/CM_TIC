@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de Cuestionarios TICD</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #667eea;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .config-panel {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        select, input[type="number"] {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        select:focus, input[type="number"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .quiz-container {
+            margin-top: 30px;
+        }
+
+        .question-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            border-left: 5px solid #667eea;
+        }
+
+        .question-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .question-number {
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .question-module {
+            background: #667eea;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .question-text {
+            font-size: 1.1em;
+            color: #333;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .option {
+            background: white;
+            padding: 15px 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+        }
+
+        .option:hover {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .option input[type="radio"] {
+            margin-right: 12px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .option.selected {
+            border-color: #667eea;
+            background: #f0f4ff;
+        }
+
+        .option.correct {
+            border-color: #4caf50;
+            background: #f1f8f4;
+        }
+
+        .option.incorrect {
+            border-color: #f44336;
+            background: #fff5f5;
+        }
+
+        .explanation {
+            margin-top: 15px;
+            padding: 15px;
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .explanation.show {
+            display: block;
+        }
+
+        .explanation-title {
+            font-weight: bold;
+            color: #856404;
+            margin-bottom: 8px;
+        }
+
+        .explanation-text {
+            color: #856404;
+            line-height: 1.5;
+        }
+
+        .results {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .results h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .score {
+            font-size: 3em;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        .results-detail {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .option {
+                padding: 12px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Generador de Cuestionarios TICD</h1>
+        <p class="subtitle">Prueba tus conocimientos en Tratamiento de la Información y Competencia Digital</p>
+
+        <div id="configPanel" class="config-panel">
+            <div class="form-group">
+                <label for="moduloSelect">Selecciona el módulo:</label>
+                <select id="moduloSelect">
+                    <option value="todos">Todos los módulos (Aleatorio)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="numPreguntas">Número de preguntas:</label>
+                <input type="number" id="numPreguntas" min="5" max="30" value="10">
+            </div>
+
+            <button class="btn" onclick="generarCuestionario()">Generar Cuestionario</button>
+        </div>
+
+        <div id="quizContent" class="quiz-container hidden"></div>
+        
+        <div id="submitButton" class="hidden" style="text-align: center; margin-top: 20px;">
+            <button class="btn" onclick="verificarRespuestas()">Verificar Respuestas</button>
+        </div>
+
+        <div id="results" class="hidden"></div>
+    </div>
+
+    <script>
+        let baseConocimiento = null;
+        let cuestionarioActual = [];
+        let respuestasUsuario = {};
+
+        // Cargar base de conocimiento
+        async function cargarBaseConocimiento() {
+            try {
+                const response = await fetch('base_conocimiento_ticd.json');
+                baseConocimiento = await response.json();
+                inicializarModulos();
+            } catch (error) {
+                console.error('Error cargando base de conocimiento:', error);
+                alert('Error al cargar la base de datos de preguntas');
+            }
+        }
+
+        // Inicializar selector de módulos
+        function inicializarModulos() {
+            const select = document.getElementById('moduloSelect');
+            
+            for (const [id, info] of Object.entries(baseConocimiento.modulos)) {
+                const option = document.createElement('option');
+                option.value = id;
+                option.textContent = info.nombre;
+                select.appendChild(option);
+            }
+        }
+
+        // Generar cuestionario
+        function generarCuestionario() {
+            const moduloSeleccionado = document.getElementById('moduloSelect').value;
+            const numPreguntas = parseInt(document.getElementById('numPreguntas').value);
+
+            // Filtrar preguntas según módulo
+            let preguntasDisponibles = baseConocimiento.preguntas.filter(p => p.respuesta_correcta);
+            
+            if (moduloSeleccionado !== 'todos') {
+                preguntasDisponibles = preguntasDisponibles.filter(p => 
+                    p.modulos.includes(moduloSeleccionado)
+                );
+            }
+
+            if (preguntasDisponibles.length === 0) {
+                alert('No hay preguntas disponibles para este módulo');
+                return;
+            }
+
+            // Seleccionar preguntas aleatorias
+            cuestionarioActual = seleccionarAleatorio(preguntasDisponibles, Math.min(numPreguntas, preguntasDisponibles.length));
+            respuestasUsuario = {};
+
+            // Mostrar cuestionario
+            mostrarCuestionario();
+
+            // Ocultar panel de configuración y mostrar botón de verificación
+            document.getElementById('configPanel').classList.add('hidden');
+            document.getElementById('submitButton').classList.remove('hidden');
+            document.getElementById('results').classList.add('hidden');
+        }
+
+        // Seleccionar elementos aleatorios de un array
+        function seleccionarAleatorio(arr, n) {
+            const shuffled = [...arr].sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, n);
+        }
+
+        // Mostrar cuestionario
+        function mostrarCuestionario() {
+            const container = document.getElementById('quizContent');
+            container.innerHTML = '';
+            container.classList.remove('hidden');
+
+            cuestionarioActual.forEach((pregunta, index) => {
+                const card = document.createElement('div');
+                card.className = 'question-card';
+                card.id = `question-${index}`;
+
+                const moduloNombre = pregunta.modulos[0] !== 'general' 
+                    ? baseConocimiento.modulos[pregunta.modulos[0]]?.nombre || 'General'
+                    : 'General';
+
+                card.innerHTML = `
+                    <div class="question-header">
+                        <span class="question-number">Pregunta ${index + 1}</span>
+                        <span class="question-module">${moduloNombre}</span>
+                    </div>
+                    <div class="question-text">${pregunta.pregunta}</div>
+                    <div class="options" id="options-${index}">
+                        ${Object.entries(pregunta.opciones).map(([letra, texto]) => `
+                            <label class="option" data-letra="${letra}">
+                                <input type="radio" name="question-${index}" value="${letra}" 
+                                       onchange="guardarRespuesta(${index}, '${letra}')">
+                                <span><strong>${letra})</strong> ${texto}</span>
+                            </label>
+                        `).join('')}
+                    </div>
+                    <div class="explanation" id="explanation-${index}">
+                        <div class="explanation-title">💡 Explicación:</div>
+                        <div class="explanation-text">${pregunta.explicacion}</div>
+                    </div>
+                `;
+
+                container.appendChild(card);
+            });
+
+            // Scroll al cuestionario
+            container.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Guardar respuesta del usuario
+        function guardarRespuesta(index, letra) {
+            respuestasUsuario[index] = letra;
+            
+            // Marcar opción visualmente
+            const opciones = document.querySelectorAll(`#options-${index} .option`);
+            opciones.forEach(opt => {
+                opt.classList.remove('selected');
+                if (opt.dataset.letra === letra) {
+                    opt.classList.add('selected');
+                }
+            });
+        }
+
+        // Verificar respuestas
+        function verificarRespuestas() {
+            let correctas = 0;
+            let incorrectas = 0;
+            let sinResponder = 0;
+
+            cuestionarioActual.forEach((pregunta, index) => {
+                const respuestaUsuario = respuestasUsuario[index];
+                const respuestaCorrecta = pregunta.respuesta_correcta;
+                
+                const opciones = document.querySelectorAll(`#options-${index} .option`);
+                
+                if (!respuestaUsuario) {
+                    sinResponder++;
+                } else if (respuestaUsuario === respuestaCorrecta) {
+                    correctas++;
+                } else {
+                    incorrectas++;
+                }
+
+                // Marcar opciones
+                opciones.forEach(opt => {
+                    const letra = opt.dataset.letra;
+                    opt.style.pointerEvents = 'none'; // Deshabilitar clicks
+                    
+                    if (letra === respuestaCorrecta) {
+                        opt.classList.add('correct');
+                    } else if (letra === respuestaUsuario && respuestaUsuario !== respuestaCorrecta) {
+                        opt.classList.add('incorrect');
+                    }
+                });
+
+                // Mostrar explicación
+                document.getElementById(`explanation-${index}`).classList.add('show');
+            });
+
+            // Mostrar resultados
+            mostrarResultados(correctas, incorrectas, sinResponder);
+
+            // Ocultar botón de verificación
+            document.getElementById('submitButton').classList.add('hidden');
+        }
+
+        // Mostrar resultados
+        function mostrarResultados(correctas, incorrectas, sinResponder) {
+            const total = cuestionarioActual.length;
+            const porcentaje = ((correctas / total) * 100).toFixed(1);
+            
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = `
+                <h2>📊 Resultados del Cuestionario</h2>
+                <div class="score">${porcentaje}%</div>
+                <p style="font-size: 1.2em;">Has acertado ${correctas} de ${total} preguntas</p>
+                <div class="results-detail">
+                    <div>
+                        <div style="font-size: 2em; margin-bottom: 5px;">✅</div>
+                        <div>${correctas} Correctas</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 2em; margin-bottom: 5px;">❌</div>
+                        <div>${incorrectas} Incorrectas</div>
+                    </div>
+                    <div>
+                        <div style="font-size: 2em; margin-bottom: 5px;">⚪</div>
+                        <div>${sinResponder} Sin responder</div>
+                    </div>
+                </div>
+                <button class="btn" onclick="volverAlInicio()" style="margin-top: 30px; background: white; color: #667eea;">
+                    Nuevo Cuestionario
+                </button>
+            `;
+            resultsDiv.classList.remove('hidden');
+            
+            // Scroll a resultados
+            resultsDiv.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Volver al inicio
+        function volverAlInicio() {
+            document.getElementById('configPanel').classList.remove('hidden');
+            document.getElementById('quizContent').classList.add('hidden');
+            document.getElementById('results').classList.add('hidden');
+            document.getElementById('quizContent').innerHTML = '';
+            
+            // Scroll al inicio
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Inicializar cuando se carga la página
+        window.onload = cargarBaseConocimiento;
+    </script>
+</body>
+</html>

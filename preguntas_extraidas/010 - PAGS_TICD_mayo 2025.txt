@@ -1,0 +1,209 @@
+ Direcció General de Formació Professional  
+pág. 1/6 Apellidos y 
+nombre   
+NIF/NIE   Calificación de la prueba   
+ 
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRADO SUPERIOR  
+Convocatoria 2025  
+ 
+ 
+Parte común: TICD  
+IMPORTANTE: Test de 30 preguntas con una única respuesta. Todas las preguntas tienen un 
+valor de 0,33 puntos cada una a excepción de las dos últimas que tienen un valor de 0,38 
+puntos cada una. Cada pregunta errónea descontará 0,1 puntos.  
+ 
+Duración: 45 mins  
+Observaciones:  
+- Mantenga su NIF/NIE en un lugar visible durante la realización de la prueba.  
+- Lea detenidamente el texto, cuestiones o enunciados.  
+- Cuide la presentación y la ortografía. Las faltas de ortografía descontarán hasta 1 punto.  
+- Revise la prueba antes de entregarla.  
+- Los criterios de calificación aparecen escritos en cada pregunta.  
+  
+ Direcció General de Formació Professional  
+pág. 2/6 1. ¿Qué debemos escribir en el campo de búsqueda si queremos buscar información sobre 
+cualquier tipo de energía verde? (0,33 puntos)  
+a) energía verde cualquiera  
+b) energía verde *  
+c) "energía verde"  
+ 
+2. Indica la afirmación falsa. Los primeros computadores eran... (0,33 puntos)  
+a) Pensados para tareas muy concretas y repetitivas.  
+b) Muy grandes y pesados.  
+c) Compatibles entre sí.  
+ 
+3. ¿Qué se emplea para facilitar el paso del calor desde el procesador al disipador? (0,33 
+puntos)  
+a) Pasta térmica.  
+b) Otro disipador.  
+c) Ventilador.  
+ 
+4. Elige la opción correcta. Si se cierran los programas y archivos abiertos, se cierra el 
+sistema operativo y la fuente de alimentación recibe la orden de cortar el suministro 
+eléctrico, decimos que el equipo... (0,33 puntos)  
+a) Cierra la sesión.  
+b) Se apaga.  
+c) Pasa a estado de suspensión.  
+ 
+5. ¿Qué son las credenciales? (0,33 puntos)  
+a) El usuario que inicia la sesión.  
+b) Los datos que muestra el ordenador en la pantalla de login . 
+c) El usuario ( login ) y la clave de inicio de sesión.  
+ 
+6. ¿Qué contiene la barra de tareas en un ordenador? (0,33 puntos)  
+a) Programas abiertos y otros que podemos abrir.  
+b) Programas abiertos y ejecutándose en estos momentos.  
+c) Programas que podemos abrir.  
+ 
+7. ¿Qué representa la obsolescencia programada en una impresora? (0,33 puntos)  
+a) Cuando la impresora se avería tras un determinado número de años de uso.  
+ Direcció General de Formació Professional  
+pág. 3/6 b) Cuando la impresora se avería por la baja calidad de los componentes.  
+c) Cuando la impresora deja de funcionar tras un número determinado de impresiones o 
+páginas impresas.  
+ 
+8. Indica la respuesta falsa. (0,33 puntos)  
+a) Las tareas de revisión de la memoria, el disco duro o la actualización del ordenador, 
+pueden dejar a nuestro equipo durante algunos minutos como si se hubiera colgado.  
+b) Los antivirus ralentizan el ordenador.  
+c) Los antivirus garantizan que nuestro equipo no será afectado por software malicioso o 
+peligroso.  
+ 
+9. ¿Qué es la capacidad de detección heurística? (0,33 puntos)  
+a) La facilidad con la que los antivirus detectan nuevos virus compuestos por otros ya 
+conocidos.  
+b) La capacidad de los programas que buscan malware , virus y otros programas nocivos 
+para nuestro ordenador de detectar actividades sospechosas y aislar al culpable, aunque 
+no sea todavía un software peligroso conocido.  
+c) La capacidad para encontrar los fallos de seguridad -por errores en su diseño - en los 
+programas que usamos.  
+ 
+10. ¿Quién propuso en 1946 la arquitectura que han seguido todos los computadores hasta 
+ahora? (0,33 puntos)  
+a) Von Leibniz.  
+b) Hugh Saruman.  
+c) Von Neumann.  
+ 
+11. Indica la opción correcta. El proyecto de software libre denominado GNU nació con la 
+ayuda de... (0,33 puntos)  
+a) Rich Miller.  
+b) Jason Statham.  
+c) Richard Stallman.  
+ 
+12. ¿Con qué tecnología estaban construidos los primeros ordenadores? (0,33 puntos)  
+a) Circuitos integrados.  
+b) Relés o tubos de vacío.  
+c) Transistores.  
+ 
+ Direcció General de Formació Professional  
+pág. 4/6 13. ¿Cuál fue el primer lenguaje de programación de alto nivel para programar 
+computadores? (0,33 puntos)  
+a) Fortran.  
+b) Basic.  
+c) Java.  
+ 
+14. Indica la afirmación falsa. Un proxy ... (0,33 puntos)  
+a) Evita el acceso a determinadas páginas web externas.  
+b) Permite que la misma página se descargue innumerables veces.  
+c) Permite saber quién accede a una página y a qué se accede.  
+ 
+15. ¿Cuáles son las dos partes de que consta una IP? (0,33 puntos)  
+a) Identificador de red e identificador de subred.  
+b) Identificador del router e identificador del dispositivo.  
+c) Identificador de red e identificador de host.  
+ 
+16. Indica la opción correcta. Los ordenadores dentro de una red local se conectan entre ellos 
+normalmente empleando un... (0,33 puntos)  
+a) Concentrador (Hub) escalable.  
+b) Router.  
+c) Switch.  
+ 
+17. ¿Qué otra denominación reciben también los routers ? (0,33 puntos)  
+a) Gateway o puerta de enlace.  
+b) Servidores de entrega.  
+c) Senders de encaminamiento Ethernet.  
+ 
+18. El protocolo TCP/IP está formado por los protocolos TCP e IP. ¿Qué función realiza cada 
+uno? (0,33 puntos)  
+a) El primero se encarga de enviar los datos hasta el router ; el segundo desde el router  
+al destinatario.  
+b) El primero se asegura de que los datos lleguen a su destino; el segundo, de enviar la 
+información o los datos de forma que puedan ser correctamente interpretados.  
+c) El primero envía la información o los datos de forma que puedan ser correctamente 
+interpretados; el segundo, se asegura de que los datos lleguen a su destino.  
+ 
+ Direcció General de Formació Professional  
+pág. 5/6 19. ¿Qué estándar físico se emplea en las redes locales? (0,33 puntos)  
+a) EDP Net.  
+b) Ethernet.  
+c) TCP Net.  
+ 
+20. Indica la afirmación falsa. ¿Para qué sirve la dirección MAC? (0,33 puntos)  
+a) Para entregar el paquete o mensaje de datos al destinatario cuando el mismo llega a 
+la red de destino.  
+b) Para que todos los dispositivos que se conecten a una red de comunicaciones sean 
+únicos a nivel mundial.  
+c) Para encaminar el paquete de datos o mensaje entre diferentes redes hasta llegar a 
+la red de destino.  
+ 
+21. ¿Cuál es el protocolo o lenguaje que se emplea en la mayoría de las redes locales por 
+parte de los dispositivos con el fin de comunicarse? (0,33 puntos)  
+a) TCP Ranurado.  
+b) TCP/IP.  
+c) Telnet.  
+ 
+22. Indica la afirmación verdadera. (0,33 puntos)  
+a) Android es un sistema operativo basado en Linux.  
+b) Linux es un sistema operativo basado en IOS.  
+c) Windows es un sistema operativo originalmente basado en AS400.  
+ 
+23. ¿Qué tipos de periféricos hay? (0,33 puntos)  
+a) Digitales y analógicos.  
+b) Cableados e inalámbricos.  
+c) De entrada y de salida.  
+ 
+24. ¿Qué significa el término DHCP? (0,33 puntos)  
+a) Decrease Hitachi Control Protocol.  
+b) Dynamic Huge Code Protocol  
+c) Dynamic Host Configuration Protocol.  
+ 
+25. Indica la respuesta incorrecta. Son sistemas de cifrado de redes Wifi... (0,33 puntos)  
+a) EAP2.  
+ Direcció General de Formació Professional  
+pág. 6/6 b) WPA2.  
+c) WEP.  
+ 
+26. ¿Qué topología de red corresponde a la siguiente definición: "Un único cable para enlazar 
+todos los equipos. Barato. Si se corta el cable en algún punto, la red completa deja de 
+funcionar"? (0,33 puntos)  
+a) Topología en anillo.  
+b) Topología en estrella.  
+c) Topología de bus.  
+ 
+27. Indica cuál de las siguientes afirmaciones es verdadera. (0,33 puntos)  
+a) El lenguaje ensamblador contiene instrucciones directamente ejecutables por el 
+ordenador.  
+b) Los lenguajes de alto nivel necesitan un programa para traducir sus instrucciones a 
+código máquina.  
+c) Hay 3 tipos de lenguajes de programación: lenguaje máquina, lenguaje ensamblador 
+y lenguaje de bajo nivel.  
+ 
+28. Indica cuál de los siguientes no es un entorno virtual de aprendizaje. (0,33 puntos)  
+a) Moodle.  
+b) Google Classroom.  
+c) Microsoft Publisher.  
+ 
+29. ¿A qué se refiere el término copyleft ? (0,38 puntos)  
+a) Método para hacer que un programa (o cualquier otra obra) sea libre y requiera que 
+todas las versiones modificadas también sean libres.  
+b) Protección de la propiedad intelectual de los programas de computadora, bases de 
+datos y otros materiales digitales.  
+c) Conjunto de licencias legales que permiten otorgar permisos específicos sobre cómo 
+una obra puede ser utilizada, compartida y distribuida por otros.  
+ 
+30. ¿Cuál de los siguientes programas es considerado peligroso para nuestros equipos 
+informáticos? (0,38 puntos)  
+a)  Handsomware.  
+b)  Malware.  
+c)  Trueware.  
+ 

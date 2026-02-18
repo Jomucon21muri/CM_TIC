@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloque 1: Equipos Informáticos y Redes - Curso TICD</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>💻 Bloque 1: Equipos Informáticos y Redes</h1>
+            <p>Curso TICD - Acceso a Ciclos Formativos de Grado Superior</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="bloque1.html" class="active">Bloque 1</a></li>
+                <li><a href="bloque2.html">Bloque 2</a></li>
+                <li><a href="bloque3.html">Bloque 3</a></li>
+                <li><a href="bloque4.html">Bloque 4</a></li>
+                <li><a href="bloque5.html">Bloque 5</a></li>
+                <li><a href="evaluacion.html">Evaluación</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="breadcrumb">
+            <a href="index.html">Inicio</a> <span>→</span> <span>Bloque 1</span>
+        </div>
+
+        <section>
+            <h2>📖 Introducción</h2>
+            <p>En este primer bloque estudiaremos los fundamentos del hardware, software, sistemas operativos y redes telemáticas. Es fundamental comprender estos conceptos básicos para entender el funcionamiento de los sistemas informáticos.</p>
+            
+            <div class="info-box info">
+                <h4>🎯 Objetivos del Bloque</h4>
+                <ul class="content-list">
+                    <li>Comprender el concepto, funciones e historia del ordenador</li>
+                    <li>Identificar los componentes físicos del ordenador personal</li>
+                    <li>Conocer los diferentes tipos de software y sistemas operativos</li>
+                    <li>Entender el almacenamiento de información y sus medidas</li>
+                    <li>Conocer los fundamentos de las redes telemáticas</li>
+                    <li>Comprender la configuración básica de redes TCP/IP</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>1.1. El Ordenador: Concepto, Funciones e Historia</h2>
+            
+            <h3>Concepto</h3>
+            <p>Un <strong>ordenador o computadora</strong> es una máquina electrónica digital programable que procesa información siguiendo instrucciones dadas por programas. Es capaz de recibir datos (entrada), procesarlos y proporcionar resultados (salida).</p>
+
+            <h3>Funciones Principales</h3>
+            <ul class="content-list">
+                <li><strong>Entrada de datos:</strong> Recepción de información del exterior (teclado, ratón, etc.)</li>
+                <li><strong>Procesamiento:</strong> Transformación de los datos según las instrucciones</li>
+                <li><strong>Almacenamiento:</strong> Guardar información de forma temporal o permanente</li>
+                <li><strong>Salida:</strong> Presentación de los resultados (monitor, impresora, etc.)</li>
+            </ul>
+
+            <h3>Breve Historia</h3>
+            <div class="info-box info">
+                <h4>Generaciones de Computadoras</h4>
+                <ul class="content-list">
+                    <li><strong>1ª Generación (1940-1956):</strong> Válvulas de vacío - ENIAC, UNIVAC</li>
+                    <li><strong>2ª Generación (1956-1963):</strong> Transistores - Mayor velocidad y menor tamaño</li>
+                    <li><strong>3ª Generación (1964-1971):</strong> Circuitos integrados - IBM 360</li>
+                    <li><strong>4ª Generación (1971-presente):</strong> Microprocesadores - PC personales</li>
+                    <li><strong>5ª Generación (futuro):</strong> Inteligencia artificial, computación cuántica</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>1.2. Componentes Físicos del Ordenador Personal</h2>
+            
+            <h3>Hardware</h3>
+            <p>El <strong>hardware</strong> es el conjunto de componentes físicos y tangibles de un ordenador.</p>
+
+            <h3>Componentes Principales</h3>
+            
+            <h4>Unidad Central de Proceso (CPU)</h4>
+            <ul class="content-list">
+                <li><strong>Microprocesador:</strong> "Cerebro" del ordenador que ejecuta instrucciones</li>
+                <li><strong>Velocidad:</strong> Medida en GHz (Gigahercios)</li>
+                <li><strong>Núcleos:</strong> Procesadores individuales en un chip (dual-core, quad-core, etc.)</li>
+                <li><strong>Fabricantes principales:</strong> Intel, AMD</li>
+            </ul>
+
+            <h4>Memoria Principal</h4>
+            <ul class="content-list">
+                <li><strong>RAM (Random Access Memory):</strong> Memoria volátil de acceso aleatorio
+                    <ul>
+                        <li>Almacena temporalmente datos y programas en ejecución</li>
+                        <li>Se borra al apagar el ordenador</li>
+                        <li>Mayor RAM = mejor rendimiento multitarea</li>
+                    </ul>
+                </li>
+                <li><strong>ROM (Read Only Memory):</strong> Memoria de solo lectura
+                    <ul>
+                        <li>Contiene instrucciones permanentes (BIOS/UEFI)</li>
+                        <li>No se borra al apagar el ordenador</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h4>Placa Base (Motherboard)</h4>
+            <ul class="content-list">
+                <li>Circuito impreso principal que conecta todos los componentes</li>
+                <li>Contiene el chipset que coordina el flujo de datos</li>
+                <li>Incluye ranuras de expansión (PCI, PCIe)</li>
+                <li>Conectores para CPU, RAM, almacenamiento y periféricos</li>
+            </ul>
+
+            <h4>Dispositivos de Almacenamiento</h4>
+            <ul class="content-list">
+                <li><strong>Disco Duro (HDD):</strong> Almacenamiento magnético, más capacidad, más lento</li>
+                <li><strong>Disco de Estado Sólido (SSD):</strong> Sin partes móviles, más rápido, más caro</li>
+                <li><strong>Unidades ópticas:</strong> CD, DVD, Blu-ray</li>
+                <li><strong>Almacenamiento externo:</strong> USB, tarjetas SD, discos externos</li>
+            </ul>
+
+            <h4>Tarjeta Gráfica (GPU)</h4>
+            <ul class="content-list">
+                <li>Procesa y genera imágenes para el monitor</li>
+                <li>Integrada en la CPU o dedicada (tarjeta independiente)</li>
+                <li>Esencial para videojuegos, edición de vídeo, diseño 3D</li>
+            </ul>
+
+            <h4>Fuente de Alimentación</h4>
+            <ul class="content-list">
+                <li>Convierte corriente alterna (AC) a corriente continua (DC)</li>
+                <li>Suministra energía a todos los componentes</li>
+                <li>Medida en vatios (W)</li>
+            </ul>
+
+            <h4>Periféricos de Entrada</h4>
+            <ul class="content-list">
+                <li>Teclado, ratón, touchpad</li>
+                <li>Escáner, webcam, micrófono</li>
+                <li>Pantalla táctil, lector de códigos de barras</li>
+            </ul>
+
+            <h4>Periféricos de Salida</h4>
+            <ul class="content-list">
+                <li>Monitor, proyector</li>
+                <li>Impresora, plotter</li>
+                <li>Altavoces, auriculares</li>
+            </ul>
+
+            <h4>Periféricos de Entrada/Salida</h4>
+            <ul class="content-list">
+                <li>Pantalla táctil</li>
+                <li>Impresora multifunción (imprime y escanea)</li>
+                <li>Cascos de realidad virtual</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.3. Software: Concepto y Clases</h2>
+            
+            <h3>Concepto</h3>
+            <p>El <strong>software</strong> es el conjunto de programas, instrucciones y datos que permiten al hardware realizar tareas específicas.</p>
+
+            <h3>Clasificación del Software</h3>
+            
+            <h4>Software de Sistema</h4>
+            <ul class="content-list">
+                <li><strong>Sistemas Operativos:</strong> Windows, Linux, macOS, Android, iOS</li>
+                <li><strong>Controladores (Drivers):</strong> Software que permite al SO comunicarse con el hardware</li>
+                <li><strong>Utilidades:</strong> Programas de mantenimiento, antivirus, compresores</li>
+            </ul>
+
+            <h4>Software de Aplicación</h4>
+            <ul class="content-list">
+                <li><strong>Ofimática:</strong> Procesadores de texto, hojas de cálculo, presentaciones</li>
+                <li><strong>Navegadores web:</strong> Chrome, Firefox, Edge</li>
+                <li><strong>Multimedia:</strong> Reproductores de audio/vídeo, editores de imagen</li>
+                <li><strong>Comunicación:</strong> Clientes de correo, mensajería instantánea</li>
+            </ul>
+
+            <h4>Software de Programación</h4>
+            <ul class="content-list">
+                <li><strong>Compiladores e intérpretes:</strong> Traducen código fuente a lenguaje máquina</li>
+                <li><strong>Entornos de desarrollo (IDE):</strong> Visual Studio, Eclipse, PyCharm</li>
+                <li><strong>Depuradores:</strong> Herramientas para encontrar errores en el código</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.4. Sistemas Operativos: Definición y Funciones</h2>
+            
+            <h3>Definición</h3>
+            <p>Un <strong>Sistema Operativo (SO)</strong> es el software fundamental que gestiona el hardware y proporciona servicios a los programas de aplicación. Actúa como intermediario entre el usuario y el hardware.</p>
+
+            <h3>Funciones Principales</h3>
+            <ul class="content-list">
+                <li><strong>Gestión del procesador:</strong> Administra el tiempo de CPU entre procesos</li>
+                <li><strong>Gestión de memoria:</strong> Asigna y libera memoria RAM</li>
+                <li><strong>Gestión de entrada/salida:</strong> Controla periféricos y dispositivos</li>
+                <li><strong>Gestión de archivos:</strong> Organiza y accede a datos en almacenamiento</li>
+                <li><strong>Interfaz de usuario:</strong> Permite la interacción (GUI o CLI)</li>
+                <li><strong>Seguridad:</strong> Control de acceso y protección de datos</li>
+            </ul>
+
+            <h3>Ejemplos de Sistemas Operativos</h3>
+            
+            <h4>Para Ordenadores de Escritorio</h4>
+            <ul class="content-list">
+                <li><strong>Windows:</strong> SO más utilizado, de Microsoft (Windows 10, 11)</li>
+                <li><strong>macOS:</strong> SO de Apple para ordenadores Mac</li>
+                <li><strong>Linux:</strong> SO de código abierto (Ubuntu, Fedora, Debian)</li>
+            </ul>
+
+            <h4>Para Dispositivos Móviles</h4>
+            <ul class="content-list">
+                <li><strong>Android:</strong> Basado en Linux, de Google</li>
+                <li><strong>iOS:</strong> SO de Apple para iPhone y iPad</li>
+                <li><strong>HarmonyOS:</strong> SO de Huawei</li>
+            </ul>
+
+            <h4>Para Servidores</h4>
+            <ul class="content-list">
+                <li><strong>Windows Server:</strong> Versión de Windows para servidores</li>
+                <li><strong>Linux:</strong> Muy utilizado en servidores (Ubuntu Server, CentOS)</li>
+                <li><strong>Unix:</strong> Sistemas tradicionalmente usados en servidores grandes</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.5. Almacenamiento de la Información</h2>
+            
+            <h3>Soportes de Almacenamiento</h3>
+            <ul class="content-list">
+                <li><strong>Magnéticos:</strong> Discos duros (HDD), cintas magnéticas</li>
+                <li><strong>Ópticos:</strong> CD, DVD, Blu-ray</li>
+                <li><strong>Electrónicos:</strong> SSD, memorias USB, tarjetas SD</li>
+                <li><strong>En la nube:</strong> Google Drive, Dropbox, OneDrive</li>
+            </ul>
+
+            <h3>Formatos de Almacenamiento</h3>
+            <ul class="content-list">
+                <li><strong>Documentos:</strong> PDF, DOCX, TXT, ODT</li>
+                <li><strong>Imágenes:</strong> JPG, PNG, GIF, BMP, SVG</li>
+                <li><strong>Audio:</strong> MP3, WAV, FLAC, AAC</li>
+                <li><strong>Vídeo:</strong> MP4, AVI, MKV, MOV</li>
+                <li><strong>Comprimidos:</strong> ZIP, RAR, 7Z</li>
+            </ul>
+
+            <h3>Capacidades y Medidas</h3>
+            <div class="info-box warning">
+                <h4>📊 Unidades de Medida de Almacenamiento</h4>
+                <p>La unidad básica de información es el <strong>bit</strong> (binary digit), que puede valer 0 o 1.</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Unidad</th>
+                            <th>Equivalencia</th>
+                            <th>Bytes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Bit</strong></td>
+                            <td>-</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Byte (B)</strong></td>
+                            <td>8 bits</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Kilobyte (KB)</strong></td>
+                            <td>1.024 bytes</td>
+                            <td>1.024</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Megabyte (MB)</strong></td>
+                            <td>1.024 KB</td>
+                            <td>1.048.576</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Gigabyte (GB)</strong></td>
+                            <td>1.024 MB</td>
+                            <td>1.073.741.824</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Terabyte (TB)</strong></td>
+                            <td>1.024 GB</td>
+                            <td>1.099.511.627.776</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Petabyte (PB)</strong></td>
+                            <td>1.024 TB</td>
+                            <td>1.125.899.906.842.624</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><strong>Nota importante:</strong> Aunque se suele usar 1.024, algunos fabricantes usan sistema decimal (1.000), por eso a veces hay diferencias en las capacidades mostradas.</p>
+            </div>
+
+            <h3>Ejemplos Prácticos</h3>
+            <ul class="content-list">
+                <li>Una canción MP3: aproximadamente 3-5 MB</li>
+                <li>Una foto de alta resolución: 2-10 MB</li>
+                <li>Una película en HD: 4-8 GB</li>
+                <li>Un juego moderno: 50-150 GB</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.6. Introducción a las Redes Telemáticas</h2>
+            
+            <h3>Concepto de Red</h3>
+            <p>Una <strong>red telemática</strong> es un conjunto de ordenadores y dispositivos conectados entre sí que pueden compartir recursos (archivos, impresoras, conexión a internet) y comunicarse.</p>
+
+            <h3>Tipos de Redes según su Alcance</h3>
+            
+            <h4>PAN (Personal Area Network)</h4>
+            <ul class="content-list">
+                <li>Red de área personal</li>
+                <li>Alcance: pocos metros (1-10 m)</li>
+                <li>Ejemplos: Bluetooth, conexión entre móvil y auriculares</li>
+            </ul>
+
+            <h4>LAN (Local Area Network)</h4>
+            <ul class="content-list">
+                <li>Red de área local</li>
+                <li>Alcance: edificio o campus (hasta 1 km)</li>
+                <li>Ejemplos: Red de una oficina, hogar o escuela</li>
+                <li>Conexión: cable Ethernet o Wi-Fi</li>
+            </ul>
+
+            <h4>MAN (Metropolitan Area Network)</h4>
+            <ul class="content-list">
+                <li>Red de área metropolitana</li>
+                <li>Alcance: ciudad (10-50 km)</li>
+                <li>Ejemplos: Red de cable de una ciudad</li>
+            </ul>
+
+            <h4>WAN (Wide Area Network)</h4>
+            <ul class="content-list">
+                <li>Red de área amplia</li>
+                <li>Alcance: países o continentes</li>
+                <li>Ejemplo principal: Internet</li>
+            </ul>
+
+            <h3>Tipos de Redes según su Topología</h3>
+            <ul class="content-list">
+                <li><strong>Bus:</strong> Todos los dispositivos conectados a un cable principal</li>
+                <li><strong>Estrella:</strong> Todos los dispositivos conectados a un nodo central (switch/router)</li>
+                <li><strong>Anillo:</strong> Dispositivos conectados en círculo</li>
+                <li><strong>Malla:</strong> Cada dispositivo conectado a múltiples dispositivos</li>
+            </ul>
+
+            <h3>Tipos de Redes según su Relación</h3>
+            <ul class="content-list">
+                <li><strong>Cliente-Servidor:</strong> Un servidor central proporciona servicios a los clientes</li>
+                <li><strong>Peer-to-Peer (P2P):</strong> Todos los equipos tienen igual jerarquía</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.7. Dispositivos de Red</h2>
+            
+            <h3>Tarjeta de Red (NIC)</h3>
+            <ul class="content-list">
+                <li>Permite conectar un ordenador a la red</li>
+                <li>Puede ser ethernet (RJ-45) o inalámbrica (Wi-Fi)</li>
+                <li>Tiene una dirección MAC única</li>
+            </ul>
+
+            <h3>Hub (Concentrador)</h3>
+            <ul class="content-list">
+                <li>Dispositivo básico que conecta varios equipos</li>
+                <li>Envía datos a todos los puertos (no inteligente)</li>
+                <li>Actualmente en desuso</li>
+            </ul>
+
+            <h3>Switch (Conmutador)</h3>
+            <ul class="content-list">
+                <li>Conecta varios dispositivos en una LAN</li>
+                <li>Envía datos solo al dispositivo destinatario (inteligente)</li>
+                <li>Trabaja en la capa 2 (enlace de datos) del modelo OSI</li>
+            </ul>
+
+            <h3>Router (Enrutador)</h3>
+            <ul class="content-list">
+                <li>Conecta diferentes redes entre sí</li>
+                <li>Dirige el tráfico de datos entre redes</li>
+                <li>Asigna direcciones IP (con DHCP)</li>
+                <li>Proporciona seguridad (firewall)</li>
+                <li>Ejemplo: router de casa que conecta tu LAN con Internet</li>
+            </ul>
+
+            <h3>Punto de Acceso (Access Point)</h3>
+            <ul class="content-list">
+                <li>Crea una red Wi-Fi</li>
+                <li>Conecta dispositivos inalámbricos a una red cableada</li>
+            </ul>
+
+            <h3>Módem</h3>
+            <ul class="content-list">
+                <li>Modula y demodula señales</li>
+                <li>Convierte señales digitales a analógicas y viceversa</li>
+                <li>Necesario para conexiones telefónicas, cable o fibra óptica</li>
+            </ul>
+
+            <h3>Repetidor</h3>
+            <ul class="content-list">
+                <li>Amplifica la señal para extender el alcance de la red</li>
+                <li>No modifica la información</li>
+            </ul>
+
+            <h3>Bridge (Puente)</h3>
+            <ul class="content-list">
+                <li>Conecta dos segmentos de red</li>
+                <li>Filtra tráfico entre segmentos</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>1.8. Configuración Básica de Redes TCP/IP</h2>
+            
+            <h3>Protocolo TCP/IP</h3>
+            <p>El <strong>TCP/IP</strong> (Transmission Control Protocol/Internet Protocol) es el conjunto de protocolos fundamentales que permite la comunicación en Internet y redes locales.</p>
+
+            <h3>Dirección IP</h3>
+            <p>Una <strong>dirección IP</strong> es un identificador único para cada dispositivo conectado a una red.</p>
+
+            <h4>IPv4 (Internet Protocol version 4)</h4>
+            <ul class="content-list">
+                <li>Formato: 4 números separados por puntos (0-255)</li>
+                <li>Ejemplo: 192.168.1.100</li>
+                <li>Total de direcciones: aproximadamente 4.300 millones</li>
+            </ul>
+
+            <h4>IPv6 (Internet Protocol version 6)</h4>
+            <ul class="content-list">
+                <li>Formato: 8 grupos de 4 dígitos hexadecimales</li>
+                <li>Ejemplo: 2001:0db8:85a3:0000:0000:8a2e:0370:7334</li>
+                <li>Creado para solucionar la escasez de direcciones IPv4</li>
+            </ul>
+
+            <h4>Clases de Direcciones IP (IPv4)</h4>
+            <ul class="content-list">
+                <li><strong>Clase A:</strong> 1.0.0.0 a 126.255.255.255 (redes muy grandes)</li>
+                <li><strong>Clase B:</strong> 128.0.0.0 a 191.255.255.255 (redes medianas)</li>
+                <li><strong>Clase C:</strong> 192.0.0.0 a 223.255.255.255 (redes pequeñas)</li>
+            </ul>
+
+            <h4>Direcciones IP Privadas</h4>
+            <p>Rangos reservados para redes locales (no enrutables en Internet):</p>
+            <ul class="content-list">
+                <li>Clase A: 10.0.0.0 a 10.255.255.255</li>
+                <li>Clase B: 172.16.0.0 a 172.31.255.255</li>
+                <li>Clase C: 192.168.0.0 a 192.168.255.255</li>
+            </ul>
+
+            <h3>Máscara de Subred</h3>
+            <p>La <strong>máscara de subred</strong> determina qué parte de la dirección IP corresponde a la red y cuál al host.</p>
+            <ul class="content-list">
+                <li>Ejemplo: 255.255.255.0</li>
+                <li>Permite dividir una red en subredes más pequeñas</li>
+            </ul>
+
+            <h3>Puerta de Enlace (Gateway)</h3>
+            <ul class="content-list">
+                <li>Dirección IP del router que conecta la red local con otras redes</li>
+                <li>Ejemplo: 192.168.1.1</li>
+            </ul>
+
+            <h3>Servidor DNS</h3>
+            <p>El <strong>DNS</strong> (Domain Name System) traduce nombres de dominio (www.google.com) a direcciones IP.</p>
+            <ul class="content-list">
+                <li>Ejemplos de servidores DNS públicos:
+                    <ul>
+                        <li>Google DNS: 8.8.8.8 y 8.8.4.4</li>
+                        <li>Cloudflare: 1.1.1.1</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>DHCP (Dynamic Host Configuration Protocol)</h3>
+            <ul class="content-list">
+                <li>Asigna automáticamente direcciones IP a dispositivos en la red</li>
+                <li>Evita tener que configurar manualmente cada dispositivo</li>
+                <li>Normalmente está en el router</li>
+            </ul>
+
+            <h3>Configuración Típica en una Red Doméstica</h3>
+            <div class="info-box info">
+                <ul class="content-list">
+                    <li><strong>Dirección IP:</strong> 192.168.1.100 (asignada por DHCP)</li>
+                    <li><strong>Máscara de subred:</strong> 255.255.255.0</li>
+                    <li><strong>Puerta de enlace:</strong> 192.168.1.1 (router)</li>
+                    <li><strong>DNS:</strong> 192.168.1.1 o 8.8.8.8</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>🎯 Criterios de Evaluación del Bloque 1</h2>
+            <div class="info-box success">
+                <ul class="content-list">
+                    <li>Distinguir los diferentes elementos de un ordenador y sus funciones</li>
+                    <li>Conocer las funciones de un sistema operativo y manejar a nivel usuario alguno de ellos</li>
+                    <li>Comprender y saber indicar las medidas de capacidad de almacenamiento</li>
+                    <li>Conocer el funcionamiento básico de redes e identificar los dispositivos de red</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>✏️ Actividades de Autoevaluación</h2>
+            <div class="activity">
+                <h3>Actividad 1: Componentes del Ordenador</h3>
+                <p>Identifica los siguientes componentes y explica su función:</p>
+                <ol class="content-list">
+                    <li>CPU</li>
+                    <li>RAM</li>
+                    <li>Disco duro SSD</li>
+                    <li>Tarjeta gráfica</li>
+                    <li>Placa base</li>
+                </ol>
+            </div>
+
+            <div class="activity">
+                <h3>Actividad 2: Cálculo de Capacidades</h3>
+                <p>Realiza las siguientes conversiones:</p>
+                <ol class="content-list">
+                    <li>¿Cuántos MB hay en 2 GB?</li>
+                    <li>¿Cuántos bytes hay en 1 MB?</li>
+                    <li>¿Cuántos GB son 4.096 MB?</li>
+                    <li>Si una canción ocupa 4 MB, ¿cuántas canciones caben en 1 GB?</li>
+                </ol>
+            </div>
+
+            <div class="activity">
+                <h3>Actividad 3: Tipos de Redes</h3>
+                <p>Clasifica los siguientes ejemplos según el tipo de red (PAN, LAN, MAN, WAN):</p>
+                <ol class="content-list">
+                    <li>Conexión Bluetooth entre tu móvil y auriculares</li>
+                    <li>Red Wi-Fi de tu casa</li>
+                    <li>Internet</li>
+                    <li>Red de cable de tu ciudad</li>
+                    <li>Red de ordenadores de una empresa en un edificio</li>
+                </ol>
+            </div>
+
+            <div class="activity">
+                <h3>Actividad 4: Dispositivos de Red</h3>
+                <p>Explica la diferencia entre:</p>
+                <ol class="content-list">
+                    <li>Hub y Switch</li>
+                    <li>Switch y Router</li>
+                    <li>Módem y Router</li>
+                </ol>
+            </div>
+        </section>
+
+        <section>
+            <h2>🎯 Practica con Cuestionarios</h2>
+            <div class="info-box success">
+                <h4>📝 Pon a prueba tus conocimientos</h4>
+                <p>Ahora que has completado el estudio del Bloque 1, es momento de practicar con preguntas de exámenes reales. El generador de cuestionarios te permitirá:</p>
+                <ul class="content-list">
+                    <li>✅ Responder preguntas sobre <strong>Hardware y Arquitectura</strong></li>
+                    <li>✅ Practicar sobre <strong>Redes e Internet</strong></li>
+                    <li>✅ Evaluar tus conocimientos de <strong>Software y Sistemas Operativos</strong></li>
+                    <li>✅ Ver respuestas correctas con explicaciones detalladas</li>
+                    <li>✅ Obtener estadísticas de tu rendimiento</li>
+                </ul>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="generador_cuestionarios.html" class="btn btn-primary" style="font-size: 1.2em; padding: 15px 30px;">🎲 Generar Cuestionario de Práctica</a>
+                </div>
+                <p style="margin-top: 15px; text-align: center; color: #666;">
+                    <small>💡 Recomendación: Selecciona los módulos "Hardware y Arquitectura", "Redes e Internet" o "Software y SO" para practicar este bloque</small>
+                </p>
+            </div>
+        </section>
+
+        <div style="text-align: center; margin: 3rem 0;">
+            <a href="index.html" class="btn">← Volver al Inicio</a>
+            <a href="bloque2.html" class="btn btn-primary">Siguiente: Bloque 2 →</a>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>REA by JaMC</p>
+            <p>Bloque 1: Equipos Informáticos y Redes</p>
+        </div>
+    </footer>
+</body>
+</html>

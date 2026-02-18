@@ -1,0 +1,243 @@
+ 
+ 
+Apellidos y Nombre   
+NIF/NIE   
+Calificación   
+ 
+PRUEBA DE ACCESO A CICLOS FORMATIVOS DE GRA DO SUPERIOR  
+MAYO 202 4 
+PARTE COMÚN  
+TICD  
+Duración: 45 MINUTOS  
+OBSERVACIONES: Test de 30 preguntas con una única respuesta .  
+Todas las preguntas tienen un valor de 0,33 puntos cada una a excepción de las dos 
+últimas que tienen un valor de 0,38 puntos cada una.   
+Cada pregunta  errónea  descontará 0,1  puntos . 
+ 
+− Mantenga su NIF/NIE en un lugar visible durante la realización de la prueba.  
+− Lea detenidamente el texto, cuestiones o enunciados.  
+− Cuide la presentación y la ortografía.  
+− Revise la prueba antes de entregarla.  
+− Los criterios de calificación aparecen escritos en cada pregunta.
+ 
+ 
+ 
+Apellidos y Nombre:   
+ 
+Pág. 2/5 
+ 
+1. En el contexto de equipos informáticos, ¿cuál de las siguientes opciones describe 
+mejor la función de la memoria RAM? (0,33 puntos)  
+a. Almacenar datos a largo plazo.  
+b. Proporcionar almacenamiento temporal para datos en uso.  
+c. Controlar el tráfico de red.  
+ 
+2. En el  ámbito de la seguridad informática, ¿qué significa LOPD? (0,33 puntos)  
+a. Ley de Ordenadores Personales y Dispositivos.  
+b. Ley Orgánica de Protección de Datos.  
+c. Lista Oficial de Programas Desconocidos.  
+ 
+3. ¿Cuál de las siguientes opciones es un protocolo de Inter net utilizado para la 
+transmisión de archivos? (0,33 puntos)  
+a. HTTP.  
+b. FTP.  
+c. SMTP.  
+ 
+4. ¿Cuál de las siguientes medidas se utiliza comúnmente para prevenir la pérdida 
+de datos en una organización? (0,33 puntos)  
+a. Enviar datos sin cifrar.  
+b. Implementar copias de seguridad regulares.  
+c. Compartir contraseñas en la red.  
+ 
+5. ¿Qué función tiene un cortafu egos (firewall) en una red?  (0,33 puntos)  
+a. Almacenar archivos de manera segura.  
+b. Proteger contra amenazas al controlar el tráfico de red.  
+c. Acelerar la velocidad de conexión a Internet.  
+ 
+6. ¿Cuál es uno de los desafíos éticos más discutidos relacionados con el uso de 
+datos en las redes sociales?  (0,33 puntos)  
+a. La limitada personalización de anuncios dirigidos.  
+b. La falta de interactividad en las plataformas.  
+c. La recopilación masiva de datos de usuarios para la segmentación y 
+orientación publicitaria.  
+ 
+7. ¿Qué es un ser vicio webmail? (0,33 puntos)  
+a. Un servicio de almacenamiento en la nube.  
+b. Un servicio de correo electrónico accesible a través de un navegador web.  
+c. Un servicio de chat en línea.  
+ 
+8. ¿Cuál de los siguientes protocolos se utiliza comúnmente para el correo 
+electrónico saliente? (0,33 puntos)  
+a. SMTP  
+b. POP3  
+c. IMAP  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Apellidos y Nombre:   
+ 
+Pág. 3/5 
+ 
+9. En el contexto de la informática, ¿FTP es el acrónimo de? (0,33 puntos)  
+a. File Transfer Protocol  
+b. Full Time Protection  
+c. Firewall Threat Prevention  
+ 
+10. ¿Cuál de los siguientes no es un sistema de archivos utilizado en sistemas 
+operativos? (0,33 puntos)  
+a. NTFS  
+b. JPEG  
+c. FAT32  
+ 
+11. En términos de seguridad informática, ¿qué es un software antivirus?  (0,33 
+puntos)  
+a. Un programa que elimina archivos i nnecesarios.  
+b. Un programa que protege contra software malicioso.  
+c. Un programa de copia de seguridad.  
+ 
+12. Si hablamos de redes informáticas, ¿qué dispositivo se utiliza para conectar 
+diferentes segmentos de una red y opera en la capa 2 del modelo OSI?  (0,33 
+puntos)  
+a. Router  
+b. Hub  
+c. Switch  
+ 
+13. ¿Cuál de las siguientes opciones no es un servicio básico de Internet?  (0,33 
+puntos)  
+a. Webmail  
+b. FTP  
+c. RAID  
+ 
+14. ¿Cuál de los siguientes no es un tipo de ataque en seguridad informática? (0,33 
+puntos)  
+a. Spoofing  
+b. Descarga de softwa re  
+c. Denegación de servicio (DDoS)  
+ 
+15. ¿Qué tecnología se utiliza comúnmente para la transmisión inalámbrica de datos 
+en redes locales? (0,33 puntos)  
+a. Ethernet  
+b. Bluetooth  
+c. USB 
+ 
+16. ¿Cuál de las siguientes opciones describe mejor el concepto de "cloud 
+computing"? (0,33 puntos)  
+a. Almacenamiento en discos duros locales.  
+b. Acceso a recursos informáticos a través de Internet.  
+c. Comunicación a través de cables de fibra óptica.  
+ 
+ 
+ 
+ 
+Apellidos y Nombre:   
+ 
+Pág. 4/5 
+ 
+17. Referido a la seguridad informática, ¿qué es un ataque de ingeniería social? (0,33 
+puntos)  
+a. Un ataque que utiliza fuerza bruta para descifrar contraseñas.  
+b. Manipular a las personas para obtener información confidencial.  
+c. Desarrollar software malicioso.  
+ 
+18. ¿Cuál de las siguientes afirmaciones describe mejor el término "P2P" (peer -to-
+peer)? (0,33 puntos)  
+a. Modelo de negocios en línea.  
+b. Compartir recursos directamente entre usuarios sin un servidor central.  
+c. Programa antivirus avanzado.  
+ 
+19.  ¿Cuál de la s siguientes no es una medida de seguridad física para proteger 
+equipos informáticos? (0,33 puntos)  
+a. Uso de contraseñas fuertes.  
+b. Instalación de cortafuegos.  
+c. Respaldo de datos.  
+ 
+20. ¿Qué función tiene un router en una red doméstica?  (0,33 puntos)  
+a. Conectar disp ositivos dentro de la red.  
+b. Almacenar datos de forma segura.  
+c. Proporcionar acceso a Internet y gestionar el tráfico.  
+ 
+21. ¿Cuál de las siguientes opciones describe mejor el concepto de "backup"? (0,33 
+puntos)  
+a. Restaurar un sistema operativo a su estado original.  
+b. Hacer copias de seguridad de datos para prevenir pérdidas.  
+c. Desinstalar software no deseado.  
+ 
+22. ¿Cuáles son las ventajas y desventajas de la configuración de red en topología 
+de anillo en comparación con l a topología de estrella?  (0,33 puntos)  
+a. Topología de anillo: mayor simplicidad, topología de estrella: mayor 
+redundancia.  
+b. Topología de anillo: mayor seguridad, topología de estrella: mayor 
+simplicidad.  
+c. Topología de anillo: mayor velocidad, topología de estr ella: mayor 
+latencia.  
+ 
+23. ¿Cuáles son las implicaciones éticas de la inteligencia artificial y cómo se pueden 
+abordar para garantizar un desarrollo responsable de esta tecnología?  (0,33 
+puntos)  
+a. Monitorización constante sin restricciones, sin medidas éticas ne cesarias.  
+b. Transparencia en algoritmos y regulaciones éticas para proteger la 
+privacidad y la equidad.  
+c. Desarrollo de inteligencia artificial sin restricciones éticas.  
+ 
+ 
+ 
+ 
+ 
+ 
+Apellidos y Nombre:   
+ 
+Pág. 5/5 
+ 
+24. ¿Cómo pueden las redes sociales influir en la percepción pública y la toma de 
+decisiones en asuntos políticos y sociales?  (0,33 puntos)  
+a. Las redes sociales pueden desempeñar un papel importante en la 
+formación de opiniones y la movilización ciudada na. 
+b. Las redes sociales no tienen influencia en la toma de decisiones políticas 
+y sociales.  
+c. Las redes sociales solo se utilizan para entretenimiento y no tienen 
+impacto en asuntos serios.  
+ 
+25. ¿En qué se diferencia la función de hibernación de la suspensión en un equipo?  
+(0,33 puntos)  
+a. La hibernación guarda el estado en la memoria RAM, mientras qu e la 
+suspensión lo guarda en el disco duro.  
+b. Ambas funciones son sinónimos y se utilizan indistintamente.  
+c. La hibernación guarda el estado del sistema en el disco duro, permitiendo 
+apagar completamente el equipo.  
+ 
+26. ¿Cuál es el efecto principal de la opción de  apagar en un sistema operativo?  (0,33 
+puntos)  
+a. Guardar el estado actual en la memoria RAM para reanudar rápidamente.  
+b. Detener todas las operaciones y apagar completamente el sistema.  
+c. Mantener el sistema en un estado de bajo consumo de energía sin cerrar 
+ninguna aplicación.  
+ 
+27. ¿Cuál es el papel principal de un switch en una red local?  (0,33 puntos)  
+a. Determinar la mejor ruta para los paquetes de datos.  
+b. Conectar diferentes redes para permitir la comunicación.  
+c. Dirigir el tráfico de red dentro de una misma red local.  
+ 
+28. ¿Cuál es una característica clave de las herramientas de colaboración en línea 
+en el contexto de aplicaciones web 2.0?  (0,33 puntos)  
+a. Operan exclusivamente de forma offline para garantizar la seguridad.  
+b. Permiten la participación activa de los usuarios y la creación de contenido 
+compartido en línea.  
+c. Limitan la accesibilidad a un único tipo de dispositivo.  
+ 
+29. ¿Qué característica destaca a NVMe (Non -Volatile Memory Express) en el 
+contexto de almacenamiento secundario en comparación con otras tec nologías?  
+(0,38 puntos)  
+a. Baja velocidad de transferencia de datos.  
+b. Mayor resistencia a impactos y vibraciones.  
+c. Interfaz de alta velocidad especialmente diseñada para SSD.  
+ 
+30. ¿Cómo se diferencia la tecnología de almacenamiento flash de otras tecnologías, 
+como los discos duros magnéticos?  (0,38 puntos)  
+a. Emplea campos magnéticos para almacenar datos.  
+b. Utiliza celdas de memoria sin partes móviles para acceder a los datos más 
+rápidamente.  
+c. Ofrece mayor capacidad de almacenamiento a un menor costo.  

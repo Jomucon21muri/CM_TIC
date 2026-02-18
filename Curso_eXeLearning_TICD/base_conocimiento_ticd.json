@@ -1,0 +1,3151 @@
+{
+  "modulos": {
+    "hardware": {
+      "nombre": "Hardware y Arquitectura",
+      "keywords": [
+        "KB",
+        "bytes",
+        "bits",
+        "memoria",
+        "RAM",
+        "ROM",
+        "caché",
+        "microprocesador",
+        "CPU",
+        "periférico",
+        "ratón",
+        "teclado",
+        "scanner",
+        "monitor",
+        "USB",
+        "flash",
+        "disco duro",
+        "DVD",
+        "CD",
+        "óptico",
+        "almacenamiento",
+        "PB",
+        "petabyte",
+        "TB",
+        "terabyte",
+        "GB",
+        "MB"
+      ]
+    },
+    "software": {
+      "nombre": "Software y Sistemas Operativos",
+      "keywords": [
+        "sistema operativo",
+        "driver",
+        "firmware",
+        "ROM",
+        "software",
+        "shareware",
+        "bugs",
+        "Plug&Play",
+        "hardware",
+        "lenguaje de programación",
+        "código",
+        "Unicode",
+        "ASCII",
+        "ANSI"
+      ]
+    },
+    "redes": {
+      "nombre": "Redes e Internet",
+      "keywords": [
+        "IP",
+        "dirección IP",
+        "red",
+        "LAN",
+        "WAN",
+        "router",
+        "protocolo",
+        "HTTP",
+        "HTTPS",
+        "URL",
+        "DNS",
+        "WWW",
+        "internet",
+        "navegador",
+        "Chrome",
+        "Safari",
+        "Explorer",
+        "Firefox"
+      ]
+    },
+    "seguridad": {
+      "nombre": "Seguridad Informática",
+      "keywords": [
+        "spam",
+        "virus",
+        "antivirus",
+        "phishing",
+        "scam",
+        "hoax",
+        "troyano",
+        "malware",
+        "firewall",
+        "criptografía",
+        "encriptación",
+        "contraseña",
+        "seguridad",
+        "antispam"
+      ]
+    },
+    "ofimatica": {
+      "nombre": "Ofimática",
+      "keywords": [
+        "procesador de texto",
+        "hoja de cálculo",
+        "celda",
+        "fórmula",
+        "presentación",
+        "diapositiva",
+        "transición",
+        "OpenOffice",
+        "LibreOffice",
+        "Writer",
+        "Calc",
+        "Impress",
+        "Base",
+        "texto",
+        "alineación",
+        "justificada",
+        "vista preliminar",
+        ".txt",
+        ".doc",
+        ".odt",
+        ".ods",
+        ".odp",
+        ".odb"
+      ]
+    },
+    "bases_datos": {
+      "nombre": "Bases de Datos",
+      "keywords": [
+        "base de datos",
+        "SGBD",
+        "tabla",
+        "registro",
+        "campo",
+        "clave primaria",
+        "SQL",
+        "relacional",
+        "consulta"
+      ]
+    },
+    "multimedia": {
+      "nombre": "Multimedia",
+      "keywords": [
+        "imagen",
+        "vídeo",
+        "audio",
+        "formato",
+        "JPG",
+        "GIF",
+        "PNG",
+        "TIFF",
+        "vectorial",
+        "rasterizado",
+        "RGB",
+        "píxel",
+        "resolución",
+        "compresión",
+        "AVI",
+        "MP3",
+        "MP4",
+        "OGG",
+        "MIDI",
+        "FLV",
+        "calidad",
+        "Adobe Flash"
+      ]
+    },
+    "web_social": {
+      "nombre": "Web 2.0 y Redes Sociales",
+      "keywords": [
+        "Web 2.0",
+        "red social",
+        "comunidad virtual",
+        "foro",
+        "wiki",
+        "blog",
+        "post",
+        "página web",
+        "dinámica",
+        "estática",
+        "interactiva",
+        "MUD",
+        "moderador",
+        "Google Docs"
+      ]
+    },
+    "licencias": {
+      "nombre": "Licencias y Derechos",
+      "keywords": [
+        "Creative Commons",
+        "licencia",
+        "copyright",
+        "autor",
+        "uso comercial",
+        "obra derivada",
+        "dominio público",
+        "copyleft"
+      ]
+    }
+  },
+  "preguntas": [
+    {
+      "id": "2016_1",
+      "año": "2016",
+      "numero_original": 1,
+      "pregunta": "Diez KB son:",
+      "opciones": {
+        "a": "12400 bites",
+        "b": "10240 bytes",
+        "c": "10,00 bytes",
+        "d": "1.000.000 bytes"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': 10240 bytes. En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2016_2",
+      "año": "2016",
+      "numero_original": 2,
+      "pregunta": "¿Cuál de los siguientes NO es un código informático de caracteres?",
+      "opciones": {
+        "a": "Unicode",
+        "b": "ASCII",
+        "c": "RAM",
+        "d": "ANSI"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': RAM. La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "software"
+      ]
+    },
+    {
+      "id": "2016_3",
+      "año": "2016",
+      "numero_original": 3,
+      "pregunta": "¿Cómo  se  llaman  los  programas  grabados  en  la  ROM  que  sirven  para  controlar dispositivos?",
+      "opciones": {
+        "a": "Bugs",
+        "b": "Programas del sistema",
+        "c": "Shareware",
+        "d": "Drivers"
+      },
+      "respuesta_correcta": "d",
+      "explicacion": "La respuesta correcta es 'd': Drivers. La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "software"
+      ]
+    },
+    {
+      "id": "2016_4",
+      "año": "2016",
+      "numero_original": 4,
+      "pregunta": "- Indica cuál de los siguientes es un periférico de salida",
+      "opciones": {
+        "a": "Ratón",
+        "b": "Teclado",
+        "c": "Scanner",
+        "d": "Monitor"
+      },
+      "respuesta_correcta": "d",
+      "explicacion": "La respuesta correcta es 'd': Monitor. Los periféricos de salida permiten extraer información del ordenador, como el monitor, impresora o altavoces.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2016_5",
+      "año": "2016",
+      "numero_original": 5,
+      "pregunta": "- Para aumentar su rapidez, el microprocesador accede a una memoria que almacena datos de uso frecuente y que se llama …",
+      "opciones": {
+        "a": "memoria USB",
+        "b": "memoria caché",
+        "c": "cookies",
+        "d": "memoria flash CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional  (DOCV 25-05-2016)."
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': memoria caché. La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2016_6",
+      "año": "2016",
+      "numero_original": 6,
+      "pregunta": "Cuando  el  sistema  operativo  de  un  ordenador  reconoce  un  periférico  sin  que  sea necesario realizar una instalación, es debido a la tecnología …",
+      "opciones": {
+        "a": "Plug&Play",
+        "b": "Play&Go",
+        "c": "Las opciones a y b son términos sinónimos",
+        "d": "No son ciertas ninguna de las anteriores"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': Plug&Play. Plug and Play es una tecnología que permite al sistema operativo reconocer y configurar automáticamente dispositivos hardware sin necesidad de instalación manual.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2016_7",
+      "año": "2016",
+      "numero_original": 7,
+      "pregunta": "El Sistema Operativo ...",
+      "opciones": {
+        "a": "es el primer hardware que se ejecuta al conectar el ordenador",
+        "b": "es un lenguaje de programación simplificado",
+        "c": "forma parte del software del equipo",
+        "d": "No es cierta ninguna de las anteriores opciones"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': forma parte del software del equipo. El sistema operativo es el software fundamental que gestiona los recursos del hardware y proporciona una interfaz para que otros programas y usuarios interactúen con el ordenador.",
+      "modulos": [
+        "software"
+      ]
+    },
+    {
+      "id": "2016_8",
+      "año": "2016",
+      "numero_original": 8,
+      "pregunta": "De los siguientes dispositivos, indica cual es de almacenamiento de tipo óptico:",
+      "opciones": {
+        "a": "memoria flash",
+        "b": "DVD",
+        "c": "disco duro externo",
+        "d": "Ninguna de las anteriores opciones es cierta"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': DVD. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "hardware",
+        "redes"
+      ]
+    },
+    {
+      "id": "2016_9",
+      "año": "2016",
+      "numero_original": 9,
+      "pregunta": "Indica, de las siguientes opciones, cuál es una dirección IP válida:",
+      "opciones": {
+        "a": "221.232.1154",
+        "b": "123.257.112.3",
+        "c": "145.250.5.7.23",
+        "d": "192.131.122.4"
+      },
+      "respuesta_correcta": "d",
+      "explicacion": "La respuesta correcta es 'd': 192.131.122.4. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2016_10",
+      "año": "2016",
+      "numero_original": 10,
+      "pregunta": "¿Qué es un spam?",
+      "opciones": {
+        "a": "Un fallo informático del Sistema Operativo de un ordenador",
+        "b": "Un correo que incluye un adjunto infectado por un virus",
+        "c": "Un correo publicitario enviado de forma indiscriminada y masiva",
+        "d": "Cualquiera de las anteriores opciones puede denominarse spam"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Un correo publicitario enviado de forma indiscriminada y masiva. El spam es correo electrónico no solicitado enviado de forma masiva, generalmente con fines publicitarios o maliciosos. El antispam ayuda a filtrar estos mensajes.",
+      "modulos": [
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2016_11",
+      "año": "2016",
+      "numero_original": 11,
+      "pregunta": "La publicación de una página Web imitando a una página Web existente con intención de engañar a posibles usuarios es un caso de ...",
+      "opciones": {
+        "a": "scam",
+        "b": "hoax",
+        "c": "firewall",
+        "d": "phishing"
+      },
+      "respuesta_correcta": "d",
+      "explicacion": "La respuesta correcta es 'd': phishing. El phishing es una técnica de fraude donde se suplanta la identidad de una entidad legítima para obtener información confidencial como contraseñas o datos bancarios.",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2016_12",
+      "año": "2016",
+      "numero_original": 12,
+      "pregunta": "Sobre la criptografía ...",
+      "opciones": {
+        "a": "utiliza un algoritmo de encriptación, que es una fórmula matemática",
+        "b": "identifica al emisor del mensaje de forma inequívoca",
+        "c": "las  personas  autorizadas  a  leer  un  documento  encriptado  necesitan  una  clave  para desencriptarlo",
+        "d": "todas las anteriores son ciertas CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional  (DOCV 25-05-2016)."
+      },
+      "respuesta_correcta": "d",
+      "explicacion": "La respuesta correcta es 'd': todas las anteriores son ciertas CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional  (DOCV 25-05-2016).. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2016_13",
+      "año": "2016",
+      "numero_original": 13,
+      "pregunta": "Si en una obra encontramos el símbolo de esta licencia Creative Commons  significa que:",
+      "opciones": {
+        "a": "Se permite modificar la obra, que es de un único autor. Es gratuíta y tiene partes iguales a otras obras.",
+        "b": "No se permite un uso comercial de las copias, reconociendo la autoría y no se permite crear obras derivadas.",
+        "c": "Se permite el uso comercial de la obra a igual precio del original, reconociendo la autoría.",
+        "d": "La obra es de un único autor. No se permite un uso comercial de las copias y debe compartirse igual."
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': No se permite un uso comercial de las copias, reconociendo la autoría y no se permite crear obras derivadas.. En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "licencias"
+      ]
+    },
+    {
+      "id": "2016_14",
+      "año": "2016",
+      "numero_original": 14,
+      "pregunta": "La extensión “txt” pertenece a ...",
+      "opciones": {
+        "a": "un archivo de texto creado con OpenOffice",
+        "b": "un archivo de texto creado con Gimp",
+        "c": "un archivo de texto creado con el Bloc de Notas",
+        "d": "Ninguna de las anteriores es cierta"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': un archivo de texto creado con el Bloc de Notas",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2016_15",
+      "año": "2016",
+      "numero_original": 15,
+      "pregunta": "La vista preliminar de un archivo de texto nos permite ...",
+      "opciones": {
+        "a": "ver el archivo antes de imprimirlo y hacer las modificaciones pertinentes desde esta vista",
+        "b": "exportarlo a pdf",
+        "c": "ver el archivo antes de imprimirlo, pero no se pueden hacer las modificaciones pertinentes desde esta vista",
+        "d": "Ninguna de las anteriores es cierta"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': ver el archivo antes de imprimirlo y hacer las modificaciones pertinentes desde esta vista",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2016_16",
+      "año": "2016",
+      "numero_original": 16,
+      "pregunta": "B5:H8, en una hoja de cálculo, indica …",
+      "opciones": {
+        "a": "la localización exacta de una celda",
+        "b": "un rango de celdas",
+        "c": "una fórmula",
+        "d": "cualquiera de las opciones, dependiendo del menú que se esté utilizando"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': un rango de celdas. En una hoja de cálculo, una celda es la unidad básica de almacenamiento, identificada por columna y fila (ej: A1, B5). Un rango es un conjunto de celdas (ej: B5:H8).",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2016_17",
+      "año": "2016",
+      "numero_original": 17,
+      "pregunta": "¿Cuál de estas expresiones es una fórmula en una hoja de cálculo?",
+      "opciones": {
+        "a": "31*5",
+        "b": "=2^2",
+        "c": "31+5",
+        "d": "= B5:D7"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': =2^2. En una hoja de cálculo, una celda es la unidad básica de almacenamiento, identificada por columna y fila (ej: A1, B5). Un rango es un conjunto de celdas (ej: B5:H8).",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2016_18",
+      "año": "2016",
+      "numero_original": 18,
+      "pregunta": "Al paso de una diapositiva a otra en una presentación se le denomina …",
+      "opciones": {
+        "a": "transición",
+        "b": "evolución",
+        "c": "efecto",
+        "d": "pase de diapositivas CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional  (DOCV 25-05-2016)."
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': transición. En presentaciones, la transición es el efecto visual que se produce al pasar de una diapositiva a otra. Ayuda a dar fluidez y dinamismo a la presentación.",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2016_19",
+      "año": "2016",
+      "numero_original": 19,
+      "pregunta": "Un SGBD …",
+      "opciones": {
+        "a": "crea las estructuras de una base de datos",
+        "b": "gestiona los datos de una base de datos",
+        "c": "ambas son ciertas",
+        "d": "ambas son falsas"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': ambas son ciertas. En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "bases_datos"
+      ]
+    },
+    {
+      "id": "2016_20",
+      "año": "2016",
+      "numero_original": 20,
+      "pregunta": "La clave primaria en una tabla de una base de datos relacional …",
+      "opciones": {
+        "a": "identifica de forma inequívoca a un campo de la tabla",
+        "b": "es la contraseña sin la cual no puede accederse a una tabla",
+        "c": "ambas son ciertas",
+        "d": "ambas son falsas"
+      },
+      "respuesta_correcta": "d",
+      "explicacion": "La respuesta correcta es 'd': ambas son falsas. En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "ofimatica",
+        "bases_datos"
+      ]
+    },
+    {
+      "id": "2016_21",
+      "año": "2016",
+      "numero_original": 21,
+      "pregunta": "Los archivos de imágenes vectoriales ...",
+      "opciones": {
+        "a": "al ampliar la imagen, ésta pierde calidad",
+        "b": "almacenan el color de cada punto en la matriz",
+        "c": "tienen poco peso",
+        "d": "todas las respuestas son ciertas"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': tienen poco peso. Las imágenes vectoriales se definen mediante fórmulas matemáticas y pueden escalarse sin perder calidad, siendo ideales para logos y diseños. Ocupan menos espacio que las imágenes rasterizadas.",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2016_22",
+      "año": "2016",
+      "numero_original": 22,
+      "pregunta": "De los siguientes formatos, ¿cuál es el que guarda más calidad de imagen?:",
+      "opciones": {
+        "a": "TIFF",
+        "b": "JPG",
+        "c": "GIF",
+        "d": "Las respuestas b y c son ciertas"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': TIFF. Los formatos de imagen tienen diferentes características: JPG (alta compresión, fotos), PNG (transparencias, gráficos), GIF (animaciones, pocos colores), TIFF (sin compresión, alta calidad).",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2016_23",
+      "año": "2016",
+      "numero_original": 23,
+      "pregunta": "La reducción del tamaño de un archivo de vídeo manteniendo la información necesaria para poder abrirlo (o trabajar con él) se llama …",
+      "opciones": {
+        "a": "Compresión",
+        "b": "Conversión",
+        "c": "Resolución",
+        "d": "Rasterización"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': Compresión. La compresión reduce el tamaño de archivos multimedia eliminando o simplificando información, pudiendo ser con pérdida (menor calidad) o sin pérdida (calidad original).",
+      "modulos": [
+        "redes",
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2016_24",
+      "año": "2016",
+      "numero_original": 24,
+      "pregunta": "De las siguientes características, ¿cuál NO se corresponde con el formato AVI?:",
+      "opciones": {
+        "a": "El archivo tiene calidad excelente",
+        "b": "El archivo tiene poco peso",
+        "c": "Puede ser visualizado por la mayoría de reproductores",
+        "d": "Su extensión de archivo es “.avi”"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': El archivo tiene poco peso",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2016_25",
+      "año": "2016",
+      "numero_original": 25,
+      "pregunta": "De los siguientes programas, ¿cuál NO es un navegador?",
+      "opciones": {
+        "a": "Google Chrome",
+        "b": "Safari",
+        "c": "Internet Explorer",
+        "d": "Google CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional  (DOCV 25-05-2016)."
+      },
+      "respuesta_correcta": "d",
+      "explicacion": "La respuesta correcta es 'd': Google CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional  (DOCV 25-05-2016).. La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "redes"
+      ]
+    },
+    {
+      "id": "2016_26",
+      "año": "2016",
+      "numero_original": 26,
+      "pregunta": "La dirección única de un documento en la Web se denomina:",
+      "opciones": {
+        "a": "URL",
+        "b": "HTTP",
+        "c": "WWW",
+        "d": "DNS"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': URL. URL (Uniform Resource Locator) es la dirección completa de un recurso en Internet, que especifica su ubicación y el protocolo para acceder a él (ej: https://www.ejemplo.com/pagina.html).",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2016_27",
+      "año": "2016",
+      "numero_original": 27,
+      "pregunta": "Indica, de los siguientes supuestos, cuál NO representa una comunidad virtual:",
+      "opciones": {
+        "a": "los ciudadanos incluídos en el listín de teléfonos municipal",
+        "b": "los jugadores participantes de un MUD",
+        "c": "los científicos que editan una wiki sobre astronomía",
+        "d": "Todos los anteriores supuestos describen comunidades virtuales"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': los ciudadanos incluídos en el listín de teléfonos municipal. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2016_28",
+      "año": "2016",
+      "numero_original": 28,
+      "pregunta": "En una red social …",
+      "opciones": {
+        "a": "el  moderador  ha  de  aprobar  los  perfiles  antes  de  su  publicación",
+        "b": "el  usuario  envía  solicitudes  a  otros  miembros  de  la  red  para  establecer  conexión",
+        "c": "está  permitido  intercambiar  mensajes  pero  no  fotografías,  música  o  vídeos",
+        "d": "Todas las anteriores son ciertas"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': el  usuario  envía  solicitudes  a  otros  miembros  de  la  red  para  establecer  conexión. En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "redes",
+        "web_social"
+      ]
+    },
+    {
+      "id": "2016_29",
+      "año": "2016",
+      "numero_original": 29,
+      "pregunta": "En el lenguaje de las redes sociales, post significa …",
+      "opciones": {
+        "a": "un correo electrónico",
+        "b": "una entrada, mensaje o publicación",
+        "c": "una entrada retardada, es decir, que se publica posteriormente a la desconexión",
+        "d": "Ninguna de las anteriores"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': una entrada, mensaje o publicación. Un blog es un sitio web con publicaciones (posts) ordenadas cronológicamente, donde el autor comparte opiniones, información o experiencias de forma regular.",
+      "modulos": [
+        "redes",
+        "web_social"
+      ]
+    },
+    {
+      "id": "2016_30",
+      "año": "2016",
+      "numero_original": 30,
+      "pregunta": "¿Cuál de las siguientes no es una herramienta de la Web 2.0?",
+      "opciones": {
+        "a": "LibreOffice Calc",
+        "b": "Google Docs",
+        "c": "Mindminster",
+        "d": "Wikis CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta Parte o Apartado se adaptará a lo establecido en la RESOLUCIÓN de 20 de mayo de 2016, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional  (DOCV 25-05-2016)."
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': LibreOffice Calc. La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "web_social"
+      ]
+    },
+    {
+      "id": "2017_1",
+      "año": "2017",
+      "numero_original": 1,
+      "pregunta": "Tenemos  archivos  de  música  mp3,  que  ocupan  cada  uno  8000Kb,  ¿cuántos  caben aproximadamente en un lápiz de memoria de 16MB?",
+      "opciones": {
+        "a": "16",
+        "b": "2",
+        "c": "20"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': 16. En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2017_2",
+      "año": "2017",
+      "numero_original": 2,
+      "pregunta": "¿En qué se mide la resolución del monitor?",
+      "opciones": {
+        "a": "Puntos por pulgada",
+        "b": "Hercios",
+        "c": "Ninguno de los anteriores"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Ninguno de los anteriores",
+      "modulos": [
+        "hardware",
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2017_3",
+      "año": "2017",
+      "numero_original": 3,
+      "pregunta": "Indica cuál de las siguientes extensiones corresponde a un fichero de imagen.",
+      "opciones": {
+        "a": ".avi",
+        "b": ".mpg",
+        "c": ".png"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': .png. Los formatos de imagen tienen diferentes características: JPG (alta compresión, fotos), PNG (transparencias, gráficos), GIF (animaciones, pocos colores), TIFF (sin compresión, alta calidad).",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2017_4",
+      "año": "2017",
+      "numero_original": 4,
+      "pregunta": "Queremos comprarnos un lápiz usb. ¿Qué versión USB es más rápida?",
+      "opciones": {
+        "a": "2.0",
+        "b": "3.0",
+        "c": "5.0"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': 3.0. Las memorias USB o flash utilizan memoria de estado sólido para almacenar datos de forma portable, sin partes móviles, siendo resistentes y compactas.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2017_5",
+      "año": "2017",
+      "numero_original": 5,
+      "pregunta": "Indica cuál de las siguientes afirmaciones es falsa:",
+      "opciones": {
+        "a": "Los inmigrantes digitales, tienen que aprender a usar las nuevas herramientas que sustituyen a las analógicas que conocían.",
+        "b": "Se entiende como brecha digital a la distancia existente entre la salida al mercado de los distintos dispositivos electrónicos.",
+        "c": "Un ejemplo de IoT (Internet of Things) podría ser el propio hogar, donde electrodomésticos, servicios o pequeños gadgets ya estarían conectados a Internet."
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': Se entiende como brecha digital a la distancia existente entre la salida al mercado de los distintos dispositivos electrónicos.",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_6",
+      "año": "2017",
+      "numero_original": 6,
+      "pregunta": "¿Qué son los drivers de un dispositivo? Selecciona la respuesta correcta:",
+      "opciones": {
+        "a": "Los manuales",
+        "b": "Programa que le indica al sistema operativo cómo gestionar el dispositivo",
+        "c": "Los elementos del dispositivo CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV 13-02-2017)."
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': Programa que le indica al sistema operativo cómo gestionar el dispositivo. La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "software"
+      ]
+    },
+    {
+      "id": "2017_7",
+      "año": "2017",
+      "numero_original": 7,
+      "pregunta": "El cortafuegos permite:",
+      "opciones": {
+        "a": "Prevenir el correo basura",
+        "b": "Detectar y eliminar el software dañino",
+        "c": "Bloquear el acceso a determinadas páginas de Internet"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Bloquear el acceso a determinadas páginas de Internet. Un firewall o cortafuegos es un sistema de seguridad que controla el tráfico de red entrante y saliente, bloqueando accesos no autorizados y protegiendo contra amenazas.",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_8",
+      "año": "2017",
+      "numero_original": 8,
+      "pregunta": "¿Cuál de los siguientes NO es un buen hábito de uso para proteger nuestros equipos?",
+      "opciones": {
+        "a": "Mantener el sistema operativo actualizado",
+        "b": "Utilizar un antivirus que analice lo que descargas",
+        "c": "Abrir cualquier tipo de adjunto"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Abrir cualquier tipo de adjunto. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2017_9",
+      "año": "2017",
+      "numero_original": 9,
+      "pregunta": "La autenticación es:",
+      "opciones": {
+        "a": "El proceso para el establecimiento o confirmación de algo como real",
+        "b": "El proceso por el que un texto es transformado en otro",
+        "c": "Un tipo de malware"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': El proceso para el establecimiento o confirmación de algo como real",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_10",
+      "año": "2017",
+      "numero_original": 10,
+      "pregunta": "La licencia es:",
+      "opciones": {
+        "a": "Ninguna es correcta",
+        "b": "Reconocimiento-Compartir igual",
+        "c": "Reconocimiento-No comercial-Compartir Igual"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Reconocimiento-No comercial-Compartir Igual",
+      "modulos": [
+        "licencias"
+      ]
+    },
+    {
+      "id": "2017_11",
+      "año": "2017",
+      "numero_original": 11,
+      "pregunta": "¿Cuál de las siguientes NO es una función del sistema operativo?",
+      "opciones": {
+        "a": "Todas las opciones son funciones de un sistema operativo",
+        "b": "Proporcionar una interfaz de usuario",
+        "c": "Gestionar los recursos hardware"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': Todas las opciones son funciones de un sistema operativo. El sistema operativo es el software fundamental que gestiona los recursos del hardware y proporciona una interfaz para que otros programas y usuarios interactúen con el ordenador.",
+      "modulos": [
+        "software"
+      ]
+    },
+    {
+      "id": "2017_12",
+      "año": "2017",
+      "numero_original": 12,
+      "pregunta": "¿Qué acción no podemos realizar sobre una carpeta desde el explorador de archivos?",
+      "opciones": {
+        "a": "Comprimirla",
+        "b": "Borrarla",
+        "c": "Se pueden hacer todas las anteriores"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Se pueden hacer todas las anteriores",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_13",
+      "año": "2017",
+      "numero_original": 13,
+      "pregunta": "¿Cuál de los siguientes no es un sistema de archivos?",
+      "opciones": {
+        "a": "FEXT",
+        "b": "FAT32",
+        "c": "NTFS"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': FEXT",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_14",
+      "año": "2017",
+      "numero_original": 14,
+      "pregunta": "Cuando en un procesador de textos queremos que la línea de texto ocupe todo el ancho de página debemos elegir la alineación de texto…",
+      "opciones": {
+        "a": "Centrada",
+        "b": "Justificada",
+        "c": "Alineada CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV 13-02-2017)."
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': Justificada. La alineación justificada distribuye el texto de forma uniforme entre los márgenes izquierdo y derecho, creando una apariencia ordenada y profesional con los bordes rectos.",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2017_15",
+      "año": "2017",
+      "numero_original": 15,
+      "pregunta": "En una hoja de cálculo: ¿Qué se teclearía en la celda A4 para introducir la fórmula A3+2?",
+      "opciones": {
+        "a": "A3+2",
+        "b": "Suma(A3;2)",
+        "c": "=A3+2"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': =A3+2. En una hoja de cálculo, una celda es la unidad básica de almacenamiento, identificada por columna y fila (ej: A1, B5). Un rango es un conjunto de celdas (ej: B5:H8).",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2017_16",
+      "año": "2017",
+      "numero_original": 16,
+      "pregunta": "Los programas PowerPoint, LibreOffice Impress y OpenOffice Impress son:",
+      "opciones": {
+        "a": "Aplicaciones para procesar textos",
+        "b": "Aplicaciones de bases de datos",
+        "c": "Aplicaciones para crear presentaciones"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Aplicaciones para crear presentaciones. La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2017_17",
+      "año": "2017",
+      "numero_original": 17,
+      "pregunta": "De los siguientes campos de una tabla en una base de datos, indica cuál podría ser una clave (o llave) primaria (o principal):",
+      "opciones": {
+        "a": "Nombre y primer apellido de un usuario",
+        "b": "DNI",
+        "c": "Cualquiera de los anteriores"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': DNI. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes",
+        "ofimatica",
+        "bases_datos"
+      ]
+    },
+    {
+      "id": "2017_18",
+      "año": "2017",
+      "numero_original": 18,
+      "pregunta": "De los siguientes formatos, ¿cuál es de código abierto (Software libre)?",
+      "opciones": {
+        "a": "MP3",
+        "b": "WAV",
+        "c": "OGG"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': OGG. Los formatos de audio varían: MP3 (comprimido con pérdida), OGG (alternativa libre), MIDI (almacena instrucciones musicales, no audio real).",
+      "modulos": [
+        "software",
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2017_19",
+      "año": "2017",
+      "numero_original": 19,
+      "pregunta": "¿Cuál de las siguientes topologías de red es más robusta a fallos?",
+      "opciones": {
+        "a": "Estrella",
+        "b": "Mallada",
+        "c": "Anillo"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': Mallada",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2017_20",
+      "año": "2017",
+      "numero_original": 20,
+      "pregunta": "Indica qué dirección IP es correcta:",
+      "opciones": {
+        "a": "192.168.1.3",
+        "b": "192.163.2.3.2",
+        "c": "256.2.13.2"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': 192.168.1.3. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2017_21",
+      "año": "2017",
+      "numero_original": 21,
+      "pregunta": "La puerta de enlace es:",
+      "opciones": {
+        "a": "Es una IP que suele ser proporcionada por el ISP",
+        "b": "IP que es visible desde Internet",
+        "c": "Es la dirección IP por la que la red local sale al exterior, ya sea otra red o Internet"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Es la dirección IP por la que la red local sale al exterior, ya sea otra red o Internet. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_22",
+      "año": "2017",
+      "numero_original": 22,
+      "pregunta": "De los siguientes programas, ¿cuál NO es un buscador?",
+      "opciones": {
+        "a": "Safari",
+        "b": "Yahoo",
+        "c": "Ask"
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': Safari. La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2017_23",
+      "año": "2017",
+      "numero_original": 23,
+      "pregunta": "Respecto a las comunidades virtuales, ¿cuál de las siguientes afirmaciones NO es cierta?",
+      "opciones": {
+        "a": "Un chat es una herramienta que permite a un grupo de individuos conversar mediante mensajes de texto y en tiempo real.",
+        "b": "En  una  comunidad  virtual se  dialoga,  se  discute,  se  opina,  mientras  la  identidad  real del participante puede permanecer oculta.",
+        "c": "En las comunidades virtuales no existen roles, todos los participantes pueden opinar, borrar o editar las intervenciones de los demás. CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV 13-02-2017)."
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': En las comunidades virtuales no existen roles, todos los participantes pueden opinar, borrar o editar las intervenciones de los demás. CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV 13-02-2017).. Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_24",
+      "año": "2017",
+      "numero_original": 24,
+      "pregunta": "Sistemas peer to peer.",
+      "opciones": {
+        "a": "Son sistemas basados en una arquitectura cliente-servidor.",
+        "b": "Son sistemas basados en una arquitectura de igual a igual.",
+        "c": "Suelen utilizarse para la implementación de las Wikis."
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': Son sistemas basados en una arquitectura de igual a igual.",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_25",
+      "año": "2017",
+      "numero_original": 25,
+      "pregunta": "Servicios básicos de Internet.",
+      "opciones": {
+        "a": "Un ISP (Internet Service Provider) es una aplicación web que permite el acceso a los diferentes servicios presentes en la WWW.",
+        "b": "En la web 2.0 los usuarios son pasivos y no suelen ser participar en los contenidos de la misma.",
+        "c": "La WWW se basa en el lenguaje HTML y el protocolo HTTP."
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': La WWW se basa en el lenguaje HTML y el protocolo HTTP.. HTTP (Hypertext Transfer Protocol) es el protocolo de comunicación que permite la transferencia de información en la World Wide Web, base del funcionamiento de Internet.",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2017_26",
+      "año": "2017",
+      "numero_original": 26,
+      "pregunta": "Indica cuál de las siguientes aplicaciones NO permite el trabajo colaborativo en la nube:",
+      "opciones": {
+        "a": "Google Docs",
+        "b": "Office Web Apps (OneDrive)",
+        "c": "Microsoft Office"
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': Microsoft Office",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2017_27",
+      "año": "2017",
+      "numero_original": 27,
+      "pregunta": "Tecnología web 2.0.",
+      "opciones": {
+        "a": "Para trabajar con la web 2.0 es necesario tener instalado un software cliente en el ordenador.",
+        "b": "La plataforma de trabajo es la propia página web.",
+        "c": "Ambas son incorrectas"
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': La plataforma de trabajo es la propia página web.. La Web 2.0 se caracteriza por ser interactiva y colaborativa, donde los usuarios no solo consumen contenido sino que también lo crean y comparten.",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2017_28",
+      "año": "2017",
+      "numero_original": 28,
+      "pregunta": "Indica cuál de las siguientes afirmaciones NO es una ventaja de la web 2.0:",
+      "opciones": {
+        "a": "La Web 2.0 ha originado la democratización de los medios haciendo que cualquiera tenga las mismas posibilidades de publicar noticias que un periódico tradicional.",
+        "b": "La Web 2.0 ha reducido considerablemente los costes de difusión de la información, de manera que podemos tener gratuitamente nuestra propia emisora de radio online, nuestro periódico online, nuestro canal de vídeos, etc.",
+        "c": "La Web 2.0 dificulta la comercialización de productos difíciles de encontrar en los comercios tradicionales por ser más específicos o menos populares."
+      },
+      "respuesta_correcta": "c",
+      "explicacion": "La respuesta correcta es 'c': La Web 2.0 dificulta la comercialización de productos difíciles de encontrar en los comercios tradicionales por ser más específicos o menos populares.. La Web 2.0 se caracteriza por ser interactiva y colaborativa, donde los usuarios no solo consumen contenido sino que también lo crean y comparten.",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2017_29",
+      "año": "2017",
+      "numero_original": 29,
+      "pregunta": "Páginas web estáticas. Encuentra la respuesta incorrecta:",
+      "opciones": {
+        "a": "La gran ventaja de los sitios Web estáticos reside en lo sencillo que resulta el uso de sus foros y consultas online.",
+        "b": "Son básicamente informativas y están enfocadas principalmente a mostrar una información permanente.",
+        "c": "La principal ventaja de este tipo de páginas es lo económico que resulta crearlas."
+      },
+      "respuesta_correcta": "a",
+      "explicacion": "La respuesta correcta es 'a': La gran ventaja de los sitios Web estáticos reside en lo sencillo que resulta el uso de sus foros y consultas online.. Un foro es una plataforma de discusión online donde los usuarios publican mensajes organizados por temas, permitiendo conversaciones asincrónicas en comunidad.",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2017_30",
+      "año": "2017",
+      "numero_original": 30,
+      "pregunta": "Páginas web dinámicas. Encuentra la respuesta incorrecta:",
+      "opciones": {
+        "a": "Permiten crear aplicaciones dentro de la propia Web, otorgando una mayor interactividad con el navegante.",
+        "b": "Una de sus grandes desventajas es que no permiten el uso de lenguajes como PHP.",
+        "c": "Permiten crear formularios o consultar catálogos a los usuarios con una respuesta inmediata. CRITERIOS DE EVALUACIÓN Y CALIFICACIÓN La calificación de esta parte o apartado se adaptará a lo establecido en la RESOLUCIÓN de 8 de febrero de 2017, de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV 13-02-2017)."
+      },
+      "respuesta_correcta": "b",
+      "explicacion": "La respuesta correcta es 'b': Una de sus grandes desventajas es que no permiten el uso de lenguajes como PHP.",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2018_1",
+      "año": "2018",
+      "numero_original": 1,
+      "pregunta": "Los antivirus son:",
+      "opciones": {
+        "a": "programas diseñados para detectar y eliminar el software dañino",
+        "b": "programas diseñados solo para detectar el software dañino",
+        "c": "programas diseñados solo para avisar que tienes un software dañino",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Los virus son programas maliciosos que se replican e infectan sistemas. Los antivirus son software diseñado para detectar, prevenir y eliminar estos programas dañinos.",
+      "modulos": [
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2018_2",
+      "año": "2018",
+      "numero_original": 2,
+      "pregunta": "El antispam es:",
+      "opciones": {
+        "a": "un método de detección de estafas en internet",
+        "b": "un método para prevenir el correo basura",
+        "c": "un método que permite comprar por internet",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . El spam es correo electrónico no solicitado enviado de forma masiva, generalmente con fines publicitarios o maliciosos. El antispam ayuda a filtrar estos mensajes.",
+      "modulos": [
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2018_3",
+      "año": "2018",
+      "numero_original": 3,
+      "pregunta": "El objetivo del SCAM es:",
+      "opciones": {
+        "a": "avisar a la persona que recibe el correo  electrónico de que le pueden estafar",
+        "b": "poner en alerta a la persona que recibe el correo  electrónico de que le pueden estafar",
+        "c": "estafar a la persona que recibe el correo electrónico",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Un scam es una estafa online diseñada para engañar a las víctimas y obtener dinero o información personal mediante engaños o promesas falsas.",
+      "modulos": [
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2018_4",
+      "año": "2018",
+      "numero_original": 4,
+      "pregunta": "Un troyano:",
+      "opciones": {
+        "a": "permite robar contraseñas",
+        "b": "es un código malicioso que se encuentra en un programa sano",
+        "c": "permite realizar operaciones maliciosas",
+        "d": "todas las anteriores son correctas"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Un troyano es un tipo de malware que se presenta como software legítimo pero que realiza acciones maliciosas en segundo plano, como robar información o abrir puertas traseras.",
+      "modulos": [
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2018_5",
+      "año": "2018",
+      "numero_original": 5,
+      "pregunta": "Un sistema operativo es:",
+      "opciones": {
+        "a": "imprescindible para poder utilizar un ordenador",
+        "b": "no es imprescindible para poder utilizar un ordenador",
+        "c": "no tiene relación con la informática",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . El sistema operativo es el software fundamental que gestiona los recursos del hardware y proporciona una interfaz para que otros programas y usuarios interactúen con el ordenador.",
+      "modulos": [
+        "software"
+      ]
+    },
+    {
+      "id": "2018_6",
+      "año": "2018",
+      "numero_original": 6,
+      "pregunta": "El modo RGB:",
+      "opciones": {
+        "a": "cada canal se corresponde con un color primario, rojo, verde y azul",
+        "b": "cada canal se corresponde con un color primario, negro, blanco y azul",
+        "c": "cada canal se corresponde con un color primario, amarillo, blanco y azul",
+        "d": "ninguna de las anteriores es correcta CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 1/5"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2018_7",
+      "año": "2018",
+      "numero_original": 7,
+      "pregunta": "El formato de imagen GIF:",
+      "opciones": {
+        "a": "es recomendable para fotografías de cierta calidad y originales",
+        "b": "no es recomendable para fotografías de cierta calidad ni originales",
+        "c": "todas las anteriores son correctas",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Los formatos de imagen tienen diferentes características: JPG (alta compresión, fotos), PNG (transparencias, gráficos), GIF (animaciones, pocos colores), TIFF (sin compresión, alta calidad).",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2018_8",
+      "año": "2018",
+      "numero_original": 8,
+      "pregunta": "El formato OGG:",
+      "opciones": {
+        "a": "surgió como alternativa libre y de código cerrado",
+        "b": "surgió como alternativa no libre y de código abierto",
+        "c": "surgió como alternativa libre y de código abierto",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Los formatos de audio varían: MP3 (comprimido con pérdida), OGG (alternativa libre), MIDI (almacena instrucciones musicales, no audio real).",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2018_9",
+      "año": "2018",
+      "numero_original": 9,
+      "pregunta": "El formato MIDI:",
+      "opciones": {
+        "a": "resulta de un proceso de digitalización de un sonido analógico",
+        "b": "es un archivo de extensión *.md",
+        "c": "son archivos de mucho peso",
+        "d": "no guardan el sonido sino la información o partitura necesaria para que el ordenador la componga y reproduzca"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Los formatos de audio varían: MP3 (comprimido con pérdida), OGG (alternativa libre), MIDI (almacena instrucciones musicales, no audio real).",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2018_10",
+      "año": "2018",
+      "numero_original": 10,
+      "pregunta": "El formato FLV:",
+      "opciones": {
+        "a": "es un formato que utiliza el reproductor Adobe Flash",
+        "b": "es un formato que utiliza el reproductor Windows",
+        "c": "es un formato que utiliza el reproductor Linux",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2018_11",
+      "año": "2018",
+      "numero_original": 11,
+      "pregunta": "Un foro de discusión:",
+      "opciones": {
+        "a": "permite  a  los  usuarios  leer  mensajes  incluidos  por  el  resto  de  miembros  de  la comunidad, elegir el tema de interés y  dar una respuesta a los mensajes",
+        "b": "permite  a  los  usuarios  leer  mensajes  incluidos  por  el  resto  de  miembros  de  la comunidad, dar una respuesta a los mensajes, pero no permite elegir tema de interés",
+        "c": "permite  a  los  usuarios  leer  mensajes  incluidos  por  el  resto  de  miembros  de  la comunidad, elegir el tema de interés, pero no dar una respuesta a los mensajes",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Un foro es una plataforma de discusión online donde los usuarios publican mensajes organizados por temas, permitiendo conversaciones asincrónicas en comunidad.",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2018_12",
+      "año": "2018",
+      "numero_original": 12,
+      "pregunta": "En la Web 2.0:",
+      "opciones": {
+        "a": "las aplicaciones son estáticas",
+        "b": "las aplicaciones son permanentes",
+        "c": "las aplicaciones son más interactivas",
+        "d": "ninguna de las anteriores es correcta CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 2/5"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La Web 2.0 se caracteriza por ser interactiva y colaborativa, donde los usuarios no solo consumen contenido sino que también lo crean y comparten.",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2018_13",
+      "año": "2018",
+      "numero_original": 13,
+      "pregunta": "Una Página web dinámica:",
+      "opciones": {
+        "a": "permite crear aplicaciones dentro de la web",
+        "b": "permite interactuar",
+        "c": "las encuestas o votaciones son ejemplos",
+        "d": "todas las anteriores son correctas"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2018_14",
+      "año": "2018",
+      "numero_original": 14,
+      "pregunta": "Indica cuál de los siguientes componentes es un periférico de entrada:",
+      "opciones": {
+        "a": "monitor",
+        "b": "altavoz",
+        "c": "escáner",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Los periféricos de entrada permiten introducir información al ordenador, como el teclado, ratón, escáner o micrófono.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2018_15",
+      "año": "2018",
+      "numero_original": 15,
+      "pregunta": "¿Qué significan las siglas SGBD?",
+      "opciones": {
+        "a": "Servicio Gestor de Base de Datos",
+        "b": "Sistema Gestor de Base de Datos",
+        "c": "Subsistema General de Base de Datos",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "bases_datos"
+      ]
+    },
+    {
+      "id": "2018_16",
+      "año": "2018",
+      "numero_original": 16,
+      "pregunta": "Es  una  Organización  sin  ánimo  de  lucro,  cuya  finalidad  es  que  autores  y creadores puedan compartir voluntariamente su trabajo con herramientas libres:",
+      "opciones": {
+        "a": "Creative Commons",
+        "b": "Creative",
+        "c": "Commons",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "licencias"
+      ]
+    },
+    {
+      "id": "2018_17",
+      "año": "2018",
+      "numero_original": 17,
+      "pregunta": "En OpenOffice Cal una celda es:",
+      "opciones": {
+        "a": "La unidad básica de información",
+        "b": "una diapositiva",
+        "c": "una hoja de texto",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En una hoja de cálculo, una celda es la unidad básica de almacenamiento, identificada por columna y fila (ej: A1, B5). Un rango es un conjunto de celdas (ej: B5:H8).",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2018_18",
+      "año": "2018",
+      "numero_original": 18,
+      "pregunta": "HTTP es:",
+      "opciones": {
+        "a": "el protocolo en el que se basa internet",
+        "b": "el lenguaje en el que se basa internet",
+        "c": "el formato de los archivos en el que se basa internet",
+        "d": "ninguna de las anteriores es correcta CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 3/5"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . HTTP (Hypertext Transfer Protocol) es el protocolo de comunicación que permite la transferencia de información en la World Wide Web, base del funcionamiento de Internet.",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2018_19",
+      "año": "2018",
+      "numero_original": 19,
+      "pregunta": "De los siguientes, indica cuál es un navegador:",
+      "opciones": {
+        "a": "Google Chrome",
+        "b": "Mozilla Firefox",
+        "c": "Internet Explorer",
+        "d": "todas las anteriores son correctas"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Un navegador web es una aplicación que permite acceder, visualizar e interactuar con páginas web en Internet. Ejemplos: Chrome, Firefox, Safari, Edge.",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2018_20",
+      "año": "2018",
+      "numero_original": 20,
+      "pregunta": "Indica de los siguientes programa de los paquetes ofimáticos de Apache Open Office y LibreOffice, los que se utilizan para crear presentaciones:",
+      "opciones": {
+        "a": "Calc",
+        "b": "Impress",
+        "c": "Power Point",
+        "d": "Presentación"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2018_21",
+      "año": "2018",
+      "numero_original": 21,
+      "pregunta": "Un teclado es un elemento periférico de:",
+      "opciones": {
+        "a": "almacenamiento",
+        "b": "entrada",
+        "c": "acceso directo",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2018_22",
+      "año": "2018",
+      "numero_original": 22,
+      "pregunta": "Un PB (petabyte) se puede representar como:",
+      "opciones": {
+        "a": "1.024 Bytes",
+        "b": "1.024 Bits",
+        "c": "1.024 TB (Terabyte)",
+        "d": "1.024 MG (Megabytes)"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2018_23",
+      "año": "2018",
+      "numero_original": 23,
+      "pregunta": "La memoria RAM es:",
+      "opciones": {
+        "a": "una memoria de solo lectura",
+        "b": "una memoria intermedia",
+        "c": "una memoria donde se guarda la hora",
+        "d": "una memoria donde se guardan los programas en ejecución"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2018_24",
+      "año": "2018",
+      "numero_original": 24,
+      "pregunta": "La memoria ROM es:",
+      "opciones": {
+        "a": "una memoria de solo lectura",
+        "b": "una memoria intermedia",
+        "c": "una memoria de acceso aleatorio",
+        "d": "una memoria donde se guardan los programas en ejecución CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 4/5"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "software"
+      ]
+    },
+    {
+      "id": "2018_25",
+      "año": "2018",
+      "numero_original": 25,
+      "pregunta": "Cuando en un procesador de textos queremos que la linea de texto ocupe todo el ancho de la página, debemos elegir la alineación de texto:",
+      "opciones": {
+        "a": "justificada",
+        "b": "centrada",
+        "c": "derecha",
+        "d": "alineada"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2018_26",
+      "año": "2018",
+      "numero_original": 26,
+      "pregunta": "El Hoax o bulos:",
+      "opciones": {
+        "a": "suelen ser difundidos a través de anuncios publicitarios",
+        "b": "suelen ser difundidos a través del correo electrónico",
+        "c": "suelen ser difundidos solo cuando accedes a su página web",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Un hoax o bulo es información falsa difundida generalmente por correo electrónico o redes sociales, diseñada para engañar o alarmar a los usuarios.",
+      "modulos": [
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2018_27",
+      "año": "2018",
+      "numero_original": 27,
+      "pregunta": "La transición de diapositiva es:",
+      "opciones": {
+        "a": "cómo se produce el paso de una diapositiva a otra",
+        "b": "la velocidad a la que pasan las diapositivas",
+        "c": "el orden en el que aparecen los distintos elementos de una diapositiva",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En presentaciones, la transición es el efecto visual que se produce al pasar de una diapositiva a otra. Ayuda a dar fluidez y dinamismo a la presentación.",
+      "modulos": [
+        "software",
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2018_28",
+      "año": "2018",
+      "numero_original": 28,
+      "pregunta": "La Red de Área Local (LAN) es:",
+      "opciones": {
+        "a": "una red que conecta equipos entre países",
+        "b": "una red para una ciudad",
+        "c": "una pequeña extensión, como en una casa, en un instituto o empresa",
+        "d": "ninguna de las anteriores es correcta"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . LAN (Local Area Network) es una red de área local que conecta ordenadores y dispositivos en un área geográfica limitada, como una casa, oficina o edificio.",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2018_29",
+      "año": "2018",
+      "numero_original": 29,
+      "pregunta": "¿Con qué extensión se guardan por defecto las presentaciones en LibreOffice Base?",
+      "opciones": {
+        "a": ".odp",
+        "b": ".odt",
+        "c": ".odb",
+        "d": ".ods"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2018_30",
+      "año": "2018",
+      "numero_original": 30,
+      "pregunta": "¿Con  qué  extensión  se  guarda  por  defecto  un  documento  de  texto  en LibreOffice Calc?",
+      "opciones": {
+        "a": ".pdf",
+        "b": ".odt",
+        "c": ".odb",
+        "d": ".ods CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 13 de febrero de 2018, de la Dirección General de FormaciónProfesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos de Formación Profesional (DOGV13.03.2018).Página 5/5"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2019_1",
+      "año": "2019",
+      "numero_original": 1,
+      "pregunta": "Los inmigrantes digitales son :",
+      "opciones": {
+        "a": "Aquellas personas que nacieron en el siglo pasado, vieron desarrollarse los inventos tecnológicos que ahora usamos y para ellos es algo que hay que aprender a dominar.",
+        "b": "Describe  a  alguien  nacido  en  la  era  digital,  a  diferencia  de  quienes adquirieron familiaridad con los sistemas digitales ya siendo adultos, a los que se describe como nativos digitales.",
+        "c": "Ninguna de las dos es correcta."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2019_2",
+      "año": "2019",
+      "numero_original": 2,
+      "pregunta": "Alan Turing :",
+      "opciones": {
+        "a": "Colaboró en el diseño y desarrollo de los sistemas operativos Multics y Unix, así como el desarrollo de varios lenguajes de programación .",
+        "b": "Es considerado uno de los padres de la ciencia de la computación y precursor  de  la  informática  moderna.  Formalizó  los  conceptos  de algoritmo y computación gracias a La máquina de Turing.",
+        "c": "Fue un científico inglés conocido por ser el padre de la World Wide Web."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . LAN (Local Area Network) es una red de área local que conecta ordenadores y dispositivos en un área geográfica limitada, como una casa, oficina o edificio.",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2019_3",
+      "año": "2019",
+      "numero_original": 3,
+      "pregunta": "¿Qué es el Internet de las cosas, IoT?",
+      "opciones": {
+        "a": "Es  un  concepto  que  se  refiere  a  la  interconexión  digital  de  objetos domésticos y cotidianos con Internet utilizando la comunicación M2M.",
+        "b": "Es el Internet incrustado en algunos objetos como el DNI electrónico.",
+        "c": "Son cosas que tienen Internet."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2019_4",
+      "año": "2019",
+      "numero_original": 4,
+      "pregunta": "Si te compras un Disco duro portatil (USB) de 1 TB ¿Cuántos CDs caben teóricamente en él (contando que 1 CD son 700 MB)?",
+      "opciones": {
+        "a": "Aproximadamente 1000.",
+        "b": "Entre 1400 y 1500 aproximadamente.",
+        "c": "Unos 2000 CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019). Pág. 1/6"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2019_5",
+      "año": "2019",
+      "numero_original": 5,
+      "pregunta": "¿Qué es la Unidad Central de Proceso o CPU?",
+      "opciones": {
+        "a": "Es el componente que se encarga de ejecutar las operaciones que debe realizar el ordenador; El que procesa las instrucciones.",
+        "b": "Es la caja que engloba todo el Hardware del que está compuesto el ordenador.",
+        "c": "Es la caja que engloba todo el Software del que está compuesto el ordenador."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2019_6",
+      "año": "2019",
+      "numero_original": 6,
+      "pregunta": "La memoria RAM :",
+      "opciones": {
+        "a": "Es una memoria de sólo lectura se pueden leer los datos que tiene almacenados",
+        "b": "Es una memoria volátil y tienes que apretar un botón para borra todo su contenido.",
+        "c": "Es una memoria volátil, cuando se apaga el ordenador se borra todo su contenido."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2019_7",
+      "año": "2019",
+      "numero_original": 7,
+      "pregunta": "La memoria ROM :",
+      "opciones": {
+        "a": "Es una memoria que se borra si apagas el ordenador",
+        "b": "La memoria ROM (Read Only Memory) es de sólo lectura, es decir, no se puede  escribir  en  ella.  Las  instrucciones  que  contiene  han  sido almacenadas por el fabricante.",
+        "c": "La memoria ROM  (Run Operation Memory) sirve para que se ejecuten los programas."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "software"
+      ]
+    },
+    {
+      "id": "2019_8",
+      "año": "2019",
+      "numero_original": 8,
+      "pregunta": "Indica qué opción es la correcta:",
+      "opciones": {
+        "a": "Periféricos de entrada son el monitor y la impresora, y periféricos de salida son el ratón, el teclado y el dispositivo de almacenamiento USB (pendrive).",
+        "b": "Periféricos de entrada son el ratón y el teclado, y periféricos de salida son el monitor, la impresora, y un dispositivo de almacenamiento USB (pendrive).",
+        "c": "Periféricos de entrada son el ratón y el teclado, y periféricos de salida son  el  monitor  y  la  impresora,  mientras  que  un  dispositivo  de almacenamiento USB (pendrive) es de entrada y salida."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2019_9",
+      "año": "2019",
+      "numero_original": 9,
+      "pregunta": "¿Cuál no es una condición de las licencias Creative Commons?",
+      "opciones": {
+        "a": "Reconocimiento-No Comercial-Compartir Igual",
+        "b": "Reconocimiento-No Comercial-Compartir en un tiempo determinado",
+        "c": "Reconocimiento-No Comercial-Sin Obra Derivada CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019). Pág. 2/6"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Creative Commons es una organización que ofrece licencias flexibles para que los creadores compartan su trabajo permitiendo ciertos usos (comercial, derivados, etc.) según sus preferencias.",
+      "modulos": [
+        "licencias"
+      ]
+    },
+    {
+      "id": "2019_10",
+      "año": "2019",
+      "numero_original": 10,
+      "pregunta": "¿Cuales  son  los  derechos  que  tenemos  sobre  nuestros  Datos  de carácter personal?",
+      "opciones": {
+        "a": "Acceso, Rectificación, Cancelación y Oposición.",
+        "b": "Calidad, Tratamiento de los datos y deber de la información.",
+        "c": "Calidad, Acceso, Deber y Cancelación."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2019_11",
+      "año": "2019",
+      "numero_original": 11,
+      "pregunta": "¿Qué es un sistema de archivos en un Sistema Operativo?",
+      "opciones": {
+        "a": "Un programa para guardar archivos.",
+        "b": "Es una de las partes que conforman el Sistema Operativo WINDOWS.",
+        "c": "Es una forma de organizar archivos que se incluye en los S.O."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . El sistema operativo es el software fundamental que gestiona los recursos del hardware y proporciona una interfaz para que otros programas y usuarios interactúen con el ordenador.",
+      "modulos": [
+        "software"
+      ]
+    },
+    {
+      "id": "2019_12",
+      "año": "2019",
+      "numero_original": 12,
+      "pregunta": "Elige la opción falsa. Las funciones más importantes de los Sistemas Operativos son los siguientes:",
+      "opciones": {
+        "a": "Gestionar los recursos hardware.",
+        "b": "Administrar el sistema de archivos.",
+        "c": "No hay ninguna falsa, todas son verdaderas."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2019_13",
+      "año": "2019",
+      "numero_original": 13,
+      "pregunta": "¿Qué significa “Formatear un disco” ?",
+      "opciones": {
+        "a": "Formatear es el proceso por el cual se evita la fragmentación de un disco y así conseguimos que no se borre la información.",
+        "b": "Formatear  es  el  proceso  de  crear  un  sistema  de  archivos  en  una partición. Al formatear se borra toda la información.",
+        "c": "Necesitaremos formatear un disco para instalar un Sistema Operativo."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2019_14",
+      "año": "2019",
+      "numero_original": 14,
+      "pregunta": "¿Qué significa la extensión .exe ?",
+      "opciones": {
+        "a": "Puede ser un archivo que instala un programa o ejecutarlo si ya está instalado.",
+        "b": "Son archivos de exterior del sistema.",
+        "c": "Puede ser un archivo que instala un programa o ejecutarlo si ya está instalado.  Además  de  esto,  un  exe  corresponde  siempre  a  una aplicación."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2019_15",
+      "año": "2019",
+      "numero_original": 15,
+      "pregunta": "A la hora de instalar un Sistema Operativo:",
+      "opciones": {
+        "a": "Hay que saber qué requisitos de espacio y procesador necesita para poder instalarse correctamente.",
+        "b": "Insertar el CD y darle al play.",
+        "c": "Hay que formatear en FAT-32 para que recoja el sistema de ficheros de cualquier sistema. CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019). Pág. 3/6"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . El sistema operativo es el software fundamental que gestiona los recursos del hardware y proporciona una interfaz para que otros programas y usuarios interactúen con el ordenador.",
+      "modulos": [
+        "software"
+      ]
+    },
+    {
+      "id": "2019_16",
+      "año": "2019",
+      "numero_original": 16,
+      "pregunta": "¿Con qué extensión se guarda por defecto un documento de texto en LibreOffice Writer?",
+      "opciones": {
+        "a": ".odt",
+        "b": ".odb",
+        "c": ".ods"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2019_17",
+      "año": "2019",
+      "numero_original": 17,
+      "pregunta": "¿Para qué sirve la vista preliminar del documento en Writer ?",
+      "opciones": {
+        "a": "Para ver el documento con las últimas modificaciones realizadas.",
+        "b": "Para mostrar el documento tal y como se va a imprimir.",
+        "c": "Para poder visualizarlo y cambiar lo que consideres antes de imprimirlo."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2019_18",
+      "año": "2019",
+      "numero_original": 18,
+      "pregunta": "Elige la opción correcta:",
+      "opciones": {
+        "a": "Ctrl+X → Cortar",
+        "b": "Ctrl+Z → Cortar",
+        "c": "Ctrl+C → Cortar"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2019_19",
+      "año": "2019",
+      "numero_original": 19,
+      "pregunta": "¿Con qué extensión se guarda por defecto un documento de texto en LibreOffice Calc?",
+      "opciones": {
+        "a": ".odt",
+        "b": ".odb",
+        "c": ".ods"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2019_20",
+      "año": "2019",
+      "numero_original": 20,
+      "pregunta": "¿Cómo se nombra un rango de celdas en Calc?",
+      "opciones": {
+        "a": "A3:A20 → Por ejemplo = SUMA(A3:A20)",
+        "b": "A3;A20 → Por ejemplo = SUMA(A3;A20)",
+        "c": "3A:20A → Por ejemplo = SUMA(3A:20A)"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2019_21",
+      "año": "2019",
+      "numero_original": 21,
+      "pregunta": "Si las celdas de una hoja de cálculo A1, A2, A3 y A4 contienen los caracteres A, C, X y A respectivamente y las celdas B1, B2, B3 y B4 los números  7,  5,  3  y  9,  ¿qué  resultado  daría  la  fórmula SUMAR.SI(A1:A4;\"A\";B1:B4)?",
+      "opciones": {
+        "a": "7 y 9",
+        "b": "24",
+        "c": "16 CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019). Pág. 4/6"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En una hoja de cálculo, una celda es la unidad básica de almacenamiento, identificada por columna y fila (ej: A1, B5). Un rango es un conjunto de celdas (ej: B5:H8).",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2019_22",
+      "año": "2019",
+      "numero_original": 22,
+      "pregunta": "¿Qué significa el icono de llave amarilla en un campo de una tabla en Base ?",
+      "opciones": {
+        "a": "Indica el campo por el cual se relaciona con otra tabla.",
+        "b": "Indica el campo unívoco de la tabla, la Clave Primaria.",
+        "c": "La llave no es amarilla, sino azul."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica",
+        "bases_datos"
+      ]
+    },
+    {
+      "id": "2019_23",
+      "año": "2019",
+      "numero_original": 23,
+      "pregunta": "En una Base de datos relacional, para establecer una relación entre dos tablas:",
+      "opciones": {
+        "a": "Han de tener el mismo número de campos.",
+        "b": "Han de tener el mismo número de registros.",
+        "c": "Han de tener un campo común entre ambas."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Un SGBD (Sistema Gestor de Bases de Datos) es el software que permite crear, gestionar y consultar bases de datos de forma eficiente y segura.",
+      "modulos": [
+        "ofimatica",
+        "bases_datos"
+      ]
+    },
+    {
+      "id": "2019_24",
+      "año": "2019",
+      "numero_original": 24,
+      "pregunta": "El formato MP3 :",
+      "opciones": {
+        "a": "Es un archivo que desarrolló originalmente Microsoft para guardar audio.",
+        "b": "No todos los reproductores multimedia son capaces de leer por defecto este formato. En algunos casos es necesario instalar los códecs o filtros oportunos.",
+        "c": "Es ideal para publicar audios en la web. Se puede escuchar desde la mayoría de reproductores."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Los formatos de audio varían: MP3 (comprimido con pérdida), OGG (alternativa libre), MIDI (almacena instrucciones musicales, no audio real).",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2019_25",
+      "año": "2019",
+      "numero_original": 25,
+      "pregunta": "¿Qué programa de los paquetes ofimáticos de Apache OpenOffice y LibreOffice se utilizan para crear presentaciones?",
+      "opciones": {
+        "a": "Impress",
+        "b": "Calc",
+        "c": "PowerPoint"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2019_26",
+      "año": "2019",
+      "numero_original": 26,
+      "pregunta": "¿Qué es la resolución de imagen ?",
+      "opciones": {
+        "a": "Es el grado de detalle o calidad de una imagen digital ya sea escaneada, fotografiada  o  impresa.  Este  valor  se  expresa  en  ppp  (píxeles  por pulgada). Cuantos más píxeles contenga una imagen, mayor calidad.",
+        "b": "Se  refiere  al  número  de  bits  necesarios  para  codificar  y  guardar  la información del color en una imagen.",
+        "c": "Es la calidad de una imagen fotografiada. Este valor se expresa en ppp (píxeles por centímetros). Cuantos menos píxeles contenga una imagen por centímetros mayor calidad tendrá."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2019_27",
+      "año": "2019",
+      "numero_original": 27,
+      "pregunta": "¿Cuáles de estas extensiones son t odas referidas a archivos de video?",
+      "opciones": {
+        "a": "mp3, mp4 y mp5",
+        "b": "avi, jpg, wav y tiff",
+        "c": "avi, mpeg, mov y wmv CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019). Pág. 5/6"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2019_28",
+      "año": "2019",
+      "numero_original": 28,
+      "pregunta": "Indica qué es una dirección IP pública:",
+      "opciones": {
+        "a": "Es aquella que identifica a cada dispositivo dentro de una LAN.",
+        "b": "Es una combinación de bits que sirve para delimitar el ámbito de una red de computadoras.",
+        "c": "Es aquella dirección IP que es visible desde Internet."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2019_29",
+      "año": "2019",
+      "numero_original": 29,
+      "pregunta": "Indica qué dirección IP es correcta:",
+      "opciones": {
+        "a": "192.163.2.3.2",
+        "b": "256.2.13.2",
+        "c": "192.168.1.3"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2019_30",
+      "año": "2019",
+      "numero_original": 30,
+      "pregunta": "Indica cuál de las siguientes puede ser una máscara de red:",
+      "opciones": {
+        "a": "10..2.3.5",
+        "b": "255.255.255.0",
+        "c": "256.2.13.2 CRITERIOS DE EVALUACIÓN Y CALIFICACIÓNLa calificación de esta parte o apartado se adaptará a lo que establece la Resolución de 28 de febrero de 2019, de la Dirección Generalde Formación Profesional y Enseñanzas de Régimen Especial, por la que se convocan pruebas de acceso a los ciclos formativos deFormación Profesional (DOGV núm. 8501, 07.03.2019). Pág. 6/6"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2023_1",
+      "año": "2023",
+      "numero_original": 1,
+      "pregunta": "Hay una emergencia y necesito acceder a Internet conectándome a una red wifi pública de una cafetería. ¿Cuál de estas técnicas puede ayud ar a mejorar la privacidad de la navegación? [0,33 puntos]",
+      "opciones": {
+        "a": "Cifrar mi dispositivo.",
+        "b": "Tener una copia de segurida d de los archivos importantes.",
+        "c": "Usar una VPN.",
+        "d": "Entrar en modo root desde el móvil."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2023_2",
+      "año": "2023",
+      "numero_original": 2,
+      "pregunta": "Un navegador... [0,33 puntos]",
+      "opciones": {
+        "a": "Utiliza el protocolo HTTP para conectar con un servidor, luego interpreta el código HTML de la página  a la que queremos acceder y muestra su contenido.",
+        "b": "Permite buscar la información de las páginas de Internet.",
+        "c": "Dispone de unos programas llamados robots o arañas.",
+        "d": "Es un servicio dedicado a recopilar la información de forma estructurada."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Un navegador web es una aplicación que permite acceder, visualizar e interactuar con páginas web en Internet. Ejemplos: Chrome, Firefox, Safari, Edge.",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2023_3",
+      "año": "2023",
+      "numero_original": 3,
+      "pregunta": "¿Qué es un EULA? [0,33 puntos]",
+      "opciones": {
+        "a": "Son las siglas de Enhancement User Lini ng Access, una red propia de las redes sociales.",
+        "b": "Es un organismo europeo para regular las redes sociales a nivel empresarial.",
+        "c": "Es el acuerdo que se acepta al utilizar un programa o servicio web.",
+        "d": "Sirve para armonizar las leyes aplicadas a las distintas redes sociales."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_4",
+      "año": "2023",
+      "numero_original": 4,
+      "pregunta": "Un virus que accede a tu ordenador y cifra todos los ficheros, dejando el ordenador inutilizable, para después pedir una cantidad de dinero a cambio de desbloquearlo, ¿cómo se llama? [0,33 puntos]",
+      "opciones": {
+        "a": "Spyware",
+        "b": "Keylogger",
+        "c": "Ransomware",
+        "d": "Troyano Pág. 2/5"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2023_5",
+      "año": "2023",
+      "numero_original": 5,
+      "pregunta": "¿Cuál de las siguientes opciones NO es una función de edición de texto en Microsoft Word? [0,33 puntos]",
+      "opciones": {
+        "a": "Edición de código HTML.",
+        "b": "Combinación de correspondencia.",
+        "c": "Tablas de contenido.",
+        "d": "Insertar audio y video en  un documento de Word."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2023_6",
+      "año": "2023",
+      "numero_original": 6,
+      "pregunta": "En una base de datos, ¿qué es una clave principal o clave primaria? [0,33 puntos]",
+      "opciones": {
+        "a": "La contraseña que bloquea una de las tablas de la base de datos.",
+        "b": "Un elemento de la tabl a que no se puede repetir.",
+        "c": "La contraseña que permite el acceso a toda la base de datos",
+        "d": "Una tabla que referencia a todas las ta blas de la base de datos, a modo de directorio."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes",
+        "ofimatica",
+        "bases_datos"
+      ]
+    },
+    {
+      "id": "2023_7",
+      "año": "2023",
+      "numero_original": 7,
+      "pregunta": "¿Cuándo se utiliza la memoria RAM de un ordenador? [0,38 puntos]",
+      "opciones": {
+        "a": "Solo al arrancar el ordenador.",
+        "b": "Solo al configurar el dispositivo de arranque en la BIOS.",
+        "c": "Solo cuando guardamos un fichero en el disco duro.",
+        "d": "Todo el tiempo."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2023_8",
+      "año": "2023",
+      "numero_original": 8,
+      "pregunta": "¿Cuál es una característica común de las aplicaciones web 2.0 para trabajo colaborativo? [0,33 puntos]",
+      "opciones": {
+        "a": "Son herramientas de escritorio.",
+        "b": "No permiten compartir archivos.",
+        "c": "Permiten la interacción y co laboración en tiempo real.",
+        "d": "Solo pueden ser accedidas desde un dispositivo móvil."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La Web 2.0 se caracteriza por ser interactiva y colaborativa, donde los usuarios no solo consumen contenido sino que también lo crean y comparten.",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2023_9",
+      "año": "2023",
+      "numero_original": 9,
+      "pregunta": "¿Qué es la accesibilidad web? [0,33 puntos]",
+      "opciones": {
+        "a": "La facilidad con la que se puede acceder a un sitio web.",
+        "b": "La capacidad de un sitio web de ser accedido por cualquier persona, independientemente de sus capacidades o limitaciones.",
+        "c": "La velocidad con la que se carg an las páginas de un sitio web.",
+        "d": "La calidad de los contenidos  ofrecidos en un sitio web."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_10",
+      "año": "2023",
+      "numero_original": 10,
+      "pregunta": "Si en una celda de una hoja de cálculo tenemos la referencia $A5 y autocompletamos hacia la derecha una celda,  la nueva referencia será: [0,38 puntos]",
+      "opciones": {
+        "a": "$A6",
+        "b": "$A5",
+        "c": "$B6.",
+        "d": "$B5 Pág. 3/5"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En una hoja de cálculo, una celda es la unidad básica de almacenamiento, identificada por columna y fila (ej: A1, B5). Un rango es un conjunto de celdas (ej: B5:H8).",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2023_11",
+      "año": "2023",
+      "numero_original": 11,
+      "pregunta": "Cuando envías un correo a otra pers ona, ¿quién puede ver el contenido del correo? [0,33 puntos]",
+      "opciones": {
+        "a": "El destinatario.",
+        "b": "El destinatario, su proveedor de corr eo electrónico y nuestro proveedor de correo electrónico.",
+        "c": "El destinatario y su prov eedor de correo electrónico.",
+        "d": "El destinatario y su proveedor de Internet."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_12",
+      "año": "2023",
+      "numero_original": 12,
+      "pregunta": "El buscador Google… [0,33 puntos]",
+      "opciones": {
+        "a": "Busca a través de Yahoo si no encuentra una información.",
+        "b": "No dispone de búsqueda avanzada.c) No tiene buscador de imágenes.",
+        "d": "Cuenta con sus propios comandos, que ofrecen unas funciones muy útiles para exprimir su motor de búsqueda."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_13",
+      "año": "2023",
+      "numero_original": 13,
+      "pregunta": "¿Qué disco tiene una capa cidad mayor? [0,33 puntos]",
+      "opciones": {
+        "a": "10 Petabytes",
+        "b": "10 Terabytes",
+        "c": "100 Gigabytes",
+        "d": "2000 Megabytes"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_14",
+      "año": "2023",
+      "numero_original": 14,
+      "pregunta": "¿Qué ventaja nos proporciona HT TPS frente a HTTP? [0,33 puntos]",
+      "opciones": {
+        "a": "El software de las páginas web que se acceden por HTTPS es más seguro.",
+        "b": "Encripta las comunicaciones entre nuestra máquina y el servidor.c) Trabaja a una velocidad mayor.",
+        "d": "Permite que nos identifiquemos en la  aplicación web sin usar contraseñas."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . HTTP (Hypertext Transfer Protocol) es el protocolo de comunicación que permite la transferencia de información en la World Wide Web, base del funcionamiento de Internet.",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2023_15",
+      "año": "2023",
+      "numero_original": 15,
+      "pregunta": "¿Cuál es la forma correcta de utilizar el buscador de Google para buscar dentro de una única página web? [0,33 puntos]",
+      "opciones": {
+        "a": "Indicando web: nombre de la página . Por ejemplo: web: gva.es",
+        "b": "Indicando pageweb: nombre de la página . Por ejemplo: pageweb: gva.es",
+        "c": "Indicando site: nombre de la página . Por ejemplo: site: gva.es",
+        "d": "Indicando siteweb: nombre de la página . Por ejemplo: siteweb: gva.es"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "web_social"
+      ]
+    },
+    {
+      "id": "2023_16",
+      "año": "2023",
+      "numero_original": 16,
+      "pregunta": "Un texto encriptado con la clave pú blica de un usuario… [0,33 puntos]",
+      "opciones": {
+        "a": "Se puede descifrar utilizando otra vez la clave pública de ese usuario.",
+        "b": "Se puede descifrar utilizando la clave privada de ese usuario.c) Podemos estar seguros de que ha sido escrito por ese usuario.",
+        "d": "La clave pública no si rve para encriptar, sólo para desencriptar."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes",
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2023_17",
+      "año": "2023",
+      "numero_original": 17,
+      "pregunta": "Cuando compartimos una conexión a Internet desde nuestro teléfono móvil… [0,33 puntos]",
+      "opciones": {
+        "a": "Cada dispositivo tendrá una IP pública diferente. Pág. 4/5",
+        "b": "Solo nuestro dispositivo móvil tendrá una IP pública, el resto de los dispositivos no tendrán.",
+        "c": "No se pueden compartir conexiones desde el móvil."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2023_18",
+      "año": "2023",
+      "numero_original": 18,
+      "pregunta": "¿Cuál de los siguientes elementos es una arquitectura de red? [0,33 puntos]",
+      "opciones": {
+        "a": "DNS",
+        "b": "FTP",
+        "c": "TCP/IPd) P2P"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2023_19",
+      "año": "2023",
+      "numero_original": 19,
+      "pregunta": "¿Qué es la resolución de un a imagen digital? [0,33 puntos]",
+      "opciones": {
+        "a": "La cantidad de colores diferent es que una imagen puede mostrar.",
+        "b": "La relación entre el ancho y la altura de la imagen.",
+        "c": "La cantidad de píxeles que componen la imagen.",
+        "d": "La cantidad de información que se puede almacenar en la imagen."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2023_20",
+      "año": "2023",
+      "numero_original": 20,
+      "pregunta": "¿Cuál de las siguientes opciones es una dirección IP v4 correcta? [0,33 puntos]",
+      "opciones": {
+        "a": "10.10.10.10",
+        "b": "255.255.256.0",
+        "c": "154.312.23.4",
+        "d": "154.212.23.4.23"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2023_21",
+      "año": "2023",
+      "numero_original": 21,
+      "pregunta": "Cuando subimos contenidos a TikTok… [0,33 puntos]",
+      "opciones": {
+        "a": "Podemos ejercitar nuestros derech os de autor siempre que queramos.",
+        "b": "Nuestros contenidos permanecerán en  el servidor de TikTok hasta que los borremos.",
+        "c": "Permanecerán para siempre en los servidores de TikTok.",
+        "d": "Podemos evitar que TikTok los vea utilizando un cifrado ZIP."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_22",
+      "año": "2023",
+      "numero_original": 22,
+      "pregunta": "¿Qué es un sistema de gestión de contenidos (CMS)? [0,33 puntos]",
+      "opciones": {
+        "a": "Un sistema que permite crear y gestionar contenidos en línea.",
+        "b": "Un sistema que permite gest ionar el tráfico en línea.",
+        "c": "Un sistema que permite analizar el comportamiento del usuario en línea.",
+        "d": "Un sistema que permite la creación  de páginas web sin necesidad de conocimientos de programación."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_23",
+      "año": "2023",
+      "numero_original": 23,
+      "pregunta": "20 El formato RGB… [0,33 puntos]",
+      "opciones": {
+        "a": "Permite representar solo 3 colores (rojo, verde y azul).",
+        "b": "Representa el color negro median te un canal indexado de grises.",
+        "c": "Cuanto mayores son los valores, más oscuro es el pixel.",
+        "d": "La intensidad de cada una de las co mponentes se mide según una escala que va del 0 al 255."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "multimedia"
+      ]
+    },
+    {
+      "id": "2023_24",
+      "año": "2023",
+      "numero_original": 24,
+      "pregunta": "Las cláusulas de TikTok referidas a pub licación de contenidos… [0,33 puntos]",
+      "opciones": {
+        "a": "Tienen una versión con un extracto re sumen de las características principales.",
+        "b": "Son difíciles de entender, aunque ayuda el hecho de que todas estén disponibles en español. Pág. 5/5",
+        "c": "Permiten, bajo circunstancias especiales, crear perfiles para menores de 11 años.",
+        "d": "Son complicadas de leer y entender, además de utilizar una jerga legal compleja."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_25",
+      "año": "2023",
+      "numero_original": 25,
+      "pregunta": "Indica cuál de las siguientes afir maciones es verdadera: [0,33 puntos]",
+      "opciones": {
+        "a": "El navegador Firefox es gratuito y de código cerrado.",
+        "b": "El navegador Firefox solo se puede utilizar en Linux.c) El navegador Firefox tiene sus orígenes en Mosaic.",
+        "d": "El navegador Firefox no tiene versión para móviles."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_26",
+      "año": "2023",
+      "numero_original": 26,
+      "pregunta": "En el contexto de un procesador de textos, ¿qué son las líneas viudas? [0,33 puntos]",
+      "opciones": {
+        "a": "Las primeras líneas de un párrafo que quedan solas en la parte inferior de la página.",
+        "b": "Todas aquellas líneas que no tienen sangría.",
+        "c": "Son un concepto de las hojas de cálc ulo, no de los procesadores de texto.",
+        "d": "Las últimas líneas de un párrafo que quedan solas al  principio de la página siguiente."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "ofimatica"
+      ]
+    },
+    {
+      "id": "2023_27",
+      "año": "2023",
+      "numero_original": 27,
+      "pregunta": "Si grabamos la pantalla del ordena dor mientras estamos visualizando una película, ¿quién tiene derech o a reproducir esa grabación públicamente? [0,33 puntos]",
+      "opciones": {
+        "a": "Nosotros, porque es una gr abación de nuestro ordenador.",
+        "b": "El dueño de los derechos de la película.",
+        "c": "Cualquier persona, ya que tend rá licencia Creative Commons.",
+        "d": "No se puede grabar un vídeo de la pantalla del ordenador."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2023_28",
+      "año": "2023",
+      "numero_original": 28,
+      "pregunta": "¿Qué dispositivo nos permite extender el rango de una red Wi-Fi conectándolo por cable a un router? [0,33 puntos]",
+      "opciones": {
+        "a": "Switch",
+        "b": "Hub",
+        "c": "Punto de acceso",
+        "d": "Repetidor Wi-Fi"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2023_29",
+      "año": "2023",
+      "numero_original": 29,
+      "pregunta": "Una copia de seguridad que incluye so lo los archivos creados o modificados desde la última copia completa es un a copia de seguridad: [0,33 puntos]",
+      "opciones": {
+        "a": "Acumulativa",
+        "b": "Intermedia",
+        "c": "Incrementald) Diferencial"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "seguridad"
+      ]
+    },
+    {
+      "id": "2023_30",
+      "año": "2023",
+      "numero_original": 30,
+      "pregunta": "¿Cuál de las siguientes redes sociales  dispone de un sistema de verificación exhaustivo con respecto a la  edad de los usuarios que se pueden crear un perfil y publicar contenidos? [0,33 puntos]",
+      "opciones": {
+        "a": "Instagram",
+        "b": "Facebook",
+        "c": "TikTok",
+        "d": "Ninguna de las anteriores"
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_2",
+      "año": "2025",
+      "numero_original": 2,
+      "pregunta": "Indica la afirmación falsa. Los primeros computadores eran... (0,33 puntos)",
+      "opciones": {
+        "a": "Pensados para tareas muy concretas y repetitivas.",
+        "b": "Muy grandes y pesados.",
+        "c": "Compatibles entre sí."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_3",
+      "año": "2025",
+      "numero_original": 3,
+      "pregunta": "¿Qué se emplea para facilitar el paso del calor desde el procesador al disipador? (0,33 puntos)",
+      "opciones": {
+        "a": "Pasta térmica.",
+        "b": "Otro disipador.",
+        "c": "Ventilador."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_4",
+      "año": "2025",
+      "numero_original": 4,
+      "pregunta": "Elige la opción correcta. Si se cierran los programas y archivos abiertos, se cierra el sistema operativo y la fuente de alimentación recibe la orden de cortar el suministro eléctrico, decimos que el equipo... (0,33 puntos)",
+      "opciones": {
+        "a": "Cierra la sesión.",
+        "b": "Se apaga.",
+        "c": "Pasa a estado de suspensión."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "software",
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_5",
+      "año": "2025",
+      "numero_original": 5,
+      "pregunta": "¿Qué son las credenciales? (0,33 puntos)",
+      "opciones": {
+        "a": "El usuario que inicia la sesión.",
+        "b": "Los datos que muestra el ordenador en la pantalla de login .",
+        "c": "El usuario ( login ) y la clave de inicio de sesión."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_6",
+      "año": "2025",
+      "numero_original": 6,
+      "pregunta": "¿Qué contiene la barra de tareas en un ordenador? (0,33 puntos)",
+      "opciones": {
+        "a": "Programas abiertos y otros que podemos abrir.",
+        "b": "Programas abiertos y ejecutándose en estos momentos.",
+        "c": "Programas que podemos abrir."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_7",
+      "año": "2025",
+      "numero_original": 7,
+      "pregunta": "¿Qué representa la obsolescencia programada en una impresora? (0,33 puntos)",
+      "opciones": {
+        "a": "Cuando la impresora se avería tras un determinado número de años de uso. Direcció General de Formació Professional pág. 3/6 b) Cuando la impresora se avería por la baja calidad de los componentes.",
+        "c": "Cuando la impresora deja de funcionar tras un número determinado de impresiones o páginas impresas."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware"
+      ]
+    },
+    {
+      "id": "2025_8",
+      "año": "2025",
+      "numero_original": 8,
+      "pregunta": "Indica la respuesta falsa. (0,33 puntos)",
+      "opciones": {
+        "a": "Las tareas de revisión de la memoria, el disco duro o la actualización del ordenador, pueden dejar a nuestro equipo durante algunos minutos como si se hubiera colgado.",
+        "b": "Los antivirus ralentizan el ordenador.",
+        "c": "Los antivirus garantizan que nuestro equipo no será afectado por software malicioso o peligroso."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_9",
+      "año": "2025",
+      "numero_original": 9,
+      "pregunta": "¿Qué es la capacidad de detección heurística? (0,33 puntos)",
+      "opciones": {
+        "a": "La facilidad con la que los antivirus detectan nuevos virus compuestos por otros ya conocidos.",
+        "b": "La capacidad de los programas que buscan malware , virus y otros programas nocivos para nuestro ordenador de detectar actividades sospechosas y aislar al culpable, aunque no sea todavía un software peligroso conocido.",
+        "c": "La capacidad para encontrar los fallos de seguridad -por errores en su diseño - en los programas que usamos."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_10",
+      "año": "2025",
+      "numero_original": 10,
+      "pregunta": "¿Quién propuso en 1946 la arquitectura que han seguido todos los computadores hasta ahora? (0,33 puntos)",
+      "opciones": {
+        "a": "Von Leibniz.",
+        "b": "Hugh Saruman.",
+        "c": "Von Neumann."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_11",
+      "año": "2025",
+      "numero_original": 11,
+      "pregunta": "Indica la opción correcta. El proyecto de software libre denominado GNU nació con la ayuda de... (0,33 puntos)",
+      "opciones": {
+        "a": "Rich Miller.",
+        "b": "Jason Statham.",
+        "c": "Richard Stallman."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "software"
+      ]
+    },
+    {
+      "id": "2025_12",
+      "año": "2025",
+      "numero_original": 12,
+      "pregunta": "¿Con qué tecnología estaban construidos los primeros ordenadores? (0,33 puntos)",
+      "opciones": {
+        "a": "Circuitos integrados.",
+        "b": "Relés o tubos de vacío.",
+        "c": "Transistores."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_14",
+      "año": "2025",
+      "numero_original": 14,
+      "pregunta": "Indica la afirmación falsa. Un proxy ... (0,33 puntos)",
+      "opciones": {
+        "a": "Evita el acceso a determinadas páginas web externas.",
+        "b": "Permite que la misma página se descargue innumerables veces.",
+        "c": "Permite saber quién accede a una página y a qué se accede."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_15",
+      "año": "2025",
+      "numero_original": 15,
+      "pregunta": "¿Cuáles son las dos partes de que consta una IP? (0,33 puntos)",
+      "opciones": {
+        "a": "Identificador de red e identificador de subred.",
+        "b": "Identificador del router e identificador del dispositivo.",
+        "c": "Identificador de red e identificador de host."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_16",
+      "año": "2025",
+      "numero_original": 16,
+      "pregunta": "Indica la opción correcta. Los ordenadores dentro de una red local se conectan entre ellos normalmente empleando un... (0,33 puntos)",
+      "opciones": {
+        "a": "Concentrador (Hub) escalable.",
+        "b": "Router.",
+        "c": "Switch."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_17",
+      "año": "2025",
+      "numero_original": 17,
+      "pregunta": "¿Qué otra denominación reciben también los routers ? (0,33 puntos)",
+      "opciones": {
+        "a": "Gateway o puerta de enlace.",
+        "b": "Servidores de entrega.",
+        "c": "Senders de encaminamiento Ethernet."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . En informática, 1 KB = 1024 bytes, 1 MB = 1024 KB, 1 GB = 1024 MB, etc. Es importante recordar que se usa base 1024 (2^10) en lugar de 1000.",
+      "modulos": [
+        "hardware",
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_18",
+      "año": "2025",
+      "numero_original": 18,
+      "pregunta": "El protocolo TCP/IP está formado por los protocolos TCP e IP. ¿Qué función realiza cada uno? (0,33 puntos)",
+      "opciones": {
+        "a": "El primero se encarga de enviar los datos hasta el router ; el segundo desde el router al destinatario.",
+        "b": "El primero se asegura de que los datos lleguen a su destino; el segundo, de enviar la información o los datos de forma que puedan ser correctamente interpretados.",
+        "c": "El primero envía la información o los datos de forma que puedan ser correctamente interpretados; el segundo, se asegura de que los datos lleguen a su destino."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_20",
+      "año": "2025",
+      "numero_original": 20,
+      "pregunta": "Indica la afirmación falsa. ¿Para qué sirve la dirección MAC? (0,33 puntos)",
+      "opciones": {
+        "a": "Para entregar el paquete o mensaje de datos al destinatario cuando el mismo llega a la red de destino.",
+        "b": "Para que todos los dispositivos que se conecten a una red de comunicaciones sean únicos a nivel mundial.",
+        "c": "Para encaminar el paquete de datos o mensaje entre diferentes redes hasta llegar a la red de destino."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_21",
+      "año": "2025",
+      "numero_original": 21,
+      "pregunta": "¿Cuál es el protocolo o lenguaje que se emplea en la mayoría de las redes locales por parte de los dispositivos con el fin de comunicarse? (0,33 puntos)",
+      "opciones": {
+        "a": "TCP Ranurado.",
+        "b": "TCP/IP.",
+        "c": "Telnet."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_22",
+      "año": "2025",
+      "numero_original": 22,
+      "pregunta": "Indica la afirmación verdadera. (0,33 puntos)",
+      "opciones": {
+        "a": "Android es un sistema operativo basado en Linux.",
+        "b": "Linux es un sistema operativo basado en IOS.",
+        "c": "Windows es un sistema operativo originalmente basado en AS400."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_23",
+      "año": "2025",
+      "numero_original": 23,
+      "pregunta": "¿Qué tipos de periféricos hay? (0,33 puntos)",
+      "opciones": {
+        "a": "Digitales y analógicos.",
+        "b": "Cableados e inalámbricos.",
+        "c": "De entrada y de salida."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "hardware",
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_24",
+      "año": "2025",
+      "numero_original": 24,
+      "pregunta": "¿Qué significa el término DHCP? (0,33 puntos)",
+      "opciones": {
+        "a": "Decrease Hitachi Control Protocol.",
+        "b": "Dynamic Huge Code Protocol",
+        "c": "Dynamic Host Configuration Protocol."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_25",
+      "año": "2025",
+      "numero_original": 25,
+      "pregunta": "Indica la respuesta incorrecta. Son sistemas de cifrado de redes Wifi... (0,33 puntos)",
+      "opciones": {
+        "a": "EAP2. Direcció General de Formació Professional pág. 6/6 b) WPA2.",
+        "c": "WEP."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_26",
+      "año": "2025",
+      "numero_original": 26,
+      "pregunta": "¿Qué topología de red corresponde a la siguiente definición: \"Un único cable para enlazar todos los equipos. Barato. Si se corta el cable en algún punto, la red completa deja de funcionar\"? (0,33 puntos)",
+      "opciones": {
+        "a": "Topología en anillo.",
+        "b": "Topología en estrella.",
+        "c": "Topología de bus."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . Una dirección IP es un identificador único numérico asignado a cada dispositivo en una red. En IPv4 consta de 4 números del 0 al 255 separados por puntos (ej: 192.168.1.1).",
+      "modulos": [
+        "redes"
+      ]
+    },
+    {
+      "id": "2025_27",
+      "año": "2025",
+      "numero_original": 27,
+      "pregunta": "Indica cuál de las siguientes afirmaciones es verdadera. (0,33 puntos)",
+      "opciones": {
+        "a": "El lenguaje ensamblador contiene instrucciones directamente ejecutables por el ordenador.",
+        "b": "Los lenguajes de alto nivel necesitan un programa para traducir sus instrucciones a código máquina.",
+        "c": "Hay 3 tipos de lenguajes de programación: lenguaje máquina, lenguaje ensamblador y lenguaje de bajo nivel."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_28",
+      "año": "2025",
+      "numero_original": 28,
+      "pregunta": "Indica cuál de los siguientes no es un entorno virtual de aprendizaje. (0,33 puntos)",
+      "opciones": {
+        "a": "Moodle.",
+        "b": "Google Classroom.",
+        "c": "Microsoft Publisher."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "general"
+      ]
+    },
+    {
+      "id": "2025_29",
+      "año": "2025",
+      "numero_original": 29,
+      "pregunta": "¿A qué se refiere el término copyleft ? (0,38 puntos)",
+      "opciones": {
+        "a": "Método para hacer que un programa (o cualquier otra obra) sea libre y requiera que todas las versiones modificadas también sean libres.",
+        "b": "Protección de la propiedad intelectual de los programas de computadora, bases de datos y otros materiales digitales.",
+        "c": "Conjunto de licencias legales que permiten otorgar permisos específicos sobre cómo una obra puede ser utilizada, compartida y distribuida por otros."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': ",
+      "modulos": [
+        "licencias"
+      ]
+    },
+    {
+      "id": "2025_30",
+      "año": "2025",
+      "numero_original": 30,
+      "pregunta": "¿Cuál de los siguientes programas es considerado peligroso para nuestros equipos informáticos? (0,38 puntos)",
+      "opciones": {
+        "a": "Handsomware.",
+        "b": "Malware.",
+        "c": "Trueware."
+      },
+      "respuesta_correcta": "",
+      "explicacion": "La respuesta correcta es '': . La memoria RAM (Random Access Memory) es la memoria principal donde se almacenan temporalmente los programas y datos en ejecución. Es volátil, lo que significa que pierde su contenido al apagar el ordenador.",
+      "modulos": [
+        "hardware",
+        "redes"
+      ]
+    }
+  ]
+}
