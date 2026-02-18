@@ -53,184 +53,702 @@
         <section>
             <h2>1.1. El Ordenador: Concepto, Funciones e Historia</h2>
             
-            <h3>Concepto</h3>
-            <p>Un <strong>ordenador o computadora</strong> es una máquina electrónica digital programable que procesa información siguiendo instrucciones dadas por programas. Es capaz de recibir datos (entrada), procesarlos y proporcionar resultados (salida).</p>
+            <div class="definition-box">
+                <div class="def-title">Definición Formal de Ordenador</div>
+                <div class="def-content">
+                    Un <strong>ordenador o computadora</strong> se define como un sistema electrónico digital programable, constituido por componentes hardware interconectados y controlados por software, capaz de procesar información mediante operaciones lógicas y aritméticas de forma automatizada, siguiendo secuencias de instrucciones predefinidas (programas), con el propósito de recibir datos de entrada, procesarlos algorítmicamente, almacenarlos en distintos niveles de memoria y generar resultados de salida.
+                </div>
+            </div>
 
-            <h3>Funciones Principales</h3>
-            <ul class="content-list">
-                <li><strong>Entrada de datos:</strong> Recepción de información del exterior (teclado, ratón, etc.)</li>
-                <li><strong>Procesamiento:</strong> Transformación de los datos según las instrucciones</li>
-                <li><strong>Almacenamiento:</strong> Guardar información de forma temporal o permanente</li>
-                <li><strong>Salida:</strong> Presentación de los resultados (monitor, impresora, etc.)</li>
-            </ul>
+            <div class="concept-box">
+                <div class="concept-title">🎯 Arquitectura Von Neumann</div>
+                <p>El modelo conceptual fundamental de la arquitectura de computadoras fue propuesto por John Von Neumann en 1945. Este paradigma arquitectónico establece que un ordenador debe componerse de cuatro unidades funcionales principales, todas ellas interconectadas a través de un bus de sistema.</p>
+            </div>
 
-            <h3>Breve Historia</h3>
-            <div class="info-box info">
-                <h4>Generaciones de Computadoras</h4>
-                <ul class="content-list">
-                    <li><strong>1ª Generación (1940-1956):</strong> Válvulas de vacío - ENIAC, UNIVAC</li>
-                    <li><strong>2ª Generación (1956-1963):</strong> Transistores - Mayor velocidad y menor tamaño</li>
-                    <li><strong>3ª Generación (1964-1971):</strong> Circuitos integrados - IBM 360</li>
-                    <li><strong>4ª Generación (1971-presente):</strong> Microprocesadores - PC personales</li>
-                    <li><strong>5ª Generación (futuro):</strong> Inteligencia artificial, computación cuántica</li>
-                </ul>
+            <div class="diagram-container">
+                <div class="diagram-title">📊 Modelo Funcional del Ordenador (Ciclo IPASS)</div>
+                <div class="process-flow">
+                    <div class="process-step">
+                        <div class="process-step-number">1</div>
+                        <strong>INPUT</strong><br>
+                        <small>Entrada</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">2</div>
+                        <strong>PROCESS</strong><br>
+                        <small>Procesamiento</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">3</div>
+                        <strong>STORAGE</strong><br>
+                        <small>Almacenamiento</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">4</div>
+                        <strong>OUTPUT</strong><br>
+                        <small>Salida</small>
+                    </div>
+                </div>
+            </div>
+
+            <h3>🔧 Funciones Principales del Sistema Computacional</h3>
+            <div class="key-points-grid">
+                <div class="key-point-card">
+                    <div class="icon">📥</div>
+                    <h4>Entrada de Datos</h4>
+                    <p>Adquisición de información del entorno externo mediante dispositivos de entrada (teclado, ratón, sensores, cámaras) para su posterior procesamiento.</p>
+                </div>
+                <div class="key-point-card">
+                    <div class="icon">⚙️</div>
+                    <h4>Procesamiento</h4>
+                    <p>Ejecución de operaciones lógico-aritméticas sobre los datos mediante la Unidad Central de Proceso (CPU), siguiendo instrucciones programadas.</p>
+                </div>
+                <div class="key-point-card">
+                    <div class="icon">💾</div>
+                    <h4>Almacenamiento</h4>
+                    <p>Persistencia de datos e instrucciones en dispositivos de memoria primaria (RAM/ROM) y secundaria (HDD/SSD) para acceso y recuperación posterior.</p>
+                </div>
+                <div class="key-point-card">
+                    <div class="icon">📤</div>
+                    <h4>Salida de Resultados</h4>
+                    <p>Presentación de información procesada al usuario o a otros sistemas mediante dispositivos de salida (monitor, impresora, altavoces).</p>
+                </div>
+            </div>
+
+            <h3>📜 Evolución Histórica de la Computación</h3>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">1ª Generación (1940-1956)</div>
+                        <strong>Válvulas de Vacío (Tubos Electrónicos)</strong>
+                        <p>• Tecnología: Tubos de vacío para procesamiento<br>
+                           • Características: Gran tamaño, alto consumo energético, generación masiva de calor<br>
+                           • Ejemplos: ENIAC (30 toneladas, 18.000 válvulas), UNIVAC I<br>
+                           • Velocidad: Miles de operaciones por segundo</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2ª Generación (1956-1963)</div>
+                        <strong>Transistores</strong>
+                        <p>• Tecnología: Transistores reemplazando válvulas de vacío<br>
+                           • Características: Menor tamaño, mayor velocidad, menor consumo<br>
+                           • Innovación: Lenguajes de programación de alto nivel (FORTRAN, COBOL)<br>
+                           • Velocidad: Millones de operaciones por segundo</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">3ª Generación (1964-1971)</div>
+                        <strong>Circuitos Integrados (IC)</strong>
+                        <p>• Tecnología: Múltiples transistores integrados en chips de silicio<br>
+                           • Características: Miniaturización significativa, mayor fiabilidad<br>
+                           • Ejemplos: IBM System/360, PDP-8<br>
+                           • Innovación: Multiprogramación, sistemas operativos complejos</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">4ª Generación (1971-Presente)</div>
+                        <strong>Microprocesadores y VLSI</strong>
+                        <p>• Tecnología: Integración a gran escala (VLSI), CPU completa en un chip<br>
+                           • Ejemplos: Intel 4004 (1971), Apple II, IBM PC<br>
+                           • Características: Ordenadores personales, GUI, Internet<br>
+                           • Velocidad: Miles de millones de operaciones por segundo (GHz)</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">5ª Generación (Emergente)</div>
+                        <strong>Inteligencia Artificial y Computación Cuántica</strong>
+                        <p>• Tecnología: IA, Machine Learning, computación neuronal, qubits<br>
+                           • Características: Procesamiento paralelo masivo, aprendizaje automático<br>
+                           • Ejemplos: Supercomputadoras, computadores cuánticos de IBM/Google<br>
+                           • Paradigma: Computación cognitiva y bioinspirada</p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section>
             <h2>1.2. Componentes Físicos del Ordenador Personal</h2>
             
-            <h3>Hardware</h3>
-            <p>El <strong>hardware</strong> es el conjunto de componentes físicos y tangibles de un ordenador.</p>
+            <div class="definition-box">
+                <div class="def-title">Definición de Hardware</div>
+                <div class="def-content">
+                    El <strong>hardware</strong> constituye el conjunto de elementos físicos, tangibles y materiales que conforman la estructura de un sistema informático, incluyendo componentes electrónicos, electromecánicos y mecánicos que interactúan mediante conexiones eléctricas y lógicas para ejecutar operaciones computacionales. Se distingue del software por su naturaleza física y su capacidad de ser percibido sensorialmente.
+                </div>
+            </div>
 
-            <h3>Componentes Principales</h3>
+            <div class="diagram-container">
+                <div class="diagram-title">💻 Arquitectura Física del Sistema Computacional</div>
+                <div class="architecture-diagram">
+                    <div class="arch-component" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);">
+                        <strong>CPU</strong><br>
+                        <small>Unidad Central de Proceso</small>
+                    </div>
+                    <div class="arch-arrow">↔️</div>
+                    <div class="arch-component" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+                        <strong>RAM</strong><br>
+                        <small>Memoria Principal</small>
+                    </div>
+                    <div class="arch-arrow">↔️</div>
+                    <div class="arch-component" style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);">
+                        <strong>Storage</strong><br>
+                        <small>Almacenamiento</small>
+                    </div>
+                </div>
+                <div class="architecture-diagram" style="margin-top: 1rem;">
+                    <div class="arch-component" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); font-size: 0.9rem;">
+                        <strong>Input</strong><br>
+                        Teclado / Ratón
+                    </div>
+                    <div class="arch-component" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); font-size: 0.9rem;">
+                        <strong>Output</strong><br>
+                        Monitor / Impresora
+                    </div>
+                    <div class="arch-component" style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%); font-size: 0.9rem;">
+                        <strong>Network</strong><br>
+                        Tarjeta de Red
+                    </div>
+                </div>
+            </div>
+
+            <h3>🔧 Componentes Fundamentales de la Arquitectura Hardware</h3>
             
-            <h4>Unidad Central de Proceso (CPU)</h4>
-            <ul class="content-list">
-                <li><strong>Microprocesador:</strong> "Cerebro" del ordenador que ejecuta instrucciones</li>
-                <li><strong>Velocidad:</strong> Medida en GHz (Gigahercios)</li>
-                <li><strong>Núcleos:</strong> Procesadores individuales en un chip (dual-core, quad-core, etc.)</li>
-                <li><strong>Fabricantes principales:</strong> Intel, AMD</li>
-            </ul>
+            <div class="concept-box">
+                <div class="concept-title">⚡ Unidad Central de Proceso (CPU - Central Processing Unit)</div>
+                <p><strong>Definición Académica:</strong> Circuito integrado complejo que constituye el núcleo operativo del sistema computacional, responsable de la ejecución secuencial de instrucciones, control del flujo de datos y realización de operaciones lógico-aritméticas.</p>
+                
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card">
+                        <h4>🧠 ALU</h4>
+                        <p><strong>Arithmetic Logic Unit</strong> - Realiza operaciones aritméticas (+, -, ×, ÷) y lógicas (AND, OR, NOT, XOR)</p>
+                    </div>
+                    <div class="key-point-card">
+                        <h4>🏛️ UC</h4>
+                        <p><strong>Unidad de Control</strong> - Interpreta instrucciones, coordina operaciones y gestiona el flujo de datos</p>
+                    </div>
+                    <div class="key-point-card">
+                        <h4>📦 Registros</h4>
+                        <p><strong>Memoria Rápida Interna</strong> - Almacenes de datos temporales de altísima velocidad dentro del procesador</p>
+                    </div>
+                    <div class="key-point-card">
+                        <h4>🐎 Caché</h4>
+                        <p><strong>Memoria Cache L1/L2/L3</strong> - Memoria intermedia ultrarrpida que reduce latencia de acceso a RAM</p>
+                    </div>
+                </div>
 
-            <h4>Memoria Principal</h4>
-            <ul class="content-list">
-                <li><strong>RAM (Random Access Memory):</strong> Memoria volátil de acceso aleatorio
-                    <ul>
-                        <li>Almacena temporalmente datos y programas en ejecución</li>
-                        <li>Se borra al apagar el ordenador</li>
-                        <li>Mayor RAM = mejor rendimiento multitarea</li>
+                <div class="info-box info" style="margin-top: 1rem;">
+                    <h4>📈 Parámetros de Rendimiento del CPU</h4>
+                    <ul class="content-list">
+                        <li><strong>Frecuencia (Clock Speed):</strong> Medida en GHz (Gigahercios), indica ciclos de reloj por segundo. Ejemplo: 3.5 GHz = 3.500.000.000 ciclos/segundo</li>
+                        <li><strong>Número de Núcleos:</strong> Procesadores independientes en un chip (Dual-core, Quad-core, Octa-core, etc.)</li>
+                        <li><strong>Número de Hilos (Threads):</strong> Hilos de ejecución simultáneos mediante tecnología Hyper-Threading/SMT</li>
+                        <li><strong>Arquitectura:</strong> Conjunto de instrucciones (x86-64, ARM, RISC-V)</li>
+                        <li><strong>TDP (Thermal Design Power):</strong> Consumo energético y calor disipado (medido en Watts)</li>
+                        <li><strong>Fabricantes líderes:</strong> Intel (Core i3/i5/i7/i9), AMD (Ryzen), Apple (M1/M2)</li>
                     </ul>
-                </li>
-                <li><strong>ROM (Read Only Memory):</strong> Memoria de solo lectura
-                    <ul>
-                        <li>Contiene instrucciones permanentes (BIOS/UEFI)</li>
-                        <li>No se borra al apagar el ordenador</li>
+                </div>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-title">💾 Sistemas de Memoria Principal</div>
+                
+                <h4 style="color: #2c3e50; margin-top: 1.5rem;">➡️ RAM (Random Access Memory) - Memoria de Acceso Aleatorio</h4>
+                <p><strong>Definición:</strong> Memoria volátil de lectura/escritura que almacena temporalmente datos y programas en ejecución activa. Su contenido se pierde al interrumpir el suministro eléctrico.</p>
+                
+                <div class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Tipo de RAM</th>
+                            <th>Características</th>
+                            <th>Velocidad Típica</th>
+                            <th>Uso Común</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>DDR3</strong></td>
+                            <td>Generación anterior, menor consumo</td>
+                            <td>800-2133 MHz</td>
+                            <td>Sistemas antiguos</td>
+                        </tr>
+                        <tr>
+                            <td><strong>DDR4</strong></td>
+                            <td>Estándar actual, eficiente</td>
+                            <td>2133-3200 MHz</td>
+                            <td>PCs modernos</td>
+                        </tr>
+                        <tr>
+                            <td><strong>DDR5</strong></td>
+                            <td>Última generación, alta velocidad</td>
+                            <td>4800-6400 MHz</td>
+                            <td>Sistemas premium</td>
+                        </tr>
+                    </tbody>
+                </div>
+
+                <div class="formula-box">
+                    <strong>Principio Fundamental:</strong> Mayor cantidad de RAM = Mayor capacidad multitarea<br>
+                    Rendimiento ∝ (Capacidad RAM × Velocidad) / Latencia
+                </div>
+
+                <h4 style="color: #2c3e50; margin-top: 1.5rem;">➡️ ROM (Read Only Memory) - Memoria de Solo Lectura</h4>
+                <p><strong>Definición:</strong> Memoria no volátil que contiene instrucciones permanentes de arranque del sistema. Su contenido persiste sin alimentación eléctrica.</p>
+                <ul class="content-list">
+                    <li><strong>BIOS/UEFI:</strong> Firmware de inicialización del sistema (Basic Input/Output System / Unified Extensible Firmware Interface)</li>
+                    <li><strong>Función:</strong> POST (Power-On Self Test), carga del sistema operativo, configuración hardware</li>
+                </ul>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-title">🌐 Placa Base (Motherboard) - Sistema de Interconexion</div>
+                <p><strong>Definición:</strong> Circuito impreso principal (PCB - Printed Circuit Board) que actúa como infraestructura de comunicación e integración, proporcionando conectividad eléctrica y lógica entre todos los componentes hardware del sistema.</p>
+                
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card">
+                        <div class="icon">🔌</div>
+                        <h4>Socket CPU</h4>
+                        <p>Interfaz de conexión del procesador (LGA, PGA, BGA)</p>
+                    </div>
+                    <div class="key-point-card">
+                        <div class="icon">🔌</div>
+                        <h4>Slots RAM</h4>
+                        <p>Ranuras DIMM para módulos de memoria (2-4-8 slots)</p>
+                    </div>
+                    <div class="key-point-card">
+                        <div class="icon">🔌</div>
+                        <h4>Chipset</h4>
+                        <p>Circuito controlador que gestiona comunicaciones (Northbridge/Southbridge)</p>
+                    </div>
+                    <div class="key-point-card">
+                        <div class="icon">🔌</div>
+                        <h4>Buses de Expansión</h4>
+                        <p>Ranuras PCI, PCIe (x1, x4, x8, x16) para tarjetas adicionales</p>
+                    </div>
+                    <div class="key-point-card">
+                        <div class="icon">🔌</div>
+                        <h4>Conectores SATA/M.2</h4>
+                        <p>Interfaces para dispositivos de almacenamiento</p>
+                    </div>
+                    <div class="key-point-card">
+                        <div class="icon">🔌</div>
+                        <h4>I/O Ports</h4>
+                        <p>Puertos USB, HDMI, Ethernet, Audio</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-title">💾 Dispositivos de Almacenamiento</div>
+                <p><strong>Definición:</strong> Dispositivos de memoria secundaria que proporcionan persistencia de datos a largo plazo mediante diferentes tecnologías físicas de grabación.</p>
+                
+                <div class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Tecnología</th>
+                            <th>Velocidad Lectura</th>
+                            <th>Durabilidad</th>
+                            <th>Capacidad Típica</th>
+                            <th>Coste/GB</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>HDD</strong></td>
+                            <td>Magnética (platos giratorios)</td>
+                            <td>80-160 MB/s</td>
+                            <td>Suceptible a golpes</td>
+                            <td>500GB - 18TB</td>
+                            <td>Bajo</td>
+                        </tr>
+                        <tr>
+                            <td><strong>SSD SATA</strong></td>
+                            <td>Flash NAND (memoria sólida)</td>
+                            <td>500-550 MB/s</td>
+                            <td>Alta (sin partes móviles)</td>
+                            <td>128GB - 4TB</td>
+                            <td>Medio</td>
+                        </tr>
+                        <tr>
+                            <td><strong>SSD NVMe M.2</strong></td>
+                            <td>Flash NAND + interfaz PCIe</td>
+                            <td>2000-7000 MB/s</td>
+                            <td>Muy alta</td>
+                            <td>256GB - 4TB</td>
+                            <td>Alto</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ópticos</strong></td>
+                            <td>Láser (CD/DVD/Blu-ray)</td>
+                            <td>10-50 MB/s</td>
+                            <td>Media (rayable)</td>
+                            <td>700MB - 128GB</td>
+                            <td>Muy bajo</td>
+                        </tr>
+                    </tbody>
+                </div>
+
+                <div class="formula-box" style="margin-top: 1rem;">
+                    <strong>Ecuación de Rendimiento:</strong><br>
+                    Tiempo de Acceso = Latencia + (Tamaño Datos / Velocidad Transferencia)
+                </div>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-title">🎮 GPU (Graphics Processing Unit) - Unidad de Procesamiento Gráfico</div>
+                <p><strong>Definición:</strong> Procesador especializado diseñado para ejecutar operaciones gráficas y cálculos paralelos masivos mediante arquitecturas con miles de núcleos optimizados para procesamiento simultáneo.</p>
+                
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card">
+                        <h4>💻 GPU Integrada</h4>
+                        <p>• Incorporada en el CPU<br>
+                           • Comparte RAM del sistema<br>
+                           • Menor rendimiento<br>
+                           • Bajo consumo<br>
+                           • Uso: Ofimática, navegación</p>
+                    </div>
+                    <div class="key-point-card">
+                        <h4>🔥 GPU Dedicada</h4>
+                        <p>• Tarjeta independiente (PCIe)<br>
+                           • Memoria VRAM propia (GDDR6)<br>
+                           • Alto rendimiento<br>
+                           • Mayor consumo (150-450W)<br>
+                           • Uso: Gaming, IA, renderizado 3D</p>
+                    </div>
+                </div>
+
+                <div class="info-box info" style="margin-top: 1rem;">
+                    <h4>Aplicaciones de GPU</h4>
+                    <ul class="content-list">
+                        <li><strong>Renderizado gráfico:</strong> Videojuegos 4K/8K, realidad virtual</li>
+                        <li><strong>Computación científica:</strong> CUDA, OpenCL para cálculos paralelos</li>
+                        <li><strong>Inteligencia Artificial:</strong> Entrenamiento de redes neuronales profundas</li>
+                        <li><strong>Minería de criptomonedas:</strong> Cálculos hash intensivos</li>
+                        <li><strong>Edición multimedia:</strong> Renderizado de vídeo, efectos visuales</li>
                     </ul>
-                </li>
-            </ul>
+                </div>
+            </div>
 
-            <h4>Placa Base (Motherboard)</h4>
-            <ul class="content-list">
-                <li>Circuito impreso principal que conecta todos los componentes</li>
-                <li>Contiene el chipset que coordina el flujo de datos</li>
-                <li>Incluye ranuras de expansión (PCI, PCIe)</li>
-                <li>Conectores para CPU, RAM, almacenamiento y periféricos</li>
-            </ul>
+            <div class="concept-box">
+                <div class="concept-title">⚡ Fuente de Alimentación (PSU - Power Supply Unit)</div>
+                <p><strong>Definición:</strong> Dispositivo electrónico que convierte la corriente alterna (AC 220-240V) de la red eléctrica en corriente continua (DC) a diversos voltajes (+3.3V, +5V, +12V) requeridos por los componentes.</p>
+                
+                <div class="info-box warning">
+                    <h4>📈 Especificaciones Clave</h4>
+                    <ul class="content-list">
+                        <li><strong>Potencia (Wattage):</strong> 300W - 1600W según configuración del sistema</li>
+                        <li><strong>Certificación 80 PLUS:</strong> Eficiencia energética (Bronze, Silver, Gold, Platinum, Titanium)</li>
+                        <li><strong>Modularidad:</strong> No modular, semi-modular, modular completo</li>
+                        <li><strong>Protección:</strong> OVP (sobrevoltaje), OCP (sobrecorriente), SCP (cortocircuito), OTP (sobretemperatura)</li>
+                    </ul>
+                </div>
+            </div>
 
-            <h4>Dispositivos de Almacenamiento</h4>
-            <ul class="content-list">
-                <li><strong>Disco Duro (HDD):</strong> Almacenamiento magnético, más capacidad, más lento</li>
-                <li><strong>Disco de Estado Sólido (SSD):</strong> Sin partes móviles, más rápido, más caro</li>
-                <li><strong>Unidades ópticas:</strong> CD, DVD, Blu-ray</li>
-                <li><strong>Almacenamiento externo:</strong> USB, tarjetas SD, discos externos</li>
-            </ul>
-
-            <h4>Tarjeta Gráfica (GPU)</h4>
-            <ul class="content-list">
-                <li>Procesa y genera imágenes para el monitor</li>
-                <li>Integrada en la CPU o dedicada (tarjeta independiente)</li>
-                <li>Esencial para videojuegos, edición de vídeo, diseño 3D</li>
-            </ul>
-
-            <h4>Fuente de Alimentación</h4>
-            <ul class="content-list">
-                <li>Convierte corriente alterna (AC) a corriente continua (DC)</li>
-                <li>Suministra energía a todos los componentes</li>
-                <li>Medida en vatios (W)</li>
-            </ul>
-
-            <h4>Periféricos de Entrada</h4>
-            <ul class="content-list">
-                <li>Teclado, ratón, touchpad</li>
-                <li>Escáner, webcam, micrófono</li>
-                <li>Pantalla táctil, lector de códigos de barras</li>
-            </ul>
-
-            <h4>Periféricos de Salida</h4>
-            <ul class="content-list">
-                <li>Monitor, proyector</li>
-                <li>Impresora, plotter</li>
-                <li>Altavoces, auriculares</li>
-            </ul>
-
-            <h4>Periféricos de Entrada/Salida</h4>
-            <ul class="content-list">
-                <li>Pantalla táctil</li>
-                <li>Impresora multifunción (imprime y escanea)</li>
-                <li>Cascos de realidad virtual</li>
-            </ul>
+            <h3>🔌 Taxonomía de Periféricos</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">📥</div>
+                    <h4>Periféricos de Entrada</h4>
+                    <p><strong>Función:</strong> Adquisición de datos del entorno externo hacia el sistema</p>
+                    <ul style="text-align: left; margin-top: 0.5rem; font-size: 0.9rem;">
+                        <li>Teclado (mecánico/membrana)</li>
+                        <li>Ratón (óptico/láser)</li>
+                        <li>Escáner, Webcam</li>
+                        <li>Micrófono</li>
+                        <li>Panel táctil, Stylus</li>
+                        <li>Lector biométrico</li>
+                        <li>Joystick, Gamepad</li>
+                    </ul>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <div class="icon">📤</div>
+                    <h4>Periféricos de Salida</h4>
+                    <p><strong>Función:</strong> Presentación de información procesada al medio externo</p>
+                    <ul style="text-align: left; margin-top: 0.5rem; font-size: 0.9rem;">
+                        <li>Monitor (LCD, LED, OLED)</li>
+                        <li>Proyector</li>
+                        <li>Impresora (inyección/láser/3D)</li>
+                        <li>Plotter</li>
+                        <li>Altavoces, Auriculares</li>
+                        <li>Gafas VR/AR</li>
+                    </ul>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <div class="icon">⇄</div>
+                    <h4>Periféricos Mixtos (E/S)</h4>
+                    <p><strong>Función:</strong> Capacidad bidireccional de entrada y salida simultánea</p>
+                    <ul style="text-align: left; margin-top: 0.5rem; font-size: 0.9rem;">
+                        <li>Pantalla táctil</li>
+                        <li>Impresora multifunción</li>
+                        <li>Dispositivos de red</li>
+                        <li>Unidades de almacenamiento</li>
+                        <li>Cascos de realidad virtual</li>
+                    </ul>
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>1.3. Software: Concepto y Clases</h2>
+            <h2>1.3. Software: Concepto y Clasificación Taxonómica</h2>
             
-            <h3>Concepto</h3>
-            <p>El <strong>software</strong> es el conjunto de programas, instrucciones y datos que permiten al hardware realizar tareas específicas.</p>
+            <div class="definition-box">
+                <div class="def-title">Definición Formal de Software</div>
+                <div class="def-content">
+                    El <strong>software</strong> constituye el conjunto intangible y lógico de programas, instrucciones codificadas, datos estructurados y documentación asociada que, mediante algoritmos y estructuras de datos, dirigen y controlan el funcionamiento del hardware para ejecutar tareas específicas. Representa la componente lógica e inmaterial del sistema informático, en contraposición al hardware que constituye su manifestación física.
+                </div>
+            </div>
 
-            <h3>Clasificación del Software</h3>
+            <div class="diagram-container">
+                <div class="diagram-title">🏛️ Jerarquía Taxonómica del Software</div>
+                <div class="hierarchy-diagram">
+                    <div class="hierarchy-level">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); font-size: 1.2rem;">
+                            SOFTWARE
+                        </div>
+                    </div>
+                    <div class="hierarchy-connector">↓️ ↓️ ↓️</div>
+                    <div class="hierarchy-level">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);">
+                            Software de Sistema
+                        </div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%);">
+                            Software de Aplicación
+                        </div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);">
+                            Software de Desarrollo
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>🔹 Clasificación del Software</h3>
             
-            <h4>Software de Sistema</h4>
-            <ul class="content-list">
-                <li><strong>Sistemas Operativos:</strong> Windows, Linux, macOS, Android, iOS</li>
-                <li><strong>Controladores (Drivers):</strong> Software que permite al SO comunicarse con el hardware</li>
-                <li><strong>Utilidades:</strong> Programas de mantenimiento, antivirus, compresores</li>
-            </ul>
+            <div class="concept-box">
+                <div class="concept-title">1️⃣ Software de Sistema (System Software)</div>
+                <p><strong>Definición:</strong> Capa de abstracción que gestiona recursos hardware y proporciona servicios fundamentales a aplicaciones de nivel superior.</p>
+                
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card">
+                        <div class="icon">🖥️</div>
+                        <h4>Sistemas Operativos</h4>
+                        <p>Windows, Linux, macOS, Android, iOS - Gestión integral de recursos hardware y software</p>
+                    </div>
+                    <div class="key-point-card">
+                        <div class="icon">🔌</div>
+                        <h4>Controladores (Drivers)</h4>
+                        <p>Software de interfaz hardware-SO que permite comunicación con dispositivos específicos</p>
+                    </div>
+                    <div class="key-point-card">
+                        <div class="icon">🛠️</div>
+                        <h4>Utilidades del Sistema</h4>
+                        <p>Herramientas de mantenimiento: antivirus, desfragmentadores, compresores, gestores de arranque</p>
+                    </div>
+                    <div class="key-point-card">
+                        <div class="icon">💻</div>
+                        <h4>Firmware</h4>
+                        <p>BIOS/UEFI, microcódigo embebido en dispositivos hardware de bajo nivel</p>
+                    </div>
+                </div>
+            </div>
 
-            <h4>Software de Aplicación</h4>
-            <ul class="content-list">
-                <li><strong>Ofimática:</strong> Procesadores de texto, hojas de cálculo, presentaciones</li>
-                <li><strong>Navegadores web:</strong> Chrome, Firefox, Edge</li>
-                <li><strong>Multimedia:</strong> Reproductores de audio/vídeo, editores de imagen</li>
-                <li><strong>Comunicación:</strong> Clientes de correo, mensajería instantánea</li>
-            </ul>
+            <div class="concept-box">
+                <div class="concept-title">2️⃣ Software de Aplicación (Application Software)</div>
+                <p><strong>Definición:</strong> Programas diseñados para usuarios finales que realizan tareas específicas productivas o recreativas.</p>
+                
+                <div class="info-box info" style="margin-top: 1rem;">
+                    <h4>📁 Categorías Principales</h4>
+                    <ul class="content-list">
+                        <li><strong>Ofimática:</strong> Microsoft Office, LibreOffice, Google Workspace (procesadores de texto, hojas de cálculo, presentaciones)</li>
+                        <li><strong>Navegadores Web:</strong> Chrome, Firefox, Safari, Edge - Clientes HTTP/HTTPS</li>
+                        <li><strong>Multimedia:</strong> VLC, Adobe Premiere, Photoshop, GIMP, Audacity</li>
+                        <li><strong>Comunicación:</strong> Outlook, Thunderbird, Slack, Teams, WhatsApp, Zoom</li>
+                        <li><strong>Bases de Datos:</strong> MySQL, PostgreSQL, MongoDB, Access</li>
+                        <li><strong>CAD/CAM:</strong> AutoCAD, SolidWorks, Blender (diseño asistido por computadora)</li>
+                    </ul>
+                </div>
+            </div>
 
-            <h4>Software de Programación</h4>
-            <ul class="content-list">
-                <li><strong>Compiladores e intérpretes:</strong> Traducen código fuente a lenguaje máquina</li>
-                <li><strong>Entornos de desarrollo (IDE):</strong> Visual Studio, Eclipse, PyCharm</li>
-                <li><strong>Depuradores:</strong> Herramientas para encontrar errores en el código</li>
-            </ul>
+            <div class="concept-box">
+                <div class="concept-title">3️⃣ Software de Programación (Development Software)</div>
+                <p><strong>Definición:</strong> Herramientas especializadas para desarrollo, depuración y mantenimiento de software.</p>
+                
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card">
+                        <h4>⚙️ Compiladores</h4>
+                        <p>Traducen código fuente a lenguaje máquina (GCC, Clang, javac)</p>
+                    </div>
+                    <div class="key-point-card">
+                        <h4>🔄 Intérpretes</h4>
+                        <p>Ejecutan código línea por línea (Python, JavaScript, Ruby)</p>
+                    </div>
+                    <div class="key-point-card">
+                        <h4>💻 IDE</h4>
+                        <p>Entornos integrados de desarrollo (Visual Studio Code, IntelliJ, Eclipse)</p>
+                    </div>
+                    <div class="key-point-card">
+                        <h4>🐞 Depuradores</h4>
+                        <p>Herramientas de análisis y corrección de errores (GDB, LLDB)</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>1.4. Sistemas Operativos: Definición y Funciones</h2>
+            <h2>1.4. Sistemas Operativos: Fundamentos y Arquitectura</h2>
             
-            <h3>Definición</h3>
-            <p>Un <strong>Sistema Operativo (SO)</strong> es el software fundamental que gestiona el hardware y proporciona servicios a los programas de aplicación. Actúa como intermediario entre el usuario y el hardware.</p>
+            <div class="definition-box">
+                <div class="def-title">Definición Formal de Sistema Operativo</div>
+                <div class="def-content">
+                    Un <strong>Sistema Operativo (SO)</strong> es el software de sistema fundamental que actúa como capa de abstracción e intermediación entre el hardware y las aplicaciones de usuario, proporcionando servicios esenciales de gestión de recursos (procesador, memoria, E/S, archivos), control de procesos concurrentes, abstracción de hardware mediante APIs, y ofreciendo una interfaz de usuario que facilita la interacción humano-máquina. El SO garantiza la correcta ejecución, aislamiento y seguridad de múltiples aplicaciones concurrentes operando sobre recursos compartidos y limitados.
+                </div>
+            </div>
 
-            <h3>Funciones Principales</h3>
-            <ul class="content-list">
-                <li><strong>Gestión del procesador:</strong> Administra el tiempo de CPU entre procesos</li>
-                <li><strong>Gestión de memoria:</strong> Asigna y libera memoria RAM</li>
-                <li><strong>Gestión de entrada/salida:</strong> Controla periféricos y dispositivos</li>
-                <li><strong>Gestión de archivos:</strong> Organiza y accede a datos en almacenamiento</li>
-                <li><strong>Interfaz de usuario:</strong> Permite la interacción (GUI o CLI)</li>
-                <li><strong>Seguridad:</strong> Control de acceso y protección de datos</li>
-            </ul>
+            <div class="diagram-container">
+                <div class="diagram-title">🏛️ Arquitectura en Capas del Sistema Operativo</div>
+                <div class="hierarchy-diagram">
+                    <div class="hierarchy-level" style="background-color: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 0.5rem 0;">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); width: 300px;">
+                            USUARIO / APLICACIONES
+                        </div>
+                    </div>
+                    <div class="hierarchy-connector">↓️</div>
+                    <div class="hierarchy-level" style="background-color: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 0.5rem 0;">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); width: 350px;">
+                            INTERFAZ DE USUARIO (GUI / CLI)
+                        </div>
+                    </div>
+                    <div class="hierarchy-connector">↓️</div>
+                    <div class="hierarchy-level" style="background-color: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 0.5rem 0;">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); width: 400px;">
+                            NÚCLEO (KERNEL) - Gestión de Recursos
+                        </div>
+                    </div>
+                    <div class="hierarchy-connector">↓️</div>
+                    <div class="hierarchy-level" style="background-color: #f8f9fa; padding: 1rem; border-radius: 8px; margin: 0.5rem 0;">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); width: 300px;">
+                            HARDWARE
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <h3>Ejemplos de Sistemas Operativos</h3>
+            <h3>🛠️ Funciones Principales del Sistema Operativo</h3>
             
-            <h4>Para Ordenadores de Escritorio</h4>
-            <ul class="content-list">
-                <li><strong>Windows:</strong> SO más utilizado, de Microsoft (Windows 10, 11)</li>
-                <li><strong>macOS:</strong> SO de Apple para ordenadores Mac</li>
-                <li><strong>Linux:</strong> SO de código abierto (Ubuntu, Fedora, Debian)</li>
-            </ul>
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <div class="icon">⚡</div>
+                    <h4>Gestión del Procesador</h4>
+                    <p>• <strong>Planificación de procesos:</strong> Algoritmos de scheduling (Round-Robin, prioridades, SJF)<br>
+                       • <strong>Multitarea:</strong> Ejecución concurrente de múltiples procesos<br>
+                       • <strong>Context switching:</strong> Cambio de contexto entre procesos<br>
+                       • <strong>Sincronización:</strong> Semaforos, mutex, monitores</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">🧠</div>
+                    <h4>Gestión de Memoria</h4>
+                    <p>• <strong>Asignación dinámica:</strong> Heap, stack management<br>
+                       • <strong>Memoria virtual:</strong> Paginación, segmentación<br>
+                       • <strong>Caché:</strong> Jerarquía y coherencia de caché<br>
+                       • <strong>Protección:</strong> Aislamiento entre procesos</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #2ecc71;">
+                    <div class="icon">💾</div>
+                    <h4>Gestión de Archivos</h4>
+                    <p>• <strong>Sistemas de archivos:</strong> NTFS, ext4, FAT32, APFS<br>
+                       • <strong>Operaciones:</strong> Crear, leer, escribir, borrar, permisos<br>
+                       • <strong>Directorios:</strong> Estructura jerárquica<br>
+                       • <strong>Metadata:</strong> Atributos, timestamps, propietario</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <div class="icon">🔌</div>
+                    <h4>Gestión de E/S</h4>
+                    <p>• <strong>Drivers:</strong> Abstracción de dispositivos<br>
+                       • <strong>Buffering:</strong> Optimización de transferencias<br>
+                       • <strong>Spooling:</strong> Colas de impresión<br>
+                       • <strong>DMA:</strong> Acceso directo a memoria</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <div class="icon">🔐</div>
+                    <h4>Seguridad y Control</h4>
+                    <p>• <strong>Autenticación:</strong> Login, contraseñas, biometría<br>
+                       • <strong>Autorización:</strong> Permisos, ACLs, roles<br>
+                       • <strong>Auditoria:</strong> Logs de sistema<br>
+                       • <strong>Encriptación:</strong> Protección de datos</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #1abc9c;">
+                    <div class="icon">👥</div>
+                    <h4>Interfaz de Usuario</h4>
+                    <p>• <strong>GUI:</strong> Interfaz gráfica (ventanas, iconos, menús)<br>
+                       • <strong>CLI:</strong> Línea de comandos (bash, PowerShell, cmd)<br>
+                       • <strong>APIs:</strong> Llamadas al sistema (syscalls)<br>
+                       • <strong>Shells:</strong> Intérpretes de comandos</p>
+                </div>
+            </div>
 
-            <h4>Para Dispositivos Móviles</h4>
-            <ul class="content-list">
-                <li><strong>Android:</strong> Basado en Linux, de Google</li>
-                <li><strong>iOS:</strong> SO de Apple para iPhone y iPad</li>
-                <li><strong>HarmonyOS:</strong> SO de Huawei</li>
-            </ul>
-
-            <h4>Para Servidores</h4>
-            <ul class="content-list">
-                <li><strong>Windows Server:</strong> Versión de Windows para servidores</li>
-                <li><strong>Linux:</strong> Muy utilizado en servidores (Ubuntu Server, CentOS)</li>
-                <li><strong>Unix:</strong> Sistemas tradicionalmente usados en servidores grandes</li>
-            </ul>
+            <h3>🔹 Clasificación de Sistemas Operativos</h3>
+            
+            <div class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Plataforma</th>
+                        <th>Sistemas Operativos</th>
+                        <th>Arquitectura</th>
+                        <th>Casos de Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Escritorio</strong></td>
+                        <td>Windows 10/11, macOS, Linux (Ubuntu, Fedora)</td>
+                        <td>Monolítico/Híbrido</td>
+                        <td>Productividad, gaming, desarrollo</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Móvil</strong></td>
+                        <td>Android, iOS, HarmonyOS</td>
+                        <td>Basado en kernel Linux/Unix</td>
+                        <td>Smartphones, tablets</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Servidores</strong></td>
+                        <td>Linux Server, Windows Server, Unix</td>
+                        <td>Optimizado para concurrencia</td>
+                        <td>Web, bases de datos, cloud</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Tiempo Real</strong></td>
+                        <td>FreeRTOS, VxWorks, QNX</td>
+                        <td>Determinista, baja latencia</td>
+                        <td>Sistemas embebidos, industria</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Mainframe</strong></td>
+                        <td>z/OS, z/VSE</td>
+                        <td>Alta disponibilidad</td>
+                        <td>Banca, transacciones críticas</td>
+                    </tr>
+                </tbody>
+            </div>
         </section>
 
         <section>
@@ -318,193 +836,534 @@
         </section>
 
         <section>
-            <h2>1.6. Introducción a las Redes Telemáticas</h2>
+            <h2>1.6. Redes Telemáticas: Fundamentos y Topologías</h2>
             
-            <h3>Concepto de Red</h3>
-            <p>Una <strong>red telemática</strong> es un conjunto de ordenadores y dispositivos conectados entre sí que pueden compartir recursos (archivos, impresoras, conexión a internet) y comunicarse.</p>
+            <div class="definition-box">
+                <div class="def-title">Definición de Red Telemática</div>
+                <div class="def-content">
+                    Una <strong>red telemática o red de computadoras</strong> se define como un conjunto de sistemas informáticos autónomos interconectados mediante tecnologías de comunicación físicas (medios de transmisión) y lógicas (protocolos de comunicación), con el propósito de compartir recursos (hardware, software, datos), intercambiar información y proporcionar servicios distribuidos. La interconectividad se establece mediante mecanismos de direccionamiento, enrutamiento y conmutación que posibilitan la comunicación bidireccional entre nodos de la red.
+                </div>
+            </div>
 
-            <h3>Tipos de Redes según su Alcance</h3>
+            <h3>🔹 Clasificación de Redes por Alcance Geográfico</h3>
             
-            <h4>PAN (Personal Area Network)</h4>
-            <ul class="content-list">
-                <li>Red de área personal</li>
-                <li>Alcance: pocos metros (1-10 m)</li>
-                <li>Ejemplos: Bluetooth, conexión entre móvil y auriculares</li>
-            </ul>
+            <div class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Tipo</th>
+                        <th>Denominación</th>
+                        <th>Alcance</th>
+                        <th>Tecnologías</th>
+                        <th>Ejemplos de Uso</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>PAN</strong></td>
+                        <td>Personal Area Network</td>
+                        <td>1-10 metros</td>
+                        <td>Bluetooth, Zigbee, NFC</td>
+                        <td>Wearables, auriculares, smartwatch</td>
+                    </tr>
+                    <tr>
+                        <td><strong>LAN</strong></td>
+                        <td>Local Area Network</td>
+                        <td>10m - 1km</td>
+                        <td>Ethernet, Wi-Fi 6/7</td>
+                        <td>Hogares, oficinas, campus</td>
+                    </tr>
+                    <tr>
+                        <td><strong>MAN</strong></td>
+                        <td>Metropolitan Area Network</td>
+                        <td>1-50 km</td>
+                        <td>Fibra óptica, WiMAX</td>
+                        <td>Redes urbanas, ISP municipal</td>
+                    </tr>
+                    <tr>
+                        <td><strong>WAN</strong></td>
+                        <td>Wide Area Network</td>
+                        <td>50 km - Global</td>
+                        <td>Internet, MPLS, SD-WAN</td>
+                        <td>Internet, redes corporativas globales</td>
+                    </tr>
+                </tbody>
+            </div>
 
-            <h4>LAN (Local Area Network)</h4>
-            <ul class="content-list">
-                <li>Red de área local</li>
-                <li>Alcance: edificio o campus (hasta 1 km)</li>
-                <li>Ejemplos: Red de una oficina, hogar o escuela</li>
-                <li>Conexión: cable Ethernet o Wi-Fi</li>
-            </ul>
+            <h3>📊 Topologías de Red: Arquitecturas Físicas y Lógicas</h3>
+            
+            <div class="concept-box">
+                <div class="concept-title">Topologías Fundamentales</div>
+                
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card" style="border-top-color: #3498db;">
+                        <div class="icon">—</div>
+                        <h4>Topología Bus</h4>
+                        <svg width="200" height="80" style="margin: 10px auto; display: block;">
+                            <line x1="20" y1="40" x2="180" y2="40" stroke="#3498db" stroke-width="4"/>
+                            <circle cx="40" cy="40" r="8" fill="#e74c3c"/>
+                            <circle cx="80" cy="40" r="8" fill="#e74c3c"/>
+                            <circle cx="120" cy="40" r="8" fill="#e74c3c"/>
+                            <circle cx="160" cy="40" r="8" fill="#e74c3c"/>
+                        </svg>
+                        <p>• Cable central (backbone)<br>
+                           • Todos los nodos conectados linealmente<br>
+                           • <strong>Ventaja:</strong> Bajo coste, fácil expansión<br>
+                           • <strong>Desventaja:</strong> Fallo de bus afecta a toda la red<br>
+                           • Uso: Redes antiguas (10BASE2 Ethernet)</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #2ecc71;">
+                        <div class="icon">⭐</div>
+                        <h4>Topología Estrella</h4>
+                        <svg width="200" height="140" style="margin: 10px auto; display: block;">
+                            <circle cx="100" cy="70" r="12" fill="#2ecc71"/>
+                            <line x1="100" y1="70" x2="100" y2="20" stroke="#3498db" stroke-width="3"/>
+                            <line x1="100" y1="70" x2="100" y2="120" stroke="#3498db" stroke-width="3"/>
+                            <line x1="100" y1="70" x2="30" y2="70" stroke="#3498db" stroke-width="3"/>
+                            <line x1="100" y1="70" x2="170" y2="70" stroke="#3498db" stroke-width="3"/>
+                            <circle cx="100" cy="20" r="8" fill="#e74c3c"/>
+                            <circle cx="100" cy="120" r="8" fill="#e74c3c"/>
+                            <circle cx="30" cy="70" r="8" fill="#e74c3c"/>
+                            <circle cx="170" cy="70" r="8" fill="#e74c3c"/>
+                        </svg>
+                        <p>• Nodo central (switch/hub)<br>
+                           • Todos los dispositivos conectados al centro<br>
+                           • <strong>Ventaja:</strong> Fácil diagnóstico, alta fiabilidad<br>
+                           • <strong>Desventaja:</strong> Dependencia del nodo central<br>
+                           • Uso: Redes LAN actuales (más común)</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #f39c12;">
+                        <div class="icon">🔁</div>
+                        <h4>Topología Anillo</h4>
+                        <svg width="200" height="140" style="margin: 10px auto; display: block;">
+                            <circle cx="100" cy="70" r="50" fill="none" stroke="#3498db" stroke-width="4"/>
+                            <circle cx="100" cy="20" r="8" fill="#e74c3c"/>
+                            <circle cx="150" cy="70" r="8" fill="#e74c3c"/>
+                            <circle cx="100" cy="120" r="8" fill="#e74c3c"/>
+                            <circle cx="50" cy="70" r="8" fill="#e74c3c"/>
+                            <path d="M 100,28 L 105,35" fill="none" stroke="#2ecc71" stroke-width="3" marker-end="url(#arrowhead)"/>
+                        </svg>
+                        <p>• Conexiones en círculo cerrado<br>
+                           • Datos circulan unidireccionalmente<br>
+                           • <strong>Ventaja:</strong> No colisiones, token ring<br>
+                           • <strong>Desventaja:</strong> Fallo de un nodo rompe el anillo<br>
+                           • Uso: FDDI, Token Ring (obsoleto)</p>
+                    </div>
+                    
+                    <div class="key-point-card" style="border-top-color: #e74c3c;">
+                        <div class="icon">🕸️</div>
+                        <h4>Topología Malla</h4>
+                        <svg width="200" height="140" style="margin: 10px auto; display: block;">
+                            <line x1="50" y1="40" x2="150" y2="40" stroke="#3498db" stroke-width="2"/>
+                            <line x1="50" y1="40" x2="50" y2="100" stroke="#3498db" stroke-width="2"/>
+                            <line x1="50" y1="40" x2="150" y2="100" stroke="#3498db" stroke-width="2"/>
+                            <line x1="150" y1="40" x2="50" y2="100" stroke="#3498db" stroke-width="2"/>
+                            <line x1="150" y1="40" x2="150" y2="100" stroke="#3498db" stroke-width="2"/>
+                            <line x1="50" y1="100" x2="150" y2="100" stroke="#3498db" stroke-width="2"/>
+                            <circle cx="50" cy="40" r="8" fill="#e74c3c"/>
+                            <circle cx="150" cy="40" r="8" fill="#e74c3c"/>
+                            <circle cx="50" cy="100" r="8" fill="#e74c3c"/>
+                            <circle cx="150" cy="100" r="8" fill="#e74c3c"/>
+                        </svg>
+                        <p>• Múltiples interconexiones entre nodos<br>
+                           • Rutas alternativas (redundancia)<br>
+                           • <strong>Ventaja:</strong> Muy alta fiabilidad y tolerancia a fallos<br>
+                           • <strong>Desventaja:</strong> Alto coste de cableado<br>
+                           • Uso: Internet, redes críticas, datacenters</p>
+                    </div>
+                </div>
+            </div>
 
-            <h4>MAN (Metropolitan Area Network)</h4>
-            <ul class="content-list">
-                <li>Red de área metropolitana</li>
-                <li>Alcance: ciudad (10-50 km)</li>
-                <li>Ejemplos: Red de cable de una ciudad</li>
-            </ul>
-
-            <h4>WAN (Wide Area Network)</h4>
-            <ul class="content-list">
-                <li>Red de área amplia</li>
-                <li>Alcance: países o continentes</li>
-                <li>Ejemplo principal: Internet</li>
-            </ul>
-
-            <h3>Tipos de Redes según su Topología</h3>
-            <ul class="content-list">
-                <li><strong>Bus:</strong> Todos los dispositivos conectados a un cable principal</li>
-                <li><strong>Estrella:</strong> Todos los dispositivos conectados a un nodo central (switch/router)</li>
-                <li><strong>Anillo:</strong> Dispositivos conectados en círculo</li>
-                <li><strong>Malla:</strong> Cada dispositivo conectado a múltiples dispositivos</li>
-            </ul>
-
-            <h3>Tipos de Redes según su Relación</h3>
-            <ul class="content-list">
-                <li><strong>Cliente-Servidor:</strong> Un servidor central proporciona servicios a los clientes</li>
-                <li><strong>Peer-to-Peer (P2P):</strong> Todos los equipos tienen igual jerarquía</li>
-            </ul>
+            <h3>🔹 Modelos de Organización de Redes</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <div class="icon">💼</div>
+                    <h4>Modelo Cliente-Servidor</h4>
+                    <div style="text-align: center; margin: 1rem 0;">
+                        <div style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem; border-radius: 8px; margin: 0.5rem;">
+                            <strong>🖥️ SERVIDOR</strong><br>
+                            <small>Proporciona servicios</small>
+                        </div>
+                        <div style="font-size: 2rem; margin: 0.5rem 0;">↕️</div>
+                        <div style="display: flex; justify-content: center; gap: 0.5rem; flex-wrap: wrap;">
+                            <div style="background: #e3f2fd; padding: 0.5rem; border-radius: 5px; border: 2px solid #2196f3;">💻 Cliente</div>
+                            <div style="background: #e3f2fd; padding: 0.5rem; border-radius: 5px; border: 2px solid #2196f3;">💻 Cliente</div>
+                            <div style="background: #e3f2fd; padding: 0.5rem; border-radius: 5px; border: 2px solid #2196f3;">💻 Cliente</div>
+                        </div>
+                    </div>
+                    <p>• Servidor centralizado<br>
+                       • Clientes solicitan servicios<br>
+                       • Ejemplo: Web, correo, BD</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #1abc9c;">
+                    <div class="icon">🤝</div>
+                    <h4>Modelo P2P (Peer-to-Peer)</h4>
+                    <div style="text-align: center; margin: 1rem 0;">
+                        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                            <div style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%); color: white; padding: 0.8rem; border-radius: 8px;">💻 Peer</div>
+                            <div style="font-size: 1.5rem; align-self: center;">↔️</div>
+                            <div style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%); color: white; padding: 0.8rem; border-radius: 8px;">💻 Peer</div>
+                        </div>
+                        <div style="font-size: 1.5rem; margin: 0.3rem 0;">↕️ ↕️</div>
+                        <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                            <div style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%); color: white; padding: 0.8rem; border-radius: 8px;">💻 Peer</div>
+                            <div style="font-size: 1.5rem; align-self: center;">↔️</div>
+                            <div style="background: linear-gradient(135deg, #1abc9c 0%, #16a085 100%); color: white; padding: 0.8rem; border-radius: 8px;">💻 Peer</div>
+                        </div>
+                    </div>
+                    <p>• Todos los nodos son iguales<br>
+                       • Comparten recursos directamente<br>
+                       • Ejemplo: BitTorrent, Blockchain</p>
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>1.7. Dispositivos de Red</h2>
+            <h2>1.7. Dispositivos de Interconexion de Redes</h2>
             
-            <h3>Tarjeta de Red (NIC)</h3>
-            <ul class="content-list">
-                <li>Permite conectar un ordenador a la red</li>
-                <li>Puede ser ethernet (RJ-45) o inalámbrica (Wi-Fi)</li>
-                <li>Tiene una dirección MAC única</li>
-            </ul>
+            <div class="diagram-container">
+                <div class="diagram-title">🏛️ Jerarquía de Dispositivos por Capa OSI</div>
+                <div class="hierarchy-diagram">
+                    <div class="hierarchy-level" style="margin: 0.5rem 0;">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); width: 200px;">
+                            Capa 7-5: Gateway
+                        </div>
+                    </div>
+                    <div class="hierarchy-connector">↓️</div>
+                    <div class="hierarchy-level" style="margin: 0.5rem 0;">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); width: 250px;">
+                            Capa 3: Router
+                        </div>
+                    </div>
+                    <div class="hierarchy-connector">↓️</div>
+                    <div class="hierarchy-level" style="margin: 0.5rem 0;">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); width: 300px;">
+                            Capa 2: Switch, Bridge
+                        </div>
+                    </div>
+                    <div class="hierarchy-connector">↓️</div>
+                    <div class="hierarchy-level" style="margin: 0.5rem 0;">
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); width: 350px;">
+                            Capa 1: Hub, Repetidor, Cableado
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            <h3>Hub (Concentrador)</h3>
-            <ul class="content-list">
-                <li>Dispositivo básico que conecta varios equipos</li>
-                <li>Envía datos a todos los puertos (no inteligente)</li>
-                <li>Actualmente en desuso</li>
-            </ul>
-
-            <h3>Switch (Conmutador)</h3>
-            <ul class="content-list">
-                <li>Conecta varios dispositivos en una LAN</li>
-                <li>Envía datos solo al dispositivo destinatario (inteligente)</li>
-                <li>Trabaja en la capa 2 (enlace de datos) del modelo OSI</li>
-            </ul>
-
-            <h3>Router (Enrutador)</h3>
-            <ul class="content-list">
-                <li>Conecta diferentes redes entre sí</li>
-                <li>Dirige el tráfico de datos entre redes</li>
-                <li>Asigna direcciones IP (con DHCP)</li>
-                <li>Proporciona seguridad (firewall)</li>
-                <li>Ejemplo: router de casa que conecta tu LAN con Internet</li>
-            </ul>
-
-            <h3>Punto de Acceso (Access Point)</h3>
-            <ul class="content-list">
-                <li>Crea una red Wi-Fi</li>
-                <li>Conecta dispositivos inalámbricos a una red cableada</li>
-            </ul>
-
-            <h3>Módem</h3>
-            <ul class="content-list">
-                <li>Modula y demodula señales</li>
-                <li>Convierte señales digitales a analógicas y viceversa</li>
-                <li>Necesario para conexiones telefónicas, cable o fibra óptica</li>
-            </ul>
-
-            <h3>Repetidor</h3>
-            <ul class="content-list">
-                <li>Amplifica la señal para extender el alcance de la red</li>
-                <li>No modifica la información</li>
-            </ul>
-
-            <h3>Bridge (Puente)</h3>
-            <ul class="content-list">
-                <li>Conecta dos segmentos de red</li>
-                <li>Filtra tráfico entre segmentos</li>
-            </ul>
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #f39c12;">
+                    <div class="icon">🔌</div>
+                    <h4>Tarjeta de Red (NIC)</h4>
+                    <p><strong>Network Interface Card</strong><br>
+                       • <strong>Capa OSI:</strong> Capa 1-2 (Física/Enlace)<br>
+                       • <strong>Función:</strong> Interfaz hardware para conexión a red<br>
+                       • <strong>Tipos:</strong> Ethernet (RJ-45), Wi-Fi (802.11ac/ax), Fibra<br>
+                       • <strong>Dirección MAC:</strong> Identificador único 48 bits (6 bytes hexadecimales)<br>
+                       • <strong>Ejemplo:</strong> 00:1A:2B:3C:4D:5E</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #95a5a6;">
+                    <div class="icon">⚫</div>
+                    <h4>Hub (Concentrador)</h4>
+                    <p><strong>Dispositivo Capa 1</strong><br>
+                       • <strong>Función:</strong> Repetidor multipuerto<br>
+                       • <strong>Funcionamiento:</strong> Broadcast (envía a todos los puertos)<br>
+                       • <strong>Dominio de colisión:</strong> Compartido (ineficiente)<br>
+                       • <strong>Estado:</strong> Obsoleto (reemplazado por switches)<br>
+                       • <strong>Velocidad:</strong> 10/100 Mbps half-duplex</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #2ecc71;">
+                    <div class="icon">🔀</div>
+                    <h4>Switch (Conmutador)</h4>
+                    <p><strong>Dispositivo Capa 2</strong><br>
+                       • <strong>Función:</strong> Conmutación inteligente de tramas<br>
+                       • <strong>Funcionamiento:</strong> Tabla MAC → envía solo al destino<br>
+                       • <strong>Dominios:</strong> Separa dominios de colisión<br>
+                       • <strong>Tecnología:</strong> Store-and-forward, cut-through<br>
+                       • <strong>Velocidad:</strong> 1 Gbps - 100 Gbps full-duplex<br>
+                       • <strong>Tipos:</strong> Managed (gestionable), Unmanaged, PoE</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">🛤️</div>
+                    <h4>Router (Enrutador)</h4>
+                    <p><strong>Dispositivo Capa 3</strong><br>
+                       • <strong>Función:</strong> Enrutamiento entre redes diferentes<br>
+                       • <strong>Funcionamiento:</strong> Tabla de enrutamiento + protocolos (RIP, OSPF, BGP)<br>
+                       • <strong>Servicios:</strong> NAT, DHCP, Firewall, VPN<br>
+                       • <strong>Dominios:</strong> Separa dominios de broadcast<br>
+                       • <strong>Uso:</strong> Interconectar LAN con Internet/WAN<br>
+                       • <strong>Ejemplo:</strong> Router doméstico, router empresarial</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <div class="icon">📡</div>
+                    <h4>Access Point (AP)</h4>
+                    <p><strong>Punto de Acceso Inalámbrico</strong><br>
+                       • <strong>Función:</strong> Conexión Wi-Fi para dispositivos móviles<br>
+                       • <strong>Estándares:</strong> 802.11n/ac/ax (Wi-Fi 4/5/6/7)<br>
+                       • <strong>Frecuencias:</strong> 2.4 GHz, 5 GHz, 6 GHz<br>
+                       • <strong>Seguridad:</strong> WPA2, WPA3, 802.1X<br>
+                       • <strong>Topología:</strong> Modo infraestructura / Ad-hoc</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <div class="icon">📶</div>
+                    <h4>Módem</h4>
+                    <p><strong>Modulador-Demodulador</strong><br>
+                       • <strong>Función:</strong> Conversión digital ↔️ analógico<br>
+                       • <strong>Tipos:</strong> ADSL, Cable, Fibra óptica (GPON), 4G/5G<br>
+                       • <strong>Modulación:</strong> QAM, PSK, FSK<br>
+                       • <strong>Interfaz WAN:</strong> RJ-11 (teléfono), Coaxial, Fibra<br>
+                       • <strong>Interfaz LAN:</strong> Ethernet (RJ-45)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #1abc9c;">
+                    <div class="icon">🔁</div>
+                    <h4>Repetidor / Extensor</h4>
+                    <p><strong>Dispositivo Capa 1</strong><br>
+                       • <strong>Función:</strong> Amplificación y regeneración de señal<br>
+                       • <strong>Uso:</strong> Extender alcance de red<br>
+                       • <strong>Tipos:</strong> Repetidor Ethernet, extensor Wi-Fi<br>
+                       • <strong>Limitación:</strong> No filtra tráfico, amplifica ruido</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #34495e;">
+                    <div class="icon">🌉</div>
+                    <h4>Bridge (Puente)</h4>
+                    <p><strong>Dispositivo Capa 2</strong><br>
+                       • <strong>Función:</strong> Conectar dos segmentos de red<br>
+                       • <strong>Funcionamiento:</strong> Filtra tráfico por dirección MAC<br>
+                       • <strong>Uso:</strong> Unir redes LAN, segmentación<br>
+                       • <strong>Nota:</strong> Funcionalidad incorporada en switches modernos</p>
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>1.8. Configuración Básica de Redes TCP/IP</h2>
+            <h2>1.8. Protocolo TCP/IP y Configuración de Redes</h2>
             
-            <h3>Protocolo TCP/IP</h3>
-            <p>El <strong>TCP/IP</strong> (Transmission Control Protocol/Internet Protocol) es el conjunto de protocolos fundamentales que permite la comunicación en Internet y redes locales.</p>
+            <div class="definition-box">
+                <div class="def-title">Definición del Protocolo TCP/IP</div>
+                <div class="def-content">
+                    El <strong>TCP/IP (Transmission Control Protocol/Internet Protocol)</strong> constituye la suite de protocolos fundamental que establece las reglas y estándares de comunicación en redes de computadoras, especialmente Internet. Comprende un conjunto jerárquico de protocolos organizados en cuatro capas (Aplicación, Transporte, Internet/Red, Acceso a Red) que permiten el direccionamiento, enrutamiento, fragmentación, transmisión confiable y entrega de paquetes de datos entre sistemas heterogéneos interconectados.
+                </div>
+            </div>
 
-            <h3>Dirección IP</h3>
-            <p>Una <strong>dirección IP</strong> es un identificador único para cada dispositivo conectado a una red.</p>
+            <div class="diagram-container">
+                <div class="diagram-title">🏛️ Modelo TCP/IP vs Modelo OSI</div>
+                <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
+                    <div style="text-align: center;">
+                        <h4 style="color: #2c3e50;">Modelo OSI (7 capas)</h4>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); margin: 0.3rem; width: 200px;">7. Aplicación</div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #e67e22 0%, #d35400 100%); margin: 0.3rem; width: 200px;">6. Presentación</div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); margin: 0.3rem; width: 200px;">5. Sesión</div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); margin: 0.3rem; width: 200px;">4. Transporte</div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); margin: 0.3rem; width: 200px;">3. Red</div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); margin: 0.3rem; width: 200px;">2. Enlace de Datos</div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%); margin: 0.3rem; width: 200px;">1. Física</div>
+                    </div>
+                    <div style="text-align: center;">
+                        <h4 style="color: #2c3e50;">Modelo TCP/IP (4 capas)</h4>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); margin: 0.3rem; width: 220px; height: 80px; line-height: 1.3; padding-top: 1.2rem;">4. Aplicación<br><small>(HTTP, FTP, SMTP, DNS)</small></div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #2ecc71 0%, #27ae60 100%); margin: 0.3rem; width: 220px; height: 60px; line-height: 1.3; padding-top: 0.8rem;">3. Transporte<br><small>(TCP, UDP)</small></div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #3498db 0%, #2980b9 100%); margin: 0.3rem; width: 220px; height: 60px; line-height: 1.3; padding-top: 0.8rem;">2. Internet<br><small>(IP, ICMP, ARP)</small></div>
+                        <div class="hierarchy-box" style="background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%); margin: 0.3rem; width: 220px; height: 90px; line-height: 1.3; padding-top: 1.2rem;">1. Acceso a Red<br><small>(Ethernet, Wi-Fi, PPP)</small></div>
+                    </div>
+                </div>
+            </div>
 
-            <h4>IPv4 (Internet Protocol version 4)</h4>
-            <ul class="content-list">
-                <li>Formato: 4 números separados por puntos (0-255)</li>
-                <li>Ejemplo: 192.168.1.100</li>
-                <li>Total de direcciones: aproximadamente 4.300 millones</li>
-            </ul>
+            <h3>🎯 Direccionamiento IP: Fundamentos</h3>
+            
+            <div class="concept-box">
+                <div class="concept-title">Dirección IPv4 (Internet Protocol version 4)</div>
+                
+                <div class="formula-box">
+                    <strong>Estructura IPv4:</strong> 32 bits = 4 octetos (bytes) = 4 números decimales (0-255)<br>
+                    Formato: <code>XXX.XXX.XXX.XXX</code> donde XXX ∈ [0, 255]<br>
+                    Ejemplo: <code>192.168.1.100</code> = <code>11000000.10101000.00000001.01100100</code> (binario)
+                </div>
 
-            <h4>IPv6 (Internet Protocol version 6)</h4>
-            <ul class="content-list">
-                <li>Formato: 8 grupos de 4 dígitos hexadecimales</li>
-                <li>Ejemplo: 2001:0db8:85a3:0000:0000:8a2e:0370:7334</li>
-                <li>Creado para solucionar la escasez de direcciones IPv4</li>
-            </ul>
+                <div class="comparison-table" style="margin-top: 1.5rem;">
+                    <thead>
+                        <tr>
+                            <th>Clase</th>
+                            <th>Rango</th>
+                            <th>Red/Host Bits</th>
+                            <th>Máscara Por Defecto</th>
+                            <th>Nº Redes</th>
+                            <th>Hosts/Red</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Clase A</strong></td>
+                            <td>1.0.0.0 - 126.255.255.255</td>
+                            <td>8 / 24</td>
+                            <td>255.0.0.0 (/8)</td>
+                            <td>126</td>
+                            <td>16.777.214</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Clase B</strong></td>
+                            <td>128.0.0.0 - 191.255.255.255</td>
+                            <td>16 / 16</td>
+                            <td>255.255.0.0 (/16)</td>
+                            <td>16.384</td>
+                            <td>65.534</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Clase C</strong></td>
+                            <td>192.0.0.0 - 223.255.255.255</td>
+                            <td>24 / 8</td>
+                            <td>255.255.255.0 (/24)</td>
+                            <td>2.097.152</td>
+                            <td>254</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-            <h4>Clases de Direcciones IP (IPv4)</h4>
-            <ul class="content-list">
-                <li><strong>Clase A:</strong> 1.0.0.0 a 126.255.255.255 (redes muy grandes)</li>
-                <li><strong>Clase B:</strong> 128.0.0.0 a 191.255.255.255 (redes medianas)</li>
-                <li><strong>Clase C:</strong> 192.0.0.0 a 223.255.255.255 (redes pequeñas)</li>
-            </ul>
-
-            <h4>Direcciones IP Privadas</h4>
-            <p>Rangos reservados para redes locales (no enrutables en Internet):</p>
-            <ul class="content-list">
-                <li>Clase A: 10.0.0.0 a 10.255.255.255</li>
-                <li>Clase B: 172.16.0.0 a 172.31.255.255</li>
-                <li>Clase C: 192.168.0.0 a 192.168.255.255</li>
-            </ul>
-
-            <h3>Máscara de Subred</h3>
-            <p>La <strong>máscara de subred</strong> determina qué parte de la dirección IP corresponde a la red y cuál al host.</p>
-            <ul class="content-list">
-                <li>Ejemplo: 255.255.255.0</li>
-                <li>Permite dividir una red en subredes más pequeñas</li>
-            </ul>
-
-            <h3>Puerta de Enlace (Gateway)</h3>
-            <ul class="content-list">
-                <li>Dirección IP del router que conecta la red local con otras redes</li>
-                <li>Ejemplo: 192.168.1.1</li>
-            </ul>
-
-            <h3>Servidor DNS</h3>
-            <p>El <strong>DNS</strong> (Domain Name System) traduce nombres de dominio (www.google.com) a direcciones IP.</p>
-            <ul class="content-list">
-                <li>Ejemplos de servidores DNS públicos:
-                    <ul>
-                        <li>Google DNS: 8.8.8.8 y 8.8.4.4</li>
-                        <li>Cloudflare: 1.1.1.1</li>
+                <div class="info-box warning" style="margin-top: 1rem;">
+                    <h4>🔒 Direcciones IP Privadas (RFC 1918)</h4>
+                    <p>Rangos reservados para redes locales (no enrutables en Internet pública):</p>
+                    <ul class="content-list">
+                        <li><strong>Clase A:</strong> <code>10.0.0.0 - 10.255.255.255</code> (10.0.0.0/8) → 1 red grande</li>
+                        <li><strong>Clase B:</strong> <code>172.16.0.0 - 172.31.255.255</code> (172.16.0.0/12) → 16 redes</li>
+                        <li><strong>Clase C:</strong> <code>192.168.0.0 - 192.168.255.255</code> (192.168.0.0/16) → 256 redes</li>
+                        <li><strong>Loopback:</strong> <code>127.0.0.0 - 127.255.255.255</code> (127.0.0.1 = localhost)</li>
                     </ul>
-                </li>
-            </ul>
+                </div>
+            </div>
 
-            <h3>DHCP (Dynamic Host Configuration Protocol)</h3>
-            <ul class="content-list">
-                <li>Asigna automáticamente direcciones IP a dispositivos en la red</li>
-                <li>Evita tener que configurar manualmente cada dispositivo</li>
-                <li>Normalmente está en el router</li>
-            </ul>
+            <div class="concept-box">
+                <div class="concept-title">Dirección IPv6 (Internet Protocol version 6)</div>
+                
+                <div class="formula-box">
+                    <strong>Estructura IPv6:</strong> 128 bits = 8 grupos de 16 bits hexadecimales<br>
+                    Formato: <code>XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX:XXXX</code><br>
+                    Ejemplo: <code>2001:0db8:85a3:0000:0000:8a2e:0370:7334</code><br>
+                    Compresión: <code>2001:db8:85a3::8a2e:370:7334</code> (omitir ceros)
+                </div>
 
-            <h3>Configuración Típica en una Red Doméstica</h3>
-            <div class="info-box info">
-                <ul class="content-list">
-                    <li><strong>Dirección IP:</strong> 192.168.1.100 (asignada por DHCP)</li>
-                    <li><strong>Máscara de subred:</strong> 255.255.255.0</li>
-                    <li><strong>Puerta de enlace:</strong> 192.168.1.1 (router)</li>
-                    <li><strong>DNS:</strong> 192.168.1.1 o 8.8.8.8</li>
-                </ul>
+                <div class="key-points-grid" style="margin-top: 1rem;">
+                    <div class="key-point-card">
+                        <h4>🎯 Ventajas sobre IPv4</h4>
+                        <p>• Espacio de direcciones: 2¹²⁸ direcciones<br>
+                           • Autoconfiguación (SLAAC)<br>
+                           • IPsec integrado<br>
+                           • Sin NAT necesario<br>
+                           • Multicast mejorado</p>
+                    </div>
+                    <div class="key-point-card">
+                        <h4>📌 Tipos de Direcciones</h4>
+                        <p>• <strong>Unicast:</strong> Un destinatario<br>
+                           • <strong>Multicast:</strong> Grupo de destinatarios<br>
+                           • <strong>Anycast:</strong> Más cercano del grupo<br>
+                           • <strong>Loopback:</strong> ::1<br>
+                           • <strong>Link-local:</strong> fe80::/10</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3>🔧 Parámetros de Configuración de Red</h3>
+            
+            <div class="key-points-grid">
+                <div class="key-point-card" style="border-top-color: #3498db;">
+                    <div class="icon">🎯</div>
+                    <h4>Dirección IP</h4>
+                    <p><strong>Identificador único del dispositivo en la red</strong><br>
+                       • <strong>IP Estática:</strong> Asignada manualmente, permanente<br>
+                       • <strong>IP Dinámica:</strong> Asignada por DHCP, temporal<br>
+                       • Ejemplo: <code>192.168.1.100</code></p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #2ecc71;">
+                    <div class="icon">🎭</div>
+                    <h4>Máscara de Subred</h4>
+                    <p><strong>Define la porción de red y host</strong><br>
+                       • Formato: <code>255.255.255.0</code><br>
+                       • Notación CIDR: <code>/24</code><br>
+                       • Subredes: Divide redes en segmentos<br>
+                       • Cálculo hosts: <code>2ⁿ - 2</code> (n = bits de host)</p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #e74c3c;">
+                    <div class="icon">🚪</div>
+                    <h4>Puerta de Enlace (Gateway)</h4>
+                    <p><strong>Router que conecta con otras redes</strong><br>
+                       • Dirección IP del router local<br>
+                       • Ruta por defecto (default route)<br>
+                       • Ejemplo: <code>192.168.1.1</code></p>
+                </div>
+                
+                <div class="key-point-card" style="border-top-color: #9b59b6;">
+                    <div class="icon">📝</div>
+                    <h4>Servidor DNS</h4>
+                    <p><strong>Resolución de nombres de dominio</strong><br>
+                       • Traduce dominios a IPs<br>
+                       • www.google.com → IP<br>
+                       • DNS públicos:<br>
+                         • Google: <code>8.8.8.8</code>, <code>8.8.4.4</code><br>
+                         • Cloudflare: <code>1.1.1.1</code></p>
+                </div>
+            </div>
+
+            <div class="concept-box">
+                <div class="concept-title">⚙️ DHCP (Dynamic Host Configuration Protocol)</div>
+                <p><strong>Protocolo de asignación automática de configuración IP</strong></p>
+                
+                <div class="process-flow" style="margin-top: 1rem;">
+                    <div class="process-step">
+                        <div class="process-step-number">1</div>
+                        <strong>DISCOVER</strong><br>
+                        <small>Cliente busca servidor</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">2</div>
+                        <strong>OFFER</strong><br>
+                        <small>Servidor ofrece IP</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">3</div>
+                        <strong>REQUEST</strong><br>
+                        <small>Cliente solicita IP</small>
+                    </div>
+                    <div class="process-step">
+                        <div class="process-step-number">4</div>
+                        <strong>ACK</strong><br>
+                        <small>Servidor confirma</small>
+                    </div>
+                </div>
+                
+                <div class="info-box info" style="margin-top: 1rem;">
+                    <h4>Ventajas de DHCP</h4>
+                    <ul class="content-list">
+                        <li>✅ Configuración automática sin intervención manual</li>
+                        <li>✅ Gestión centralizada de direcciones IP</li>
+                        <li>✅ Reutilización dinámica de IPs (mediante leases)</li>
+                        <li>✅ Reduce errores de configuración</li>
+                        <li>✅ Facilita movilidad de dispositivos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="summary-box">
+                <h4>📊 Ejemplo de Configuración de Red Doméstica Típica</h4>
+                <div style="background: rgba(255,255,255,0.1); padding: 1rem; border-radius: 8px; margin-top: 1rem;">
+                    <p style="font-family: monospace; line-height: 2;">
+                        <strong>Dirección IP:</strong> <code style="background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 3px;">192.168.1.100</code><br>
+                        <strong>Máscara de Subred:</strong> <code style="background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 3px;">255.255.255.0</code> (/24 CIDR)<br>
+                        <strong>Puerta de Enlace:</strong> <code style="background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 3px;">192.168.1.1</code> (Router)<br>
+                        <strong>DNS Primario:</strong> <code style="background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 3px;">192.168.1.1</code> (Router)<br>
+                        <strong>DNS Secundario:</strong> <code style="background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 3px;">8.8.8.8</code> (Google DNS)<br>
+                        <strong>Rango DHCP:</strong> <code style="background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 3px;">192.168.1.100 - 192.168.1.254</code><br>
+                        <strong>Hosts disponibles:</strong> <code style="background: rgba(255,255,255,0.2); padding: 0.2rem 0.5rem; border-radius: 3px;">254 dispositivos</code>
+                    </p>
+                </div>
             </div>
         </section>
 
