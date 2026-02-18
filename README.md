@@ -4,10 +4,6 @@
 
 Este curso está diseñado para preparar a los estudiantes para el apartado de **Tratamiento de la Información y Competencia Digital (TICD)** de las Pruebas de Acceso a Ciclos Formativos de Grado Superior (ACFGS) en la Comunitat Valenciana.
 
-**FPA Miguel Hernández**  
-**Curso:** 2021/2022  
-**Profesora:** María José Díaz Herrera
-
 ## 🗂️ Estructura del Curso
 
 El curso se organiza en **5 bloques temáticos** principales:
@@ -160,12 +156,6 @@ Este material educativo ha sido creado con fines didácticos para la preparació
 
 Contenido basado en el currículo oficial establecido por la **Resolución de 2 de noviembre de 2015** de la Dirección General de Formación Profesional y Enseñanzas de Régimen Especial de la Comunitat Valenciana.
 
-## ✉️ Contacto
-
-**FPA Miguel Hernández**  
-**Profesora:** María José Díaz Herrera  
-**Curso:** 2021/2022
-
----
 
 **¡Mucha suerte en tu preparación!** 🍀
+
